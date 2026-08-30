@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Example National Cyber Centre</title>
+  <link href="https://ncc.example.gov/"/>
+  <updated>2026-08-25T00:00:00Z</updated>
+  <entry>
+    <title>Threat report: commodity loaders in Q3</title>
+    <link rel="alternate" type="text/html" href="https://ncc.example.gov/reports/q3-loaders"/>
+    <link rel="edit" href="https://ncc.example.gov/api/reports/42"/>
+    <id>tag:ncc.example.gov,2026:report-42</id>
+    <published>2026-08-25T08:00:00Z</published>
+    <updated>2026-08-25T08:00:00Z</updated>
+    <summary>Trends in loader malware observed this quarter.</summary>
+  </entry>
+  <entry>
+    <title>Advisory on CVE-2026-9999 exploitation</title>
+    <link href="https://ncc.example.gov/advisories/cve-2026-9999"/>
+    <id>tag:ncc.example.gov,2026:adv-9999</id>
+    <published>2026-08-11T00:00:00Z</published>
+    <content type="html">&lt;p&gt;Active exploitation reported.&lt;/p&gt;</content>
+  </entry>
+</feed>

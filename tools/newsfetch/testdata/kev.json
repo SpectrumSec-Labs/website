@@ -1,0 +1,47 @@
+{
+  "title": "CISA Catalog of Known Exploited Vulnerabilities",
+  "catalogVersion": "2026.08.24",
+  "dateReleased": "2026-08-24T14:00:00.0000Z",
+  "count": 3,
+  "vulnerabilities": [
+    {
+      "cveID": "CVE-2026-2222",
+      "vendorProject": "Acme",
+      "product": "AppServer",
+      "vulnerabilityName": "Acme AppServer Deserialization Vulnerability",
+      "dateAdded": "2026-08-24",
+      "shortDescription": "Acme AppServer contains a deserialization vulnerability that allows remote code execution.",
+      "requiredAction": "Apply mitigations per vendor instructions.",
+      "dueDate": "2026-09-14",
+      "knownRansomwareCampaignUse": "Known",
+      "notes": "",
+      "cwes": ["CWE-502"]
+    },
+    {
+      "cveID": "CVE-2026-1111",
+      "vendorProject": "Globex",
+      "product": "VPN",
+      "vulnerabilityName": "Globex VPN Path Traversal Vulnerability",
+      "dateAdded": "2026-08-20",
+      "shortDescription": "Globex VPN allows an unauthenticated attacker to read arbitrary files.",
+      "requiredAction": "Apply updates.",
+      "dueDate": "2026-09-10",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "",
+      "cwes": ["CWE-22"]
+    },
+    {
+      "cveID": "CVE-2025-0001",
+      "vendorProject": "Initech",
+      "product": "Router",
+      "vulnerabilityName": "Initech Router Command Injection Vulnerability",
+      "dateAdded": "2025-01-02",
+      "shortDescription": "Old entry, should be pruned by the retention window in tests.",
+      "requiredAction": "Apply updates.",
+      "dueDate": "2025-02-01",
+      "knownRansomwareCampaignUse": "Unknown",
+      "notes": "",
+      "cwes": []
+    }
+  ]
+}

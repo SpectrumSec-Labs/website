@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Example CERT Advisories</title>
+    <link>https://cert.example.gov/</link>
+    <description>Test feed</description>
+    <item>
+      <title>Critical flaw in Example Router (CVE-2026-12345)</title>
+      <link>https://cert.example.gov/advisories/2026-001?utm_source=rss&amp;ref=feed</link>
+      <guid>https://cert.example.gov/advisories/2026-001</guid>
+      <pubDate>Mon, 24 Aug 2026 09:00:00 +0000</pubDate>
+      <description>&lt;p&gt;An attacker can &lt;strong&gt;bypass authentication&lt;/strong&gt; on the admin
+        interface.&lt;/p&gt;&lt;p&gt;Patch immediately.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Guidance: hardening enterprise SSO</title>
+      <link>https://cert.example.gov/guidance/sso</link>
+      <pubDate>Wed, 19 Aug 2026 12:30:00 +0000</pubDate>
+      <description>Updated recommendations for identity providers.</description>
+    </item>
+  </channel>
+</rss>

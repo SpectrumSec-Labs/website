@@ -10,11 +10,13 @@ served by Caddy on a self-hosted VPS, deployed via signed release + pull.
 |------:|-------|-------|
 | 0 | Repo scaffold, config, CI skeleton | done |
 | 1 | Design system, base templates, home + Why-Us, 6 demo services, sample blog, news rendering | done |
+| 4–5 | `newsfetch` Go tool + `update-news.yml` scheduled PR workflow + CodeQL | done |
 | 2–3 | Service/blog polish, front-matter schema enforcement | pending |
-| 4–5 | `newsfetch` Go tool + scheduled PR workflow | pending |
 | 6 | Deploy: signed release, VPS puller, systemd units, `docs/vps-setup.md` | Caddyfile drafted |
 | 7 | Umami (Podman pod) + GoAccess | pending |
 | 8 | SEO/JSON-LD polish, a11y + Lighthouse gates, favicons, legal review | pending |
+
+Full write-up: [docs/PROJECT.md](docs/PROJECT.md).
 
 ## Local development
 
