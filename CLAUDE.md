@@ -37,7 +37,17 @@ All changes via PR.
 - News is data-driven from `data/news.json` (schema v1: `{generated, items[]}`),
   not Markdown pages.
 
-## Still to build (see README status table)
-newsfetch Go tool + workflow; deploy scripts + systemd units + docs/vps-setup.md;
-Umami Quadlet units under deploy/analytics/; CI link-check/a11y/Lighthouse gates;
-favicons + OG default image; front-matter schema enforcement in templates.
+## newsfetch (tools/newsfetch)
+- Go 1.27, single vendored dep gopkg.in/yaml.v3. Build/test with `-mod=vendor`.
+- Local dev: Go at bin/go/ (gitignored). `export GOROOT=.../bin/go` then `go.exe`.
+- RSS+Atom via encoding/xml; CISA-KEV + NVD via JSON parsers keyed on source id.
+- CISA feeds use RFC822 weekday + 2-digit year ("Thu, 27 Aug 26 ..."); date
+  layouts live in sanitize.go.
+- Deterministic output; unchanged item set => no write => no PR.
+- gofmt check in CI must exclude vendor/.
+
+## Still to build (see README status table + docs/PROJECT.md §8)
+Phase 2-3 (front-matter schema enforcement, real copy); phase 6 (release.yml,
+pull-deploy.sh, systemd units, docs/vps-setup.md); phase 7 (deploy/analytics/
+Quadlet units, GoAccess); phase 8 (favicons, OG image, lychee/pa11y/Lighthouse
+CI gates, security-txt-bump.yml, template-generated robots/security.txt).
