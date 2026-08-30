@@ -1,0 +1,46 @@
+{{ define "main" }}
+{{ $c := site.Params.company }}
+<section class="section bg-grid">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">Contact</p>
+      <h1>{{ .Title }}</h1>
+    </div>
+
+    <div class="service-cols">
+      <div class="prose">
+        {{ .Content }}
+      </div>
+
+      <aside class="service-aside u-stack">
+        <div>
+          <h2 class="u-small u-subtle">General enquiries</h2>
+          <p><a class="btn" href="mailto:{{ $c.email }}?subject=Engagement%20enquiry">
+            {{ partial "icon.html" (dict "name" "mail") }} {{ $c.email }}
+          </a></p>
+          {{ with $c.phone }}<p class="u-small u-muted">Phone: {{ . }}</p>{{ end }}
+        </div>
+
+        <div>
+          <h2 class="u-small u-subtle">Security issues</h2>
+          <p><a class="btn btn--ghost" href="mailto:{{ $c.securityEmail }}?subject=Security%20report">
+            {{ partial "icon.html" (dict "name" "shield") }} {{ $c.securityEmail }}
+          </a></p>
+          <p class="u-small u-muted">
+            <a href="{{ site.Params.securityTxt.pgpKeyPath }}">PGP key</a> ·
+            <a href="/.well-known/security.txt">security.txt</a> ·
+            <a href="{{ site.Params.securityTxt.policyPath }}">disclosure policy</a>
+          </p>
+        </div>
+
+        {{ with site.Params.social.linkedin }}
+        <div>
+          <h2 class="u-small u-subtle">Elsewhere</h2>
+          <p><a href="{{ . }}" rel="me noopener">{{ partial "icon.html" (dict "name" "linkedin") }} LinkedIn</a></p>
+        </div>
+        {{ end }}
+      </aside>
+    </div>
+  </div>
+</section>
+{{ end }}

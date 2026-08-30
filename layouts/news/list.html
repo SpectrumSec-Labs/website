@@ -1,0 +1,48 @@
+{{ define "main" }}
+{{ $news := hugo.Data.news }}
+<section class="section bg-grid">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">{{ partial "icon.html" (dict "name" "rss") }} Threat news</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="prose section__lead">{{ . }}</div>{{ end }}
+      {{ with $news.generated }}
+        <p class="u-small u-subtle u-mt-s">
+          Last updated <time datetime="{{ . }}">{{ dateFormat "2 Jan 2006 15:04 MST" . }}</time>.
+          Showing items from the last {{ site.Params.news.retentionDays }} days.
+        </p>
+      {{ end }}
+      <p class="u-mt-s">
+        <a class="chip chip--accent" href="{{ "news/index.xml" | relURL }}">
+          {{ partial "icon.html" (dict "name" "rss") }} Subscribe to this feed
+        </a>
+      </p>
+    </div>
+
+    {{ $items := $news.items }}
+    {{ if $items }}
+      {{ range $items }}
+        <article class="post-row">
+          <time datetime="{{ .published }}">{{ dateFormat "2 Jan 2006" .published }}</time>
+          <div>
+            <h2><a href="{{ .url }}" rel="noopener nofollow ugc">{{ .title }}</a>
+              {{ partial "icon.html" (dict "name" "external" "class" "u-subtle") }}
+            </h2>
+            {{ with .summary }}<p>{{ . }}</p>{{ end }}
+            <div class="post-row__meta">
+              <span class="news-source">{{ .source_name | default .source }}</span>
+              {{ range .tags }}
+                <span class="chip{{ if eq . "KEV" }} chip--kev{{ end }}">{{ . }}</span>
+              {{ end }}
+            </div>
+          </div>
+        </article>
+      {{ end }}
+    {{ else }}
+      <p class="callout">No items yet. The aggregator populates this page on its next run.</p>
+    {{ end }}
+
+    <div class="callout u-mt-l">{{ site.Params.news.disclaimer }}</div>
+  </div>
+</section>
+{{ end }}

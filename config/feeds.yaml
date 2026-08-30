@@ -1,0 +1,71 @@
+# Curated allowlist for the news aggregator (tools/newsfetch).
+# Government / CERT / standards-body sources only — public-domain or
+# open-licence content. Adding a source is a reviewed change: note the
+# licence and why it belongs here in the PR.
+#
+# fields:
+#   id       stable slug, also the on-site source badge
+#   name     display name
+#   url      RSS/Atom feed, or JSON endpoint when kind: json
+#   kind     rss | atom | json        (rss and atom are parsed the same)
+#   tag      default tag applied to items from this source
+#   homepage human-facing landing page for the source
+#   enabled  false to keep the entry but stop fetching
+
+sources:
+  - id: cisa-kev
+    name: "CISA Known Exploited Vulnerabilities"
+    url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
+    kind: json
+    tag: "KEV"
+    homepage: "https://www.cisa.gov/known-exploited-vulnerabilities-catalog"
+    enabled: true
+
+  - id: cisa-advisories
+    name: "CISA Cybersecurity Advisories"
+    url: "https://www.cisa.gov/cybersecurity-advisories/all.xml"
+    kind: rss
+    tag: "advisory"
+    homepage: "https://www.cisa.gov/news-events/cybersecurity-advisories"
+    enabled: true
+
+  - id: cisa-ics
+    name: "CISA ICS Advisories"
+    url: "https://www.cisa.gov/cybersecurity-advisories/ics-advisories.xml"
+    kind: rss
+    tag: "ics"
+    homepage: "https://www.cisa.gov/news-events/cybersecurity-advisories/ics-advisories"
+    enabled: true
+
+  - id: ncsc-uk
+    name: "NCSC UK"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
+    kind: rss
+    tag: "guidance"
+    homepage: "https://www.ncsc.gov.uk/section/keep-up-to-date/all-reports"
+    enabled: true
+
+  - id: cert-eu
+    name: "CERT-EU"
+    url: "https://cert.europa.eu/publications/threat-intelligence-rss"
+    kind: rss
+    tag: "threat-intel"
+    homepage: "https://cert.europa.eu/publications/threat-intelligence"
+    enabled: true
+
+  - id: nvd-recent
+    name: "NVD Recent CVEs"
+    url: "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=50"
+    kind: json
+    tag: "CVE"
+    homepage: "https://nvd.nist.gov/vuln/search"
+    # Disabled until an NVD API key is provisioned (env NVD_API_KEY in the
+    # workflow). Anonymous requests are heavily rate-limited.
+    enabled: false
+
+# Global limits applied by the fetcher regardless of source.
+limits:
+  http_timeout_seconds: 10
+  max_response_bytes: 3145728        # 3 MiB
+  max_items_per_source: 40
+  user_agent: "SpectrumSecNewsBot/1.0 (+https://spectrumsec.eu/news/)"

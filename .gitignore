@@ -1,0 +1,30 @@
+# Hugo build output
+/public/
+/resources/_gen/
+.hugo_build.lock
+
+# Local Hugo binary (pinned version is downloaded by CI / contributors)
+/bin/
+hugo
+hugo.exe
+
+# Editor / OS noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Secrets — never commit. Real values live outside the repo.
+deploy/analytics/.env
+deploy/**/secrets/
+*.key
+!pgp-key.txt
+
+# Go tool
+/tools/newsfetch/newsfetch
+/tools/newsfetch/newsfetch.exe
+
+# Local news cache used during development
+/tools/newsfetch/.cache/

@@ -1,0 +1,47 @@
+{{ define "main" }}
+<article class="section">
+  <div class="container">
+    <header class="section__head">
+      {{ with .Params.tags }}
+        <div class="u-cluster">
+          {{ range . }}<a class="chip" href="{{ "tags/" | relLangURL }}{{ . | urlize }}/">{{ . }}</a>{{ end }}
+        </div>
+      {{ end }}
+      <h1 class="u-mt-xs">{{ .Title }}</h1>
+      {{ with .Params.summary }}<p class="section__lead">{{ . }}</p>{{ end }}
+      {{ if eq .Section "blog" }}
+        <p class="u-muted u-small u-mt-s">
+          {{ with .Params.author }}{{ with index hugo.Data.authors . }}{{ .name }}{{ else }}{{ $.Params.author }}{{ end }} · {{ end }}
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 January 2006" }}</time>
+          {{ if .Lastmod.After (.Date.AddDate 0 0 1) }} · updated {{ .Lastmod.Format "2 Jan 2006" }}{{ end }}
+          · {{ .ReadingTime }} min read
+        </p>
+      {{ end }}
+    </header>
+
+    <div class="content-layout">
+      {{ if and (eq .Section "blog") (.Params.toc | default true) (gt (len .TableOfContents) 60) }}
+        <aside class="toc" aria-label="Table of contents">
+          <p class="u-small u-subtle">On this page</p>
+          {{ .TableOfContents }}
+        </aside>
+      {{ end }}
+
+      <div class="prose">
+        {{ .Content }}
+      </div>
+    </div>
+
+    {{ if eq .Section "blog" }}
+      <footer class="u-mt-l">
+        <div class="callout">
+          Found a security issue on our site or in something we published?
+          See our <a href="/legal/security-policy/">responsible disclosure policy</a>.
+        </div>
+        {{ with .PrevInSection }}<p class="u-mt-s"><a class="card__more" href="{{ .RelPermalink }}">Newer: {{ .Title }}</a></p>{{ end }}
+        {{ with .NextInSection }}<p><a class="card__more" href="{{ .RelPermalink }}">Older: {{ .Title }}</a></p>{{ end }}
+      </footer>
+    {{ end }}
+  </div>
+</article>
+{{ end }}

@@ -1,0 +1,45 @@
+{{ define "main" }}
+<section class="section bg-grid">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">{{ .Type | humanize }}</p>
+      <h1>{{ .Title }}</h1>
+      {{ with .Content }}<div class="prose section__lead">{{ . }}</div>{{ end }}
+    </div>
+
+    {{ $pages := .Pages }}
+    {{ if eq .Section "services" }}{{ $pages = .Pages.ByWeight }}{{ end }}
+    {{ if eq .Section "blog" }}{{ $pages = .Pages.ByDate.Reverse }}{{ end }}
+
+    {{ if eq .Section "services" }}
+      <div class="grid grid--3">
+        {{ range $pages }}
+          <article class="card card--link">
+            <span class="card__icon">{{ partial "icon.html" (dict "name" (.Params.icon | default "shield")) }}</span>
+            <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+            <p class="card__desc">{{ .Params.summary | default .Summary | truncate 140 }}</p>
+            <span class="card__more">Learn more {{ partial "icon.html" (dict "name" "chevron-right") }}</span>
+          </article>
+        {{ end }}
+      </div>
+    {{ else }}
+      {{ $paginator := .Paginate $pages }}
+      <ul class="post-list">
+        {{ range $paginator.Pages }}
+          <li class="post-row">
+            <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+            <div>
+              <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+              {{ with .Summary }}<p>{{ . | truncate 200 }}</p>{{ end }}
+              <div class="post-row__meta">
+                {{ range .Params.tags }}<span class="chip">{{ . }}</span>{{ end }}
+              </div>
+            </div>
+          </li>
+        {{ end }}
+      </ul>
+      {{ partial "pagination.html" . }}
+    {{ end }}
+  </div>
+</section>
+{{ end }}

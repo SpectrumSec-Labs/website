@@ -1,0 +1,66 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    "helpers:pinGitHubActionDigests",
+    ":pinDevDependencies",
+    ":semanticCommits",
+    ":enablePreCommit"
+  ],
+  "timezone": "Europe/Athens",
+  "schedule": ["before 6am on monday"],
+  "labels": ["dependencies"],
+  "prConcurrentLimit": 5,
+  "rangeStrategy": "pin",
+  "lockFileMaintenance": { "enabled": true },
+  "customManagers": [
+    {
+      "customType": "regex",
+      "description": "Track the pinned Hugo version in .tool-versions",
+      "managerFilePatterns": ["/^\\.tool-versions$/"],
+      "matchStrings": ["hugo (?<currentValue>\\S+)"],
+      "depNameTemplate": "gohugoio/hugo",
+      "datasourceTemplate": "github-releases",
+      "extractVersionTemplate": "^v(?<version>.*)$"
+    },
+    {
+      "customType": "regex",
+      "description": "Track the pinned Go version in .tool-versions",
+      "managerFilePatterns": ["/^\\.tool-versions$/"],
+      "matchStrings": ["golang (?<currentValue>\\S+)"],
+      "depNameTemplate": "golang/go",
+      "datasourceTemplate": "github-tags",
+      "extractVersionTemplate": "^go(?<version>.*)$"
+    },
+    {
+      "customType": "regex",
+      "description": "Track container image digests in Quadlet unit files",
+      "managerFilePatterns": ["/deploy/analytics/.*\\.container$/"],
+      "matchStrings": ["Image=(?<depName>[^:\\s]+):(?<currentValue>[^@\\s]+)@(?<currentDigest>sha256:[a-f0-9]+)"],
+      "datasourceTemplate": "docker"
+    }
+  ],
+  "packageRules": [
+    {
+      "description": "Group all GitHub Action digest bumps",
+      "matchManagers": ["github-actions"],
+      "groupName": "github actions"
+    },
+    {
+      "description": "Hugo and Go are toolchain-critical: never automerge",
+      "matchDepNames": ["gohugoio/hugo", "golang/go"],
+      "automerge": false,
+      "labels": ["dependencies", "toolchain"]
+    },
+    {
+      "description": "Umami / Postgres: manual review, they carry data",
+      "matchFileNames": ["deploy/analytics/**"],
+      "automerge": false,
+      "labels": ["dependencies", "analytics"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "labels": ["security"],
+    "schedule": ["at any time"]
+  }
+}

@@ -1,0 +1,30 @@
+{{- $c := site.Params.company -}}
+{{- $org := dict
+  "@type" "Organization"
+  "@id" (printf "%s#org" site.BaseURL)
+  "name" $c.name
+  "url" site.BaseURL
+  "email" (printf "mailto:%s" $c.email)
+  "foundingDate" (string $c.foundingYear)
+  "description" site.Params.brand.description
+-}}
+{{- with site.Params.social.linkedin }}{{ $org = merge $org (dict "sameAs" (slice .)) }}{{ end }}
+
+{{- $data := dict "@context" "https://schema.org" -}}
+{{- if .IsHome -}}
+  {{- $data = merge $data $org -}}
+{{- else if and .IsPage (eq .Section "blog") -}}
+  {{- $data = merge $data (dict
+      "@type" "BlogPosting"
+      "headline" .Title
+      "datePublished" (.Date.Format "2006-01-02")
+      "dateModified" (.Lastmod.Format "2006-01-02")
+      "url" .Permalink
+      "description" (or .Summary .Description | plainify | truncate 200)
+      "publisher" $org
+      "author" (dict "@type" "Organization" "name" $c.name)
+  ) -}}
+{{- else -}}
+  {{- $data = merge $data (dict "@type" "WebPage" "name" .Title "url" .Permalink "isPartOf" (dict "@type" "WebSite" "name" $c.name "url" site.BaseURL)) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $data | jsonify | safeJS }}</script>

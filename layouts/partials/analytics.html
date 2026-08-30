@@ -1,0 +1,11 @@
+{{- /* Umami, self-hosted and reverse-proxied under the apex (see deploy/Caddyfile).
+       Because it is served from our own origin under basePath, CSP stays
+       script-src 'self' / connect-src 'self' — no external hosts, no cookies.
+       Disabled until Phase 7 flips analytics.enabled and sets websiteId. */ -}}
+{{- $a := site.Params.analytics -}}
+{{- if and $a.enabled $a.websiteId (not (eq (getenv "HUGO_ENV") "development")) -}}
+  {{- $src := printf "%s/script.js" (strings.TrimSuffix "/" $a.basePath) -}}
+  <script defer src="{{ $src }}" data-website-id="{{ $a.websiteId }}"
+          data-host-url="{{ strings.TrimSuffix "/" $a.basePath }}"
+          data-do-not-track="true"></script>
+{{- end -}}

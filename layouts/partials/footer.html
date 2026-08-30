@@ -1,0 +1,49 @@
+{{- $c := site.Params.company -}}
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <a class="brand" href="/">
+          {{ partial "icon.html" (dict "name" "spectrum" "class" "brand__mark") }}
+          <span>{{ $c.name }}</span>
+        </a>
+        <p class="u-muted u-small u-mt-xs u-measure">{{ site.Params.brand.tagline }}</p>
+        <p class="news-source u-mt-s">
+          {{ partial "icon.html" (dict "name" "mail") }}
+          <a href="mailto:{{ $c.email }}">{{ $c.email }}</a>
+        </p>
+        {{- with site.Params.social.linkedin }}
+        <p class="news-source u-mt-xs">
+          {{ partial "icon.html" (dict "name" "linkedin") }}
+          <a href="{{ . }}" rel="me noopener">LinkedIn</a>
+        </p>
+        {{- end }}
+      </div>
+
+      {{- range slice "Services" "Resources" "Company" }}
+        {{- $group := . -}}
+        <div class="footer-col">
+          <h2>{{ $group }}</h2>
+          <ul>
+            {{- range where site.Menus.footer "Pre" $group }}
+              <li><a href="{{ .PageRef | relLangURL }}">{{ .Name }}</a></li>
+            {{- end }}
+          </ul>
+        </div>
+      {{- end }}
+    </div>
+
+    <div class="footer-bottom">
+      <span>&copy; {{ now.Year }} {{ $c.legalName }}. All rights reserved.</span>
+      <span class="u-cluster">
+        <a href="/legal/security-policy/">Responsible disclosure</a>
+        <span aria-hidden="true">·</span>
+        <a href="/.well-known/security.txt">security.txt</a>
+        {{- with getenv "SITE_BUILD_REV" }}
+        <span aria-hidden="true">·</span>
+        <span title="build revision">{{ substr . 0 7 }}</span>
+        {{- end }}
+      </span>
+    </div>
+  </div>
+</footer>

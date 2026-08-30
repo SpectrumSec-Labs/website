@@ -1,0 +1,23 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{- $c := site.Params.company -}}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>{{ $c.name }} — Threat news</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ site.Params.news.disclaimer }}</description>
+    <language>{{ site.Language.Locale }}</language>
+    {{- with hugo.Data.news.generated }}<lastBuildDate>{{ (time .).Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>{{ end }}
+    <atom:link href="{{ .Permalink }}index.xml" rel="self" type="application/rss+xml" />
+    {{- range hugo.Data.news.items }}
+    <item>
+      <title>{{ .title }}</title>
+      <link>{{ .url }}</link>
+      <guid isPermaLink="false">{{ .id }}</guid>
+      <pubDate>{{ (time .published).Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <source url="{{ .url }}">{{ .source_name | default .source }}</source>
+      <description>{{ printf "%s (via %s)" (.summary | default .title) (.source_name | default .source) }}</description>
+      {{- range .tags }}<category>{{ . }}</category>{{ end }}
+    </item>
+    {{- end }}
+  </channel>
+</rss>

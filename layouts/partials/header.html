@@ -1,0 +1,21 @@
+<header class="site-header">
+  <div class="container site-header__inner">
+    <a class="brand" href="/" aria-label="{{ site.Params.company.name }} — home">
+      {{ partial "icon.html" (dict "name" "spectrum" "class" "brand__mark") }}
+      <span>{{ site.Params.company.name }}</span>
+    </a>
+
+    <button class="nav-toggle" type="button" aria-expanded="false"
+            aria-controls="primary-nav" aria-label="Toggle navigation">
+      {{ partial "icon.html" (dict "name" "menu") }}
+    </button>
+
+    <nav class="primary-nav" id="primary-nav" aria-label="Primary">
+      {{- range site.Menus.main }}
+        {{- $active := or ($.IsMenuCurrent "main" .) ($.HasMenuCurrent "main" .) -}}
+        <a href="{{ .PageRef | relLangURL }}"{{ if $active }} aria-current="page"{{ end }}>{{ .Name }}</a>
+      {{- end }}
+      <a class="btn btn--ghost" href="/contact/">Book a consultation</a>
+    </nav>
+  </div>
+</header>

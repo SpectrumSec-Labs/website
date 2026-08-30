@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="{{ or site.Language.Locale "en" }}" dir="ltr">
+<head>
+  {{ partial "head.html" . }}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  {{ partial "icons-sprite.html" . }}
+  {{ partial "header.html" . }}
+  <main id="main">
+    {{ block "main" . }}{{ end }}
+  </main>
+  {{ partial "footer.html" . }}
+
+  {{ $js := resources.Get "js/main.js" | minify | fingerprint "sha384" }}
+  <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}" defer></script>
+
+  {{ partial "analytics.html" . }}
+</body>
+</html>

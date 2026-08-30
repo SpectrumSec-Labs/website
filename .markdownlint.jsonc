@@ -1,0 +1,12 @@
+{
+  // Markdown style rules for blog and news content.
+  // Enforced in CI; run `npx markdownlint-cli2 "content/**/*.md"` locally if you have Node.
+  "default": true,
+  "MD013": { "line_length": 120, "code_blocks": false, "tables": false },
+  "MD024": { "siblings_only": true },
+  "MD033": { "allowed_elements": ["br", "kbd"] },
+  "MD036": false, // placeholder copy uses *italic notes* deliberately
+  "MD041": false, // front matter provides the H1 context
+  "MD046": { "style": "fenced" },
+  "MD049": { "style": "asterisk" }
+}

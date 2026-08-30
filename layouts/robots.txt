@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /$
+Allow: /
+Disallow: /_a/
+Disallow: /tags/
+
+Sitemap: {{ site.BaseURL }}sitemap.xml

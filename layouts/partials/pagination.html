@@ -1,0 +1,12 @@
+{{- $p := .Paginator -}}
+{{- if gt $p.TotalPages 1 -}}
+<nav class="pagination u-cluster u-cluster--center u-mt-l" aria-label="Pagination">
+  {{- if $p.HasPrev }}
+    <a class="btn btn--ghost" href="{{ $p.Prev.URL }}" rel="prev">Previous</a>
+  {{- end }}
+  <span class="chip">Page {{ $p.PageNumber }} of {{ $p.TotalPages }}</span>
+  {{- if $p.HasNext }}
+    <a class="btn btn--ghost" href="{{ $p.Next.URL }}" rel="next">Next</a>
+  {{- end }}
+</nav>
+{{- end -}}

@@ -1,0 +1,54 @@
+# ---------------------------------------------------------------------------
+# Swappable identity. Change these two blocks to rebrand or move domains.
+# Templates read everything below via `.Site.Params.*`; nothing hard-codes
+# the name or domain elsewhere.
+# ---------------------------------------------------------------------------
+[company]
+  name          = "SpectrumSec"
+  legalName     = "SpectrumSec"
+  domain        = "spectrumsec.eu"
+  email         = "hello@spectrumsec.eu"
+  securityEmail = "security@spectrumsec.eu"
+  phone         = ""
+  addressLocality = ""
+  addressRegion   = ""
+  addressCountry  = "EU"
+  foundingYear    = 2026
+
+[brand]
+  tagline     = "Offensive-minded security for teams that ship."
+  description  = "SpectrumSec finds and helps fix security weaknesses through practitioner-led penetration testing, red teaming, phishing simulation, awareness training, and infrastructure hardening."
+  # Two accents, used sparingly. See assets/css/tokens.css for the full palette.
+  themeColor  = "#0b0f17"
+
+[social]
+  linkedin = ""
+  github   = ""
+  mastodon = ""
+
+# ---------------------------------------------------------------------------
+# Feature flags / integration config
+# ---------------------------------------------------------------------------
+[analytics]
+  # Flipped to true in Phase 7 once the Umami pod is live behind Caddy.
+  enabled   = false
+  # Path-proxied under the apex so CSP stays 'self'. See deploy/Caddyfile.
+  basePath  = "/_a"
+  websiteId = ""
+
+[securityTxt]
+  # RFC 9116. `expires` is bumped automatically by a scheduled workflow.
+  expires    = "2027-03-01T00:00:00Z"
+  policyPath  = "/legal/security-policy/"
+  pgpKeyPath  = "/pgp-key.txt"
+  preferredLanguages = "en"
+
+[news]
+  # Retention shown on the site; the fetcher enforces the same window.
+  retentionDays = 90
+  maxItems      = 200
+  disclaimer    = "Aggregated from public government and CERT sources. SpectrumSec does not author these items — follow each link for the original advisory."
+
+[build]
+  # Set by CI (SITE_BUILD_REV env) so the footer can show a build id.
+  showBuildInfo = true

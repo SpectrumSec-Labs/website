@@ -1,0 +1,13 @@
+# Blog authors. `author` in a post's front matter must be one of these keys.
+spectrumsec:
+  name: "SpectrumSec Team"
+  role: "Security research"
+  bio: "Collective posts from the SpectrumSec consulting team."
+
+# Example individual author — copy this block, keep keys lowercase-kebab.
+# jane-doe:
+#   name: "Jane Doe"
+#   role: "Principal Security Consultant"
+#   bio: "TODO short bio."
+#   links:
+#     mastodon: ""

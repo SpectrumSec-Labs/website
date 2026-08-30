@@ -1,0 +1,23 @@
+version: 2
+updates:
+  # GitHub Actions — Renovate also pins these to digests; Dependabot is the
+  # backstop that catches security advisories quickly.
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels: ["dependencies", "ci"]
+    groups:
+      actions:
+        patterns: ["*"]
+
+  # Go module for the news fetcher.
+  - package-ecosystem: "gomod"
+    directory: "/tools/newsfetch"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+    open-pull-requests-limit: 5
+    labels: ["dependencies", "news"]

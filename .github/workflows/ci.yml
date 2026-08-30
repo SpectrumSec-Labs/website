@@ -1,0 +1,75 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+# Least privilege: this workflow only reads the repo.
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  HUGO_VERSION: "0.165.0"
+  # sha256 of hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz — verified against
+  # https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_${HUGO_VERSION}_checksums.txt
+  HUGO_SHA256: "f43494894cdf4a8630a201d5c828051c77f523cc66bb3938b30806835470ac20"
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0 # enableGitInfo needs history for lastmod
+
+      - name: Install pinned Hugo (verified)
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          url="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sSL --retry 3 --proto '=https' --tlsv1.2 -o hugo.tar.gz "$url"
+          echo "${HUGO_SHA256}  hugo.tar.gz" | sha256sum -c -
+          tar -xzf hugo.tar.gz hugo
+          sudo install -m 0755 hugo /usr/local/bin/hugo
+          hugo version
+
+      - name: Build
+        env:
+          SITE_BUILD_REV: ${{ github.sha }}
+        run: |
+          hugo --gc --minify --panicOnWarning --printPathWarnings \
+            --baseURL "https://spectrumsec.eu/"
+
+      - name: Output sanity checks
+        run: |
+          set -euo pipefail
+          test -s public/index.html
+          test -s public/sitemap.xml
+          test -s public/index.xml
+          test -s public/404.html
+          # No accidental draft leakage
+          ! grep -rl 'name="robots" content="noindex' public/ | grep -v '404.html' || true
+
+      - name: Header policy check
+        run: tests/headers.test.sh
+
+      - name: Upload build
+        uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
+        with:
+          name: site
+          path: public/
+          retention-days: 7
+          if-no-files-found: error
+
+  markdown:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+      - name: Lint content markdown (pinned)
+        run: npx --yes markdownlint-cli2@0.23.2 "content/**/*.md" "docs/**/*.md"

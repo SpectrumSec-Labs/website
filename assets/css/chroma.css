@@ -1,0 +1,44 @@
+/* Syntax highlighting (Hugo/Chroma, class-based — required by CSP since inline
+   style attributes are disallowed). Regenerate a fuller set any time with:
+   `hugo gen chromastyles --style=github-dark > assets/css/chroma.css`
+   then re-add the light-mode block below. */
+
+.chroma { background: transparent; color: var(--fg); }
+.chroma .lntd { vertical-align: top; padding: 0; }
+.chroma .lnt, .chroma .ln { color: var(--fg-subtle); margin-right: 0.6em; }
+.chroma .hl { background: color-mix(in srgb, var(--accent) 14%, transparent); }
+
+.chroma .c, .chroma .ch, .chroma .cm, .chroma .c1, .chroma .cs { color: var(--fg-subtle); font-style: italic; }
+.chroma .cp, .chroma .cpf { color: var(--accent-2); }
+.chroma .k, .chroma .kc, .chroma .kd, .chroma .kn, .chroma .kp, .chroma .kr { color: #ff9ec8; }
+.chroma .kt { color: #7ee0d0; }
+.chroma .n, .chroma .nx { color: var(--fg); }
+.chroma .na { color: #a6e3a1; }
+.chroma .nb, .chroma .bp { color: #7ee0d0; }
+.chroma .nc, .chroma .nn { color: #f5b355; }
+.chroma .nd { color: var(--accent-2); }
+.chroma .nf, .chroma .fm { color: #8ab4ff; }
+.chroma .nl, .chroma .nv, .chroma .vc, .chroma .vg, .chroma .vi { color: #e6eaf2; }
+.chroma .nt { color: #ff9ec8; }
+.chroma .s, .chroma .sb, .chroma .sc, .chroma .s2, .chroma .s1, .chroma .sd,
+.chroma .se, .chroma .sh, .chroma .si, .chroma .sx, .chroma .sr, .chroma .ss { color: #9ae6b4; }
+.chroma .m, .chroma .mb, .chroma .mf, .chroma .mh, .chroma .mi, .chroma .il, .chroma .mo { color: #f5b355; }
+.chroma .o, .chroma .ow { color: #7dd3fc; }
+.chroma .p { color: var(--fg-muted); }
+.chroma .gd { color: var(--danger); }
+.chroma .gi { color: var(--ok); }
+.chroma .gu { color: var(--accent-2); }
+.chroma .err { color: var(--danger); }
+
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) .chroma .k,
+  :root:not([data-theme="dark"]) .chroma .nt { color: #b3006b; }
+  :root:not([data-theme="dark"]) .chroma .s,
+  :root:not([data-theme="dark"]) .chroma .s1,
+  :root:not([data-theme="dark"]) .chroma .s2 { color: #0a7d3f; }
+  :root:not([data-theme="dark"]) .chroma .nf { color: #1d4ed8; }
+  :root:not([data-theme="dark"]) .chroma .nc { color: #b45309; }
+  :root:not([data-theme="dark"]) .chroma .m,
+  :root:not([data-theme="dark"]) .chroma .mi { color: #b45309; }
+  :root:not([data-theme="dark"]) .chroma .o { color: #0369a1; }
+}

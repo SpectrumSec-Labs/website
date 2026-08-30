@@ -1,0 +1,4 @@
+# Exact toolchain versions. Consumed by mise / asdf, CI, and the deploy scripts.
+# Do not bump by hand outside a reviewed PR. Renovate proposes updates.
+hugo 0.165.0
+golang 1.27.0

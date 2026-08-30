@@ -1,0 +1,13 @@
+{
+  "name": "SpectrumSec",
+  "short_name": "SpectrumSec",
+  "description": "Offensive-minded security for teams that ship.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0b0f17",
+  "theme_color": "#0b0f17",
+  "icons": [
+    { "src": "/icon.svg", "type": "image/svg+xml", "sizes": "any", "purpose": "any" },
+    { "src": "/apple-touch-icon.png", "type": "image/png", "sizes": "180x180" }
+  ]
+}

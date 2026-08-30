@@ -1,0 +1,15 @@
+# Link-checker configuration (lycheeverse/lychee). Runs in CI against ./public.
+max_retries = 2
+retry_wait_time = 2
+timeout = 20
+max_concurrency = 8
+accept = ["200", "206", "429"]
+exclude_all_private = true
+exclude = [
+  # Contact scheme, not an HTTP link
+  "^mailto:",
+  # Local WireGuard-only analytics host
+  "^https?://stats\\.spectrumsec\\.eu",
+]
+# Some security vendors rate-limit HEAD probes from CI ranges.
+exclude_loopback = true

@@ -1,0 +1,6 @@
+Placeholder. Replace this file with the ASCII-armored public PGP key for
+security@spectrumsec.eu before launch.
+
+    gpg --armor --export security@spectrumsec.eu > static/pgp-key.txt
+
+Until then, contact security@spectrumsec.eu for the current key fingerprint.

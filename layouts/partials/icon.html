@@ -1,0 +1,8 @@
+{{- /* Usage: {{ partial "icon.html" (dict "name" "target" "class" "card__icon-svg") }} */ -}}
+{{- $name := .name -}}
+{{- $class := .class | default "" -}}
+{{- $label := .label -}}
+<svg class="icon {{ $class }}" width="24" height="24" viewBox="0 0 24 24"
+     {{ if $label }}role="img" aria-label="{{ $label }}"{{ else }}aria-hidden="true" focusable="false"{{ end }}>
+  <use href="#i-{{ $name }}"></use>
+</svg>

@@ -1,0 +1,130 @@
+{{ define "main" }}
+{{ $c := site.Params.company }}
+
+<section class="hero bg-grid">
+  <div class="container hero__inner">
+    <p class="section__eyebrow">{{ $c.name }} · {{ $c.addressCountry }}-based</p>
+    <h1>{{ site.Params.brand.tagline }}</h1>
+    <p class="hero__lead">{{ .Params.lead | default site.Params.brand.description }}</p>
+    <div class="hero__actions">
+      <a class="btn btn--lg" href="/contact/">
+        Book a consultation {{ partial "icon.html" (dict "name" "arrow-right") }}
+      </a>
+      <a class="btn btn--ghost btn--lg" href="/services/">See our services</a>
+    </div>
+    <div class="hero__meta">
+      <span>{{ partial "icon.html" (dict "name" "check") }} Practitioner-led engagements</span>
+      <span>{{ partial "icon.html" (dict "name" "check") }} Free remediation retest</span>
+      <span>{{ partial "icon.html" (dict "name" "check") }} GDPR-aligned reporting</span>
+    </div>
+  </div>
+</section>
+
+{{/* ---------------- Services ---------------- */}}
+{{ with site.GetPage "/services" }}
+<section class="section" id="services">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">What we do</p>
+      <h2>{{ .Params.headline | default "Security services" }}</h2>
+      <p class="section__lead">{{ .Params.summary | default .Summary }}</p>
+    </div>
+    <div class="grid grid--3">
+      {{ range (.Pages.ByWeight | first 6) }}
+        <article class="card card--link">
+          <span class="card__icon">{{ partial "icon.html" (dict "name" (.Params.icon | default "shield")) }}</span>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="card__desc">{{ .Params.summary | default .Summary | truncate 120 }}</p>
+          <span class="card__more">Learn more {{ partial "icon.html" (dict "name" "chevron-right") }}</span>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ---------------- Why us ---------------- */}}
+{{ with hugo.Data.whyus }}
+<section class="section section--tight bg-grid" id="why-us">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">{{ .eyebrow | default "Why SpectrumSec" }}</p>
+      <h2>{{ .heading }}</h2>
+      {{ with .lead }}<p class="section__lead">{{ . }}</p>{{ end }}
+    </div>
+    <div class="grid grid--2">
+      {{ range .pillars }}
+        <div class="pillar">
+          <h3>{{ .title }}</h3>
+          <p>{{ .body }}</p>
+        </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ---------------- Latest threat news ---------------- */}}
+{{ with hugo.Data.news }}
+{{ $items := (index . "items") }}
+{{ if $items }}
+<section class="section section--tight" id="threat-feed">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">{{ partial "icon.html" (dict "name" "rss") }} Threat news</p>
+      <h2>Latest from CERTs and advisories</h2>
+      <p class="section__lead">{{ site.Params.news.disclaimer }}</p>
+    </div>
+    <ul class="post-list">
+      {{ range first 5 $items }}
+        <li class="post-row">
+          <time datetime="{{ .published }}">{{ dateFormat "2 Jan 2006" .published }}</time>
+          <div>
+            <h3><a href="{{ .url }}" rel="noopener nofollow ugc">{{ .title }}</a></h3>
+            <div class="post-row__meta">
+              <span class="news-source">{{ .source_name | default .source }}</span>
+              {{ range .tags }}<span class="chip">{{ . }}</span>{{ end }}
+            </div>
+          </div>
+        </li>
+      {{ end }}
+    </ul>
+    <p class="u-mt-m"><a class="card__more" href="/news/">All threat news {{ partial "icon.html" (dict "name" "arrow-right") }}</a></p>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{/* ---------------- Latest posts ---------------- */}}
+{{ $posts := where site.RegularPages "Section" "blog" }}
+{{ with $posts }}
+<section class="section section--tight" id="blog">
+  <div class="container">
+    <div class="section__head">
+      <p class="section__eyebrow">Field notes</p>
+      <h2>From the blog</h2>
+    </div>
+    <div class="grid grid--3">
+      {{ range first 3 . }}
+        <article class="card card--link">
+          <time class="news-source" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan 2006" }}</time>
+          <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+          <p class="card__desc">{{ .Summary | truncate 120 }}</p>
+        </article>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{/* ---------------- CTA ---------------- */}}
+<section class="section">
+  <div class="container">
+    <div class="cta-band">
+      <h2>Ready to test your defences?</h2>
+      <p>Tell us what you want assurance over. We will scope a right-sized engagement and give you a fixed quote.</p>
+      <a class="btn btn--lg" href="/contact/">Start a conversation {{ partial "icon.html" (dict "name" "arrow-right") }}</a>
+    </div>
+  </div>
+</section>
+{{ end }}

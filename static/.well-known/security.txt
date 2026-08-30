@@ -1,0 +1,11 @@
+# SpectrumSec security contact — RFC 9116
+# This file is regenerated from config/_default/params.toml by
+# .github/workflows/security-txt-bump.yml; edit params, not this file.
+
+Contact: mailto:security@spectrumsec.eu
+Contact: https://spectrumsec.eu/legal/security-policy/
+Encryption: https://spectrumsec.eu/pgp-key.txt
+Preferred-Languages: en
+Canonical: https://spectrumsec.eu/.well-known/security.txt
+Policy: https://spectrumsec.eu/legal/security-policy/
+Expires: 2027-03-01T00:00:00Z

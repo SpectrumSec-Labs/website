@@ -1,0 +1,30 @@
+# Review routing. Replace the team handles with real GitHub teams or usernames
+# before enabling branch protection (see docs/contributing.md).
+#
+# Rule of thumb: infra owns anything that can change how the site is built,
+# deployed, or served; editors own words and images.
+
+# Default: infra reviews everything not matched below.
+*                       @spectrumsec/infra
+
+# Build, deploy, security-sensitive config
+/.github/               @spectrumsec/infra
+/config/                @spectrumsec/infra
+/layouts/               @spectrumsec/infra
+/assets/                @spectrumsec/infra
+/deploy/                @spectrumsec/infra
+/tools/                 @spectrumsec/infra
+/tests/                 @spectrumsec/infra
+/.tool-versions         @spectrumsec/infra
+/config/feeds.yaml      @spectrumsec/infra
+
+# Content — editors review, infra not required
+/content/blog/          @spectrumsec/editors
+/content/news/          @spectrumsec/editors
+/content/services/      @spectrumsec/editors @spectrumsec/infra
+/data/authors.yaml      @spectrumsec/editors
+/data/whyus.yaml        @spectrumsec/editors
+
+# Automated news updates: allow the bot PR to merge on green checks without
+# a human review requirement (branch protection rule targets this path only).
+/data/news.json         @spectrumsec/infra

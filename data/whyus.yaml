@@ -1,0 +1,20 @@
+# "Why us" content for the homepage section. Placeholder copy — replace the
+# body text with real positioning once messaging is signed off. Structure and
+# pillar count (4–6) can stay.
+eyebrow: "Why SpectrumSec"
+heading: "Security work you can actually act on"
+lead: "Placeholder positioning statement — to be replaced. The pillars below outline how we want to be different from a commodity testing shop."
+
+pillars:
+  - title: "Practitioner-led, not tool-led"
+    body: "TODO — every engagement is run by an experienced tester. Automated scanning is a starting point, not the deliverable."
+  - title: "Evidence over checklists"
+    body: "TODO — findings come with reproducible proof, clear impact, and a fix that fits your stack, not a generic CVSS dump."
+  - title: "EU-based and GDPR-aligned"
+    body: "TODO — data handling, subprocessors, and reporting designed around EU requirements from the start."
+  - title: "Reporting your board can read"
+    body: "TODO — an executive narrative and a technical appendix, so both the CISO and the engineers get what they need."
+  - title: "Fixed scope, fixed price"
+    body: "TODO — a short scoping call, then a firm quote. No hourly surprises."
+  - title: "Free remediation retest"
+    body: "TODO — once you have fixed the findings we re-test the affected areas at no extra cost, within the agreed window."

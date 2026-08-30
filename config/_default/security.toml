@@ -1,0 +1,17 @@
+# Hugo's own build-time security policy. Deliberately tighter than the default:
+# no remote fetches, minimal exec allowlist, scoped env access.
+[security]
+  enableInlineShortcodes = false
+
+  [security.exec]
+    # Only git is needed (enableGitInfo). No sass/npm/postcss in this project.
+    allow = ['^git$']
+    osEnv = ['(?i)^(HUGO|CI|GITHUB)_', '^HOME$', '^PATH$', '^TERM$', '^SITE_']
+
+  [security.funcs]
+    getenv = ['^HUGO_', '^CI$', '^SITE_']
+
+  [security.http]
+    # Build must be fully offline. News data is committed JSON, never fetched here.
+    urls = ['none']
+    methods = ['(?i)GET|HEAD']

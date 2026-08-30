@@ -1,0 +1,83 @@
+[[main]]
+  name = "Services"
+  pageRef = "/services"
+  weight = 10
+
+[[main]]
+  name = "Blog"
+  pageRef = "/blog"
+  weight = 20
+
+[[main]]
+  name = "News"
+  pageRef = "/news"
+  weight = 30
+
+[[main]]
+  name = "About"
+  pageRef = "/about"
+  weight = 40
+
+[[main]]
+  name = "Contact"
+  pageRef = "/contact"
+  weight = 50
+
+# Footer — grouped via `pre` as the column heading.
+[[footer]]
+  name = "Penetration Testing"
+  pageRef = "/services/penetration-testing"
+  pre = "Services"
+  weight = 11
+[[footer]]
+  name = "Red Teaming"
+  pageRef = "/services/red-teaming"
+  pre = "Services"
+  weight = 12
+[[footer]]
+  name = "Phishing Simulation"
+  pageRef = "/services/phishing-simulation"
+  pre = "Services"
+  weight = 13
+[[footer]]
+  name = "All services"
+  pageRef = "/services"
+  pre = "Services"
+  weight = 14
+
+[[footer]]
+  name = "Blog"
+  pageRef = "/blog"
+  pre = "Resources"
+  weight = 21
+[[footer]]
+  name = "Threat news"
+  pageRef = "/news"
+  pre = "Resources"
+  weight = 22
+[[footer]]
+  name = "Security disclosure"
+  pageRef = "/legal/security-policy"
+  pre = "Resources"
+  weight = 23
+
+[[footer]]
+  name = "About"
+  pageRef = "/about"
+  pre = "Company"
+  weight = 31
+[[footer]]
+  name = "Contact"
+  pageRef = "/contact"
+  pre = "Company"
+  weight = 32
+[[footer]]
+  name = "Privacy"
+  pageRef = "/legal/privacy"
+  pre = "Company"
+  weight = 33
+[[footer]]
+  name = "Terms"
+  pageRef = "/legal/terms"
+  pre = "Company"
+  weight = 34

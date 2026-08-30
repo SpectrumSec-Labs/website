@@ -1,0 +1,123 @@
+/* ==========================================================================
+   Design tokens. Dark-first; light mode is a full remap of the semantic layer.
+   Raw palette values are never used directly in components — only --c-* / --fg-*
+   / --bg-* semantic tokens are.
+   ========================================================================== */
+
+:root {
+  color-scheme: dark;
+
+  /* --- raw palette ------------------------------------------------------- */
+  --p-navy-950: #0b0f17;
+  --p-navy-900: #0e1420;
+  --p-navy-850: #121826;
+  --p-navy-800: #1a2234;
+  --p-navy-700: #232d43;
+  --p-ink-50:  #e6eaf2;
+  --p-ink-200: #c2cad9;
+  --p-ink-400: #9aa7bd;
+  --p-ink-500: #7c8aa3;
+
+  --p-cyan:    #22d3ee;
+  --p-cyan-600:#0e7490;
+  --p-violet:  #7c6ff0;
+  --p-violet-600:#5b4fd0;
+  --p-green:   #3ddc97;
+  --p-amber:   #f5b355;
+  --p-red:     #f2555a;
+
+  /* --- semantic: surfaces & text -------------------------------------- */
+  --bg:          var(--p-navy-950);
+  --bg-subtle:   var(--p-navy-900);
+  --surface:     var(--p-navy-850);
+  --surface-2:   var(--p-navy-800);
+  --border:      color-mix(in srgb, var(--p-ink-50) 10%, transparent);
+  --border-strong: color-mix(in srgb, var(--p-ink-50) 18%, transparent);
+
+  --fg:          var(--p-ink-50);
+  --fg-muted:    var(--p-ink-400);
+  --fg-subtle:   var(--p-ink-500);
+
+  --accent:        var(--p-cyan);
+  --accent-hover:  color-mix(in srgb, var(--p-cyan) 82%, white);
+  --accent-ink:    #04222a;           /* text on an accent fill */
+  --accent-2:      var(--p-violet);
+
+  --ok:      var(--p-green);
+  --warn:    var(--p-amber);
+  --danger:  var(--p-red);
+
+  --focus-ring: color-mix(in srgb, var(--p-cyan) 70%, transparent);
+
+  /* --- typography ------------------------------------------------------- */
+  --font-sans: "Inter", ui-sans-serif, system-ui, -apple-system, "Segoe UI",
+               Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-display: "Space Grotesk", var(--font-sans);
+  --font-mono: ui-monospace, "SFMono-Regular", "JetBrains Mono", Menlo,
+               Consolas, monospace;
+
+  --step--1: clamp(0.83rem, 0.80rem + 0.15vw, 0.92rem);
+  --step-0:  clamp(1rem, 0.96rem + 0.20vw, 1.13rem);
+  --step-1:  clamp(1.20rem, 1.12rem + 0.40vw, 1.50rem);
+  --step-2:  clamp(1.50rem, 1.35rem + 0.75vw, 2.10rem);
+  --step-3:  clamp(1.90rem, 1.62rem + 1.40vw, 3.10rem);
+  --step-4:  clamp(2.40rem, 1.90rem + 2.50vw, 4.30rem);
+
+  --leading-tight: 1.15;
+  --leading-body: 1.65;
+
+  /* --- space / shape ------------------------------------------------- */
+  --space-3xs: 0.25rem;
+  --space-2xs: 0.5rem;
+  --space-xs:  0.75rem;
+  --space-s:   1rem;
+  --space-m:   1.5rem;
+  --space-l:   2.5rem;
+  --space-xl:  4rem;
+  --space-2xl: 6rem;
+
+  --radius-s: 8px;
+  --radius-m: 14px;
+  --radius-l: 22px;
+  --radius-pill: 999px;
+
+  --shadow-s: 0 1px 2px rgba(0,0,0,.35);
+  --shadow-m: 0 8px 28px -12px rgba(0,0,0,.55);
+  --shadow-glow: 0 0 0 1px color-mix(in srgb, var(--accent) 25%, transparent),
+                 0 12px 40px -14px color-mix(in srgb, var(--accent) 35%, transparent);
+
+  --container: 76rem;
+  --container-prose: 44rem;
+
+  --transition: 160ms ease;
+}
+
+/* System preference: light. Overridden by [data-theme] once a toggle exists. */
+@media (prefers-color-scheme: light) {
+  :root:not([data-theme="dark"]) {
+    color-scheme: light;
+
+    --bg:          #fbfcfe;
+    --bg-subtle:   #f4f6fb;
+    --surface:     #ffffff;
+    --surface-2:   #f4f6fb;
+    --border:      color-mix(in srgb, #0a0f19 12%, transparent);
+    --border-strong: color-mix(in srgb, #0a0f19 22%, transparent);
+
+    --fg:          #10151f;
+    --fg-muted:    #55617a;
+    --fg-subtle:   #7a8499;
+
+    --accent:        var(--p-cyan-600);
+    --accent-hover:  color-mix(in srgb, var(--p-cyan-600) 85%, black);
+    --accent-ink:    #ffffff;
+    --accent-2:      var(--p-violet-600);
+
+    --focus-ring: color-mix(in srgb, var(--p-cyan-600) 55%, transparent);
+
+    --shadow-s: 0 1px 2px rgba(16,21,31,.08);
+    --shadow-m: 0 12px 32px -16px rgba(16,21,31,.22);
+    --shadow-glow: 0 0 0 1px color-mix(in srgb, var(--accent) 22%, transparent),
+                   0 14px 40px -18px color-mix(in srgb, var(--accent) 28%, transparent);
+  }
+}

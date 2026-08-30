@@ -1,0 +1,23 @@
+/* Small utility layer. Exists so templates never need an inline style attribute
+   (CSP: style-src 'self', no 'unsafe-inline'). Keep this list short. */
+
+.u-mt-xs { margin-top: var(--space-xs); }
+.u-mt-s  { margin-top: var(--space-s); }
+.u-mt-m  { margin-top: var(--space-m); }
+.u-mt-l  { margin-top: var(--space-l); }
+
+.u-muted   { color: var(--fg-muted); }
+.u-subtle  { color: var(--fg-subtle); }
+.u-small   { font-size: var(--step--1); }
+.u-measure { max-width: 32rem; }
+
+.u-cluster {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2xs);
+  align-items: center;
+}
+.u-cluster--between { justify-content: space-between; }
+.u-cluster--center { justify-content: center; }
+
+.u-stack > * + * { margin-top: var(--space-s); }

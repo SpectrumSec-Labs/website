@@ -1,0 +1,16 @@
+{{ define "main" }}
+<section class="section bg-grid">
+  <div class="container">
+    <p class="section__eyebrow">Error 404</p>
+    <h1>This page could not be found</h1>
+    <p class="section__lead u-measure">
+      The link may be outdated, or the page has moved. Try the navigation above,
+      or head back to safety.
+    </p>
+    <div class="hero__actions">
+      <a class="btn" href="/">Go to the homepage {{ partial "icon.html" (dict "name" "arrow-right") }}</a>
+      <a class="btn btn--ghost" href="/services/">Browse services</a>
+    </div>
+  </div>
+</section>
+{{ end }}

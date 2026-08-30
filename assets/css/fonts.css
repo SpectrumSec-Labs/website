@@ -1,0 +1,20 @@
+/* Self-hosted fonts. Drop the woff2 files into static/fonts/ (see
+   assets/fonts/README.md for exact filenames and subsetting commands).
+   Until then the browser silently falls back to the system sans stack —
+   no build error, no layout break. font-src stays 'self'. */
+
+@font-face {
+  font-family: "Inter";
+  src: url("/fonts/inter-variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Space Grotesk";
+  src: url("/fonts/space-grotesk-variable.woff2") format("woff2");
+  font-weight: 400 700;
+  font-display: swap;
+  font-style: normal;
+}

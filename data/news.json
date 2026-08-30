@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "generated": "2026-08-30T00:00:00Z",
+  "note": "Seed data. Replaced on first run of the update-news workflow (tools/newsfetch).",
+  "items": [
+    {
+      "id": "seed-0001",
+      "source": "cisa-kev",
+      "source_name": "CISA KEV",
+      "title": "Example: vendor product added to the Known Exploited Vulnerabilities catalog",
+      "url": "https://www.cisa.gov/known-exploited-vulnerabilities-catalog",
+      "published": "2026-08-29T14:00:00Z",
+      "summary": "Placeholder item. Real entries are aggregated from public government and CERT feeds by the news pipeline.",
+      "tags": ["KEV", "actively-exploited"]
+    },
+    {
+      "id": "seed-0002",
+      "source": "cisa-advisories",
+      "source_name": "CISA Advisories",
+      "title": "Example: joint cybersecurity advisory on ransomware TTPs",
+      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories",
+      "published": "2026-08-28T09:30:00Z",
+      "summary": "Placeholder item.",
+      "tags": ["advisory", "ransomware"]
+    },
+    {
+      "id": "seed-0003",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Example: updated guidance on securing enterprise identity providers",
+      "url": "https://www.ncsc.gov.uk/section/keep-up-to-date/all-reports",
+      "published": "2026-08-27T11:00:00Z",
+      "summary": "Placeholder item.",
+      "tags": ["guidance", "identity"]
+    }
+  ]
+}
