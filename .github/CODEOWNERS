@@ -5,26 +5,27 @@
 # deployed, or served; editors own words and images.
 
 # Default: infra reviews everything not matched below.
-*                       @spectrumsec/infra
+*                       @SpectrumSec-Labs/infra
 
 # Build, deploy, security-sensitive config
-/.github/               @spectrumsec/infra
-/config/                @spectrumsec/infra
-/layouts/               @spectrumsec/infra
-/assets/                @spectrumsec/infra
-/deploy/                @spectrumsec/infra
-/tools/                 @spectrumsec/infra
-/tests/                 @spectrumsec/infra
-/.tool-versions         @spectrumsec/infra
-/config/feeds.yaml      @spectrumsec/infra
+/.github/               @SpectrumSec-Labs/infra
+/config/                @SpectrumSec-Labs/infra
+/layouts/               @SpectrumSec-Labs/infra
+/assets/                @SpectrumSec-Labs/infra
+/deploy/                @SpectrumSec-Labs/infra
+/tools/                 @SpectrumSec-Labs/infra
+/tests/                 @SpectrumSec-Labs/infra
+/.tool-versions         @SpectrumSec-Labs/infra
+/config/feeds.yaml      @SpectrumSec-Labs/infra
 
 # Content — editors review, infra not required
-/content/blog/          @spectrumsec/editors
-/content/news/          @spectrumsec/editors
-/content/services/      @spectrumsec/editors @spectrumsec/infra
-/data/authors.yaml      @spectrumsec/editors
-/data/whyus.yaml        @spectrumsec/editors
+/content/blog/          @SpectrumSec-Labs/editors
+/content/news/          @SpectrumSec-Labs/editors
+/content/services/      @SpectrumSec-Labs/editors @SpectrumSec-Labs/infra
+/data/authors.yaml      @SpectrumSec-Labs/editors
+/data/whyus.yaml        @SpectrumSec-Labs/editors
 
-# Automated news updates: allow the bot PR to merge on green checks without
-# a human review requirement (branch protection rule targets this path only).
-/data/news.json         @spectrumsec/infra
+# Automated news updates: no code owner, so a PR touching ONLY this file needs
+# no human approval and can auto-merge once CI is green. The update-news
+# workflow fails if the aggregator ever changes any other file.
+/data/news.json
