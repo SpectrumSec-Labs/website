@@ -1,30 +1,108 @@
-# Hugo build output
+# =============================================================================
+# This repository is PUBLIC. Nothing secret belongs in it.
+# Real credentials live only:
+#   - in GitHub Actions secrets (RELEASE_SIGNING_KEY, NEWS_BOT_TOKEN)
+#   - on the VPS under /etc/spectrumsec/ (github-token, deploy.env)
+# Committed files like deploy/allowed_signers hold PUBLIC keys only, on purpose.
+# =============================================================================
+
+# ---- secrets & credentials (belt-and-suspenders) ----------------------------
+*.key
+*.pem
+*.p12
+*.pfx
+*.ppk
+*.jks
+*.keystore
+!static/pgp-key.txt                 # public key, published deliberately
+
+# private keys of any kind
+id_rsa
+id_ed25519
+id_ecdsa
+id_dsa
+*_rsa
+*_ed25519
+*_ecdsa
+release-signing
+release-signing.*
+!release-signing.pub               # public half is fine
+signing_key
+*.gpg
+secring.*
+*.asc
+!static/pgp-key.txt
+
+# tokens / passwords / env
+*token*
+!*tokens.*                         # allow design-token files (assets/css/tokens.css)
+*secret*
+*password*
+*.secret
+.env
+.env.*
+!*.env.example                     # committed templates are fine
+!deploy/site.env                   # committed on purpose: no secrets in it
+.envrc
+.direnv/
+.netrc
+_netrc
+credentials
+.git-credentials
+auth.json
+deploy/analytics/.env
+deploy/**/secrets/
+secrets/
+**/*.local.json
+
+# cloud / IaC state
+.aws/
+.azure/
+.gcloud/
+*.tfstate
+*.tfstate.*
+*.tfvars
+!*.tfvars.example
+kubeconfig
+*.kubeconfig
+
+# ---- build output ----------------------------------------------------------
 /public/
 /resources/_gen/
 .hugo_build.lock
 
-# Local Hugo binary (pinned version is downloaded by CI / contributors)
+# release artifacts if built locally
+*.tgz
+*.tar.gz
+*.sig
+*.minisig
+site.tgz*
+
+# ---- local toolchain (downloaded, pinned versions) ------------------------
 /bin/
 hugo
 hugo.exe
 
-# Editor / OS noise
+# ---- Go tool -------------------------------------------------------------
+/tools/newsfetch/newsfetch
+/tools/newsfetch/newsfetch.exe
+/tools/newsfetch/.cache/
+
+# ---- node (not used by the site build, but guard against stray installs) --
+node_modules/
+npm-debug.log*
+.npm/
+
+# ---- editor / OS / agent noise -----------------------------------------
 .DS_Store
 Thumbs.db
+desktop.ini
 *.swp
+*.swo
+*~
 .idea/
 .vscode/*
 !.vscode/extensions.json
-
-# Secrets — never commit. Real values live outside the repo.
-deploy/analytics/.env
-deploy/**/secrets/
-*.key
-!pgp-key.txt
-
-# Go tool
-/tools/newsfetch/newsfetch
-/tools/newsfetch/newsfetch.exe
-
-# Local news cache used during development
-/tools/newsfetch/.cache/
+.claude/
+CLAUDE.local.md
+*.log
