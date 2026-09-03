@@ -6,7 +6,7 @@ lastmod: 2026-08-30
 
 <!-- TODO: this is a skeleton, not legal advice. Have counsel review before launch. -->
 
-_Last updated: 2026-08-30_
+*Last updated: 2026-08-30*
 
 ## Who we are
 

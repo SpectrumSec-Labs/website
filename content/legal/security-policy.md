@@ -11,7 +11,7 @@ want to hear from you.
 
 ## How to report
 
-- Email **security@spectrumsec.eu**, encrypted to our [PGP key](/pgp-key.txt) where
+- Email `security@spectrumsec.eu`, encrypted to our [PGP key](/pgp-key.txt) where
   possible.
 - Include enough detail to reproduce the issue: URLs, payloads, and the impact you
   observed.

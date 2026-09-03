@@ -1,0 +1,96 @@
+name: release
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release
+  cancel-in-progress: false
+
+env:
+  HUGO_VERSION: "0.165.0"
+  HUGO_SHA256: "f43494894cdf4a8630a201d5c828051c77f523cc66bb3938b30806835470ac20"
+  SITE_BASEURL: "https://spectrumsec.eu/"
+
+jobs:
+  release:
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Is deployment configured?
+        id: cfg
+        env:
+          SIGNING_KEY: ${{ secrets.RELEASE_SIGNING_KEY }}
+        run: |
+          if [ -z "$SIGNING_KEY" ]; then
+            echo "::warning::RELEASE_SIGNING_KEY is not set — skipping release build. See docs/vps-setup.md."
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Checkout
+        if: steps.cfg.outputs.skip == 'false'
+        uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
+        with:
+          fetch-depth: 0
+
+      - name: Install pinned Hugo (verified)
+        if: steps.cfg.outputs.skip == 'false'
+        run: |
+          set -euo pipefail
+          cd "$RUNNER_TEMP"
+          url="https://github.com/gohugoio/hugo/releases/download/v${HUGO_VERSION}/hugo_extended_${HUGO_VERSION}_linux-amd64.tar.gz"
+          curl -sSL --retry 3 --proto '=https' --tlsv1.2 -o hugo.tar.gz "$url"
+          echo "${HUGO_SHA256}  hugo.tar.gz" | sha256sum -c -
+          tar -xzf hugo.tar.gz hugo
+          sudo install -m 0755 hugo /usr/local/bin/hugo
+          hugo version
+
+      - name: Build
+        if: steps.cfg.outputs.skip == 'false'
+        env:
+          SITE_BUILD_REV: ${{ github.sha }}
+        run: hugo --gc --minify --panicOnWarning --baseURL "$SITE_BASEURL"
+
+      - name: Package
+        if: steps.cfg.outputs.skip == 'false'
+        run: |
+          set -euo pipefail
+          test -s public/index.html
+          tar -czf site.tgz -C public .
+          sha256sum site.tgz | tee site.tgz.sha256
+
+      - name: Sign
+        if: steps.cfg.outputs.skip == 'false'
+        env:
+          SIGNING_KEY: ${{ secrets.RELEASE_SIGNING_KEY }}
+        run: |
+          set -euo pipefail
+          umask 077
+          printf '%s\n' "$SIGNING_KEY" > signing_key
+          ssh-keygen -Y sign -f signing_key -n file site.tgz
+          shred -u signing_key
+          # sanity: verify against the committed allowed_signers before publishing
+          ssh-keygen -Y verify -f deploy/allowed_signers -I release@spectrumsec.eu \
+            -n file -s site.tgz.sig < site.tgz
+          echo "signature verifies against deploy/allowed_signers"
+
+      - name: Create release
+        if: steps.cfg.outputs.skip == 'false'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          tag="deploy-$(date -u +%Y%m%dT%H%M%SZ)-${GITHUB_SHA::7}"
+          gh release create "$tag" \
+            --target "$GITHUB_SHA" \
+            --title "$tag" \
+            --notes "Automated release of \`${GITHUB_SHA}\` — $(git log -1 --pretty=%s)." \
+            --latest \
+            site.tgz site.tgz.sha256 site.tgz.sig
+          echo "### Released \`$tag\`" >> "$GITHUB_STEP_SUMMARY"

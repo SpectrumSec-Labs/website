@@ -46,8 +46,17 @@ All changes via PR.
 - Deterministic output; unchanged item set => no write => no PR.
 - gofmt check in CI must exclude vendor/.
 
-## Still to build (see README status table + docs/PROJECT.md §8)
-Phase 2-3 (front-matter schema enforcement, real copy); phase 6 (release.yml,
-pull-deploy.sh, systemd units, docs/vps-setup.md); phase 7 (deploy/analytics/
-Quadlet units, GoAccess); phase 8 (favicons, OG image, lychee/pa11y/Lighthouse
-CI gates, security-txt-bump.yml, template-generated robots/security.txt).
+## Deployment (phase 6, done — see docs/vps-setup.md)
+- release.yml: build -> tar public/ -> sha256 -> `ssh-keygen -Y sign` -> gh release.
+  Signing key in RELEASE_SIGNING_KEY secret; public half in deploy/allowed_signers.
+- VPS: deploy/pull-deploy.sh via spectrumsec-deploy.timer. git-pull for configs,
+  signed release for the built site. Atomic symlink swap + smoke test + rollback.
+- Caddy is the packaged service with a drop-in override pointing at deploy/Caddyfile.
+- Local: bin/caddy.exe, bin/shellcheck.exe, bin/node-v22.14.0-win-x64/ (all gitignored).
+  `caddy validate --config deploy/Caddyfile --adapter caddyfile --envfile <env>`.
+
+## Still to build (README status + docs/PROJECT.md §8)
+Phase 2-3 (front-matter schema enforcement, real copy); phase 7 (deploy/analytics/
+Quadlet units, GoAccess, stats vhost back in Caddyfile); phase 8 (favicons, OG
+image, lychee/pa11y/Lighthouse CI gates, security-txt-bump.yml, template-generated
+robots/security.txt).
