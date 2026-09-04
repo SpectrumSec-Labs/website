@@ -1,4 +1,5 @@
-{{- /* Umami, self-hosted and reverse-proxied under the apex (see deploy/Caddyfile).
+{{- /* Umami, self-hosted and reverse-proxied under the apex (Caddy config lives
+       in the private website-ops repo).
        Because it is served from our own origin under basePath, CSP stays
        script-src 'self' / connect-src 'self' — no external hosts, no cookies.
        Disabled until Phase 7 flips analytics.enabled and sets websiteId. */ -}}

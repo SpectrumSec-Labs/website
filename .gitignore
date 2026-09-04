@@ -1,10 +1,15 @@
 # =============================================================================
 # This repository is PUBLIC. Nothing secret belongs in it.
-# Real credentials live only:
-#   - in GitHub Actions secrets (RELEASE_SIGNING_KEY, NEWS_BOT_TOKEN)
-#   - on the VPS under /etc/spectrumsec/ (github-token, deploy.env)
-# Committed files like deploy/allowed_signers hold PUBLIC keys only, on purpose.
+# Real credentials live only in GitHub Actions secrets (RELEASE_SIGNING_KEY,
+# NEWS_BOT_TOKEN). Deploy config and infra docs live in the PRIVATE repo
+# SpectrumSec-Labs/website-ops — do not add them back here.
 # =============================================================================
+
+# infra lives in the private website-ops repo
+/deploy/
+/docs/PROJECT.md
+/docs/vps-setup.md
+/tests/
 
 # ---- secrets & credentials (belt-and-suspenders) ----------------------------
 *.key
@@ -42,7 +47,6 @@ secring.*
 .env
 .env.*
 !*.env.example                     # committed templates are fine
-!deploy/site.env                   # committed on purpose: no secrets in it
 .envrc
 .direnv/
 .netrc
@@ -50,8 +54,6 @@ _netrc
 credentials
 .git-credentials
 auth.json
-deploy/analytics/.env
-deploy/**/secrets/
 secrets/
 **/*.local.json
 

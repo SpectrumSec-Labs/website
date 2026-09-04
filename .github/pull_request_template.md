@@ -12,7 +12,7 @@
 
 ## Checklist
 - [ ] `hugo --gc --minify` builds clean locally (or CI is green)
-- [ ] No new external origins added to any page (or CSP updated in `deploy/Caddyfile` and noted below)
+- [ ] No new external origins added to any page (if one is unavoidable, note it below — infra updates the CSP in the ops repo)
 - [ ] No secrets, tokens, or internal hostnames in the diff
 - [ ] Package / image / action versions are pinned (exact version or digest)
 - [ ] Front matter matches the schema (content PRs) — see `tests/frontmatter-schema.mjs`

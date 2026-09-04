@@ -74,11 +74,13 @@ jobs:
           umask 077
           printf '%s\n' "$SIGNING_KEY" > signing_key
           ssh-keygen -Y sign -f signing_key -n file site.tgz
-          shred -u signing_key
-          # sanity: verify against the committed allowed_signers before publishing
-          ssh-keygen -Y verify -f deploy/allowed_signers -I release@spectrumsec.eu \
+          # round-trip check against the pubkey derived from this key
+          ssh-keygen -y -f signing_key > signing_key.pub
+          printf 'release@spectrumsec.eu namespaces="file" %s\n' "$(cat signing_key.pub)" > .allowed_signers
+          ssh-keygen -Y verify -f .allowed_signers -I release@spectrumsec.eu \
             -n file -s site.tgz.sig < site.tgz
-          echo "signature verifies against deploy/allowed_signers"
+          shred -u signing_key signing_key.pub .allowed_signers
+          echo "sign/verify round-trip OK — the VPS re-verifies against website-ops/deploy/allowed_signers"
 
       - name: Create release
         if: steps.cfg.outputs.skip == 'false'

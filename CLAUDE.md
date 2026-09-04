@@ -1,9 +1,10 @@
 # CLAUDE.md — working notes for this repo
 
 ## What this is
-Company website for SpectrumSec (cyber security consultancy). Hugo static site,
-self-hosted on a VPS behind Caddy, deployed by signed release + VPS-side pull.
-All changes via PR.
+Public source for the SpectrumSec company website (cyber security consultancy).
+Hugo static site, no npm. All changes via PR. Deploy config + infra docs are in
+the separate PRIVATE repo `SpectrumSec-Labs/website-ops` (Caddy, systemd,
+pull-deploy, PROJECT.md, vps-setup.md) — not here.
 
 ## Hard rules
 - **No npm / node_modules.** CSS and JS are hand-authored under `assets/`,
@@ -46,17 +47,18 @@ All changes via PR.
 - Deterministic output; unchanged item set => no write => no PR.
 - gofmt check in CI must exclude vendor/.
 
-## Deployment (phase 6, done — see docs/vps-setup.md)
-- release.yml: build -> tar public/ -> sha256 -> `ssh-keygen -Y sign` -> gh release.
-  Signing key in RELEASE_SIGNING_KEY secret; public half in deploy/allowed_signers.
-- VPS: deploy/pull-deploy.sh via spectrumsec-deploy.timer. git-pull for configs,
-  signed release for the built site. Atomic symlink swap + smoke test + rollback.
-- Caddy is the packaged service with a drop-in override pointing at deploy/Caddyfile.
-- Local: bin/caddy.exe, bin/shellcheck.exe, bin/node-v22.14.0-win-x64/ (all gitignored).
-  `caddy validate --config deploy/Caddyfile --adapter caddyfile --envfile <env>`.
+## Deployment
+`release.yml` builds + signs (`ssh-keygen -Y`, key in `RELEASE_SIGNING_KEY`
+secret) + publishes a GitHub Release. The VPS pulls and verifies it. All the
+Caddy / systemd / pull-deploy config + `docs/PROJECT.md` + `docs/vps-setup.md`
+live in the PRIVATE `SpectrumSec-Labs/website-ops` repo — the public key the
+signature is checked against is `deploy/allowed_signers` there.
 
-## Still to build (README status + docs/PROJECT.md §8)
-Phase 2-3 (front-matter schema enforcement, real copy); phase 7 (deploy/analytics/
-Quadlet units, GoAccess, stats vhost back in Caddyfile); phase 8 (favicons, OG
-image, lychee/pa11y/Lighthouse CI gates, security-txt-bump.yml, template-generated
-robots/security.txt).
+## Local tooling (Windows dev)
+`bin/` holds hugo.exe, go/, node-v22.14.0-win-x64/, shellcheck.exe, caddy.exe —
+all gitignored.
+
+## Still to build (see website-ops/docs/PROJECT.md §8)
+Phase 2-3 (front-matter schema enforcement, real copy); phase 7 (analytics —
+lives in website-ops); phase 8 (favicons, OG image, lychee/pa11y/Lighthouse CI
+gates, security-txt-bump.yml, template-generated robots/security.txt).

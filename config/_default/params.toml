@@ -32,7 +32,7 @@
 [analytics]
   # Flipped to true in Phase 7 once the Umami pod is live behind Caddy.
   enabled   = false
-  # Path-proxied under the apex so CSP stays 'self'. See deploy/Caddyfile.
+  # Path-proxied under the apex so CSP stays 'self' (Caddy config: website-ops repo).
   basePath  = "/_a"
   websiteId = ""
 

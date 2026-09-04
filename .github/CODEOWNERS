@@ -7,16 +7,16 @@
 # Default: infra reviews everything not matched below.
 *                       @SpectrumSec-Labs/infra
 
-# Build, deploy, security-sensitive config
+# Build / security-sensitive config
 /.github/               @SpectrumSec-Labs/infra
 /config/                @SpectrumSec-Labs/infra
 /layouts/               @SpectrumSec-Labs/infra
 /assets/                @SpectrumSec-Labs/infra
-/deploy/                @SpectrumSec-Labs/infra
 /tools/                 @SpectrumSec-Labs/infra
-/tests/                 @SpectrumSec-Labs/infra
 /.tool-versions         @SpectrumSec-Labs/infra
 /config/feeds.yaml      @SpectrumSec-Labs/infra
+
+# Deploy config and infra docs live in the private SpectrumSec-Labs/website-ops repo.
 
 # Content — editors review, infra not required
 /content/blog/          @SpectrumSec-Labs/editors

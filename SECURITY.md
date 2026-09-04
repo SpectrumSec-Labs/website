@@ -2,7 +2,7 @@
 
 ## Reporting a vulnerability
 
-Email **security@spectrumsec.eu**, encrypted to our
+Email `security@spectrumsec.eu`, encrypted to our
 [PGP key](https://spectrumsec.eu/pgp-key.txt) where possible. Full policy:
 <https://spectrumsec.eu/legal/security-policy/> and
 <https://spectrumsec.eu/.well-known/security.txt>.
@@ -11,8 +11,8 @@ We acknowledge reports within 3 working days.
 
 ## How this repository is protected
 
-- **Branch protection** on `main`: PR required, `CODEOWNERS` review, required
-  status checks (`ci`), linear history, no force-push.
+- **Branch protection** on `main`: PR required, required status checks
+  (`build`, `markdown`, `newsfetch`), linear history, no force-push.
 - **Pinned everything**: Hugo + Go in `.tool-versions`; GitHub Actions by commit
   SHA; container images by digest. Renovate proposes updates; Dependabot backstops
   security advisories.
@@ -34,6 +34,8 @@ licence in the PR.
 
 ## Deployment trust chain
 
-CI builds the site, produces a tarball, and signs it. The VPS pulls the release,
-**verifies the signature and SHA-256 before extracting**, then swaps a symlink
-atomically. There is no inbound SSH from CI and no deploy credential in GitHub.
+`release.yml` builds the site, signs the tarball with `ssh-keygen -Y` (private
+key held only in an Actions secret), and publishes a GitHub Release. The
+deployment target **verifies the signature and SHA-256 before serving**, then
+swaps a symlink atomically. There is no inbound access from CI to the server and
+no deploy credential in GitHub. Full detail is in the private ops repo.

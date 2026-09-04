@@ -40,19 +40,13 @@ symbol id defined in `layouts/partials/icons-sprite.html`.
 - Never add an inline `style` attribute or `<script>` block — the CSP forbids
   them. Add a class to `assets/css/utilities.css` instead.
 - No external origins. No web fonts from a CDN, no third-party scripts.
-- If a change genuinely needs a CSP change, edit `deploy/Caddyfile` and explain
-  it in the PR's "CSP / header impact" section.
+- If a change genuinely needs a CSP change, note it in the PR's "CSP / header
+  impact" section — the header policy is enforced by Caddy in the private ops
+  repo and someone from infra applies the matching change there.
 
-## Teams to create
+## Review
 
-`CODEOWNERS` references `@spectrumsec/infra` and `@spectrumsec/editors`. Create
-those GitHub teams (or replace the handles with usernames) before turning on
-branch protection.
-
-## Branch protection settings
-
-- Require a pull request, 1 approving review, and review from Code Owners.
-- Require status checks: `build`, `markdown`.
-- Require branches up to date, linear history, conversation resolution.
-- Restrict who can push to `main` to nobody (PRs only).
-- For `data/news.json`-only PRs from the bot, allow auto-merge on green checks.
+`CODEOWNERS` routes `content/blog/` and `content/news/` to editors and the rest
+to infra. `main` is protected: PR required, CI must pass (`build`, `markdown`,
+`newsfetch`), linear history, no force-push. The automated `data/news.json` PR
+auto-merges once CI is green.

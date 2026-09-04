@@ -31,13 +31,6 @@
       "depNameTemplate": "golang/go",
       "datasourceTemplate": "github-tags",
       "extractVersionTemplate": "^go(?<version>.*)$"
-    },
-    {
-      "customType": "regex",
-      "description": "Track container image digests in Quadlet unit files",
-      "managerFilePatterns": ["/deploy/analytics/.*\\.container$/"],
-      "matchStrings": ["Image=(?<depName>[^:\\s]+):(?<currentValue>[^@\\s]+)@(?<currentDigest>sha256:[a-f0-9]+)"],
-      "datasourceTemplate": "docker"
     }
   ],
   "packageRules": [
@@ -51,12 +44,6 @@
       "matchDepNames": ["gohugoio/hugo", "golang/go"],
       "automerge": false,
       "labels": ["dependencies", "toolchain"]
-    },
-    {
-      "description": "Umami / Postgres: manual review, they carry data",
-      "matchFileNames": ["deploy/analytics/**"],
-      "automerge": false,
-      "labels": ["dependencies", "analytics"]
     }
   ],
   "vulnerabilityAlerts": {

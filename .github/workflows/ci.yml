@@ -56,9 +56,6 @@ jobs:
           # No accidental draft leakage
           ! grep -rl 'name="robots" content="noindex' public/ | grep -v '404.html' || true
 
-      - name: Header policy check
-        run: tests/headers.test.sh
-
       - name: Upload build
         uses: actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02 # v4.6.2
         with:
@@ -73,26 +70,6 @@ jobs:
       - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
       - name: Lint content markdown (pinned)
         run: npx --yes markdownlint-cli2@0.23.2 "content/**/*.md" "docs/**/*.md"
-
-  shell:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
-      - name: shellcheck deploy scripts
-        run: shellcheck -x deploy/*.sh tests/*.sh
-
-  caddyfile:
-    runs-on: ubuntu-24.04
-    steps:
-      - uses: actions/checkout@fbc6f3992d24b796d5a048ff273f7fcc4a7b6c09 # v5.1.0
-      - name: Validate and format-check the Caddyfile
-        run: |
-          img="caddy:2.11.4-alpine"
-          docker run --rm -v "$PWD/deploy:/w" -w /w \
-            -e SITE_DOMAIN=spectrumsec.eu -e ACME_EMAIL=ci@example.invalid -e WEBROOT=/srv/web \
-            "$img" caddy validate --config Caddyfile --adapter caddyfile
-          docker run --rm -v "$PWD/deploy:/w" -w /w "$img" \
-            caddy fmt --diff Caddyfile
 
   newsfetch:
     runs-on: ubuntu-24.04
