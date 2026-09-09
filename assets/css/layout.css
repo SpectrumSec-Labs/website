@@ -155,6 +155,9 @@ main { flex: 1 0 auto; }
 }
 
 .prose { max-width: var(--container-prose); }
+/* opt-in via `wide: true` front matter — fills the page container (fluid, caps
+   at --container) instead of the fixed reading measure. */
+.prose--wide { max-width: none; }
 .prose > * + * { margin-top: var(--space-s); }
 .prose h2 { margin-top: var(--space-l); }
 .prose h3 { margin-top: var(--space-m); }

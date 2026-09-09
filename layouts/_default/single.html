@@ -28,7 +28,7 @@
         </aside>
       {{ end }}
 
-      <div class="prose">
+      <div class="prose{{ if .Params.wide }} prose--wide{{ end }}">
         {{ .Content }}
       </div>
     </div>
