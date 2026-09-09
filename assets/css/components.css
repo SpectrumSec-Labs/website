@@ -170,14 +170,20 @@
   font-size: var(--step--1);
 }
 
-/* ---------- article layout ---------- */
+/* ---------- article layout ----------
+   Plain pages (about, legal, any single.html page without a table of
+   contents) get one full-width column: .prose then governs its own
+   measure via max-width, so it fills available width responsively instead
+   of being squeezed into the (unused) TOC track below.
+   Blog posts long enough to render a TOC opt into the split layout via the
+   --split modifier, added in the template only when the TOC actually exists. */
 .content-layout {
   display: grid;
   grid-template-columns: 1fr;
   gap: var(--space-l);
 }
 @media (min-width: 1000px) {
-  .content-layout { grid-template-columns: 15rem minmax(0, var(--container-prose)); }
+  .content-layout--split { grid-template-columns: 15rem minmax(0, var(--container-prose)); }
   .toc { position: sticky; top: 88px; align-self: start; }
 }
 .toc { font-size: var(--step--1); }
