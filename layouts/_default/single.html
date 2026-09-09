@@ -19,8 +19,9 @@
       {{ end }}
     </header>
 
-    <div class="content-layout">
-      {{ if and (eq .Section "blog") (.Params.toc | default true) (gt (len .TableOfContents) 60) }}
+    {{ $showToc := and (eq .Section "blog") (.Params.toc | default true) (gt (len .TableOfContents) 60) }}
+    <div class="content-layout{{ if $showToc }} content-layout--split{{ end }}">
+      {{ if $showToc }}
         <aside class="toc" aria-label="Table of contents">
           <p class="u-small u-subtle">On this page</p>
           {{ .TableOfContents }}
