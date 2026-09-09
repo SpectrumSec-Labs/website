@@ -146,6 +146,21 @@
   color: var(--fg-subtle);
 }
 
+/* Icon-only links (footer + contact "elsewhere" socials). The accessible
+   name lives on the link (aria-label) rather than the icon, which stays
+   aria-hidden -- so nothing is announced twice. */
+.icon-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.25em;
+  height: 2.25em;
+  color: var(--fg-subtle);
+  text-decoration: none;
+}
+.icon-link svg { width: 1.15em; height: 1.15em; }
+.icon-link:hover { color: var(--accent); }
+
 .callout {
   padding: var(--space-s) var(--space-m);
   border: 1px solid var(--border-strong);

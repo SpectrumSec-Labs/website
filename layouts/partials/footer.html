@@ -12,16 +12,12 @@
           {{ partial "icon.html" (dict "name" "mail") }}
           <a href="mailto:{{ $c.email }}">{{ $c.email }}</a>
         </p>
-        {{- with site.Params.social.linkedin }}
-        <p class="news-source u-mt-xs">
-          {{ partial "icon.html" (dict "name" "linkedin") }}
-          <a href="{{ . }}" rel="me noopener">LinkedIn</a>
-        </p>
-        {{- end }}
-        {{- with site.Params.social.github }}
-        <p class="news-source u-mt-xs">
-          {{ partial "icon.html" (dict "name" "github") }}
-          <a href="{{ . }}" rel="me noopener">GitHub</a>
+        {{- $linkedin := site.Params.social.linkedin }}
+        {{- $github := site.Params.social.github }}
+        {{- if or $linkedin $github }}
+        <p class="u-cluster u-mt-s">
+          {{- with $linkedin }}<a class="icon-link" href="{{ . }}" rel="me noopener" aria-label="LinkedIn">{{ partial "icon.html" (dict "name" "linkedin") }}</a>{{ end }}
+          {{- with $github }}<a class="icon-link" href="{{ . }}" rel="me noopener" aria-label="GitHub">{{ partial "icon.html" (dict "name" "github") }}</a>{{ end }}
         </p>
         {{- end }}
       </div>

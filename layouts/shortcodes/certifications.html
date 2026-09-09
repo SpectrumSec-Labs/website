@@ -1,19 +1,26 @@
-{{- /* {{< certifications >}} — reads data/certifications.yaml. Horizontally
-       scrollable strip (native CSS scroll-snap, works with JS off); the
-       prev/next buttons are JS-only progressive enhancement and only show
-       once there's more than one card. */ -}}
-{{- $certs := hugo.Data.certifications -}}
+{{- /* {{< certifications >}} — one page bundle per cert under
+       content/certifications/<slug>/index.md (badge image co-located in the
+       same bundle, front matter: issuer, issuer_url, badge, verify_url,
+       issued, weight). Section is never rendered/listed publicly
+       (_build.render: never) — it's a data source for this shortcode only.
+
+       Horizontally scrollable strip (native CSS scroll-snap — works with JS
+       off); the prev/next buttons are JS-only progressive enhancement and
+       only show once there's more than one card. */ -}}
+{{- $certs := slice -}}
+{{- with site.GetPage "certifications" }}{{ $certs = .Pages.ByWeight }}{{ end -}}
 {{- if $certs }}
 <div class="cert-carousel">
   <div class="cert-carousel__track" role="list" aria-label="Certifications" tabindex="0">
     {{- range $certs }}
-      {{- $name := .name }}
-      {{- $issuer := .issuer }}
-      {{- $issuerURL := .issuer_url }}
-      {{- $issued := .issued }}
-      {{- $verifyURL := .verify_url }}
+      {{- $page := . }}
+      {{- $name := .Title }}
+      {{- $issuer := .Params.issuer }}
+      {{- $issuerURL := .Params.issuer_url }}
+      {{- $issued := .Params.issued }}
+      {{- $verifyURL := .Params.verify_url }}
       {{- $badgeRes := "" }}
-      {{- with .image }}{{ $badgeRes = resources.Get (printf "img/certifications/%s" .) }}{{ end }}
+      {{- with .Params.badge }}{{ $badgeRes = $page.Resources.GetMatch . }}{{ end }}
       <article class="cert-card" role="listitem">
         <div class="cert-card__badge">
           {{- with $badgeRes }}

@@ -22,10 +22,6 @@ founding story, team size, and locations.*
 
 {{< certifications >}}
 
-*Placeholder — add insurance and memberships once confirmed; list further
-certifications (ISO 27001, CREST, OSCP, ...) in `data/certifications.yaml` as
-they're earned.*
-
 ## Data handling
 
 We are built around EU data-protection requirements. See our
