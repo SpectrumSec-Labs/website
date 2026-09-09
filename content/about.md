@@ -20,8 +20,11 @@ founding story, team size, and locations.*
 
 ## Credentials & assurance
 
-*Placeholder — list certifications (e.g. ISO 27001, CREST, OSCP/CRTO), insurance, and
-memberships once confirmed.*
+{{< certifications >}}
+
+*Placeholder — add insurance and memberships once confirmed; list further
+certifications (ISO 27001, CREST, OSCP, ...) in `data/certifications.yaml` as
+they're earned.*
 
 ## Data handling
 

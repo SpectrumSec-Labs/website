@@ -33,10 +33,19 @@
           </p>
         </div>
 
-        {{ with site.Params.social.linkedin }}
+        {{ $linkedin := site.Params.social.linkedin }}
+        {{ $github := site.Params.social.github }}
+        {{ if or $linkedin $github }}
         <div>
           <h2 class="u-small u-subtle">Elsewhere</h2>
-          <p><a href="{{ . }}" rel="me noopener">{{ partial "icon.html" (dict "name" "linkedin") }} LinkedIn</a></p>
+          <div class="u-stack">
+            {{ with $linkedin }}
+            <p><a href="{{ . }}" rel="me noopener" target="_blank">{{ partial "icon.html" (dict "name" "linkedin") }} LinkedIn</a></p>
+            {{ end }}
+            {{ with $github }}
+            <p><a href="{{ . }}" rel="me noopener" target="_blank">{{ partial "icon.html" (dict "name" "github") }} GitHub</a></p>
+            {{ end }}
+          </div>
         </div>
         {{ end }}
       </aside>

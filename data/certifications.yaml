@@ -1,0 +1,15 @@
+# Certifications shown on /about/ via the {{< certifications >}} shortcode.
+# Add more entries the same shape as they're earned — the carousel and its
+# prev/next controls only render (JS) / activate once there's more than one.
+#
+# image: filename under assets/img/certifications/ (Hugo processes/optimises
+#   it). If the file isn't there yet, the card falls back to a placeholder
+#   icon instead of failing the build — safe to add the metadata first and
+#   drop the badge image in later.
+
+- name: "Certified Red Team Operator (CRTO)"
+  issuer: "Zero-Point Security"
+  issuer_url: "https://training.zeropointsecurity.co.uk/"
+  image: "crto.png"
+  verify_url: "https://certs.zeropointsecurity.co.uk/f0bb7a70-cf5b-45e7-a701-4384d1d9f4df"
+  # issued: "TODO: confirm the exact issue date"

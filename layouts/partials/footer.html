@@ -18,6 +18,12 @@
           <a href="{{ . }}" rel="me noopener">LinkedIn</a>
         </p>
         {{- end }}
+        {{- with site.Params.social.github }}
+        <p class="news-source u-mt-xs">
+          {{ partial "icon.html" (dict "name" "github") }}
+          <a href="{{ . }}" rel="me noopener">GitHub</a>
+        </p>
+        {{- end }}
       </div>
 
       {{- range slice "Services" "Resources" "Company" }}

@@ -34,6 +34,21 @@
     apply();
   }
 
+  // Certifications carousel: prev/next buttons just scroll the native,
+  // already-scrollable track — swipe/trackpad/keyboard scrolling all work
+  // identically with this file blocked; these buttons are pure enhancement
+  // (CSS keeps them hidden without [data-js]).
+  document.querySelectorAll(".cert-carousel").forEach(function (car) {
+    var track = car.querySelector(".cert-carousel__track");
+    if (!track) return;
+    car.querySelectorAll("[data-cert-dir]").forEach(function (btn) {
+      btn.addEventListener("click", function () {
+        var dir = parseInt(btn.getAttribute("data-cert-dir"), 10) || 1;
+        track.scrollBy({ left: track.clientWidth * 0.8 * dir, behavior: "smooth" });
+      });
+    });
+  });
+
   // Mark external links for assistive tech and safe rel.
   var host = window.location.host;
   document.querySelectorAll('a[href^="http"]').forEach(function (a) {

@@ -1,0 +1,51 @@
+{{- /* {{< certifications >}} — reads data/certifications.yaml. Horizontally
+       scrollable strip (native CSS scroll-snap, works with JS off); the
+       prev/next buttons are JS-only progressive enhancement and only show
+       once there's more than one card. */ -}}
+{{- $certs := hugo.Data.certifications -}}
+{{- if $certs }}
+<div class="cert-carousel">
+  <div class="cert-carousel__track" role="list" aria-label="Certifications" tabindex="0">
+    {{- range $certs }}
+      {{- $name := .name }}
+      {{- $issuer := .issuer }}
+      {{- $issuerURL := .issuer_url }}
+      {{- $issued := .issued }}
+      {{- $verifyURL := .verify_url }}
+      {{- $badgeRes := "" }}
+      {{- with .image }}{{ $badgeRes = resources.Get (printf "img/certifications/%s" .) }}{{ end }}
+      <article class="cert-card" role="listitem">
+        <div class="cert-card__badge">
+          {{- with $badgeRes }}
+            {{- $badge := .Fit "200x200 Contain" }}
+            <img src="{{ $badge.RelPermalink }}" width="{{ $badge.Width }}" height="{{ $badge.Height }}"
+                 alt="{{ $name }} badge" loading="lazy">
+          {{- else }}
+            {{ partial "icon.html" (dict "name" "shield" "class" "cert-card__placeholder") }}
+          {{- end }}
+        </div>
+        <h3>{{ $name }}</h3>
+        <p class="cert-card__issuer">
+          {{- if $issuerURL }}<a href="{{ $issuerURL }}" rel="noopener" target="_blank">{{ $issuer }}</a>{{ else }}{{ $issuer }}{{ end -}}
+          {{- with $issued }} · {{ . }}{{ end -}}
+        </p>
+        {{- with $verifyURL }}
+        <a class="card__more" href="{{ . }}" rel="noopener nofollow" target="_blank">
+          Verify credential {{ partial "icon.html" (dict "name" "external") }}
+        </a>
+        {{- end }}
+      </article>
+    {{- end }}
+  </div>
+  {{- if gt (len $certs) 1 }}
+  <div class="cert-carousel__controls">
+    <button type="button" class="cert-carousel__btn" data-cert-dir="-1" aria-label="Previous certification">
+      {{ partial "icon.html" (dict "name" "chevron-right" "class" "u-flip") }}
+    </button>
+    <button type="button" class="cert-carousel__btn" data-cert-dir="1" aria-label="Next certification">
+      {{ partial "icon.html" (dict "name" "chevron-right") }}
+    </button>
+  </div>
+  {{- end }}
+</div>
+{{- end -}}
