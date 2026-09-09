@@ -20,8 +20,7 @@ founding story, team size, and locations.*
 
 ## Credentials & assurance
 
-*Placeholder — list certifications (e.g. ISO 27001, CREST, OSCP/CRTO), insurance, and
-memberships once confirmed.*
+{{< certifications >}}
 
 ## Data handling
 
