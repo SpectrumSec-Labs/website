@@ -7,13 +7,13 @@
   name          = "SpectrumSec"
   legalName     = "SpectrumSec"
   domain        = "spectrumsec.eu"
-  email         = "hello@spectrumsec.eu"
+  email         = "contact@spectrumsec.eu"
   securityEmail = "security@spectrumsec.eu"
   phone         = ""
   addressLocality = ""
   addressRegion   = ""
   addressCountry  = "EU"
-  foundingYear    = 2026
+  foundingYear    = 2024
 
 [brand]
   tagline     = "Offensive-minded security for teams that ship."
@@ -22,8 +22,8 @@
   themeColor  = "#0b0f17"
 
 [social]
-  linkedin = ""
-  github   = ""
+  linkedin = "https://github.com/SpectrumSec-Labs"
+  github   = "https://github.com/SpectrumSec-Labs"
   mastodon = ""
 
 # ---------------------------------------------------------------------------
