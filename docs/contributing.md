@@ -33,7 +33,10 @@ Install the pinned Hugo version (`mise install`, or download + verify per
 ## Writing a Board Briefing
 
 A monthly, original post for non-technical leadership. It is written by us, not
-aggregated, so it carries no third-party licensing constraints.
+aggregated, so it carries no third-party licensing constraints. Write it close to
+the end of the month (or earlier if a major event warrants it), and research
+beyond our own `/news/` feed — the feed is a starting point, not the boundary.
+Date it with the real publication date; the title carries the month.
 
 1. Pull the facts for the period from the threat feed (offline, reads
    `data/news.json`):
