@@ -106,6 +106,7 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 .claude/
+CLAUDE.md
 CLAUDE.local.md
 *.log
 
