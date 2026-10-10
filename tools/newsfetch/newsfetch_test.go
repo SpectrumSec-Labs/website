@@ -6,6 +6,7 @@ import (
 	"net/http/httptest"
 	"os"
 	"path/filepath"
+	"strconv"
 	"strings"
 	"testing"
 	"time"
@@ -132,7 +133,7 @@ func TestMergeAndPrune(t *testing.T) {
 		{ID: "b", Title: "B", URL: "https://e.gov/b", Published: "2026-08-20T00:00:00Z",
 			publishedAt: mustDate("2026-08-20T00:00:00Z"), Tags: []string{"guidance"}},
 	}
-	merged := pruneAndSort(mergeItems(existing, fresh), refNow, 90, 50)
+	merged := pruneAndSort(mergeItems(existing, fresh), refNow, 90, 50, nil, 0)
 
 	if len(merged) != 2 {
 		t.Fatalf("want 2 after prune (old dropped), got %d: %+v", len(merged), merged)
@@ -154,6 +155,103 @@ func TestMergeAndPrune(t *testing.T) {
 	}
 	if !hasTag(a.Tags, "advisory") || !hasTag(a.Tags, "KEV") {
 		t.Errorf("tags should be unioned, got %v", a.Tags)
+	}
+}
+
+func TestPerSourceCap(t *testing.T) {
+	var items []Item
+	for i := 0; i < 10; i++ {
+		d := refNow.Add(-time.Duration(i) * time.Hour)
+		items = append(items,
+			Item{ID: "noisy" + strconv.Itoa(i), Source: "noisy", publishedAt: d},
+			Item{ID: "quiet" + strconv.Itoa(i), Source: "quiet", publishedAt: d.Add(-30 * time.Minute)})
+	}
+	out := pruneAndSort(items, refNow, 90, 100, map[string]int{"noisy": 3}, 5)
+	count := map[string]int{}
+	for _, it := range out {
+		count[it.Source]++
+	}
+	if count["noisy"] != 3 || count["quiet"] != 5 {
+		t.Fatalf("caps not applied: %v", count)
+	}
+	if out[0].ID != "noisy0" {
+		t.Errorf("newest item should survive the cap, got %q first", out[0].ID)
+	}
+}
+
+func TestLangTagAndSummaryOptOut(t *testing.T) {
+	off := false
+	s := Source{ID: "cert-fr", Name: "CERT-FR", Lang: "fr", Tag: "alert", Summary: &off}
+	it := newItem(s, "Vulnérabilité dans X (CVE-2026-1234)", "https://e.gouv.fr/a",
+		"<p>Détails CVE-2026-5678</p>", "2026-08-20", refNow)
+	if !hasTag(it.Tags, "FR") {
+		t.Errorf("expected FR tag, got %v", it.Tags)
+	}
+	if it.Summary != "" {
+		t.Errorf("summary should be dropped, got %q", it.Summary)
+	}
+	if !hasTag(it.Tags, "CVE-2026-5678") {
+		t.Errorf("CVE ids from the summary should still become tags: %v", it.Tags)
+	}
+	en := newItem(Source{ID: "x", Lang: "en"}, "t", "https://e.gov/b", "s", "2026-08-20", refNow)
+	if hasTag(en.Tags, "EN") || en.Summary != "s" {
+		t.Errorf("English source should get no lang tag and keep its summary: %+v", en)
+	}
+}
+
+func TestResolveURLAndValidation(t *testing.T) {
+	s := Source{ID: "nvd", URL: "https://x.gov/cves?a={start}&b={end}", WindowDays: 3}
+	got := s.resolveURL(refNow)
+	want := "https://x.gov/cves?a=2026-08-23T00:00:00.000&b=2026-08-26T00:00:00.000"
+	if got != want {
+		t.Fatalf("resolveURL = %q, want %q", got, want)
+	}
+	bad := Config{Sources: []Source{{ID: "nvd", URL: "https://x.gov/?a={start}", Kind: "json"}}}
+	if err := bad.validate(); err == nil {
+		t.Error("placeholder without window_days should fail validation")
+	}
+}
+
+func TestExcludeTitle(t *testing.T) {
+	maxPerSource = 10
+	src := Source{ID: "example-cert", Name: "Example CERT", Kind: "rss", ExcludeTitle: `^Guidance:`}
+	items, err := parseSource(src, readFixture(t, "rss.xml"), refNow)
+	if err != nil {
+		t.Fatal(err)
+	}
+	if len(items) != 1 || strings.HasPrefix(items[0].Title, "Guidance:") {
+		t.Fatalf("exclude_title not applied: %+v", items)
+	}
+	bad := Config{Sources: []Source{{ID: "x", URL: "https://e.gov/", Kind: "rss", ExcludeTitle: "("}}}
+	if bad.validate() == nil {
+		t.Error("invalid regexp should fail validation")
+	}
+}
+
+func TestBriefing(t *testing.T) {
+	dir := t.TempDir()
+	path := filepath.Join(dir, "news.json")
+	st := `{"schema":1,"generated":"2026-08-26T00:00:00Z","items":[
+	 {"id":"a","source":"cisa-kev","source_name":"CISA KEV","title":"KEV item","url":"https://e.gov/a","published":"2026-08-20T00:00:00Z","tags":["KEV","ransomware"]},
+	 {"id":"b","source":"nvd-recent","source_name":"NVD","title":"Critical item","url":"https://e.gov/b","published":"2026-08-21T00:00:00Z","tags":["critical"]},
+	 {"id":"c","source":"cisa-ics","source_name":"CISA ICS","title":"ICS noise","url":"https://e.gov/c","published":"2026-08-22T00:00:00Z","tags":["ics"]},
+	 {"id":"d","source":"cisa-kev","source_name":"CISA KEV","title":"Too old","url":"https://e.gov/d","published":"2026-06-01T00:00:00Z","tags":["KEV"]}]}`
+	os.WriteFile(path, []byte(st), 0o644)
+
+	var buf strings.Builder
+	if err := writeBriefing(&buf, path, 30, refNow); err != nil {
+		t.Fatal(err)
+	}
+	out := buf.String()
+	for _, want := range []string{"(2 items)", "## Actively exploited (CISA KEV) (1)", "[KEV item](https://e.gov/a)", "## Critical new vulnerabilities (NVD) (1)"} {
+		if !strings.Contains(out, want) {
+			t.Errorf("briefing missing %q:\n%s", want, out)
+		}
+	}
+	for _, unwanted := range []string{"ICS noise", "Too old", "Linked to ransomware"} {
+		if strings.Contains(out, unwanted) {
+			t.Errorf("briefing should not contain %q:\n%s", unwanted, out)
+		}
 	}
 }
 

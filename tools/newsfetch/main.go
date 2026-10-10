@@ -15,11 +15,23 @@ func main() {
 		outPath   = flag.String("out", "data/news.json", "path to the news JSON to update")
 		nowFlag   = flag.String("now", "", "override current time (RFC3339); for tests")
 		dryRun    = flag.Bool("dry-run", false, "compute changes but do not write")
+		briefing  = flag.Int("briefing", 0, "print a Markdown digest of the last N days of -out and exit (no network)")
 	)
 	flag.Parse()
 
 	log.SetFlags(0)
 	log.SetPrefix("newsfetch: ")
+
+	if *briefing > 0 {
+		now, err := nowUTC(*nowFlag)
+		if err == nil {
+			err = writeBriefing(os.Stdout, *outPath, *briefing, now)
+		}
+		if err != nil {
+			log.Fatal(err)
+		}
+		return
+	}
 
 	changed, err := run(*feedsPath, *outPath, *nowFlag, *dryRun)
 	if err != nil {
@@ -62,7 +74,7 @@ func run(feedsPath, outPath, nowOverride string, dryRun bool) (bool, error) {
 	for _, s := range sources {
 		ctx, cancel := context.WithTimeout(context.Background(),
 			time.Duration(cfg.Limits.HTTPTimeoutSeconds+5)*time.Second)
-		body, err := f.get(ctx, s.URL)
+		body, err := f.get(ctx, s.resolveURL(now))
 		cancel()
 		if err != nil {
 			failCount++
@@ -86,7 +98,8 @@ func run(feedsPath, outPath, nowOverride string, dryRun bool) (bool, error) {
 	}
 
 	merged := mergeItems(prev.Items, fresh)
-	merged = pruneAndSort(merged, now, cfg.Limits.RetentionDays, cfg.Limits.MaxItems)
+	merged = pruneAndSort(merged, now, cfg.Limits.RetentionDays, cfg.Limits.MaxItems,
+		cfg.storedCaps(), cfg.Limits.MaxStoredPerSource)
 
 	if itemsEqual(prev.Items, merged) {
 		return false, nil

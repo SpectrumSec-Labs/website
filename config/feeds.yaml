@@ -1,18 +1,26 @@
 # Curated allowlist for the news aggregator (tools/newsfetch).
-# Government / CERT / standards-body sources only — public-domain or
-# open-licence content. Adding a source is a reviewed change: note the
-# licence and why it belongs here in the PR.
+# Government / CERT / community sources whose licence allows linking and, where
+# noted, short excerpts on a commercial site. Adding a source is a reviewed
+# change: record the licence and the reason in the PR and next to the entry.
 #
 # fields:
-#   id       stable slug, also the on-site source badge
-#   name     display name
-#   url      RSS/Atom feed, or JSON endpoint when kind: json
-#   kind     rss | atom | json        (rss and atom are parsed the same)
-#   tag      default tag applied to items from this source
-#   homepage human-facing landing page for the source
-#   enabled  false to keep the entry but stop fetching
+#   id           stable slug, also the on-site source badge
+#   name         display name
+#   url          RSS/Atom feed, or JSON endpoint when kind: json.
+#                {start}/{end} are filled with a rolling window (needs window_days)
+#   kind         rss | atom | json        (rss and atom are parsed the same)
+#   tag          default tag applied to items from this source
+#   homepage     human-facing landing page for the source
+#   enabled      false to keep the entry but stop fetching
+#   lang         ISO 639-1; non-English items get a visible tag (e.g. "FR")
+#   summary      false = title + link only (licence does not allow excerpts)
+#   window_days  size of the {start}/{end} window
+#   max_stored   max items kept from this source (default: limits.max_stored_per_source)
+#   exclude_title  RE2 regexp; matching titles are dropped
 
 sources:
+  # --- United States ---------------------------------------------------------
+  # Licence: US federal government work, public domain.
   - id: cisa-kev
     name: "CISA Known Exploited Vulnerabilities"
     url: "https://www.cisa.gov/sites/default/files/feeds/known_exploited_vulnerabilities.json"
@@ -28,6 +36,7 @@ sources:
     tag: "advisory"
     homepage: "https://www.cisa.gov/news-events/cybersecurity-advisories"
     enabled: true
+    max_stored: 25
 
   - id: cisa-ics
     name: "CISA ICS Advisories"
@@ -36,15 +45,34 @@ sources:
     tag: "ics"
     homepage: "https://www.cisa.gov/news-events/cybersecurity-advisories/ics-advisories"
     enabled: true
+    max_stored: 15
 
+  # Critical-severity (CVSS v3) CVEs published in the last 3 days. NVD returns
+  # oldest-first, so an unfiltered query yields 1980s CVEs — the window is
+  # required. Anonymous access is fine at one request per 6h; ~20-30/week.
+  - id: nvd-recent
+    name: "NVD Critical CVEs"
+    url: "https://services.nvd.nist.gov/rest/json/cves/2.0?cvssV3Severity=CRITICAL&pubStartDate={start}&pubEndDate={end}&resultsPerPage=100"
+    kind: json
+    tag: "critical"
+    homepage: "https://nvd.nist.gov/vuln/search"
+    enabled: true
+    window_days: 3
+    max_stored: 30
+
+  # --- United Kingdom ----------------------------------------------------------
+  # Licence: Open Government Licence v3.0. The older report-rss-feed.xml went
+  # quiet in May 2025; all-rss-feed.xml carries news, blogs and guidance.
   - id: ncsc-uk
     name: "NCSC UK"
-    url: "https://www.ncsc.gov.uk/api/1/services/v1/report-rss-feed.xml"
+    url: "https://www.ncsc.gov.uk/api/1/services/v1/all-rss-feed.xml"
     kind: rss
     tag: "guidance"
     homepage: "https://www.ncsc.gov.uk/section/keep-up-to-date/all-reports"
     enabled: true
 
+  # --- European Union ------------------------------------------------------------
+  # Licence: EU institutions reuse policy (Decision 2011/833/EU), attribution.
   - id: cert-eu
     name: "CERT-EU"
     url: "https://cert.europa.eu/publications/threat-intelligence-rss"
@@ -53,21 +81,63 @@ sources:
     homepage: "https://cert.europa.eu/publications/threat-intelligence"
     enabled: true
 
-  - id: nvd-recent
-    name: "NVD Recent CVEs"
-    url: "https://services.nvd.nist.gov/rest/json/cves/2.0?resultsPerPage=50"
-    kind: json
-    tag: "CVE"
-    homepage: "https://nvd.nist.gov/vuln/search"
-    # Disabled until an NVD API key is provisioned (env NVD_API_KEY in the
-    # workflow). Anonymous requests are heavily rate-limited.
+  # --- France (ANSSI) --------------------------------------------------------
+  # Licence: Etalab Licence Ouverte 2.0 — commercial reuse with attribution.
+  # Alertes are rare and critical (actively exploited); content is in French.
+  - id: cert-fr-alerte
+    name: "CERT-FR Alertes"
+    url: "https://www.cert.ssi.gouv.fr/alerte/feed/"
+    kind: rss
+    tag: "alert"
+    homepage: "https://www.cert.ssi.gouv.fr/alerte/"
+    lang: fr
+    enabled: true
+
+  # Avis are routine patch notices, ~6/day, in French. Disabled pending a
+  # decision: they largely duplicate KEV/NVD in English and would dominate.
+  - id: cert-fr-avis
+    name: "CERT-FR Avis"
+    url: "https://www.cert.ssi.gouv.fr/avis/feed/"
+    kind: rss
+    tag: "advisory"
+    homepage: "https://www.cert.ssi.gouv.fr/avis/"
+    lang: fr
     enabled: false
+    max_stored: 15
+
+  # --- Germany (BSI / CERT-Bund) ---------------------------------------------
+  # ~125 advisories/day, in German, mostly medium/high routine patches.
+  # Disabled pending a decision (same reasons as CERT-FR Avis).
+  - id: bsi-cert-bund
+    name: "BSI CERT-Bund"
+    url: "https://wid.cert-bund.de/content/public/securityAdvisory/rss"
+    kind: rss
+    tag: "advisory"
+    homepage: "https://wid.cert-bund.de/portal/wid/kurzinformationen"
+    lang: de
+    enabled: false
+    max_stored: 15
+
+  # --- Community -----------------------------------------------------------------
+  # Licence: CC BY-NC-SA 4.0 — NonCommercial, so no excerpts on a company site:
+  # title + link + attribution only.
+  - id: sans-isc
+    name: "SANS Internet Storm Center"
+    url: "https://isc.sans.edu/rssfeed_full.xml"
+    kind: rss
+    tag: "research"
+    homepage: "https://isc.sans.edu/"
+    summary: false
+    exclude_title: "^ISC Stormcast"   # daily podcast episodes, not diaries
+    enabled: true
+    max_stored: 20
 
 # Global limits applied by the fetcher regardless of source.
 limits:
   http_timeout_seconds: 10
   max_response_bytes: 3145728        # 3 MiB
-  max_items_per_source: 40
+  max_items_per_source: 40           # per fetch
+  max_stored_per_source: 40          # per source in data/news.json (override: max_stored)
   user_agent: "SpectrumSecNewsBot/1.0 (+https://spectrumsec.eu/news/)"
   # Retention for data/news.json. Keep news.retentionDays / news.maxItems in
   # config/_default/params.toml in sync with these (params.toml is display-only).

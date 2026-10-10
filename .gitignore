@@ -108,3 +108,6 @@ desktop.ini
 .claude/
 CLAUDE.local.md
 *.log
+
+# local Board Briefing raw notes (tools/newsfetch -briefing)
+/briefing-notes.md
