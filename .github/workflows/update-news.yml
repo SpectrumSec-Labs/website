@@ -96,7 +96,7 @@ jobs:
           body: |
             Automated update of `data/news.json` by `tools/newsfetch`.
 
-            - Sources: `config/feeds.yaml` (government / CERT allowlist).
+            - Sources: `config/feeds.yaml` (licence-checked allowlist).
             - This PR only touches `data/news.json`. If it shows any other file,
               do **not** merge — investigate the aggregator.
             - Eligible for auto-merge once all checks pass.
