@@ -54,8 +54,14 @@ func newItem(s Source, title, rawURL, summary, rawDate string, now time.Time) It
 	if s.Tag != "" {
 		it.Tags = append(it.Tags, s.Tag)
 	}
+	if lang := strings.ToLower(strings.TrimSpace(s.Lang)); lang != "" && lang != "en" {
+		it.Tags = append(it.Tags, strings.ToUpper(lang))
+	}
 	for _, cve := range extractCVEs(title + " " + summary) {
 		it.Tags = append(it.Tags, cve)
+	}
+	if !s.keepSummary() {
+		it.Summary = ""
 	}
 	it.finalizeTags()
 	return it
@@ -158,8 +164,9 @@ func mergeTags(a, b []string) []string {
 }
 
 // pruneAndSort drops items older than the retention window, sorts newest-first
-// (id as a stable tie-break), and caps the total.
-func pruneAndSort(items []Item, now time.Time, retentionDays, max int) []Item {
+// (id as a stable tie-break), keeps at most caps[source] (or defaultCap) items
+// per source so no single feed dominates, and caps the total.
+func pruneAndSort(items []Item, now time.Time, retentionDays, max int, caps map[string]int, defaultCap int) []Item {
 	cutoff := now.AddDate(0, 0, -retentionDays)
 	kept := make([]Item, 0, len(items))
 	for _, it := range items {
@@ -174,8 +181,22 @@ func pruneAndSort(items []Item, now time.Time, retentionDays, max int) []Item {
 		}
 		return kept[i].publishedAt.After(kept[j].publishedAt)
 	})
-	if len(kept) > max {
-		kept = kept[:max]
+
+	perSource := make(map[string]int)
+	out := kept[:0]
+	for _, it := range kept {
+		limit, ok := caps[it.Source]
+		if !ok {
+			limit = defaultCap
+		}
+		if limit > 0 && perSource[it.Source] >= limit {
+			continue
+		}
+		perSource[it.Source]++
+		out = append(out, it)
 	}
-	return kept
+	if len(out) > max {
+		out = out[:max]
+	}
+	return out
 }

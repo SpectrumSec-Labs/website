@@ -4,6 +4,7 @@ import (
 	"encoding/json"
 	"encoding/xml"
 	"fmt"
+	"regexp"
 	"sort"
 	"strings"
 	"time"
@@ -25,6 +26,16 @@ func parseSource(s Source, body []byte, now time.Time) ([]Item, error) {
 	}
 	if err != nil {
 		return nil, err
+	}
+	if s.ExcludeTitle != "" {
+		re := regexp.MustCompile(s.ExcludeTitle) // validated in loadConfig
+		kept := items[:0]
+		for _, it := range items {
+			if !re.MatchString(it.Title) {
+				kept = append(kept, it)
+			}
+		}
+		items = kept
 	}
 	// Newest first, then cap per source.
 	sort.SliceStable(items, func(i, j int) bool {

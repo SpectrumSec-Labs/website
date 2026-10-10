@@ -12,10 +12,13 @@
           Showing items from the last {{ site.Params.news.retentionDays }} days.
         </p>
       {{ end }}
-      <p class="u-mt-s">
+      <p class="u-mt-s u-cluster">
         <a class="chip chip--accent" href="{{ "news/index.xml" | relURL }}">
           {{ partial "icon.html" (dict "name" "rss") }} Subscribe to this feed
         </a>
+        {{ with site.GetPage "/tags/board-briefing" }}
+          <a class="chip" href="{{ .RelPermalink }}">Board Briefing — what this means for leadership</a>
+        {{ end }}
       </p>
     </div>
 

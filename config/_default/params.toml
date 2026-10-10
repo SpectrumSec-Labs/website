@@ -47,7 +47,7 @@
   # Retention shown on the site; the fetcher enforces the same window.
   retentionDays = 90
   maxItems      = 200
-  disclaimer    = "Aggregated from public government and CERT sources. SpectrumSec does not author these items — follow each link for the original advisory."
+  disclaimer    = "Aggregated from public government, CERT and community sources. SpectrumSec does not author these items — follow each link for the original."
 
 [build]
   # Set by CI (SITE_BUILD_REV env) so the footer can show a build id.

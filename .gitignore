@@ -106,5 +106,9 @@ desktop.ini
 .vscode/*
 !.vscode/extensions.json
 .claude/
+CLAUDE.md
 CLAUDE.local.md
 *.log
+
+# local Board Briefing raw notes (tools/newsfetch -briefing)
+/briefing-notes.md
