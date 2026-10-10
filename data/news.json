@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-10-10T12:44:07Z",
+  "generated": "2026-10-10T21:52:42Z",
   "items": [
+    {
+      "id": "447301a5b758ef4e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108598: Floci 1.1.0 before 2.2.0 contains a code injection vulnerability in VtlTemplateEngine that…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108598",
+      "published": "2026-10-10T19:16:58Z",
+      "summary": "Floci 1.1.0 before 2.2.0 contains a code injection vulnerability in VtlTemplateEngine that allows unauthenticated attackers to execute commands via unrestricted Velocity mapping templates. Attackers can create a REST API with a MOCK integration whose template uses $util reflectio…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108598",
+        "critical"
+      ]
+    },
+    {
+      "id": "d7baf026bf792e67",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108551: openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108551",
+      "published": "2026-10-10T15:16:58Z",
+      "summary": "openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to inject JavaScript by supplying unescaped values interpolated into single-quoted string literals. Attackers can embed a single quote in path k…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108551",
+        "critical"
+      ]
+    },
     {
       "id": "22a3e2e00caf6482",
       "source": "sans-isc",
@@ -196,20 +224,6 @@
       ]
     },
     {
-      "id": "9340a1a43ba48294",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82335: IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82335",
-      "published": "2026-10-08T20:17:36Z",
-      "summary": "IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflow in the MongoDB protocol parser. A remote attacker could send a specially crafted MongoDB SCRAM username containing an excessive length and cause memory corruption, potentially resulting in…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82335",
-        "critical"
-      ]
-    },
-    {
       "id": "5ca2364cb253a6a9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -220,6 +234,20 @@
       "tags": [
         "CVE",
         "CVE-2026-82334",
+        "critical"
+      ]
+    },
+    {
+      "id": "9340a1a43ba48294",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82335: IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82335",
+      "published": "2026-10-08T20:17:36Z",
+      "summary": "IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflow in the MongoDB protocol parser. A remote attacker could send a specially crafted MongoDB SCRAM username containing an excessive length and cause memory corruption, potentially resulting in…",
+      "tags": [
+        "CVE",
+        "CVE-2026-82335",
         "critical"
       ]
     },
