@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-10T21:52:42Z",
+  "generated": "2026-10-11T06:00:51Z",
   "items": [
+    {
+      "id": "8065e311e22242c4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108707: Wukong_HRM through commit 186115e contains an authentication bypass vulnerability in Param…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108707",
+      "published": "2026-10-11T02:16:39Z",
+      "summary": "Wukong_HRM through commit 186115e contains an authentication bypass vulnerability in ParamAspect that allows unauthenticated attackers to call every HRM API endpoint by omitting the AUTH-TOKEN header. Attackers gain HR administrator access to read payslips, salary history and emp…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108707",
+        "critical"
+      ]
+    },
     {
       "id": "447301a5b758ef4e",
       "source": "nvd-recent",
