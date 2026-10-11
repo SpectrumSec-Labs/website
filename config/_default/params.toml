@@ -16,7 +16,7 @@
   foundingYear    = 2024
 
 [brand]
-  tagline     = "Offensive-minded security for teams that ship."
+  tagline     = "The full spectrum of cyber security, under one roof."
   description  = "SpectrumSec finds and helps fix security weaknesses through practitioner-led penetration testing, red teaming, phishing simulation, awareness training, and infrastructure hardening."
   # Two accents, used sparingly. See assets/css/tokens.css for the full palette.
   themeColor  = "#0b0f17"

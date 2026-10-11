@@ -25,7 +25,7 @@
 <section class="section" id="services">
   <div class="container">
     <div class="section__head">
-      <p class="section__eyebrow">What we do</p>
+      <p class="section__eyebrow"></p>
       <h2>{{ .Params.headline | default "Security services" }}</h2>
       <p class="section__lead">{{ .Params.summary | default .Summary }}</p>
     </div>
@@ -39,6 +39,7 @@
         </article>
       {{ end }}
     </div>
+    {{ partial "private-note.html" . }}
   </div>
 </section>
 {{ end }}
