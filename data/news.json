@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-10-11T13:06:39Z",
+  "generated": "2026-10-11T22:08:31Z",
   "items": [
+    {
+      "id": "703888c7aed11f86",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108860: BotSharp through 5.2.0 contains an authentication bypass vulnerability that allows unauthe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108860",
+      "published": "2026-10-11T14:17:05Z",
+      "summary": "BotSharp through 5.2.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge bearer tokens using the hard-coded Jwt:Key in WebStarter appsettings.json. Attackers can sign tokens with the committed HMAC secret and fixed botsharp issu…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108860",
+        "critical"
+      ]
+    },
+    {
+      "id": "40c4eecc33ac547d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108753: Agnaistic agnai through 1.0.555 contains a hard-coded credentials vulnerability in self-ho…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108753",
+      "published": "2026-10-11T13:17:20Z",
+      "summary": "Agnaistic agnai through 1.0.555 contains a hard-coded credentials vulnerability in self-host.docker-compose.yml, which sets a fixed admin password and public JWT secret. Unauthenticated attackers can log in as admin or sign their own JWT with admin: true to impersonate users, res…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108753",
+        "critical"
+      ]
+    },
+    {
+      "id": "61862795825b3a91",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108576: A vulnerability was found in TOZED X300 up to 6.01.3. This vulnerability affects the funct…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108576",
+      "published": "2026-10-11T13:17:13Z",
+      "summary": "A vulnerability was found in TOZED X300 up to 6.01.3. This vulnerability affects the function process_ping of the component IPPingDiagnostics Handler. The manipulation of the argument Host results in os command injection. The attack can be launched remotely. The vendor was contac…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108576",
+        "critical"
+      ]
+    },
     {
       "id": "9074eb8c0b75ffe7",
       "source": "nvd-recent",
