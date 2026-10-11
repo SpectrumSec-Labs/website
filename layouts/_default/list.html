@@ -22,6 +22,7 @@
           </article>
         {{ end }}
       </div>
+      {{ partial "private-note.html" . }}
     {{ else }}
       {{ $paginator := .Paginate $pages }}
       <ul class="post-list">

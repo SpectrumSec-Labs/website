@@ -1,0 +1,9 @@
+{{- /* Discreet line under the services grid. Context: the /services section page.
+       Copy lives in content/services/_index.md (private_note, private_cta);
+       remove private_note there to hide it everywhere. */ -}}
+{{- $cta := .Params.private_cta | default "Request a confidential conversation" -}}
+{{- with .Params.private_note }}
+<p class="private-note u-mt-l u-muted u-small">{{ . }}
+  <a class="card__more" href="/contact/">{{ $cta }} {{ partial "icon.html" (dict "name" "arrow-right") }}</a>
+</p>
+{{- end }}
