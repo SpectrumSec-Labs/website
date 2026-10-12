@@ -41,6 +41,8 @@
   expires    = "2027-03-01T00:00:00Z"
   policyPath  = "/legal/security-policy/"
   pgpKeyPath  = "/pgp-key.txt"
+  # Shown next to the key so people can verify what they downloaded.
+  pgpFingerprint = "E293 9206 FDF7 EE82 960C  E276 004C 0AA0 E805 EB53"
   preferredLanguages = "en"
 
 [news]

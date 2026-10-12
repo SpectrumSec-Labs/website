@@ -1,7 +1,7 @@
 ---
 title: "Responsible disclosure policy"
 description: "How to report a security vulnerability in the SpectrumSec website or our published material."
-lastmod: 2026-08-30
+lastmod: 2026-10-12
 aliases: ["/security-policy/"]
 ---
 
@@ -12,7 +12,7 @@ want to hear from you.
 ## How to report
 
 - Email `security@spectrumsec.eu`, encrypted to our [PGP key](/pgp-key.txt) where
-  possible.
+  possible. Key fingerprint: `E293 9206 FDF7 EE82 960C  E276 004C 0AA0 E805 EB53`.
 - Include enough detail to reproduce the issue: URLs, payloads, and the impact you
   observed.
 - Please give us a reasonable time to remediate before any public disclosure.

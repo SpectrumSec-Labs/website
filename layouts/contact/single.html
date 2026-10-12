@@ -31,6 +31,9 @@
             <a href="/.well-known/security.txt">security.txt</a> ·
             <a href="{{ site.Params.securityTxt.policyPath }}">disclosure policy</a>
           </p>
+          {{ with site.Params.securityTxt.pgpFingerprint }}
+          <p class="u-small u-muted">Key fingerprint:<br><code>{{ . }}</code></p>
+          {{ end }}
         </div>
 
         {{ $linkedin := site.Params.social.linkedin }}
