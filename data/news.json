@@ -1,7 +1,103 @@
 {
   "schema": 1,
-  "generated": "2026-10-11T22:08:31Z",
+  "generated": "2026-10-12T15:45:19Z",
   "items": [
+    {
+      "id": "dbb135a27a9fa86f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108896: A vulnerability was found in Linksys E1700 1.0.0.4.003. This affects the function setLinks…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108896",
+      "published": "2026-10-12T15:17:07Z",
+      "summary": "A vulnerability was found in Linksys E1700 1.0.0.4.003. This affects the function setLinksysIpv6 of the file /goform/setLinksysIpv6. The manipulation of the argument _6rd_prefix/_6rd_prefix_len results in os command injection. The attack can be launched remotely. The exploit has…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108896",
+        "critical"
+      ]
+    },
+    {
+      "id": "a5e690428832800f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108895: A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the f…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108895",
+      "published": "2026-10-12T15:17:07Z",
+      "summary": "A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the function setDMZ of the file /goform/setDMZ. Executing a manipulation of the argument MAC_addr can lead to os command injection. The attack can be executed remotely. The exploit has been made…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108895",
+        "critical"
+      ]
+    },
+    {
+      "id": "f2c8dab25b332233",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108894: A security flaw has been discovered in Linksys E1700 1.0.0.4.003. Impacted is the function…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108894",
+      "published": "2026-10-12T14:17:09Z",
+      "summary": "A security flaw has been discovered in Linksys E1700 1.0.0.4.003. Impacted is the function addStaticRoute of the file /goform/addStaticRoute of the component Static Route Handler. Performing a manipulation of the argument staticRoute_IP_setting/staticRoute_Netmask_setting/staticR…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108894",
+        "critical"
+      ]
+    },
+    {
+      "id": "fdfc503af08a4c9c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108893: A vulnerability was identified in Linksys E1700 up to 1.0.0.4.003. This issue affects the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108893",
+      "published": "2026-10-12T14:17:09Z",
+      "summary": "A vulnerability was identified in Linksys E1700 up to 1.0.0.4.003. This issue affects the function setVlan of the file /goform/setVlan. Such manipulation of the argument vlan_set leads to stack-based buffer overflow. The attack may be launched remotely. The exploit is publicly av…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108893",
+        "critical"
+      ]
+    },
+    {
+      "id": "ed51b246548209fa",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108892: A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108892",
+      "published": "2026-10-12T14:17:09Z",
+      "summary": "A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects the function ssid1MACFilter of the file /goform/ssid1MACFilter of the component Mac Filter. This manipulation of the argument newap_text_%d causes stack-based buffer overflow. The attack may b…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108892",
+        "critical"
+      ]
+    },
+    {
+      "id": "bd329adf4cfc001e",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Help the NCSC understand how organisations approach external attack surface risk",
+      "url": "https://www.ncsc.gov.uk/blogs/help-ncsc-understand-how-organisations-approach-external-attack-surface-risk",
+      "published": "2026-10-12T12:00:00Z",
+      "summary": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "b2adae3facc9e3b4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108804: A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B0…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108804",
+      "published": "2026-10-12T06:16:59Z",
+      "summary": "A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B03. Affected is the function fwrite of the file pigwidgeon.cgi of the component Web Management Backend. The manipulation of the argument service results in os command injection. It is possibl…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108804",
+        "critical"
+      ]
+    },
     {
       "id": "703888c7aed11f86",
       "source": "nvd-recent",
@@ -490,34 +586,6 @@
       "tags": [
         "KEV",
         "CVE-2015-3306"
-      ]
-    },
-    {
-      "id": "c041b3d41143af95",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76459: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76459",
-      "published": "2026-10-07T17:16:58Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco NX-OS engineering team has conducted a comprehensive internal security review. This review resulted in a software hardening release that addresses multiple internally discovered vulnerabili…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76459",
-        "critical"
-      ]
-    },
-    {
-      "id": "4a9b9d119050e60c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76454: A vulnerability in the Cisco Smart Licensing Utility API of Cisco License On-Prem, formerl…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76454",
-      "published": "2026-10-07T17:16:57Z",
-      "summary": "A vulnerability in the Cisco Smart Licensing Utility API of Cisco License On-Prem, formerly Cisco Smart Software Manager On-Prem (SSM On-Prem), could allow an unauthenticated, remote attacker to write arbitrary files to the system or cause a DoS condition on an affected applicati…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76454",
-        "critical"
       ]
     },
     {
