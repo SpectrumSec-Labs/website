@@ -1,425 +1,504 @@
 {
   "schema": 1,
-  "generated": "2026-10-13T14:24:04Z",
+  "generated": "2026-10-13T22:55:58Z",
   "items": [
     {
-      "id": "1122c11e40f84677",
+      "id": "45953f6717fed5da",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-74043: Wazuh from 4.1.1 before 4.14.8 contains a path traversal vulnerability in upload_list_file…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74043",
-      "published": "2026-10-13T14:17:41Z",
-      "summary": "Wazuh from 4.1.1 before 4.14.8 contains a path traversal vulnerability in upload_list_file, upload_rule_file, and upload_decoder_file that allows malicious cluster workers to write files at arbitrary paths. Attackers holding the cluster key can send DistributedAPI requests with…",
+      "title": "CVE-2026-93909: IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.10 is vulnerable by an…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93909",
+      "published": "2026-10-13T21:19:57Z",
+      "summary": "IBM WebSphere Application Server - Liberty 17.0.0.3 through 26.0.0.10 is vulnerable by an authentication bypass vulnerability when samlWeb-2.0 feature is enabled.",
       "tags": [
         "CVE",
-        "CVE-2026-74043",
+        "CVE-2026-93909",
         "critical"
       ]
     },
     {
-      "id": "9ab263b6aab4a06f",
+      "id": "cc54b2a53a6c9ced",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-74041: Wazuh 4.14.3 before 4.14.8 contains a case-sensitivity mismatch between the ossec.conf val…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74041",
-      "published": "2026-10-13T14:17:40Z",
-      "summary": "Wazuh 4.14.3 before 4.14.8 contains a case-sensitivity mismatch between the ossec.conf validator and wazuh-logcollector that bypasses remote-command validation. Authenticated users with manager:update_config can inject an uppercase LOG_FORMAT command localfile that the collector…",
+      "title": "CVE-2026-93895: IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unau…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93895",
+      "published": "2026-10-13T21:19:57Z",
+      "summary": "IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unauthenticated remote attacker to bypass access controls configured on gRPC service methods.",
       "tags": [
         "CVE",
-        "CVE-2026-74041",
+        "CVE-2026-93895",
         "critical"
       ]
     },
     {
-      "id": "b6f5af6281869afc",
+      "id": "790ec27c5514fbc7",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-74040: Wazuh versions from 3.9.0 before 4.14.8 contain an arbitrary file overwrite vulnerability…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74040",
-      "published": "2026-10-13T14:17:40Z",
-      "summary": "Wazuh versions from 3.9.0 before 4.14.8 contain an arbitrary file overwrite vulnerability in MasterHandler.process_files_from_worker allowing a cluster worker to overwrite protected master files. Attackers controlling a worker can use a trailing-slash basename bypass and missing…",
+      "title": "CVE-2026-90530: ColdFusion RDS is affected by an Improper Limitation of a Pathname to a Restricted Directo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90530",
+      "published": "2026-10-13T21:19:57Z",
+      "summary": "ColdFusion RDS is affected by an Improper Limitation of a Pathname to a Restricted Directory ('Path Traversal') vulnerability that could lead to arbitrary file system read. An attacker could exploit this vulnerability to access sensitive files and directories outside the intended…",
       "tags": [
         "CVE",
-        "CVE-2026-74040",
+        "CVE-2026-90530",
         "critical"
       ]
     },
     {
-      "id": "a758d49d600f0d9a",
+      "id": "f52821c2772fc9b8",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109157: A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. Affected by this vulnerability i…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109157",
-      "published": "2026-10-13T11:17:14Z",
-      "summary": "A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. Affected by this vulnerability is the function formTcpipSetup of the file /goform/formTcpipSetup. Performing a manipulation of the argument Name results in stack-based buffer overflow. It is possible to initiate the attack…",
+      "title": "CVE-2026-75994: ColdFusion is affected by an Incorrect Authorization vulnerability that could result in ar…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75994",
+      "published": "2026-10-13T21:18:20Z",
+      "summary": "ColdFusion is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. The vulnerable component is restricted to an administrative…",
       "tags": [
         "CVE",
-        "CVE-2026-109157",
+        "CVE-2026-75994",
         "critical"
       ]
     },
     {
-      "id": "6cc88e757ed1462d",
+      "id": "a7e84db9bec25d42",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-63354: Affected devices do not properly validate and sanitize visual marker data contained in imp…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63354",
-      "published": "2026-10-13T10:17:18Z",
-      "summary": "Affected devices do not properly validate and sanitize visual marker data contained in imported CSV trace files before rendering it on the Trace page. This could allow an attacker to social engineer an authorized user who holds the function right “Read diagnostics” into importing…",
+      "title": "CVE-2026-49950: Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-49950",
+      "published": "2026-10-13T21:17:39Z",
+      "summary": "Xorbits Xoscar through 0.11.2 contains an unauthenticated deserialization vulnerability that allows remote attackers to execute arbitrary code by sending crafted data over the actor-pool TCP channel. Attackers can exploit SocketChannel.recv() passing unvalidated data to cloudpick…",
       "tags": [
         "CVE",
-        "CVE-2026-63354",
+        "CVE-2026-49950",
         "critical"
       ]
     },
     {
-      "id": "30f1bea288cdf22d",
+      "id": "21d198330903f7f9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-63353: Affected devices do not properly sanitize comment fields contained in imported trace files…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63353",
-      "published": "2026-10-13T10:17:18Z",
-      "summary": "Affected devices do not properly sanitize comment fields contained in imported trace files before rendering them on the Trace page. This could allow an attacker to social engineer an authorized user who holds the function right “Read diagnostics” into importing a specially crafte…",
+      "title": "CVE-2026-106624: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106624",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issu…",
       "tags": [
         "CVE",
-        "CVE-2026-63353",
+        "CVE-2026-106624",
         "critical"
       ]
     },
     {
-      "id": "2278a706c469c4d0",
+      "id": "e7eaa3aed8ece062",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-44415: Affected systems do not properly restrict access to internal APIs and paths for authentica…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44415",
-      "published": "2026-10-13T10:17:16Z",
-      "summary": "Affected systems do not properly restrict access to internal APIs and paths for authenticated users. This could allow an authenticated remote attacker to access sensitive internal information, which in the worst case could be leveraged to facilitate unauthorized access to the sys…",
+      "title": "CVE-2026-106622: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could re…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106622",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
       "tags": [
         "CVE",
-        "CVE-2026-44415",
+        "CVE-2026-106622",
         "critical"
       ]
     },
     {
-      "id": "c1484a66884203af",
+      "id": "a9a32921ab4f8df9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109110: A flaw has been found in Wavlink WL-WN592AX6 250422. This issue affects the function syste…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109110",
-      "published": "2026-10-13T09:17:15Z",
-      "summary": "A flaw has been found in Wavlink WL-WN592AX6 250422. This issue affects the function system of the component wmapd Daemon. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. The…",
+      "title": "CVE-2026-106621: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106621",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issu…",
       "tags": [
         "CVE",
-        "CVE-2026-109110",
+        "CVE-2026-106621",
         "critical"
       ]
     },
     {
-      "id": "f9137c297dd20c13",
+      "id": "999424b4c12ff3a7",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109109: A vulnerability was detected in Wavlink WL-WN530BE1-A 251117. This vulnerability affects t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109109",
-      "published": "2026-10-13T08:17:00Z",
-      "summary": "A vulnerability was detected in Wavlink WL-WN530BE1-A 251117. This vulnerability affects the function strcpy of the file /cgi-bin/ExportAllSettings.cgi of the component Settings Export CGI. Performing a manipulation of the argument HTTP_COOKIE/X-Cmd results in stack-based buffer…",
+      "title": "CVE-2026-106620: ColdFusion is affected by an Incorrect Authorization vulnerability that could result in a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106620",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by an Incorrect Authorization vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measures and gain unauthorized write access. Exploitation of this issue does not requi…",
       "tags": [
         "CVE",
-        "CVE-2026-109109",
+        "CVE-2026-106620",
         "critical"
       ]
     },
     {
-      "id": "7e2391434ddaaf1f",
+      "id": "7118d1c6e3c66d36",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109108: A security vulnerability has been detected in Wavlink WL-WN530BE1-A 251117. This affects t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109108",
-      "published": "2026-10-13T08:16:59Z",
-      "summary": "A security vulnerability has been detected in Wavlink WL-WN530BE1-A 251117. This affects the function popen of the file /cgi-bin/uploadVpn.cgi. Such manipulation of the argument Type leads to os command injection. The attack may be performed from remote. The exploit has been disc…",
+      "title": "CVE-2026-106619: ColdFusion is affected by an Improper Input Validation vulnerability that could result in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106619",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploit depends on conditions beyond the attacker's contr…",
       "tags": [
         "CVE",
-        "CVE-2026-109108",
+        "CVE-2026-106619",
         "critical"
       ]
     },
     {
-      "id": "b4e84aeb6107fb4e",
+      "id": "d3a2920ba024a919",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108971: A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108971",
-      "published": "2026-10-13T06:16:50Z",
-      "summary": "A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of the file bootloader_region.bin of the component Emergency HTTP Recovery Server. Executing a manipulation of the argument firmware can lead to improper verification of cryptographic signatur…",
+      "title": "CVE-2026-106612: ColdFusion is affected by an Incorrect Authorization vulnerability that could result in ar…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106612",
+      "published": "2026-10-13T21:17:30Z",
+      "summary": "ColdFusion is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not require u…",
       "tags": [
         "CVE",
-        "CVE-2026-108971",
+        "CVE-2026-106612",
         "critical"
       ]
     },
     {
-      "id": "74ab7e5783e6b531",
+      "id": "f42826013f300d91",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-96119: IBM i 7.3, 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to obtain sensiti…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96119",
-      "published": "2026-10-13T00:17:02Z",
-      "summary": "IBM i 7.3, 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to obtain sensitive information or execute arbitrary code on the system due to improper data sanitization by the HTTP Server Administration web application.",
+      "title": "CVE-2026-105903: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105903",
+      "published": "2026-10-13T21:17:29Z",
+      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitatio…",
       "tags": [
         "CVE",
-        "CVE-2026-96119",
+        "CVE-2026-105903",
         "critical"
       ]
     },
     {
-      "id": "2d757cfcd8faafc7",
+      "id": "f27e8a9fbc7a4514",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82103: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82103",
-      "published": "2026-10-12T23:17:42Z",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an exposure of sensitive information to an unauthorized actor.",
+      "title": "CVE-2026-105899: ColdFusion is affected by an Unrestricted Upload of File with Dangerous Type vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105899",
+      "published": "2026-10-13T21:17:29Z",
+      "summary": "ColdFusion is affected by an Unrestricted Upload of File with Dangerous Type vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue does not…",
       "tags": [
         "CVE",
-        "CVE-2026-82103",
+        "CVE-2026-105899",
         "critical"
       ]
     },
     {
-      "id": "824401fe5fca9459",
+      "id": "d5511ef2eb152b89",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82110: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82110",
-      "published": "2026-10-12T23:17:42Z",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to execute arbitrary code due to improper validation of pathname during a path traversal.",
+      "title": "CVE-2026-90532: Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that coul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90532",
+      "published": "2026-10-13T20:19:10Z",
+      "summary": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does…",
       "tags": [
         "CVE",
-        "CVE-2026-82110",
+        "CVE-2026-90532",
         "critical"
       ]
     },
     {
-      "id": "7a29751e4b29dd93",
+      "id": "1810c09810efc5a8",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82101: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82101",
-      "published": "2026-10-12T23:17:41Z",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to cause a denial of service due to a path traversal vulnerability.",
+      "title": "CVE-2026-83662: Adobe Experience Manager is affected by a reflected Cross-Site Scripting (XSS) vulnerabili…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83662",
+      "published": "2026-10-13T20:18:11Z",
+      "summary": "Adobe Experience Manager is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploitatio…",
       "tags": [
         "CVE",
-        "CVE-2026-82101",
+        "CVE-2026-83662",
         "critical"
       ]
     },
     {
-      "id": "ccf74733f079b34d",
+      "id": "3565fedbd4bcf3e3",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-90920: IBM Maximo AI Service 9.1.0, and 9.2.0 could allow a remote attacker to execute arbitrary…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90920",
-      "published": "2026-10-12T22:17:05Z",
-      "summary": "IBM Maximo AI Service 9.1.0, and 9.2.0 could allow a remote attacker to execute arbitrary code due to improper control of code generation.",
+      "title": "CVE-2026-75732: Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that coul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-75732",
+      "published": "2026-10-13T20:18:04Z",
+      "summary": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does…",
       "tags": [
         "CVE",
-        "CVE-2026-90920",
+        "CVE-2026-75732",
         "critical"
       ]
     },
     {
-      "id": "59b91208a69d81ce",
+      "id": "3e9a1d0c5200a2c3",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109566: Rapyd Admin from 9.0.0 before 9.20.0 contains a hard-coded credentials vulnerability that…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109566",
-      "published": "2026-10-12T21:17:13Z",
-      "summary": "Rapyd Admin from 9.0.0 before 9.20.0 contains a hard-coded credentials vulnerability that allows remote unauthenticated attackers to gain super-admin access through an AuthSeeder-created admin@laravel account with password admin. The account is seeded by the setup installer and s…",
+      "title": "CVE-2026-63146: Omnispace Agora Project before 26.10.0 contains a code injection vulnerability where unesc…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63146",
+      "published": "2026-10-13T20:17:30Z",
+      "summary": "Omnispace Agora Project before 26.10.0 contains a code injection vulnerability where unescaped, attacker-controlled values are written into the config.inc.php configuration file during installation through File::updateConfigFile() and DbInstall::dbControl(), combined with an SQL…",
       "tags": [
         "CVE",
-        "CVE-2026-109566",
+        "CVE-2026-63146",
         "critical"
       ]
     },
     {
-      "id": "e4bddbf070f4238f",
+      "id": "2a9c453fcafc3ddd",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108929: A flaw has been found in Netcore NR268 1.7.121109. The affected element is the function ex…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108929",
-      "published": "2026-10-12T21:17:09Z",
-      "summary": "A flaw has been found in Netcore NR268 1.7.121109. The affected element is the function execvp of the file /router/DDNSset.cgi of the component DDNS. Executing a manipulation of the argument Hostname can lead to argument injection. The attack can be launched remotely.",
+      "title": "CVE-2026-48383: Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that coul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48383",
+      "published": "2026-10-13T20:17:29Z",
+      "summary": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does…",
       "tags": [
         "CVE",
-        "CVE-2026-108929",
+        "CVE-2026-48383",
         "critical"
       ]
     },
     {
-      "id": "5d9d7b49f398913f",
+      "id": "1ae50f1cc6b90c88",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2025-71429: GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in tools/u…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71429",
-      "published": "2026-10-12T21:17:07Z",
-      "summary": "GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in tools/uvr5/vr.py that allows unauthenticated attackers to execute commands via output folder paths. Attackers can enter shell substitutions like $(...) in the UVR5 WebUI output folder textboxes wit…",
+      "title": "CVE-2026-48382: Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that coul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48382",
+      "published": "2026-10-13T20:17:28Z",
+      "summary": "Adobe Experience Manager is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue does…",
       "tags": [
         "CVE",
-        "CVE-2025-71429",
+        "CVE-2026-48382",
         "critical"
       ]
     },
     {
-      "id": "afca647b9f2e108c",
+      "id": "d2b619121e6e6f23",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-96012: IBM Db2 Mirror for i 7.4, 7.5, and 7.6 is vulnerable to privilege escalation. An authentic…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96012",
-      "published": "2026-10-12T20:17:10Z",
-      "summary": "IBM Db2 Mirror for i 7.4, 7.5, and 7.6 is vulnerable to privilege escalation. An authenticated attacker could craft a malicious request that bypasses additional authorization and input validation checks to execute malicious code. An attacker could exploit this vulnerability to ob…",
+      "title": "CVE-2026-106630: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106630",
+      "published": "2026-10-13T20:17:16Z",
+      "summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containin…",
       "tags": [
         "CVE",
-        "CVE-2026-96012",
+        "CVE-2026-106630",
         "critical"
       ]
     },
     {
-      "id": "95693847a7352fce",
+      "id": "7461c4878ef1731d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-87744: A flaw was found in Quarkus REST Data Panache. This vulnerability allows unauthenticated a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87744",
-      "published": "2026-10-12T19:16:40Z",
-      "summary": "A flaw was found in Quarkus REST Data Panache. This vulnerability allows unauthenticated attackers to bypass security controls on generated endpoints. When a developer customizes a specific operation using @MethodProperties without explicitly re-declaring security roles, the code…",
+      "title": "CVE-2026-106629: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106629",
+      "published": "2026-10-13T20:17:16Z",
+      "summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containin…",
       "tags": [
         "CVE",
-        "CVE-2026-87744",
+        "CVE-2026-106629",
         "critical"
       ]
     },
     {
-      "id": "260d2b9b52d55ef3",
+      "id": "f7376fb0570c8f3d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108918: A vulnerability was identified in Edimax BR-6208AC 1.32. Impacted is an unknown function o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108918",
-      "published": "2026-10-12T18:17:22Z",
-      "summary": "A vulnerability was identified in Edimax BR-6208AC 1.32. Impacted is an unknown function of the file /goform/formWlanMP. The manipulation of the argument readE2P leads to command injection. It is possible to initiate the attack remotely. The exploit is publicly available and migh…",
+      "title": "CVE-2026-106626: Adobe Experience Manager is affected by an Improper Input Validation vulnerability that co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106626",
+      "published": "2026-10-13T20:17:16Z",
+      "summary": "Adobe Experience Manager is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this vulnerability to execute arbitrary code. Exploitation of this i…",
       "tags": [
         "CVE",
-        "CVE-2026-108918",
+        "CVE-2026-106626",
         "critical"
       ]
     },
     {
-      "id": "bd423714858a430c",
+      "id": "d4237bf74ea5f623",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108917: A vulnerability was determined in Edimax BR-6208AC 1.32. This issue affects some unknown p…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108917",
-      "published": "2026-10-12T18:17:22Z",
-      "summary": "A vulnerability was determined in Edimax BR-6208AC 1.32. This issue affects some unknown processing of the file /goform/formAutoFWupgrade. Executing a manipulation of the argument tftpsIP can lead to command injection. The attack may be performed from remote. The exploit has been…",
+      "title": "CVE-2026-105895: Adobe Experience Manager is affected by an Improper Input Validation vulnerability that co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105895",
+      "published": "2026-10-13T20:17:15Z",
+      "summary": "Adobe Experience Manager is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session. Exploitation of this issue doe…",
       "tags": [
         "CVE",
-        "CVE-2026-108917",
+        "CVE-2026-105895",
         "critical"
       ]
     },
     {
-      "id": "3c751cd420c532ee",
+      "id": "13b7f8a28dd638aa",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108915: A vulnerability has been found in Edimax BR-6208AC 1.32. This affects an unknown part of t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108915",
-      "published": "2026-10-12T18:17:21Z",
-      "summary": "A vulnerability has been found in Edimax BR-6208AC 1.32. This affects an unknown part of the file /goform/formWlanMP. Such manipulation of the argument ateBW leads to buffer overflow. The attack can be executed remotely. The exploit has been disclosed to the public and may be use…",
+      "title": "CVE-2026-103848: Adobe Experience Manager is affected by an Improper Neutralization of Special Elements use…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103848",
+      "published": "2026-10-13T20:17:11Z",
+      "summary": "Adobe Experience Manager is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulne…",
       "tags": [
         "CVE",
-        "CVE-2026-108915",
+        "CVE-2026-103848",
         "critical"
       ]
     },
     {
-      "id": "ac9fc83652302d47",
+      "id": "ad23861831136216",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "October 2026 Microsoft Patch Tuesday, (Tue, Oct 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33422",
+      "published": "2026-10-13T19:25:52Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "caf7d712a032cffb",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109321: Grav Login OAuth plugin (grav-plugin-login-oauth) before 1.4.3 provisions OAuth accounts a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109321",
-      "published": "2026-10-12T17:17:27Z",
-      "summary": "Grav Login OAuth plugin (grav-plugin-login-oauth) before 1.4.3 provisions OAuth accounts as ordinary Grav users with a deterministic . username and an unsalted MD5 hash of the provider identifier as the password, without disabling password login. Unauthenticated remote attackers…",
+      "title": "CVE-2026-97816: Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97816",
+      "published": "2026-10-13T19:22:20Z",
+      "summary": "Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-109321",
+        "CVE-2026-97816",
         "critical"
       ]
     },
     {
-      "id": "6de1bf5df5495904",
+      "id": "5a1232ee18f09fdc",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108914: A flaw has been found in Edimax BR-6208AC 1.32. Affected by this issue is some unknown fun…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108914",
-      "published": "2026-10-12T17:17:13Z",
-      "summary": "A flaw has been found in Edimax BR-6208AC 1.32. Affected by this issue is some unknown functionality of the file /goform/formWlSiteSurvey. This manipulation of the argument ifname causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been publishe…",
+      "title": "CVE-2026-97815: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to e…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97815",
+      "published": "2026-10-13T19:22:19Z",
+      "summary": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-108914",
+        "CVE-2026-97815",
         "critical"
       ]
     },
     {
-      "id": "ed282ec2ab5eb518",
+      "id": "bc2d19fb09118c37",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108907: A vulnerability was determined in Netcore NR268 1.7.121109. Affected is the function user_…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108907",
-      "published": "2026-10-12T17:17:13Z",
-      "summary": "A vulnerability was determined in Netcore NR268 1.7.121109. Affected is the function user_ok of the component CGI Execution. This manipulation causes improper authentication. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized. The ve…",
+      "title": "CVE-2026-97814: Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to exec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97814",
+      "published": "2026-10-13T19:22:19Z",
+      "summary": "Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-108907",
+        "CVE-2026-97814",
         "critical"
       ]
     },
     {
-      "id": "a5e690428832800f",
+      "id": "75e5c62270b02949",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108895: A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the f…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108895",
-      "published": "2026-10-12T15:17:07Z",
-      "summary": "A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the function setDMZ of the file /goform/setDMZ. Executing a manipulation of the argument MAC_addr can lead to os command injection. The attack can be executed remotely. The exploit has been made…",
+      "title": "CVE-2026-97805: Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97805",
+      "published": "2026-10-13T19:22:18Z",
+      "summary": "Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-108895",
+        "CVE-2026-97805",
         "critical"
       ]
     },
     {
-      "id": "dbb135a27a9fa86f",
+      "id": "4f6fa8db0871bc73",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108896: A vulnerability was found in Linksys E1700 1.0.0.4.003. This affects the function setLinks…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108896",
-      "published": "2026-10-12T15:17:07Z",
-      "summary": "A vulnerability was found in Linksys E1700 1.0.0.4.003. This affects the function setLinksysIpv6 of the file /goform/setLinksysIpv6. The manipulation of the argument _6rd_prefix/_6rd_prefix_len results in os command injection. The attack can be launched remotely. The exploit has…",
+      "title": "CVE-2026-97016: Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97016",
+      "published": "2026-10-13T19:22:10Z",
+      "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-108896",
+        "CVE-2026-97016",
         "critical"
       ]
     },
     {
-      "id": "ed51b246548209fa",
+      "id": "95d953c2d0f954b6",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108892: A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects th…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108892",
-      "published": "2026-10-12T14:17:09Z",
-      "summary": "A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects the function ssid1MACFilter of the file /goform/ssid1MACFilter of the component Mac Filter. This manipulation of the argument newap_text_%d causes stack-based buffer overflow. The attack may b…",
+      "title": "CVE-2026-96113: Heap-based buffer overflow in DNS Server allows an unauthorized attacker to execute code o…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96113",
+      "published": "2026-10-13T19:21:45Z",
+      "summary": "Heap-based buffer overflow in DNS Server allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-108892",
+        "CVE-2026-96113",
         "critical"
+      ]
+    },
+    {
+      "id": "0b5b8a5c7759b503",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Urges Patching Newly Exploited Vulnerability in Ivanti Connect Secure",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-urges-patching-newly-exploited-vulnerability-ivanti-connect-secure",
+      "published": "2026-10-13T12:00:00Z",
+      "summary": "CISA is aware of Ivanti’s disclosure of a newly exploited vulnerability, CVE-2026-104935 , affecting Ivanti Connect Secure versions 25.1.1.1 and prior, 25.1.2.2 and prior, and 22.8R2.4 and prior. CISA is aware of cyber threat actors exploiting this zero-day authentication bypass…",
+      "tags": [
+        "CVE-2026-104935",
+        "advisory"
+      ]
+    },
+    {
+      "id": "0d3be6b6fae4f063",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Swann Communications SWIFI-SE2KIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-02",
+      "published": "2026-10-13T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to view video information without authentication. The following versions of Swann Communications SWIFI-SE2KIC are affected: SWIFI-SE2KIC firmware <=2.0.22 (CVE-2026-107605, CVE-2026-107606…",
+      "tags": [
+        "CVE-2026-107605",
+        "CVE-2026-107606",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "897e03545f1ebc4d",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-10-13T12:00:00Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-96951 Microsoft Windows Command Injection Vulnerability CVE-2026-104935 Ivanti Connect Secure Authentication Bypass by Spoofing Vulnera…",
+      "tags": [
+        "CVE-2026-104935",
+        "CVE-2026-96951",
+        "advisory"
+      ]
+    },
+    {
+      "id": "2da9c1010cc7d8df",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-104935 — Ivanti Connect Secure: Ivanti Connect Secure Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104935",
+      "published": "2026-10-13T00:00:00Z",
+      "summary": "Ivanti Connect Secure contains an authentication bypass by spoofing vulnerability that allows a remote unauthenticated attacker to execute arbitrary commands.",
+      "tags": [
+        "KEV",
+        "CVE-2026-104935"
+      ]
+    },
+    {
+      "id": "4f94f829218d8dd4",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-96951 — Microsoft Windows: Microsoft Windows Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96951",
+      "published": "2026-10-13T00:00:00Z",
+      "summary": "Microsoft Windows Shell contains a command injection vulnerability that allows an unauthorized attacker to bypass a security feature over a network.",
+      "tags": [
+        "KEV",
+        "CVE-2026-96951"
       ]
     },
     {
@@ -966,41 +1045,18 @@
       ]
     },
     {
-      "id": "494ffde2d5ef60f2",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/09/29/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "id": "c8fcbf0e2df6a700",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Toptech TMS7 and TopHAT",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
       "published": "2026-09-29T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-86950 Apple Multiple Products Out-of-Bounds Write Vulnerability This type of vulnerability is a frequent attack vector for malicious cybe…",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7 and TopHAT are affected: TMS7 7.6.3 (CVE-2026-71379, CVE-2026-70356, CVE-2026-72510, CVE-2026-63713…",
       "tags": [
-        "CVE-2026-86950",
-        "advisory"
-      ]
-    },
-    {
-      "id": "6c7ec78480f96d0e",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "VIVOTEK Camera Firmware",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leading to full compromise of the camera system. The following versions of VIVOTEK Camera Firmware are af…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "b99a27d23f5221f3",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Lantronix G520 Series Cellular Gateway",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges. The following versions of Lantronix G520 Series Cellular Gateway are affected: G520 Series 2.6.0.4R6_stable (CVE-2026-84…",
-      "tags": [
-        "advisory",
+        "CVE-2026-63713",
+        "CVE-2026-70356",
+        "CVE-2026-71379",
+        "CVE-2026-72510",
         "ics"
       ]
     },
@@ -1196,6 +1252,18 @@
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system. The following versions of lwIP (Lightweight IP) are affected: API >=2.0.1|<=2.2.1 (CVE-2026-91018)…",
       "tags": [
         "CVE-2026-91018",
+        "ics"
+      ]
+    },
+    {
+      "id": "2fc28f57f3275c0d",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens Desigo CC family",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
+      "published": "2026-09-22T12:00:00Z",
+      "summary": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics conta…",
+      "tags": [
         "ics"
       ]
     },
@@ -1558,32 +1626,6 @@
       ]
     },
     {
-      "id": "6dbde995f63eb1f6",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-87491 — Google Chromium V8: Google Chromium V8 Out of Bounds Write Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87491",
-      "published": "2026-09-09T00:00:00Z",
-      "summary": "Google Chromium V8 contains an out of bounds write vulnerability that allows a remote attacker to execute arbitrary code inside the sandbox via a crafted HTML page. This vulnerability could affect multiple web browsers that utilize Chromium, including, but not limited to, Google…",
-      "tags": [
-        "KEV",
-        "CVE-2026-87491"
-      ]
-    },
-    {
-      "id": "fe56e1ce48a8616e",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-20079 — Cisco Secure Firewall Management Center (FMC) and Security Cloud Control (SCC) Firewall Management: Cisco Firewall Management Center Authentication Bypass Using an Alternate Path or C…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20079",
-      "published": "2026-09-09T00:00:00Z",
-      "summary": "Cisco Secure Firewall Management Center (FMC) Software and Cisco Security Cloud Control (SCC) Firewall Management contain an authentication Bypass using an alternate path or channel vulnerability that could allow an unauthenticated, remote attacker to bypass authentication and ex…",
-      "tags": [
-        "KEV",
-        "CVE-2026-20079"
-      ]
-    },
-    {
       "id": "65b33f6caf3eb2e0",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1728,31 +1770,6 @@
       "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "a716bf6f256f5a8c",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens Solid Edge",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-12",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Solid Edge is affected by multiple file parsing vulnerabilities that could be triggered when the application reads specially crafted files in PAR, PSM or DFT format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has rel…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "a8ad91edb2bea185",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "ANDRITZ HIPASE-250 and 250 SCALA",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-05",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to read data from the device or gain access to affected workstations. The following versions of ANDRITZ HIPASE-250 and 250 SCALA are affected: HIPASE-250 <=7.20 (CVE-2026-65309, CVE-2026-65…",
-      "tags": [
-        "CVE-2026-65309",
-        "ics"
       ]
     },
     {
