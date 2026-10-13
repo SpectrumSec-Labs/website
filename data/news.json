@@ -1,7 +1,245 @@
 {
   "schema": 1,
-  "generated": "2026-10-12T15:45:19Z",
+  "generated": "2026-10-13T00:50:52Z",
   "items": [
+    {
+      "id": "74ab7e5783e6b531",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-96119: IBM i 7.3, 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to obtain sensiti…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96119",
+      "published": "2026-10-13T00:17:02Z",
+      "summary": "IBM i 7.3, 7.4, 7.5, and 7.6 could allow a remote authenticated attacker to obtain sensitive information or execute arbitrary code on the system due to improper data sanitization by the HTTP Server Administration web application.",
+      "tags": [
+        "CVE",
+        "CVE-2026-96119",
+        "critical"
+      ]
+    },
+    {
+      "id": "824401fe5fca9459",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82110: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82110",
+      "published": "2026-10-12T23:17:42Z",
+      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to execute arbitrary code due to improper validation of pathname during a path traversal.",
+      "tags": [
+        "CVE",
+        "CVE-2026-82110",
+        "critical"
+      ]
+    },
+    {
+      "id": "2d757cfcd8faafc7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82103: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82103",
+      "published": "2026-10-12T23:17:42Z",
+      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an exposure of sensitive information to an unauthorized actor.",
+      "tags": [
+        "CVE",
+        "CVE-2026-82103",
+        "critical"
+      ]
+    },
+    {
+      "id": "7a29751e4b29dd93",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82101: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82101",
+      "published": "2026-10-12T23:17:41Z",
+      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to cause a denial of service due to a path traversal vulnerability.",
+      "tags": [
+        "CVE",
+        "CVE-2026-82101",
+        "critical"
+      ]
+    },
+    {
+      "id": "ccf74733f079b34d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-90920: IBM Maximo AI Service 9.1.0, and 9.2.0 could allow a remote attacker to execute arbitrary…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90920",
+      "published": "2026-10-12T22:17:05Z",
+      "summary": "IBM Maximo AI Service 9.1.0, and 9.2.0 could allow a remote attacker to execute arbitrary code due to improper control of code generation.",
+      "tags": [
+        "CVE",
+        "CVE-2026-90920",
+        "critical"
+      ]
+    },
+    {
+      "id": "59b91208a69d81ce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109566: Rapyd Admin from 9.0.0 before 9.20.0 contains a hard-coded credentials vulnerability that…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109566",
+      "published": "2026-10-12T21:17:13Z",
+      "summary": "Rapyd Admin from 9.0.0 before 9.20.0 contains a hard-coded credentials vulnerability that allows remote unauthenticated attackers to gain super-admin access through an AuthSeeder-created admin@laravel account with password admin. The account is seeded by the setup installer and s…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109566",
+        "critical"
+      ]
+    },
+    {
+      "id": "e4bddbf070f4238f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108929: A flaw has been found in Netcore NR268 1.7.121109. The affected element is the function ex…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108929",
+      "published": "2026-10-12T21:17:09Z",
+      "summary": "A flaw has been found in Netcore NR268 1.7.121109. The affected element is the function execvp of the file /router/DDNSset.cgi of the component DDNS. Executing a manipulation of the argument Hostname can lead to argument injection. The attack can be launched remotely.",
+      "tags": [
+        "CVE",
+        "CVE-2026-108929",
+        "critical"
+      ]
+    },
+    {
+      "id": "5d9d7b49f398913f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2025-71429: GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in tools/u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71429",
+      "published": "2026-10-12T21:17:07Z",
+      "summary": "GPT-SoVITS through 20250606v2pro contains an OS command injection vulnerability in tools/uvr5/vr.py that allows unauthenticated attackers to execute commands via output folder paths. Attackers can enter shell substitutions like $(...) in the UVR5 WebUI output folder textboxes wit…",
+      "tags": [
+        "CVE",
+        "CVE-2025-71429",
+        "critical"
+      ]
+    },
+    {
+      "id": "afca647b9f2e108c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-96012: IBM Db2 Mirror for i 7.4, 7.5, and 7.6 is vulnerable to privilege escalation. An authentic…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96012",
+      "published": "2026-10-12T20:17:10Z",
+      "summary": "IBM Db2 Mirror for i 7.4, 7.5, and 7.6 is vulnerable to privilege escalation. An authenticated attacker could craft a malicious request that bypasses additional authorization and input validation checks to execute malicious code. An attacker could exploit this vulnerability to ob…",
+      "tags": [
+        "CVE",
+        "CVE-2026-96012",
+        "critical"
+      ]
+    },
+    {
+      "id": "95693847a7352fce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-87744: A flaw was found in Quarkus REST Data Panache. This vulnerability allows unauthenticated a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87744",
+      "published": "2026-10-12T19:16:40Z",
+      "summary": "A flaw was found in Quarkus REST Data Panache. This vulnerability allows unauthenticated attackers to bypass security controls on generated endpoints. When a developer customizes a specific operation using @MethodProperties without explicitly re-declaring security roles, the code…",
+      "tags": [
+        "CVE",
+        "CVE-2026-87744",
+        "critical"
+      ]
+    },
+    {
+      "id": "260d2b9b52d55ef3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108918: A vulnerability was identified in Edimax BR-6208AC 1.32. Impacted is an unknown function o…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108918",
+      "published": "2026-10-12T18:17:22Z",
+      "summary": "A vulnerability was identified in Edimax BR-6208AC 1.32. Impacted is an unknown function of the file /goform/formWlanMP. The manipulation of the argument readE2P leads to command injection. It is possible to initiate the attack remotely. The exploit is publicly available and migh…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108918",
+        "critical"
+      ]
+    },
+    {
+      "id": "bd423714858a430c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108917: A vulnerability was determined in Edimax BR-6208AC 1.32. This issue affects some unknown p…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108917",
+      "published": "2026-10-12T18:17:22Z",
+      "summary": "A vulnerability was determined in Edimax BR-6208AC 1.32. This issue affects some unknown processing of the file /goform/formAutoFWupgrade. Executing a manipulation of the argument tftpsIP can lead to command injection. The attack may be performed from remote. The exploit has been…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108917",
+        "critical"
+      ]
+    },
+    {
+      "id": "3c751cd420c532ee",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108915: A vulnerability has been found in Edimax BR-6208AC 1.32. This affects an unknown part of t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108915",
+      "published": "2026-10-12T18:17:21Z",
+      "summary": "A vulnerability has been found in Edimax BR-6208AC 1.32. This affects an unknown part of the file /goform/formWlanMP. Such manipulation of the argument ateBW leads to buffer overflow. The attack can be executed remotely. The exploit has been disclosed to the public and may be use…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108915",
+        "critical"
+      ]
+    },
+    {
+      "id": "ac9fc83652302d47",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109321: Grav Login OAuth plugin (grav-plugin-login-oauth) before 1.4.3 provisions OAuth accounts a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109321",
+      "published": "2026-10-12T17:17:27Z",
+      "summary": "Grav Login OAuth plugin (grav-plugin-login-oauth) before 1.4.3 provisions OAuth accounts as ordinary Grav users with a deterministic . username and an unsalted MD5 hash of the provider identifier as the password, without disabling password login. Unauthenticated remote attackers…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109321",
+        "critical"
+      ]
+    },
+    {
+      "id": "6de1bf5df5495904",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108914: A flaw has been found in Edimax BR-6208AC 1.32. Affected by this issue is some unknown fun…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108914",
+      "published": "2026-10-12T17:17:13Z",
+      "summary": "A flaw has been found in Edimax BR-6208AC 1.32. Affected by this issue is some unknown functionality of the file /goform/formWlSiteSurvey. This manipulation of the argument ifname causes buffer overflow. Remote exploitation of the attack is possible. The exploit has been publishe…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108914",
+        "critical"
+      ]
+    },
+    {
+      "id": "ed282ec2ab5eb518",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108907: A vulnerability was determined in Netcore NR268 1.7.121109. Affected is the function user_…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108907",
+      "published": "2026-10-12T17:17:13Z",
+      "summary": "A vulnerability was determined in Netcore NR268 1.7.121109. Affected is the function user_ok of the component CGI Execution. This manipulation causes improper authentication. The attack can be initiated remotely. The exploit has been publicly disclosed and may be utilized. The ve…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108907",
+        "critical"
+      ]
+    },
+    {
+      "id": "a5e690428832800f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108895: A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the f…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108895",
+      "published": "2026-10-12T15:17:07Z",
+      "summary": "A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the function setDMZ of the file /goform/setDMZ. Executing a manipulation of the argument MAC_addr can lead to os command injection. The attack can be executed remotely. The exploit has been made…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108895",
+        "critical"
+      ]
+    },
     {
       "id": "dbb135a27a9fa86f",
       "source": "nvd-recent",
@@ -17,16 +255,16 @@
       ]
     },
     {
-      "id": "a5e690428832800f",
+      "id": "ed51b246548209fa",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108895: A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the f…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108895",
-      "published": "2026-10-12T15:17:07Z",
-      "summary": "A weakness has been identified in Linksys E1700 1.0.0.4.003. The affected element is the function setDMZ of the file /goform/setDMZ. Executing a manipulation of the argument MAC_addr can lead to os command injection. The attack can be executed remotely. The exploit has been made…",
+      "title": "CVE-2026-108892: A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108892",
+      "published": "2026-10-12T14:17:09Z",
+      "summary": "A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects the function ssid1MACFilter of the file /goform/ssid1MACFilter of the component Mac Filter. This manipulation of the argument newap_text_%d causes stack-based buffer overflow. The attack may b…",
       "tags": [
         "CVE",
-        "CVE-2026-108895",
+        "CVE-2026-108892",
         "critical"
       ]
     },
@@ -59,20 +297,6 @@
       ]
     },
     {
-      "id": "ed51b246548209fa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108892: A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects th…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108892",
-      "published": "2026-10-12T14:17:09Z",
-      "summary": "A vulnerability was determined in Linksys E1700 1.0.0.4.003. This vulnerability affects the function ssid1MACFilter of the file /goform/ssid1MACFilter of the component Mac Filter. This manipulation of the argument newap_text_%d causes stack-based buffer overflow. The attack may b…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108892",
-        "critical"
-      ]
-    },
-    {
       "id": "bd329adf4cfc001e",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -96,6 +320,19 @@
         "CVE",
         "CVE-2026-108804",
         "critical"
+      ]
+    },
+    {
+      "id": "8aaef6f507c465ba",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Incident de sécurité ciblant les Danfoss série AK-SM et AK-SC (12 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "published": "2026-10-12T00:00:00Z",
+      "summary": "Le CERT-FR a connaissance de nombreuses compromissions de Danfoss série AK-SM et AK-SC. L'exposition d'une interface de gestion sur Internet est contraire aux bonnes pratiques. Dans le cas où l’administration à distance est impérative, une première mesure temporaire peut consiste…",
+      "tags": [
+        "FR",
+        "alert"
       ]
     },
     {
@@ -218,230 +455,6 @@
       "tags": [
         "CVE",
         "CVE-2026-104803",
-        "critical"
-      ]
-    },
-    {
-      "id": "09cd4e95ea671fc6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104801: The PPOM – Product Addons & Custom Fields for WooCommerce plugin for WordPress is vulnerab…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104801",
-      "published": "2026-10-10T07:16:40Z",
-      "summary": "The PPOM – Product Addons & Custom Fields for WooCommerce plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the rename_files function in all versions up to, and including, 34.0.10 This makes it possible for unauthenticated a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104801",
-        "critical"
-      ]
-    },
-    {
-      "id": "b638127fbeaad733",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97670: The Avada (Fusion) Builder plugin for WordPress is vulnerable to authorization bypass in a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97670",
-      "published": "2026-10-10T05:16:40Z",
-      "summary": "The Avada (Fusion) Builder plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 7.16.1. This is due to the plugin not properly verifying authorization before dispatching a WordPress action hook whose name is taken from an attacker-suppl…",
-      "tags": [
-        "CVE",
-        "CVE-2026-97670",
-        "critical"
-      ]
-    },
-    {
-      "id": "25e3ba503837fff2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-103889: The 3D Product configurator for WooCommerce plugin for WordPress is vulnerable to Remote C…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103889",
-      "published": "2026-10-10T05:16:39Z",
-      "summary": "The 3D Product configurator for WooCommerce plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 2.16.2 via the 'xpv_image' parameter parameter. This is due to missing authentication and nonce checks on the wp_loaded handler combined w…",
-      "tags": [
-        "CVE",
-        "CVE-2026-103889",
-        "critical"
-      ]
-    },
-    {
-      "id": "9048b25588db2a12",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-94589: The Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection) plugi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94589",
-      "published": "2026-10-10T04:18:19Z",
-      "summary": "The Extensions For CF7 (Contact form 7 Database, Conditional Fields and Redirection) plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.4.5 via the extcf7_submit function. This is due to missing file extension, MIME type, and size…",
-      "tags": [
-        "CVE",
-        "CVE-2026-94589",
-        "critical"
-      ]
-    },
-    {
-      "id": "0e3d3422d3880fc7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107645: The Blocksy Companion plugin for WordPress is vulnerable to privilege escalation in versio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107645",
-      "published": "2026-10-10T04:18:10Z",
-      "summary": "The Blocksy Companion plugin for WordPress is vulnerable to privilege escalation in versions up to, and including, 2.1.58 This is due to the implement_user_registration() AJAX handler explicitly disabling Dokan's vendor-registration nonce check (via add_filter('dokan_register_non…",
-      "tags": [
-        "CVE",
-        "CVE-2026-107645",
-        "critical"
-      ]
-    },
-    {
-      "id": "969a592699268823",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104732: The Advanced IP Blocker plugin for WordPress is vulnerable to Authentication Bypass in all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104732",
-      "published": "2026-10-10T04:18:08Z",
-      "summary": "The Advanced IP Blocker plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 8.13.13 The vulnerability exists because `handle_login_action()` performs no server-side check — via transient, session marker, or equivalent — that a request…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104732",
-        "critical"
-      ]
-    },
-    {
-      "id": "974ca5b277ae3d78",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108107: PHPNuxBill through 2025.3.20 contains an unauthenticated SQL injection vulnerability in th…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108107",
-      "published": "2026-10-09T15:17:11Z",
-      "summary": "PHPNuxBill through 2025.3.20 contains an unauthenticated SQL injection vulnerability in the radius.php FreeRADIUS REST endpoint that interpolates request parameters into whereRaw() queries. Attackers can send crafted username, macAddr or nasid parameters to the accounting or auth…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108107",
-        "critical"
-      ]
-    },
-    {
-      "id": "a0382eea57438c02",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-86405: Improper verification of cryptographic signature vulnerability in Sipay Electronic Money a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86405",
-      "published": "2026-10-09T13:17:11Z",
-      "summary": "Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. PrestaShop Virtual POS Module allows Signature Spoofing by Improper Validation. This issue affects PrestaShop Virtual POS Module: from 26.8.1 before 26.9.1.",
-      "tags": [
-        "CVE",
-        "CVE-2026-86405",
-        "critical"
-      ]
-    },
-    {
-      "id": "f9565832d12e945f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-85531: Improper verification of cryptographic signature vulnerability in Sipay Electronic Money a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85531",
-      "published": "2026-10-09T13:17:10Z",
-      "summary": "Improper verification of cryptographic signature vulnerability in Sipay Electronic Money and Payment Services Inc. OpenCart Virtual POS Module allows Signature Spoofing by Improper Validation. This issue affects OpenCart Virtual POS Module: from 26.8.2 before 26.9.1.",
-      "tags": [
-        "CVE",
-        "CVE-2026-85531",
-        "critical"
-      ]
-    },
-    {
-      "id": "27568900b426572e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107780: Dromara Skyeye through commit 003549ae5615bd114ba5bb8ddf6a8e8ead97c321 contains an OS comm…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107780",
-      "published": "2026-10-08T21:17:52Z",
-      "summary": "Dromara Skyeye through commit 003549ae5615bd114ba5bb8ddf6a8e8ead97c321 contains an OS command injection vulnerability in the unauthenticated /post/TtsController/textToSpeech endpoint via the format parameter. Attackers can inject a single quote into format to break out of the Pow…",
-      "tags": [
-        "CVE",
-        "CVE-2026-107780",
-        "critical"
-      ]
-    },
-    {
-      "id": "954303f4db9091a7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107779: Dromara Skyeye through commit 003549ae5615bd114ba5bb8ddf6a8e8ead97c321 contains a missing…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107779",
-      "published": "2026-10-08T21:17:52Z",
-      "summary": "Dromara Skyeye through commit 003549ae5615bd114ba5bb8ddf6a8e8ead97c321 contains a missing authentication vulnerability in bundled xxl-job-admin JobInfoController endpoints annotated with @PermissionLimit(limit = false). Unauthenticated attackers can POST GLUE_SHELL, GLUE_PYTHON…",
-      "tags": [
-        "CVE",
-        "CVE-2026-107779",
-        "critical"
-      ]
-    },
-    {
-      "id": "8ea03cd6a0ac1faa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82344: IBM Guardium Data Protection 12.0, 12.1 is vulnerable to a heap-based buffer overflow in t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82344",
-      "published": "2026-10-08T20:17:37Z",
-      "summary": "IBM Guardium Data Protection 12.0, 12.1 is vulnerable to a heap-based buffer overflow in the S-TAP TrafficTap TDS login reassembly functionality. An unauthenticated remote attacker can send crafted TDS login fragments that exceed the fixed-size reassembly buffer, potentially resu…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82344",
-        "critical"
-      ]
-    },
-    {
-      "id": "5ca2364cb253a6a9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82334: IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based out-of-bounds…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82334",
-      "published": "2026-10-08T20:17:36Z",
-      "summary": "IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based out-of-bounds read in the TDS7 LOGIN7 protocol parser. A remote attacker could send a specially crafted TDS LOGIN7 packet containing invalid offset or length values, potentially causing information disclo…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82334",
-        "critical"
-      ]
-    },
-    {
-      "id": "9340a1a43ba48294",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82335: IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82335",
-      "published": "2026-10-08T20:17:36Z",
-      "summary": "IBM Guardium Data Protection 12.0, 12.1, 12.2 is vulnerable to a heap-based buffer overflow in the MongoDB protocol parser. A remote attacker could send a specially crafted MongoDB SCRAM username containing an excessive length and cause memory corruption, potentially resulting in…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82335",
-        "critical"
-      ]
-    },
-    {
-      "id": "7a7f5f99bddccf0e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104075: TVU Networks Receiver/Transceiver devices running firmware before version 7.9 contain an a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104075",
-      "published": "2026-10-08T20:17:29Z",
-      "summary": "TVU Networks Receiver/Transceiver devices running firmware before version 7.9 contain an authentication bypass vulnerability in the web management login endpoint POST /tvu/Login that allows remote unauthenticated attackers to obtain an administrative session by submitting an empt…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104075",
-        "critical"
-      ]
-    },
-    {
-      "id": "b5b10f5f465d8506",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107699: ppt2png through 0.0.6 contains an OS command injection vulnerability that allows attackers…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107699",
-      "published": "2026-10-08T19:17:01Z",
-      "summary": "ppt2png through 0.0.6 contains an OS command injection vulnerability that allows attackers to execute operating system commands by supplying unsanitized input or output path arguments. Attackers can append shell metacharacters such as ';' to file names passed to child_process.exe…",
-      "tags": [
-        "CVE",
-        "CVE-2026-107699",
         "critical"
       ]
     },
@@ -1878,20 +1891,6 @@
       "summary": "Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "95c516de28145d60",
-      "source": "cert-fr-alerte",
-      "source_name": "CERT-FR Alertes",
-      "title": "Multiples vulnérabilités dans Sonicwall Secure Mobile Access (15 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-006/",
-      "published": "2026-07-15T00:00:00Z",
-      "summary": "Le 14 juillet 2026, Sonicwall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-15409 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié. La…",
-      "tags": [
-        "CVE-2026-15409",
-        "FR",
-        "alert"
       ]
     }
   ]
