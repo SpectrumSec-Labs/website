@@ -1,7 +1,161 @@
 {
   "schema": 1,
-  "generated": "2026-10-13T00:50:52Z",
+  "generated": "2026-10-13T14:24:04Z",
   "items": [
+    {
+      "id": "1122c11e40f84677",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-74043: Wazuh from 4.1.1 before 4.14.8 contains a path traversal vulnerability in upload_list_file…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74043",
+      "published": "2026-10-13T14:17:41Z",
+      "summary": "Wazuh from 4.1.1 before 4.14.8 contains a path traversal vulnerability in upload_list_file, upload_rule_file, and upload_decoder_file that allows malicious cluster workers to write files at arbitrary paths. Attackers holding the cluster key can send DistributedAPI requests with…",
+      "tags": [
+        "CVE",
+        "CVE-2026-74043",
+        "critical"
+      ]
+    },
+    {
+      "id": "9ab263b6aab4a06f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-74041: Wazuh 4.14.3 before 4.14.8 contains a case-sensitivity mismatch between the ossec.conf val…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74041",
+      "published": "2026-10-13T14:17:40Z",
+      "summary": "Wazuh 4.14.3 before 4.14.8 contains a case-sensitivity mismatch between the ossec.conf validator and wazuh-logcollector that bypasses remote-command validation. Authenticated users with manager:update_config can inject an uppercase LOG_FORMAT command localfile that the collector…",
+      "tags": [
+        "CVE",
+        "CVE-2026-74041",
+        "critical"
+      ]
+    },
+    {
+      "id": "b6f5af6281869afc",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-74040: Wazuh versions from 3.9.0 before 4.14.8 contain an arbitrary file overwrite vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-74040",
+      "published": "2026-10-13T14:17:40Z",
+      "summary": "Wazuh versions from 3.9.0 before 4.14.8 contain an arbitrary file overwrite vulnerability in MasterHandler.process_files_from_worker allowing a cluster worker to overwrite protected master files. Attackers controlling a worker can use a trailing-slash basename bypass and missing…",
+      "tags": [
+        "CVE",
+        "CVE-2026-74040",
+        "critical"
+      ]
+    },
+    {
+      "id": "a758d49d600f0d9a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109157: A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. Affected by this vulnerability i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109157",
+      "published": "2026-10-13T11:17:14Z",
+      "summary": "A vulnerability was found in TRENDnet TEW-432BRP 3.10B20. Affected by this vulnerability is the function formTcpipSetup of the file /goform/formTcpipSetup. Performing a manipulation of the argument Name results in stack-based buffer overflow. It is possible to initiate the attack…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109157",
+        "critical"
+      ]
+    },
+    {
+      "id": "6cc88e757ed1462d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-63354: Affected devices do not properly validate and sanitize visual marker data contained in imp…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63354",
+      "published": "2026-10-13T10:17:18Z",
+      "summary": "Affected devices do not properly validate and sanitize visual marker data contained in imported CSV trace files before rendering it on the Trace page. This could allow an attacker to social engineer an authorized user who holds the function right “Read diagnostics” into importing…",
+      "tags": [
+        "CVE",
+        "CVE-2026-63354",
+        "critical"
+      ]
+    },
+    {
+      "id": "30f1bea288cdf22d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-63353: Affected devices do not properly sanitize comment fields contained in imported trace files…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-63353",
+      "published": "2026-10-13T10:17:18Z",
+      "summary": "Affected devices do not properly sanitize comment fields contained in imported trace files before rendering them on the Trace page. This could allow an attacker to social engineer an authorized user who holds the function right “Read diagnostics” into importing a specially crafte…",
+      "tags": [
+        "CVE",
+        "CVE-2026-63353",
+        "critical"
+      ]
+    },
+    {
+      "id": "2278a706c469c4d0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-44415: Affected systems do not properly restrict access to internal APIs and paths for authentica…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-44415",
+      "published": "2026-10-13T10:17:16Z",
+      "summary": "Affected systems do not properly restrict access to internal APIs and paths for authenticated users. This could allow an authenticated remote attacker to access sensitive internal information, which in the worst case could be leveraged to facilitate unauthorized access to the sys…",
+      "tags": [
+        "CVE",
+        "CVE-2026-44415",
+        "critical"
+      ]
+    },
+    {
+      "id": "c1484a66884203af",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109110: A flaw has been found in Wavlink WL-WN592AX6 250422. This issue affects the function syste…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109110",
+      "published": "2026-10-13T09:17:15Z",
+      "summary": "A flaw has been found in Wavlink WL-WN592AX6 250422. This issue affects the function system of the component wmapd Daemon. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been published and may be used. The…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109110",
+        "critical"
+      ]
+    },
+    {
+      "id": "f9137c297dd20c13",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109109: A vulnerability was detected in Wavlink WL-WN530BE1-A 251117. This vulnerability affects t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109109",
+      "published": "2026-10-13T08:17:00Z",
+      "summary": "A vulnerability was detected in Wavlink WL-WN530BE1-A 251117. This vulnerability affects the function strcpy of the file /cgi-bin/ExportAllSettings.cgi of the component Settings Export CGI. Performing a manipulation of the argument HTTP_COOKIE/X-Cmd results in stack-based buffer…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109109",
+        "critical"
+      ]
+    },
+    {
+      "id": "7e2391434ddaaf1f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109108: A security vulnerability has been detected in Wavlink WL-WN530BE1-A 251117. This affects t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109108",
+      "published": "2026-10-13T08:16:59Z",
+      "summary": "A security vulnerability has been detected in Wavlink WL-WN530BE1-A 251117. This affects the function popen of the file /cgi-bin/uploadVpn.cgi. Such manipulation of the argument Type leads to os command injection. The attack may be performed from remote. The exploit has been disc…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109108",
+        "critical"
+      ]
+    },
+    {
+      "id": "b4e84aeb6107fb4e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108971: A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108971",
+      "published": "2026-10-13T06:16:50Z",
+      "summary": "A flaw has been found in D-Link DCS-930L B1.08B4. This impacts the function mpfd_decode of the file bootloader_region.bin of the component Emergency HTTP Recovery Server. Executing a manipulation of the argument firmware can lead to improper verification of cryptographic signatur…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108971",
+        "critical"
+      ]
+    },
     {
       "id": "74ab7e5783e6b531",
       "source": "nvd-recent",
@@ -17,20 +171,6 @@
       ]
     },
     {
-      "id": "824401fe5fca9459",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82110: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82110",
-      "published": "2026-10-12T23:17:42Z",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to execute arbitrary code due to improper validation of pathname during a path traversal.",
-      "tags": [
-        "CVE",
-        "CVE-2026-82110",
-        "critical"
-      ]
-    },
-    {
       "id": "2d757cfcd8faafc7",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -41,6 +181,20 @@
       "tags": [
         "CVE",
         "CVE-2026-82103",
+        "critical"
+      ]
+    },
+    {
+      "id": "824401fe5fca9459",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82110: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82110",
+      "published": "2026-10-12T23:17:42Z",
+      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to execute arbitrary code due to improper validation of pathname during a path traversal.",
+      "tags": [
+        "CVE",
+        "CVE-2026-82110",
         "critical"
       ]
     },
@@ -269,34 +423,6 @@
       ]
     },
     {
-      "id": "f2c8dab25b332233",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108894: A security flaw has been discovered in Linksys E1700 1.0.0.4.003. Impacted is the function…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108894",
-      "published": "2026-10-12T14:17:09Z",
-      "summary": "A security flaw has been discovered in Linksys E1700 1.0.0.4.003. Impacted is the function addStaticRoute of the file /goform/addStaticRoute of the component Static Route Handler. Performing a manipulation of the argument staticRoute_IP_setting/staticRoute_Netmask_setting/staticR…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108894",
-        "critical"
-      ]
-    },
-    {
-      "id": "fdfc503af08a4c9c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108893: A vulnerability was identified in Linksys E1700 up to 1.0.0.4.003. This issue affects the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108893",
-      "published": "2026-10-12T14:17:09Z",
-      "summary": "A vulnerability was identified in Linksys E1700 up to 1.0.0.4.003. This issue affects the function setVlan of the file /goform/setVlan. Such manipulation of the argument vlan_set leads to stack-based buffer overflow. The attack may be launched remotely. The exploit is publicly av…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108893",
-        "critical"
-      ]
-    },
-    {
       "id": "bd329adf4cfc001e",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -306,20 +432,6 @@
       "summary": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "b2adae3facc9e3b4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108804: A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B0…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108804",
-      "published": "2026-10-12T06:16:59Z",
-      "summary": "A vulnerability was detected in TRENDnet TEW-751DR, TEW-752DRU and TEW733GR 1.03B01/1.03B03. Affected is the function fwrite of the file pigwidgeon.cgi of the component Web Management Backend. The manipulation of the argument service results in os command injection. It is possibl…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108804",
-        "critical"
       ]
     },
     {
@@ -336,104 +448,6 @@
       ]
     },
     {
-      "id": "703888c7aed11f86",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108860: BotSharp through 5.2.0 contains an authentication bypass vulnerability that allows unauthe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108860",
-      "published": "2026-10-11T14:17:05Z",
-      "summary": "BotSharp through 5.2.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge bearer tokens using the hard-coded Jwt:Key in WebStarter appsettings.json. Attackers can sign tokens with the committed HMAC secret and fixed botsharp issu…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108860",
-        "critical"
-      ]
-    },
-    {
-      "id": "40c4eecc33ac547d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108753: Agnaistic agnai through 1.0.555 contains a hard-coded credentials vulnerability in self-ho…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108753",
-      "published": "2026-10-11T13:17:20Z",
-      "summary": "Agnaistic agnai through 1.0.555 contains a hard-coded credentials vulnerability in self-host.docker-compose.yml, which sets a fixed admin password and public JWT secret. Unauthenticated attackers can log in as admin or sign their own JWT with admin: true to impersonate users, res…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108753",
-        "critical"
-      ]
-    },
-    {
-      "id": "61862795825b3a91",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108576: A vulnerability was found in TOZED X300 up to 6.01.3. This vulnerability affects the funct…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108576",
-      "published": "2026-10-11T13:17:13Z",
-      "summary": "A vulnerability was found in TOZED X300 up to 6.01.3. This vulnerability affects the function process_ping of the component IPPingDiagnostics Handler. The manipulation of the argument Host results in os command injection. The attack can be launched remotely. The vendor was contac…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108576",
-        "critical"
-      ]
-    },
-    {
-      "id": "9074eb8c0b75ffe7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108540: A flaw has been found in OpenSpug Spug up to 3.4.0/4.0.1. This impacts an unknown function…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108540",
-      "published": "2026-10-11T07:17:23Z",
-      "summary": "A flaw has been found in OpenSpug Spug up to 3.4.0/4.0.1. This impacts an unknown function of the file /exec/transfer of the component File Transfer. Executing a manipulation can lead to os command injection. The attack may be launched remotely. The exploit has been published and…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108540",
-        "critical"
-      ]
-    },
-    {
-      "id": "8065e311e22242c4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108707: Wukong_HRM through commit 186115e contains an authentication bypass vulnerability in Param…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108707",
-      "published": "2026-10-11T02:16:39Z",
-      "summary": "Wukong_HRM through commit 186115e contains an authentication bypass vulnerability in ParamAspect that allows unauthenticated attackers to call every HRM API endpoint by omitting the AUTH-TOKEN header. Attackers gain HR administrator access to read payslips, salary history and emp…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108707",
-        "critical"
-      ]
-    },
-    {
-      "id": "447301a5b758ef4e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108598: Floci 1.1.0 before 2.2.0 contains a code injection vulnerability in VtlTemplateEngine that…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108598",
-      "published": "2026-10-10T19:16:58Z",
-      "summary": "Floci 1.1.0 before 2.2.0 contains a code injection vulnerability in VtlTemplateEngine that allows unauthenticated attackers to execute commands via unrestricted Velocity mapping templates. Attackers can create a REST API with a MOCK integration whose template uses $util reflectio…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108598",
-        "critical"
-      ]
-    },
-    {
-      "id": "d7baf026bf792e67",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-108551: openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108551",
-      "published": "2026-10-10T15:16:58Z",
-      "summary": "openapi-typescript-codegen through 0.31.0 contains a code injection vulnerability that allows attackers controlling an OpenAPI document to inject JavaScript by supplying unescaped values interpolated into single-quoted string literals. Attackers can embed a single quote in path k…",
-      "tags": [
-        "CVE",
-        "CVE-2026-108551",
-        "critical"
-      ]
-    },
-    {
       "id": "22a3e2e00caf6482",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -442,20 +456,6 @@
       "published": "2026-10-10T09:11:34Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "5aa90b89603a8691",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104803: The WPCOM Member plugin for WordPress is vulnerable to Authentication Bypass in all versio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104803",
-      "published": "2026-10-10T08:17:04Z",
-      "summary": "The WPCOM Member plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.7.27 via the `uuid` and `code` parameters of the social-login callback handler registered on the `init` hook. The vulnerability exists because the `login` function…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104803",
-        "critical"
       ]
     },
     {
@@ -1879,18 +1879,6 @@
         "CVE-2026-63030",
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "172ae54433cac459",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Helping small businesses with free, hands-on cyber consultancy",
-      "url": "https://www.ncsc.gov.uk/blogs/helping-small-businesses-with-free-hands-on-cyber-consultancy",
-      "published": "2026-07-15T12:00:00Z",
-      "summary": "Cyber Advisors are offering free 30-minute consultations to help small businesses get started with cyber security.",
-      "tags": [
-        "guidance"
       ]
     }
   ]
