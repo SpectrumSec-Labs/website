@@ -1,7 +1,105 @@
 {
   "schema": 1,
-  "generated": "2026-10-13T22:55:58Z",
+  "generated": "2026-10-14T05:04:13Z",
   "items": [
+    {
+      "id": "cb8099670ce0f50d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-87855: The JTL-Connector for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upl…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87855",
+      "published": "2026-10-14T04:18:52Z",
+      "summary": "The JTL-Connector for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.4.3 via the saveImage() function. This is due to the startSession() function accepting an empty jtlauth parameter as a valid credential, combined…",
+      "tags": [
+        "CVE",
+        "CVE-2026-87855",
+        "critical"
+      ]
+    },
+    {
+      "id": "118468be3894e37d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104800: The AGE-GATE plugin for WordPress is vulnerable to Remote Code Execution in all versions u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104800",
+      "published": "2026-10-14T04:18:12Z",
+      "summary": "The AGE-GATE plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.0 via the 'width (and height)' parameter parameter. This is due to missing authentication, capability checks, and nonce verification on the standalone admin.php endpoi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104800",
+        "critical"
+      ]
+    },
+    {
+      "id": "08a6d921503f905f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-97668: The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to SQL Injection…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97668",
+      "published": "2026-10-14T03:17:37Z",
+      "summary": "The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to SQL Injection via the guest cart persistent meta_value in all versions up to, and including, 10.8.0 due to insufficient escaping on user supplied data and lack of sufficient preparation on the existing S…",
+      "tags": [
+        "CVE",
+        "CVE-2026-97668",
+        "critical"
+      ]
+    },
+    {
+      "id": "622a11b3b7c6eecc",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-97657: The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authenticatio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97657",
+      "published": "2026-10-14T03:17:37Z",
+      "summary": "The Abandoned Cart Pro for WooCommerce plugin for WordPress is vulnerable to Authentication Bypass via Malleable Encryption and Bypassable HMAC in all versions up to, and including, 10.8.0. This is due to the use of MAC-free AES-CTR encryption for cart-recovery link tokens — wher…",
+      "tags": [
+        "CVE",
+        "CVE-2026-97657",
+        "critical"
+      ]
+    },
+    {
+      "id": "6716d96038943f16",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110002: The Snazzy Social Media Feed plugin for WordPress is vulnerable to Arbitrary File Upload i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110002",
+      "published": "2026-10-14T03:17:20Z",
+      "summary": "The Snazzy Social Media Feed plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.5 via the (file scope) function. This is due to missing WordPress bootstrap, authentication, capability, and nonce checks in the standalone save-to-cac…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110002",
+        "critical"
+      ]
+    },
+    {
+      "id": "e027f490721a9ce4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-93388: The Printcart Store (PCDesigner / NB Designer) plugin for WooCommerce is vulnerable to una…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93388",
+      "published": "2026-10-14T02:17:01Z",
+      "summary": "The Printcart Store (PCDesigner / NB Designer) plugin for WooCommerce is vulnerable to unauthenticated arbitrary file upload leading to remote code execution in all versions up to, and including, 2.9.1 The nbdesigner_copy_image_from_url AJAX action is registered for logged-out ca…",
+      "tags": [
+        "CVE",
+        "CVE-2026-93388",
+        "critical"
+      ]
+    },
+    {
+      "id": "fbcd75de93d4446e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-92097: The Click to Chat for WhatsApp plugin for WordPress is vulnerable to Arbitrary Shortcode E…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92097",
+      "published": "2026-10-14T02:17:01Z",
+      "summary": "The Click to Chat for WhatsApp plugin for WordPress is vulnerable to Arbitrary Shortcode Execution in versions up to, and including, 4.44 This is due to the greetings_dialog() function building the {url} template placeholder from a sanitize_text_field()-filtered $_SERVER['REQUEST…",
+      "tags": [
+        "CVE",
+        "CVE-2026-92097",
+        "critical"
+      ]
+    },
     {
       "id": "45953f6717fed5da",
       "source": "nvd-recent",
@@ -17,20 +115,6 @@
       ]
     },
     {
-      "id": "cc54b2a53a6c9ced",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-93895: IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unau…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93895",
-      "published": "2026-10-13T21:19:57Z",
-      "summary": "IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unauthenticated remote attacker to bypass access controls configured on gRPC service methods.",
-      "tags": [
-        "CVE",
-        "CVE-2026-93895",
-        "critical"
-      ]
-    },
-    {
       "id": "790ec27c5514fbc7",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -41,6 +125,20 @@
       "tags": [
         "CVE",
         "CVE-2026-90530",
+        "critical"
+      ]
+    },
+    {
+      "id": "cc54b2a53a6c9ced",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-93895: IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unau…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93895",
+      "published": "2026-10-13T21:19:57Z",
+      "summary": "IBM WebSphere Application Server - Liberty 20.0.0.12 through 26.0.0.10 could allow an unauthenticated remote attacker to bypass access controls configured on gRPC service methods.",
+      "tags": [
+        "CVE",
+        "CVE-2026-93895",
         "critical"
       ]
     },
@@ -87,30 +185,16 @@
       ]
     },
     {
-      "id": "e7eaa3aed8ece062",
+      "id": "7118d1c6e3c66d36",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-106622: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could re…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106622",
+      "title": "CVE-2026-106619: ColdFusion is affected by an Improper Input Validation vulnerability that could result in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106619",
       "published": "2026-10-13T21:17:31Z",
-      "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "summary": "ColdFusion is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploit depends on conditions beyond the attacker's contr…",
       "tags": [
         "CVE",
-        "CVE-2026-106622",
-        "critical"
-      ]
-    },
-    {
-      "id": "a9a32921ab4f8df9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-106621: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106621",
-      "published": "2026-10-13T21:17:31Z",
-      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issu…",
-      "tags": [
-        "CVE",
-        "CVE-2026-106621",
+        "CVE-2026-106619",
         "critical"
       ]
     },
@@ -129,16 +213,30 @@
       ]
     },
     {
-      "id": "7118d1c6e3c66d36",
+      "id": "a9a32921ab4f8df9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-106619: ColdFusion is affected by an Improper Input Validation vulnerability that could result in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106619",
+      "title": "CVE-2026-106621: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106621",
       "published": "2026-10-13T21:17:31Z",
-      "summary": "ColdFusion is affected by an Improper Input Validation vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploit depends on conditions beyond the attacker's contr…",
+      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issu…",
       "tags": [
         "CVE",
-        "CVE-2026-106619",
+        "CVE-2026-106621",
+        "critical"
+      ]
+    },
+    {
+      "id": "e7eaa3aed8ece062",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-106622: ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could re…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106622",
+      "published": "2026-10-13T21:17:31Z",
+      "summary": "ColdFusion is affected by a Server-Side Request Forgery (SSRF) vulnerability that could result in privilege escalation. Exploitation of this issue does not require user interaction. Scope is changed.",
+      "tags": [
+        "CVE",
+        "CVE-2026-106622",
         "critical"
       ]
     },
@@ -157,20 +255,6 @@
       ]
     },
     {
-      "id": "f42826013f300d91",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105903: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105903",
-      "published": "2026-10-13T21:17:29Z",
-      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitatio…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105903",
-        "critical"
-      ]
-    },
-    {
       "id": "f27e8a9fbc7a4514",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -181,6 +265,20 @@
       "tags": [
         "CVE",
         "CVE-2026-105899",
+        "critical"
+      ]
+    },
+    {
+      "id": "f42826013f300d91",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105903: ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105903",
+      "published": "2026-10-13T21:17:29Z",
+      "summary": "ColdFusion is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitatio…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105903",
         "critical"
       ]
     },
@@ -269,20 +367,6 @@
       ]
     },
     {
-      "id": "d2b619121e6e6f23",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-106630: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106630",
-      "published": "2026-10-13T20:17:16Z",
-      "summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containin…",
-      "tags": [
-        "CVE",
-        "CVE-2026-106630",
-        "critical"
-      ]
-    },
-    {
       "id": "7461c4878ef1731d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -293,6 +377,20 @@
       "tags": [
         "CVE",
         "CVE-2026-106629",
+        "critical"
+      ]
+    },
+    {
+      "id": "d2b619121e6e6f23",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-106630: Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106630",
+      "published": "2026-10-13T20:17:16Z",
+      "summary": "Adobe Experience Manager is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by an attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page containin…",
+      "tags": [
+        "CVE",
+        "CVE-2026-106630",
         "critical"
       ]
     },
@@ -325,20 +423,6 @@
       ]
     },
     {
-      "id": "13b7f8a28dd638aa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-103848: Adobe Experience Manager is affected by an Improper Neutralization of Special Elements use…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103848",
-      "published": "2026-10-13T20:17:11Z",
-      "summary": "Adobe Experience Manager is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulne…",
-      "tags": [
-        "CVE",
-        "CVE-2026-103848",
-        "critical"
-      ]
-    },
-    {
       "id": "ad23861831136216",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -347,90 +431,6 @@
       "published": "2026-10-13T19:25:52Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "caf7d712a032cffb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97816: Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97816",
-      "published": "2026-10-13T19:22:20Z",
-      "summary": "Use after free in OpenSSH for Windows allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97816",
-        "critical"
-      ]
-    },
-    {
-      "id": "5a1232ee18f09fdc",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97815: Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to e…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97815",
-      "published": "2026-10-13T19:22:19Z",
-      "summary": "Heap-based buffer overflow in Windows Error Reporting allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97815",
-        "critical"
-      ]
-    },
-    {
-      "id": "bc2d19fb09118c37",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97814: Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to exec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97814",
-      "published": "2026-10-13T19:22:19Z",
-      "summary": "Heap-based buffer overflow in Windows Text Shaping allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97814",
-        "critical"
-      ]
-    },
-    {
-      "id": "75e5c62270b02949",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97805: Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97805",
-      "published": "2026-10-13T19:22:18Z",
-      "summary": "Out-of-bounds read in Windows Partition Management Driver allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97805",
-        "critical"
-      ]
-    },
-    {
-      "id": "4f6fa8db0871bc73",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97016: Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97016",
-      "published": "2026-10-13T19:22:10Z",
-      "summary": "Heap-based buffer overflow in Microsoft Office Outlook allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97016",
-        "critical"
-      ]
-    },
-    {
-      "id": "95d953c2d0f954b6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-96113: Heap-based buffer overflow in DNS Server allows an unauthorized attacker to execute code o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96113",
-      "published": "2026-10-13T19:21:45Z",
-      "summary": "Heap-based buffer overflow in DNS Server allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-96113",
-        "critical"
       ]
     },
     {
@@ -473,6 +473,20 @@
         "CVE-2026-104935",
         "CVE-2026-96951",
         "advisory"
+      ]
+    },
+    {
+      "id": "9a5d4539ca389a36",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Inductive Automation Ignition Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-286-01",
+      "published": "2026-10-13T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an authenticated low-level user to escalate their privileges to a higher level. The following versions of Inductive Automation Ignition Software are affected: Ignition >=8.1.0|<=8.1.54 (CVE-2026-92817) Ig…",
+      "tags": [
+        "CVE-2026-92817",
+        "advisory",
+        "ics"
       ]
     },
     {
@@ -1031,16 +1045,14 @@
       ]
     },
     {
-      "id": "4325786426012c69",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "MikroTik RouterOS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+      "id": "b99a27d23f5221f3",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Lantronix G520 Series Cellular Gateway",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
       "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service. The following versions of MikroTik RouterOS are affected: RouterOS <7.24 (CVE-2026-84411) CVSS Vendor Equipment Vulnerabilities v…",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges. The following versions of Lantronix G520 Series Cellular Gateway are affected: G520 Series 2.6.0.4R6_stable (CVE-2026-84…",
       "tags": [
-        "CVE-2026-84411",
-        "advisory",
         "ics"
       ]
     },
@@ -1057,6 +1069,18 @@
         "CVE-2026-70356",
         "CVE-2026-71379",
         "CVE-2026-72510",
+        "ics"
+      ]
+    },
+    {
+      "id": "ef19b502f5a8b531",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Baicells Nova 430H",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
+      "published": "2026-09-29T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affected: Nova 430H eNodeB (model pBS3101SH) <=BaiBLQ_3.0.12 (CVE…",
+      "tags": [
         "ics"
       ]
     },
@@ -1732,30 +1756,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-14",
       "published": "2026-08-13T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a low-privilege user or attacker to inject a persistent malicious payload via a crafted URL that executes in the context of other users' sessions, including administrators, potentially leading to session…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "3264c8ab3a0b5253",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens LOGO! Soft Comfort",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-13",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Siemens LOGO! Soft Comfort contains multiple vulnerabilities in its project-file encryption and password handling mechanisms. A local attacker could exploit these vulnerabilities to extract the master key, allowing them to decrypt project data or remove project…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "5a2939616f1d23c7",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens License Server (SLS)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-07",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Siemens License Server is affected by multiple vulnerabilities which could allow an attacker to elevate its privileges and read arbitrary files on the system. Siemens has released a new version for Siemens License Server (SLS) and recommends to update to the lat…",
       "tags": [
         "ics"
       ]
