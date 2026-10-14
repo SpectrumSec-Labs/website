@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-10-14T05:04:13Z",
+  "generated": "2026-10-14T12:07:36Z",
   "items": [
+    {
+      "id": "ec26e3c9fb04b850",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33420",
+      "published": "2026-10-14T06:49:46Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "cb8099670ce0f50d",
       "source": "nvd-recent",
