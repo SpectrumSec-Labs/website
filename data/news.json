@@ -1,7 +1,45 @@
 {
   "schema": 1,
-  "generated": "2026-10-15T04:53:00Z",
+  "generated": "2026-10-15T11:44:02Z",
   "items": [
+    {
+      "id": "cd8ef8034fa90562",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Post-quantum updates to our TLS guidance",
+      "url": "https://www.ncsc.gov.uk/blogs/post-quantum-updates-to-our-tls-guidance",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "The NCSC publishes its recommendations for configuring post-quantum cryptography in TLS. Now is time to migrate.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "e1bfd0abf2610173",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Using TLS to protect data",
+      "url": "https://www.ncsc.gov.uk/guidance/using-tls-to-protect-data",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "145688bc2d9c6565",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-108587: The 10Web Booster – Website speed optimization, Cache & Page Speed optimizer plugin for Wo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-108587",
+      "published": "2026-10-15T05:17:02Z",
+      "summary": "The 10Web Booster – Website speed optimization, Cache & Page Speed optimizer plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.34.10 via the compressCustom function. This is due to missing file type validation and extension filter…",
+      "tags": [
+        "CVE",
+        "CVE-2026-108587",
+        "critical"
+      ]
+    },
     {
       "id": "f71fb556fb862bd9",
       "source": "sans-isc",
@@ -417,20 +455,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110634",
-        "critical"
-      ]
-    },
-    {
-      "id": "6082237ae2a1a9a9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110612: vlife through 2.0.1 contains an authentication bypass vulnerability that allows unauthenti…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110612",
-      "published": "2026-10-14T15:17:13Z",
-      "summary": "vlife through 2.0.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge JWTs using the hardcoded HS256 signing key in TokenUtil. Attackers can sign a token with superUser=true and arbitrary groupIds claims to gain super administrator acc…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110612",
         "critical"
       ]
     },
