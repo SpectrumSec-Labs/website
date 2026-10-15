@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-15T17:10:44Z",
+  "generated": "2026-10-15T21:32:09Z",
   "items": [
     {
       "id": "248a11fb326826a8",
@@ -112,6 +112,19 @@
       ]
     },
     {
+      "id": "f0618fbb3f3a2bff",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/15/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-21589 Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability This type of vulnerability is a frequ…",
+      "tags": [
+        "CVE-2026-21589",
+        "advisory"
+      ]
+    },
+    {
       "id": "fbd4f0423b7b4a6a",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -147,6 +160,19 @@
       "published": "2026-10-15T01:10:57Z",
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "a28d52db14409911",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-21589 — Atlassian Multiple Products: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
+      "published": "2026-10-15T00:00:00Z",
+      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability whi…",
+      "tags": [
+        "KEV",
+        "CVE-2026-21589"
       ]
     },
     {
@@ -501,6 +527,20 @@
       ]
     },
     {
+      "id": "e105e47269d7c1dd",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110635: webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconv…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110635",
+      "published": "2026-10-14T15:17:16Z",
+      "summary": "webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconverter.js helpers that run libwebp binaries via execFile with shell enabled. Attackers controlling file names or option strings passed to cwebp, dwebp, gwebp, or webpmux functions can inject…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110635",
+        "critical"
+      ]
+    },
+    {
       "id": "4e1cd91247977300",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -511,20 +551,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110636",
-        "critical"
-      ]
-    },
-    {
-      "id": "cd49e964c881878b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110638: doc-recog through 1.1.6 contains an OS command injection vulnerability that allows attacke…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110638",
-      "published": "2026-10-14T15:17:16Z",
-      "summary": "doc-recog through 1.1.6 contains an OS command injection vulnerability that allows attackers to execute commands by supplying crafted document paths to recog() or tag(). Attackers can embed $(...) or backtick command substitution in the file path, which DocData._readPDF passes to…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110638",
         "critical"
       ]
     },
@@ -1112,15 +1138,14 @@
       ]
     },
     {
-      "id": "4c487f67fda0a5c1",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Meari IoT Cloud Platform OpenAPI Service",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+      "id": "e6c25c75b7ceaa11",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "ABB Protection and Control IED Manager PCM600",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
       "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and network data without proper authorization…",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and Control IED Manager PCM600 are affected: Protection and Control IED Manager PCM600 <=2.14 (CVE-2026-1…",
       "tags": [
-        "advisory",
         "ics"
       ]
     },
@@ -1460,18 +1485,6 @@
       ]
     },
     {
-      "id": "5897c7f1e9130c0a",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens SIPLUS and SIMATIC Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-04",
-      "published": "2026-09-22T12:00:00Z",
-      "summary": "View CSAF Summary Multiple Siemens products are vulnerable to the \"Copy Fail\" vulnerability. Siemens has released new versions for several affected products and recommends to update to the latest versions. Siemens is preparing further fix versions and recommends specific counterm…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
       "id": "01271320a5d0fd19",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1750,19 +1763,6 @@
       "tags": [
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "7f91846b86690530",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-67277 — MikroTik RouterOS: MikroTik RouterOS Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67277",
-      "published": "2026-09-10T00:00:00Z",
-      "summary": "MikroTik RouterOS contains a missing authentication for critical function vulnerability which allows kernel memory disclosure and denial of service in the btest service.",
-      "tags": [
-        "KEV",
-        "CVE-2026-67277"
       ]
     },
     {
