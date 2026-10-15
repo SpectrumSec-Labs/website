@@ -1,7 +1,80 @@
 {
   "schema": 1,
-  "generated": "2026-10-15T11:44:02Z",
+  "generated": "2026-10-15T17:10:44Z",
   "items": [
+    {
+      "id": "248a11fb326826a8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110958: A vulnerability was found in Wavlink WN530HG4B M30HG4B_V260724. The impacted element is an…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110958",
+      "published": "2026-10-15T16:17:48Z",
+      "summary": "A vulnerability was found in Wavlink WN530HG4B M30HG4B_V260724. The impacted element is an unknown function of the file api.cgi. The manipulation results in heap-based buffer overflow. It is possible to launch the attack remotely. The exploit has been made public and could be use…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110958",
+        "critical"
+      ]
+    },
+    {
+      "id": "7f9662b97394d90e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110957: A vulnerability has been found in Wavlink WL-WN530BE2-A up to M30BE2_V250604. The affected…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110957",
+      "published": "2026-10-15T15:17:30Z",
+      "summary": "A vulnerability has been found in Wavlink WL-WN530BE2-A up to M30BE2_V250604. The affected element is the function sub_12580 of the file api.cgi of the component Login Processing. The manipulation of the argument REMOTE_ADDR leads to os command injection. It is possible to initia…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110957",
+        "critical"
+      ]
+    },
+    {
+      "id": "307fc48bec6b0bf9",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Malcolm",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-280-01",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm <=v26.07.1 (CVE-2026-107336, CVE-2026-107333, CVE-2026-107362, CVE-2026-107361, CVE-2026-107337, CVE-2026-107335, CVE-2026-107334) Malcolm <=v26.08.0 () CVSS Vendor Equipment v3 8.1 CISA Malcolm 5 Vuln…",
+      "tags": [
+        "CVE-2026-107333",
+        "CVE-2026-107334",
+        "CVE-2026-107335",
+        "CVE-2026-107336",
+        "CVE-2026-107337",
+        "CVE-2026-107361"
+      ]
+    },
+    {
+      "id": "769eb8106e41d884",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Guangzhou Juan IoT Technology EseeCloud",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-02",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control over affected IP cameras. The following versions of Guangzhou Juan IoT Technology EseeCloud are affected: EseeCloud App <=4.9.6 (CVE-2026-107617, CVE-2026-97858, CVE-2026-10…",
+      "tags": [
+        "CVE-2026-107617",
+        "CVE-2026-97858",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "86b82961354a0413",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Thermo Fisher Torrent Suite Software",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-01",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to read arbitrary files on the Torrent Server. The following versions of Thermo Fisher Torrent Suite Software are affected: Torrent Suite Software <=5.18 (CVE-2026-107777) CVSS Vendor Equipmen…",
+      "tags": [
+        "CVE-2026-107777",
+        "advisory"
+      ]
+    },
     {
       "id": "cd8ef8034fa90562",
       "source": "ncsc-uk",
@@ -24,6 +97,31 @@
       "summary": "Recommended profiles to securely configure TLS for the most common versions and scenarios, with additional guidance for managing older versions.",
       "tags": [
         "guidance"
+      ]
+    },
+    {
+      "id": "ea0e140b6f9eb8ea",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "J4Care dcm4che",
+      "url": "https://www.cisa.gov/news-events/ics-medical-advisories/icsma-26-288-02",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete stored medical images, disclose patient information, inject forged studies, reassign patient records, overwrite files, and cause a denial-of-service condition. The following versi…",
+      "tags": [
+        "advisory"
+      ]
+    },
+    {
+      "id": "fbd4f0423b7b4a6a",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Eclipse Foundation Eclipse Milo",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-288-01",
+      "published": "2026-10-15T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to delete protected data, recover user credentials and impersonate legitimate users, or cause the server to stop responding to all clients. The following versions of Eclipse Foundation Ecli…",
+      "tags": [
+        "advisory",
+        "ics"
       ]
     },
     {
@@ -427,34 +525,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110638",
-        "critical"
-      ]
-    },
-    {
-      "id": "e105e47269d7c1dd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110635: webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110635",
-      "published": "2026-10-14T15:17:16Z",
-      "summary": "webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconverter.js helpers that run libwebp binaries via execFile with shell enabled. Attackers controlling file names or option strings passed to cwebp, dwebp, gwebp, or webpmux functions can inject…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110635",
-        "critical"
-      ]
-    },
-    {
-      "id": "f66624a8b5203ccd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110634: git-diff before 2.0.7 contains an OS command injection vulnerability that allows attackers…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110634",
-      "published": "2026-10-14T15:17:16Z",
-      "summary": "git-diff before 2.0.7 contains an OS command injection vulnerability that allows attackers to execute shell commands by supplying crafted strings to the gitDiff API. Attackers who control a diffed document string can embed $(cmd) or backtick substitutions that shelljs.exec evalua…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110634",
         "critical"
       ]
     },
@@ -1055,71 +1125,6 @@
       ]
     },
     {
-      "id": "9bacd2ea82527c90",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Armatura LLC Armatura One",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical access-control system. The following ver…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "af342dacbe59b3d2",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data. The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are affected: EasyIO Neo S…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "b39ff47a9d6f32cc",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system. The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "dcf8afe15256d1c7",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Monta monta.app",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Monta monta.app are af…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "e6c25c75b7ceaa11",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "ABB Protection and Control IED Manager PCM600",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and Control IED Manager PCM600 are affected: Protection and Control IED Manager PCM600 <=2.14 (CVE-2026-1…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
       "id": "b2eb524aefa78828",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1143,6 +1148,19 @@
       "tags": [
         "KEV",
         "CVE-2026-76504"
+      ]
+    },
+    {
+      "id": "4325786426012c69",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "MikroTik RouterOS",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
+      "published": "2026-09-29T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service. The following versions of MikroTik RouterOS are affected: RouterOS <7.24 (CVE-2026-84411) CVSS Vendor Equipment Vulnerabilities v…",
+      "tags": [
+        "CVE-2026-84411",
+        "ics"
       ]
     },
     {
@@ -1193,6 +1211,30 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
       "published": "2026-09-29T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affected: Nova 430H eNodeB (model pBS3101SH) <=BaiBLQ_3.0.12 (CVE…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "faadc0b2b19a69a4",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Viidure Dashcam Android Application",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
+      "published": "2026-09-29T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform. The following versions of Viidure Dashcam Android Ap…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "fbfa52177ee528e6",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Anjvision YSSD-RTMP-H5",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
+      "published": "2026-09-29T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device. The following versions of Anjvision YSSD-RTMP-H5 are affected: YSSD-R…",
       "tags": [
         "ics"
       ]
@@ -1783,43 +1825,6 @@
       "summary": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "0da9a6c77f5f218b",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "AVEVA Enterprise SCADA",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-01",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to tamper with serialized data, potentially resulting in code execution during deserialization. The following versions of AVEVA Enterprise SCADA are affected: Enterprise SCADA 2025 (CVE-2025-7…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "10341ae0af0fff16",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Haiwell IoT Cloud HMI Gateway",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-02",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability may allow an attacker to inject and execute arbitrary OS commands with root privileges. The following versions of Haiwell IoT Cloud HMI Gateway are affected: Haiwell IoT Cloud HMI Gateway 3.40.1.12 (CVE-2026-19188) C…",
-      "tags": [
-        "CVE-2026-19188",
-        "ics"
-      ]
-    },
-    {
-      "id": "19f8b89d63131631",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens Simcenter Femap",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-225-11",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "View CSAF Summary Simcenter Femap contains two file parsing vulnerabilities that could be triggered when the application reads files in BMP file format. If a user is tricked to open a malicious file with the affected application, this could lead the application to crash or potent…",
-      "tags": [
-        "ics"
       ]
     },
     {
