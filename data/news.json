@@ -1,7 +1,32 @@
 {
   "schema": 1,
-  "generated": "2026-10-14T21:48:48Z",
+  "generated": "2026-10-15T04:53:00Z",
   "items": [
+    {
+      "id": "f71fb556fb862bd9",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
+      "url": "https://isc.sans.edu/diary/rss/33426",
+      "published": "2026-10-15T01:10:57Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "30830763dbf9deb9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110862: Better Auth from 1.4.0-beta.18 before 1.7.7 contains an authentication bypass vulnerabilit…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110862",
+      "published": "2026-10-14T23:17:27Z",
+      "summary": "Better Auth from 1.4.0-beta.18 before 1.7.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to sign in as other users by reusing OAuth state values as Magic Link tokens. Attackers can start an OAuth sign-in with a victim's email and submit th…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110862",
+        "critical"
+      ]
+    },
     {
       "id": "7ac12144a0fe486b",
       "source": "nvd-recent",
@@ -406,20 +431,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110612",
-        "critical"
-      ]
-    },
-    {
-      "id": "7612aeac429bf213",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2020-37282: office-converter through 1.0.2 contains an OS command injection vulnerability that allows…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2020-37282",
-      "published": "2026-10-14T15:16:59Z",
-      "summary": "office-converter through 1.0.2 contains an OS command injection vulnerability that allows attackers to execute commands by supplying a crafted fileName to generatePdf() or generateHtml(). Attackers can embed $(...), backticks, or a closing quote with shell metacharacters in the f…",
-      "tags": [
-        "CVE",
-        "CVE-2020-37282",
         "critical"
       ]
     },
