@@ -1,7 +1,19 @@
 {
   "schema": 1,
-  "generated": "2026-10-16T11:37:48Z",
+  "generated": "2026-10-16T16:47:23Z",
   "items": [
+    {
+      "id": "4e525e143e8c3f3d",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Cyber Threat Actors Use a Variety of Techniques to Target Election and Campaign Officials",
+      "url": "https://www.cisa.gov/resources-tools/resources/cyber-threat-actors-use-variety-techniques-target-election-and-campaign-officials",
+      "published": "2026-10-16T12:00:00Z",
+      "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and smishing techniques to steal login crede…",
+      "tags": [
+        "advisory"
+      ]
+    },
     {
       "id": "5aca8a62eef02d77",
       "source": "nvd-recent",
@@ -45,20 +57,6 @@
       ]
     },
     {
-      "id": "99b82ff5ecf53ca0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109515: The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109515",
-      "published": "2026-10-16T05:17:29Z",
-      "summary": "The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc. plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2.78.6 This is due to the `subscribe_to_email_list` endpoint accepting an attacker-supplie…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109515",
-        "critical"
-      ]
-    },
-    {
       "id": "3d88663e58833273",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -69,6 +67,20 @@
       "tags": [
         "CVE",
         "CVE-2026-109219",
+        "critical"
+      ]
+    },
+    {
+      "id": "99b82ff5ecf53ca0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109515: The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109515",
+      "published": "2026-10-16T05:17:29Z",
+      "summary": "The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc. plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2.78.6 This is due to the `subscribe_to_email_list` endpoint accepting an attacker-supplie…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109515",
         "critical"
       ]
     },
@@ -1133,19 +1145,6 @@
       "tags": [
         "CVE-2026-104286",
         "advisory"
-      ]
-    },
-    {
-      "id": "32e4df0c22cff8b8",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Malcolm",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper Neutralization of Special Elements used in…",
-      "tags": [
-        "advisory",
-        "ics"
       ]
     },
     {
