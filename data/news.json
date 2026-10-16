@@ -1,7 +1,105 @@
 {
   "schema": 1,
-  "generated": "2026-10-16T16:47:23Z",
+  "generated": "2026-10-16T21:23:49Z",
   "items": [
+    {
+      "id": "d96b9dedf50bd2b7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111711: Netcore NR256CN through 1.5.140116 contains a pre-authentication stack overflow vulnerabil…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111711",
+      "published": "2026-10-16T18:17:55Z",
+      "summary": "Netcore NR256CN through 1.5.140116 contains a pre-authentication stack overflow vulnerability in the Boa web server's user_ok() function, which copies Basic-auth usernames with unbounded strcpy() calls into 64-byte stack buffers. Unauthenticated attackers can send a username long…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111711",
+        "critical"
+      ]
+    },
+    {
+      "id": "366a73b22afcf865",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111704: LangChat through commit 2a6285a contains a missing authentication vulnerability that allow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111704",
+      "published": "2026-10-16T18:17:54Z",
+      "summary": "LangChat through commit 2a6285a contains a missing authentication vulnerability that allows unauthenticated remote attackers to access REST controllers because no Sa-Token interceptor is registered. Attackers can query /api/v1/auth/users to read plaintext passwords, retrieve LLM…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111704",
+        "critical"
+      ]
+    },
+    {
+      "id": "bbf815469ca5cb77",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111693: DataBuff ai-apm-web through 0.1.10 contains a hard-coded default credentials vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111693",
+      "published": "2026-10-16T18:17:52Z",
+      "summary": "DataBuff ai-apm-web through 0.1.10 contains a hard-coded default credentials vulnerability that allows unauthenticated attackers to gain administrator access using the built-in admin/Databuff@123 account. Attackers can POST these credentials to /webapi/api/v1/auth/login to obtain…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111693",
+        "critical"
+      ]
+    },
+    {
+      "id": "c79167e635c4ad68",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111690: Simple Admin Core through 1.8.7 contains an authentication bypass vulnerability that allow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111690",
+      "published": "2026-10-16T18:17:52Z",
+      "summary": "Simple Admin Core through 1.8.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge super administrator tokens by using the hard-coded Auth.AccessSecret in api/etc/core.yaml. Attackers can sign a JWT with the public secret and roleId cla…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111690",
+        "critical"
+      ]
+    },
+    {
+      "id": "5e8b761deafdd91c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111643: Misaka Danmu Server through 2.8.9 contains an authentication bypass vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111643",
+      "published": "2026-10-16T18:17:45Z",
+      "summary": "Misaka Danmu Server through 2.8.9 contains an authentication bypass vulnerability that allows unauthenticated attackers to write arbitrary configuration keys via the unprotected POST /api/ui/config-history/rollback endpoint. Attackers can set the ipWhitelist key to their own /32…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111643",
+        "critical"
+      ]
+    },
+    {
+      "id": "c39c5c6bfc9f8659",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111641: FastapiAdmin through 3.0 contains an authentication bypass vulnerability that allows unaut…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111641",
+      "published": "2026-10-16T18:17:44Z",
+      "summary": "FastapiAdmin through 3.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain sessions for any user by abusing unprotected auto-login endpoints. Attackers can list users via /api/v1/auth/auto-login/users, mint a superuser auto-login toke…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111641",
+        "critical"
+      ]
+    },
+    {
+      "id": "670ad60332194989",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111626: Webreaper Damselfly through 4.5.3 contains an authentication bypass vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111626",
+      "published": "2026-10-16T18:17:42Z",
+      "summary": "Webreaper Damselfly through 4.5.3 contains an authentication bypass vulnerability that allows unauthenticated attackers to access all /api/* routes because controller authorization attributes are commented out. Attackers can send PUT /api/users with Admin roles to create administ…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111626",
+        "critical"
+      ]
+    },
     {
       "id": "4e525e143e8c3f3d",
       "source": "cisa-advisories",
@@ -11,6 +109,32 @@
       "published": "2026-10-16T12:00:00Z",
       "summary": "CISA and the Federal Bureau of Investigation (FBI) released a Public Service Announcement (PSA) warning election and campaign officials about cyber threats during the 2026 U.S. midterm elections. Malicious cyber actors may use phishing and smishing techniques to steal login crede…",
       "tags": [
+        "advisory"
+      ]
+    },
+    {
+      "id": "576634fb177ce16e",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Key Practices for Incident Readiness and Response in Super Intelligence Training and Evaluation",
+      "url": "https://www.cisa.gov/resources-tools/resources/key-practices-incident-readiness-and-response-super-intelligence-training-and-evaluation",
+      "published": "2026-10-16T12:00:00Z",
+      "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness and Response in Super Intelligence Traini…",
+      "tags": [
+        "advisory"
+      ]
+    },
+    {
+      "id": "ae4608a27522a7cf",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-10-16T12:00:00Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2025-61624 Fortinet Multiple Products Path Traversal Vulnerability CVE-2026-102764 BeyondTrust Remote Support Authentication Bypass by Spoof…",
+      "tags": [
+        "CVE-2025-61624",
+        "CVE-2026-102764",
         "advisory"
       ]
     },
@@ -110,6 +234,34 @@
       ]
     },
     {
+      "id": "276f399dab6bb140",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-102764 — BeyondTrust Remote Support: BeyondTrust Remote Support Authentication Bypass by Spoofing Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102764",
+      "published": "2026-10-16T00:00:00Z",
+      "summary": "The vulnerability exists within internal components of BeyondTrust’s Remote Support product. The components did not adequately validate the origin of the messages it received. Under the right conditions, this could allow an attacker to perform file operations on the appliance.",
+      "tags": [
+        "KEV",
+        "CVE",
+        "CVE-2026-102764",
+        "critical"
+      ]
+    },
+    {
+      "id": "6725d9a3b8ee7396",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2025-61624 — Fortinet Multiple Products: Fortinet Multiple Products Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-61624",
+      "published": "2026-10-16T00:00:00Z",
+      "summary": "FortiOS, FortiPAM, FortiProxy, and FortiSwitchManager contain a path traversal vulnerability that may allow an authenticated attacker with admin profile and at least read-write permissions to write or delete arbitrary files via specific CLI commands.",
+      "tags": [
+        "KEV",
+        "CVE-2025-61624"
+      ]
+    },
+    {
       "id": "8ecb07afc6e6d3dc",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -162,6 +314,20 @@
       "tags": [
         "CVE",
         "CVE-2026-111281",
+        "critical"
+      ]
+    },
+    {
+      "id": "dca7501d22f7d946",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111094: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a white…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111094",
+      "published": "2026-10-15T16:17:48Z",
+      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible",
+      "tags": [
+        "CVE",
+        "CVE-2026-111094",
         "critical"
       ]
     },
@@ -462,118 +628,6 @@
       "tags": [
         "CVE",
         "CVE-2026-109439",
-        "critical"
-      ]
-    },
-    {
-      "id": "5a3a0f2afede333c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-102182: A Stack-based Buffer Overflow vulnerability in the kmd component of Juniper Networks Junos…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102182",
-      "published": "2026-10-14T17:18:06Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the kmd component of Juniper Networks Junos OS on MX Series allows an unauthenticated network attacker to execute code as root via specific IKE certificate-based packets. This issue affects Junos OS on MX Series: * All versions befor…",
-      "tags": [
-        "CVE",
-        "CVE-2026-102182",
-        "critical"
-      ]
-    },
-    {
-      "id": "26ff07e9f65b3ca6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-102178: A Stack-based Buffer Overflow vulnerability in the BGP routing daemon of Juniper Networks…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102178",
-      "published": "2026-10-14T17:18:05Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the BGP routing daemon of Juniper Networks Junos OS and Junos OS Evolved allows a configured BGP flowspec peer to cause routing-engine compromise or a routing-daemon denial of service via flowspec route re-advertisement when BGP upda…",
-      "tags": [
-        "CVE",
-        "CVE-2026-102178",
-        "critical"
-      ]
-    },
-    {
-      "id": "60949b92121a3eb5",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-102175: A Heap-based Buffer Overflow vulnerability in the sdxd service-deployment daemon of Junipe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102175",
-      "published": "2026-10-14T17:18:05Z",
-      "summary": "A Heap-based Buffer Overflow vulnerability in the sdxd service-deployment daemon of Juniper Networks Junos OS and Junos OS Evolved allows a remote unauthenticated attacker who can control or intercept the configured SDX/SRC server connection to execute code as root or cause denia…",
-      "tags": [
-        "CVE",
-        "CVE-2026-102175",
-        "critical"
-      ]
-    },
-    {
-      "id": "e9ae5904c5995d51",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-102031: An OS Command Injection vulnerability in TACACS of Juniper Networks Junos OS Evolved allow…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102031",
-      "published": "2026-10-14T17:17:56Z",
-      "summary": "An OS Command Injection vulnerability in TACACS of Juniper Networks Junos OS Evolved allows a low-privileged TACACS+-authenticated user to execute commands with root privileges when periodic TACACS+ authorization-refresh is enabled.",
-      "tags": [
-        "CVE",
-        "CVE-2026-102031",
-        "critical"
-      ]
-    },
-    {
-      "id": "6c8cfe1b148e037c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101990: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Junipe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101990",
-      "published": "2026-10-14T17:17:51Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a remote configured BGP peer to cause an rpd crash, or on Junos OS remote code-execution, via sending a flow-spec update which is selected for…",
-      "tags": [
-        "CVE",
-        "CVE-2026-101990",
-        "critical"
-      ]
-    },
-    {
-      "id": "5b9fb5f9c7c79fc3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101980: An Integer Underflow vulnerability in the kernel of Juniper Networks Junos OS with Extende…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101980",
-      "published": "2026-10-14T17:17:50Z",
-      "summary": "An Integer Underflow vulnerability in the kernel of Juniper Networks Junos OS with Extended Echo configured allows an unauthenticated, network-based attacker to cause a denial of service by a kernel crash.",
-      "tags": [
-        "CVE",
-        "CVE-2026-101980",
-        "critical"
-      ]
-    },
-    {
-      "id": "c33c24070d066eb2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101986: An Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos O…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101986",
-      "published": "2026-10-14T17:17:50Z",
-      "summary": "An Improper Authentication vulnerability in J-Web of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to bypass J-Web authentication and execute CGI content with elevated privileges via a crafted HTTP request.",
-      "tags": [
-        "CVE",
-        "CVE-2026-101986",
-        "critical"
-      ]
-    },
-    {
-      "id": "c6559371f33658d0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101956: An Improper Authentication vulnerability in the J-Web web management component of Juniper…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101956",
-      "published": "2026-10-14T17:17:48Z",
-      "summary": "An Improper Authentication vulnerability in the J-Web web management component of Juniper Networks Junos OS allows an unauthenticated remote attacker to execute arbitrary Junos commands with root privileges via the exposed J-Web web interface.",
-      "tags": [
-        "CVE",
-        "CVE-2026-101956",
         "critical"
       ]
     },
@@ -1093,20 +1147,6 @@
       ]
     },
     {
-      "id": "0ed309bdb2fbe9f4",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/02/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-02T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102489 Zammad GmbH Zammad Session Fixation Vulnerability CVE-2026-102490 Zammad GmbH Zammad Improper Privilege Management Vulnerability…",
-      "tags": [
-        "CVE-2026-102489",
-        "CVE-2026-102490",
-        "advisory"
-      ]
-    },
-    {
       "id": "0e2fce4f1a1953ee",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1135,16 +1175,27 @@
       ]
     },
     {
-      "id": "176ef43f137e903d",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/01/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "id": "32e4df0c22cff8b8",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "CISA Malcolm",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-254-01",
       "published": "2026-10-01T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-104286 Fortinet FortiMail Path Traversal Vulnerability This type of vulnerability is a frequent attack vector for malicious cyber actors…",
+      "summary": "View CSAF Summary The following versions of CISA Malcolm are affected: Malcolm CVSS Vendor Equipment Vulnerabilities v3 8.8 CISA CISA Malcolm Improper Neutralization of Input During Web Page Generation ('Cross-site Scripting'), Improper Neutralization of Special Elements used in…",
       "tags": [
-        "CVE-2026-104286",
-        "advisory"
+        "ics"
+      ]
+    },
+    {
+      "id": "4c487f67fda0a5c1",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Meari IoT Cloud Platform OpenAPI Service",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
+      "published": "2026-10-01T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and network data without proper authorization…",
+      "tags": [
+        "ics"
       ]
     },
     {
@@ -1470,31 +1521,6 @@
       ]
     },
     {
-      "id": "2fc28f57f3275c0d",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens Desigo CC family",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-05",
-      "published": "2026-09-22T12:00:00Z",
-      "summary": "View CSAF Summary A Client Code Execution (CCE) vulnerability has been identified in Desigo CC, potentially allowing malicious actors to execute arbitrary code on client devices through specially crafted graphics documents. This vulnerability leverages user-defined graphics conta…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "30aad928e8244cb1",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "lwIP TCP/IP Stack MQTT Client Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-01",
-      "published": "2026-09-22T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain full code execution on the device. The following versions of lwIP TCP/IP Stack MQTT Client Application are affected: MQTT Client Application >=2.0.1|<=2.2.1 (CVE-2026-87121) CVSS Vendo…",
-      "tags": [
-        "CVE-2026-87121",
-        "ics"
-      ]
-    },
-    {
       "id": "01271320a5d0fd19",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1734,32 +1760,6 @@
       "tags": [
         "KEV",
         "CVE-2026-84869"
-      ]
-    },
-    {
-      "id": "864a9a64686bfcf3",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-42016 — JFrog Artifactory: JFrog Artifactory Incorrect Authorization Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42016",
-      "published": "2026-09-11T00:00:00Z",
-      "summary": "JFrog Artifactory contains an incorrect authorization vulnerability that leads to a privilege escalation attack due to a validation check of the token signature/issuer and not the token’s scope.",
-      "tags": [
-        "KEV",
-        "CVE-2026-42016"
-      ]
-    },
-    {
-      "id": "d455dad39fdb73e8",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-42018 — JFrog Artifactory: JFrog Artifactory Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42018",
-      "published": "2026-09-11T00:00:00Z",
-      "summary": "JFrog Artifactory contains an improper authentication vulnerability that could return an internal anonymous-user token to an unauthenticated caller when anonymous access is disabled, potentially exposing sensitive resources.",
-      "tags": [
-        "KEV",
-        "CVE-2026-42018"
       ]
     },
     {
