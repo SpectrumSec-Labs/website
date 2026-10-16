@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "generated": "2026-10-15T21:32:09Z",
+  "generated": "2026-10-16T04:43:57Z",
   "items": [
+    {
+      "id": "6d11cb1202f1c0c8",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33430",
+      "published": "2026-10-16T00:46:35Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "8ecb07afc6e6d3dc",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111329: JuggleIM im-server through 1.8.16 ships default administrator credentials admin/123456 tha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111329",
+      "published": "2026-10-15T22:19:31Z",
+      "summary": "JuggleIM im-server through 1.8.16 ships default administrator credentials admin/123456 that allow unauthenticated remote attackers to access the admin console on port 8090. Attackers can log in as administrator, even after account deletion since CheckLogin recreates it, to contro…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111329",
+        "critical"
+      ]
+    },
+    {
+      "id": "1cf2d23080cc2af1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111322: Archon 0.2.13 through 0.11.1 contains a missing authentication vulnerability that allows u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111322",
+      "published": "2026-10-15T22:19:30Z",
+      "summary": "Archon 0.2.13 through 0.11.1 contains a missing authentication vulnerability that allows unauthenticated attackers to access the /api/* control API, which binds to 0.0.0.0 by default. Attackers with network access can send messages to the AI coding agent, which runs with bypassPe…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111322",
+        "critical"
+      ]
+    },
+    {
+      "id": "7f28baabd9c5804c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111283: BMC Helix Network Management on-prem before 26.3.01 contains an authentication bypass vuln…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111283",
+      "published": "2026-10-15T22:19:29Z",
+      "summary": "BMC Helix Network Management on-prem before 26.3.01 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as the local administrator with any password when SAML single sign-on is configured. Attackers can submit the administrator username…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111283",
+        "critical"
+      ]
+    },
+    {
+      "id": "de412cfedc7a6fd7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111281: Jooan JA-A12 IP cameras with firmware 009_20171107 and 05.02.31.105 contain a remote code…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111281",
+      "published": "2026-10-15T22:19:29Z",
+      "summary": "Jooan JA-A12 IP cameras with firmware 009_20171107 and 05.02.31.105 contain a remote code execution vulnerability that allows unauthenticated attackers to run root commands via hard-coded credentials. Attackers send singleCMD=SetDiagMode to /goform/SingleHandlebyCommand with an a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111281",
+        "critical"
+      ]
+    },
     {
       "id": "248a11fb326826a8",
       "source": "nvd-recent",
@@ -495,62 +562,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110640",
-        "critical"
-      ]
-    },
-    {
-      "id": "c1fbd8a3ceebf116",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110639: @mborne/extract before 0.2.1 contains an OS command injection vulnerability that allows at…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110639",
-      "published": "2026-10-14T15:17:17Z",
-      "summary": "@mborne/extract before 0.2.1 contains an OS command injection vulnerability that allows attackers to execute commands by supplying shell metacharacters in archivePath or targetDir options. Attackers controlling these values passed to extract() can inject commands into unquoted sh…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110639",
-        "critical"
-      ]
-    },
-    {
-      "id": "e9aafed42675f6f0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110644: nodejs-whisper through 0.3.1 contains an OS command injection vulnerability in convertToWa…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110644",
-      "published": "2026-10-14T15:17:17Z",
-      "summary": "nodejs-whisper through 0.3.1 contains an OS command injection vulnerability in convertToWavType() that allows attackers to execute commands by supplying crafted audio file paths. Attackers can provide file names containing $() command substitution or closing quotes, which are int…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110644",
-        "critical"
-      ]
-    },
-    {
-      "id": "e105e47269d7c1dd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110635: webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110635",
-      "published": "2026-10-14T15:17:16Z",
-      "summary": "webp-converter before 3.0.0 contains an OS command injection vulnerability in src/webpconverter.js helpers that run libwebp binaries via execFile with shell enabled. Attackers controlling file names or option strings passed to cwebp, dwebp, gwebp, or webpmux functions can inject…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110635",
-        "critical"
-      ]
-    },
-    {
-      "id": "4e1cd91247977300",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110636: pypdftk through 0.5 contains an OS command injection vulnerability in fill_form(), dump_da…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110636",
-      "published": "2026-10-14T15:17:16Z",
-      "summary": "pypdftk through 0.5 contains an OS command injection vulnerability in fill_form(), dump_data_fields(), and pdftk_cmd_util() that builds shell commands from caller-supplied paths. Attackers controlling pdf_path or out_file can inject shell metacharacters interpreted by subprocess…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110636",
         "critical"
       ]
     },
