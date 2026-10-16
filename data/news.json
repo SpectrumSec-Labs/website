@@ -1,7 +1,91 @@
 {
   "schema": 1,
-  "generated": "2026-10-16T04:43:57Z",
+  "generated": "2026-10-16T11:37:48Z",
   "items": [
+    {
+      "id": "5aca8a62eef02d77",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104730: The Sunshine Photo Cart – Client Photo Gallery & Photo Proofing for Photographers plugin f…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104730",
+      "published": "2026-10-16T07:17:08Z",
+      "summary": "The Sunshine Photo Cart – Client Photo Gallery & Photo Proofing for Photographers plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.7.4 via deserialization of untrusted input . This makes it possible for unauthenticated attackers t…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104730",
+        "critical"
+      ]
+    },
+    {
+      "id": "3a3b98ff0d9eaa0c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89079: The Theme My Login plugin for WordPress is vulnerable to privilege escalation via account…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89079",
+      "published": "2026-10-16T06:17:12Z",
+      "summary": "The Theme My Login plugin for WordPress is vulnerable to privilege escalation via account takeover in versions up to, and including, 7.2.1. This is due to the plugin not properly validating a user's identity prior to updating their password. This makes it possible for unauthentic…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89079",
+        "critical"
+      ]
+    },
+    {
+      "id": "f71d359e8a5715a2",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-103768: The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103768",
+      "published": "2026-10-16T06:17:03Z",
+      "summary": "The ELEX WordPress HelpDesk & Customer Ticketing System plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.3.7 via the initMailPart function. This is due to insufficient file type validation when saving IMAP email attachments. This…",
+      "tags": [
+        "CVE",
+        "CVE-2026-103768",
+        "critical"
+      ]
+    },
+    {
+      "id": "99b82ff5ecf53ca0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109515: The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109515",
+      "published": "2026-10-16T05:17:29Z",
+      "summary": "The MailOptin – Popup, Optin Forms & Email Newsletters for Mailchimp, HubSpot, AWeber Etc. plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 1.2.78.6 This is due to the `subscribe_to_email_list` endpoint accepting an attacker-supplie…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109515",
+        "critical"
+      ]
+    },
+    {
+      "id": "3d88663e58833273",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109219: The Mang Board plugin for WordPress is vulnerable to Arbitrary File Upload in all versions…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109219",
+      "published": "2026-10-16T05:17:29Z",
+      "summary": "The Mang Board plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.4.4 via the mbw_file_upload function. This is due to missing file extension validation on the attacker-supplied image_path parameter, whose basename-derived file nam…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109219",
+        "critical"
+      ]
+    },
+    {
+      "id": "08130000bd9504ce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104798: The My Calendar – Accessible Event Manager plugin for WordPress is vulnerable to Privilege…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104798",
+      "published": "2026-10-16T05:17:28Z",
+      "summary": "The My Calendar – Accessible Event Manager plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 3.8.7. The public `mcs` GET parameter is reflected into post content unsanitized before WordPress core's `do_shortcode` filter runs, allowin…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104798",
+        "critical"
+      ]
+    },
     {
       "id": "6d11cb1202f1c0c8",
       "source": "sans-isc",
@@ -478,90 +562,6 @@
       "tags": [
         "CVE",
         "CVE-2026-101956",
-        "critical"
-      ]
-    },
-    {
-      "id": "6051ba3430fb0caf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101950: A Heap-based Buffer Overflow vulnerability in the SVR component of Juniper Networks Junos…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101950",
-      "published": "2026-10-14T17:17:47Z",
-      "summary": "A Heap-based Buffer Overflow vulnerability in the SVR component of Juniper Networks Junos OS on SRX Series allows an unauthenticated network attacker to cause a denial of service and potentially compromise confidentiality and integrity via malformed IPv4 packets reaching an inter…",
-      "tags": [
-        "CVE",
-        "CVE-2026-101950",
-        "critical"
-      ]
-    },
-    {
-      "id": "2fb610cc8a789e7d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110650: The thumbnail Python package through 1.5 contains an OS command injection vulnerability in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110650",
-      "published": "2026-10-14T15:17:18Z",
-      "summary": "The thumbnail Python package through 1.5 contains an OS command injection vulnerability in generate_thumbnail() that allows attackers to execute commands by supplying shell metacharacters in file paths. Attackers who control a file name passed to generate_thumbnail, such as an up…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110650",
-        "critical"
-      ]
-    },
-    {
-      "id": "9e39d4c192c47492",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110649: Stills before 25.24.2 contains an OS command injection vulnerability that allows attackers…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110649",
-      "published": "2026-10-14T15:17:18Z",
-      "summary": "Stills before 25.24.2 contains an OS command injection vulnerability that allows attackers to execute shell commands by supplying crafted media file paths. Attackers can name a media file with $(...) or backticks to execute operating system commands with Node.js process privilege…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110649",
-        "critical"
-      ]
-    },
-    {
-      "id": "efe81c518f54aa52",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110645: Video-stitch before 2.0.0-beta.1 contains an OS command injection vulnerability that allow…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110645",
-      "published": "2026-10-14T15:17:18Z",
-      "summary": "Video-stitch before 2.0.0-beta.1 contains an OS command injection vulnerability that allows attackers to execute commands by supplying file names interpolated unquoted into shell-executed ffmpeg command lines. Attackers who influence file names passed to concat(), cut(), or merge…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110645",
-        "critical"
-      ]
-    },
-    {
-      "id": "055170b4e2f556a4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110643: transcribe2texts through 1.0.6 contains an OS command injection vulnerability that allows…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110643",
-      "published": "2026-10-14T15:17:17Z",
-      "summary": "transcribe2texts through 1.0.6 contains an OS command injection vulnerability that allows attackers to execute commands by supplying crafted audioPath values to transcribeAudio(). Attackers can inject $() or backtick substitution or a closing quote into the unescaped path passed…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110643",
-        "critical"
-      ]
-    },
-    {
-      "id": "a85f333c5645617f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110640: Whisper-node through 1.1.1 contains an OS command injection vulnerability that allows atta…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110640",
-      "published": "2026-10-14T15:17:17Z",
-      "summary": "Whisper-node through 1.1.1 contains an OS command injection vulnerability that allows attackers to execute commands by supplying crafted filePath or whisperOptions.language values to whisper(). Attackers can inject shell metacharacters or $() substitution into the command string…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110640",
         "critical"
       ]
     },
