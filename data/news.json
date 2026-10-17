@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-10-16T21:23:49Z",
+  "generated": "2026-10-17T04:41:14Z",
   "items": [
+    {
+      "id": "d61ac0e008144db3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104736: The LearnPress plugin for WordPress is vulnerable to PHP Object Injection in versions up t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104736",
+      "published": "2026-10-17T04:16:47Z",
+      "summary": "The LearnPress plugin for WordPress is vulnerable to PHP Object Injection in versions up to, and including, 4.4.10 via deserialization of untrusted input from the 'checkout-email' request parameter during the checkout AJAX action. The value is passed through sanitize_text_field()…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104736",
+        "critical"
+      ]
+    },
+    {
+      "id": "dda5561fd4bbefbe",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110653: The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin fo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110653",
+      "published": "2026-10-17T03:16:28Z",
+      "summary": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Race Condition in all versions up to, and including, 5.7.4. This is due to a non-atomic read-modify-write on the OTP verification attem…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110653",
+        "critical"
+      ]
+    },
     {
       "id": "d96b9dedf50bd2b7",
       "source": "nvd-recent",
@@ -121,6 +149,19 @@
       "published": "2026-10-16T12:00:00Z",
       "summary": "The National Institute of Standards and Technology (NIST), National Security Agency’s Super Intelligence Security Center (NSA SISC) and Cybersecurity and Infrastructure Security Agency (CISA) published Key Practices for Incident Readiness and Response in Super Intelligence Traini…",
       "tags": [
+        "advisory"
+      ]
+    },
+    {
+      "id": "90ef0f2bf47ec9ed",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Urges Patching Critical Vulnerability in BeyondTrust Remote Support",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/16/cisa-urges-patching-critical-vulnerability-beyondtrust-remote-support",
+      "published": "2026-10-16T12:00:00Z",
+      "summary": "CISA is aware of critical authentication bypass vulnerability CVE-2026-102764 , affecting BeyondTrust Remote Support (formerly Bomgar) versions 26.2.3 and earlier. Patches are available for supported versions (24.3.1 and later); organizations using older versions must upgrade fir…",
+      "tags": [
+        "CVE-2026-102764",
         "advisory"
       ]
     },
@@ -318,20 +359,6 @@
       ]
     },
     {
-      "id": "dca7501d22f7d946",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-111094: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a white…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111094",
-      "published": "2026-10-15T16:17:48Z",
-      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible",
-      "tags": [
-        "CVE",
-        "CVE-2026-111094",
-        "critical"
-      ]
-    },
-    {
       "id": "248a11fb326826a8",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -342,6 +369,20 @@
       "tags": [
         "CVE",
         "CVE-2026-110958",
+        "critical"
+      ]
+    },
+    {
+      "id": "dca7501d22f7d946",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111094: In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a white…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111094",
+      "published": "2026-10-15T16:17:48Z",
+      "summary": "In JetBrains TeamCity before 2026.2, 2026.1.4, 2025.11.8 remote code execution via a whitelist bypass in the build messages protocol was possible",
+      "tags": [
+        "CVE",
+        "CVE-2026-111094",
         "critical"
       ]
     },
@@ -600,34 +641,6 @@
       "tags": [
         "CVE",
         "CVE-2026-33792",
-        "critical"
-      ]
-    },
-    {
-      "id": "8c95a764923ba5ee",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-33789: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Junipe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33789",
-      "published": "2026-10-14T17:18:27Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated BGP peer to cause a denial of service and potential root-level command execution via crafted BGP route updates when the BGP…",
-      "tags": [
-        "CVE",
-        "CVE-2026-33789",
-        "critical"
-      ]
-    },
-    {
-      "id": "41a57fb56ca2163f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109439: Lantronix XPress-DR and XPress-DR-I (CoBos-family) firmware through 8.1.0.0 contains a mis…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109439",
-      "published": "2026-10-14T17:18:23Z",
-      "summary": "Lantronix XPress-DR and XPress-DR-I (CoBos-family) firmware through 8.1.0.0 contains a missing authentication vulnerability that allows remote attackers to read and persistently overwrite device configuration by sending crafted frames to the unauthenticated UDP configuration prot…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109439",
         "critical"
       ]
     },
@@ -1109,19 +1122,6 @@
       ]
     },
     {
-      "id": "f9b447af38c377a8",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-10-04T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-88779 Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability This type of vulnerability i…",
-      "tags": [
-        "CVE-2026-88779",
-        "advisory"
-      ]
-    },
-    {
       "id": "ef91de618747d24e",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1194,6 +1194,18 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-06",
       "published": "2026-10-01T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to manipulate device configurations, trigger unauthorized behaviors, and access sensitive information such as device credentials, owner details, and network data without proper authorization…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "b39ff47a9d6f32cc",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
+      "published": "2026-10-01T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system. The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are…",
       "tags": [
         "ics"
       ]
@@ -1504,19 +1516,6 @@
       "published": "2026-09-22T12:00:00Z",
       "summary": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to…",
       "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "2830a7fcaaeb3584",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "lwIP (Lightweight IP)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-02",
-      "published": "2026-09-22T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could result in a system crash, a DoS, or memory corruption, which could lead to code execution on the victim system. The following versions of lwIP (Lightweight IP) are affected: API >=2.0.1|<=2.2.1 (CVE-2026-91018)…",
-      "tags": [
-        "CVE-2026-91018",
         "ics"
       ]
     },
