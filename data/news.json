@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-17T04:41:14Z",
+  "generated": "2026-10-17T20:44:30Z",
   "items": [
+    {
+      "id": "b85a2314fe5c500c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111911: phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111911",
+      "published": "2026-10-17T19:16:33Z",
+      "summary": "phpMyFAQ 4.0.0 before 4.1.9 contains an authentication bypass vulnerability where WebAuthn registration endpoints attach credentials to any account without authentication or challenge validation. Attackers can stage a victim username, submit a forged fmt=none attestation to regis…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111911",
+        "critical"
+      ]
+    },
     {
       "id": "d61ac0e008144db3",
       "source": "nvd-recent",
@@ -627,20 +641,6 @@
       "tags": [
         "CVE",
         "CVE-2026-33796",
-        "critical"
-      ]
-    },
-    {
-      "id": "37decd4b34de8848",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-33792: A Stack-based Buffer Overflow vulnerability in the srxpfe process of Juniper Networks Juno…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33792",
-      "published": "2026-10-14T17:18:27Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the srxpfe process of Juniper Networks Junos OS on SRX Series allows an unauthenticated network attacker to execute code as root or cause a denial of service via a crafted packet received on a configured GRE tunnel.",
-      "tags": [
-        "CVE",
-        "CVE-2026-33792",
         "critical"
       ]
     },
