@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-17T20:44:30Z",
+  "generated": "2026-10-18T04:46:55Z",
   "items": [
     {
       "id": "b85a2314fe5c500c",
@@ -1955,21 +1955,6 @@
       "tags": [
         "CVE-2026-50522",
         "CVE-2026-58644",
-        "FR",
-        "alert"
-      ]
-    },
-    {
-      "id": "9b1271692a540db6",
-      "source": "cert-fr-alerte",
-      "source_name": "CERT-FR Alertes",
-      "title": "Multiples vulnérabilités dans WordPress (20 juillet 2026)",
-      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-007/",
-      "published": "2026-07-20T00:00:00Z",
-      "summary": "Le 17 juillet 2026, WordPress a publié un correctif pour deux vulnérabilités : CVE-2026-60137 : une injection SQL (SQLi) ; CVE-2026-63030 : celle-ci permet un contournement de la politique de sécurité. Un attaquant peut exploiter ces deux vulnérabilités, de manière combinée, pour…",
-      "tags": [
-        "CVE-2026-60137",
-        "CVE-2026-63030",
         "FR",
         "alert"
       ]
