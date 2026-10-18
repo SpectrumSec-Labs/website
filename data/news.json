@@ -1,7 +1,32 @@
 {
   "schema": 1,
-  "generated": "2026-10-18T04:46:55Z",
+  "generated": "2026-10-18T15:59:43Z",
   "items": [
+    {
+      "id": "aea64b1b41f60719",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33434",
+      "published": "2026-10-18T12:59:30Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "1e2de0b072a0e771",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111998: Vanus 0.8.0 through 0.9.0 contains a default credentials vulnerability that allows unauthe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111998",
+      "published": "2026-10-18T12:17:11Z",
+      "summary": "Vanus 0.8.0 through 0.9.0 contains a default credentials vulnerability that allows unauthenticated remote attackers to gain cluster-admin access by using the hardcoded admin token. Attackers can send the fixed Bearer token to the gateway gRPC proxy port to manage namespaces, even…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111998",
+        "critical"
+      ]
+    },
     {
       "id": "b85a2314fe5c500c",
       "source": "nvd-recent",
@@ -627,20 +652,6 @@
         "KEV",
         "CVE",
         "CVE-2026-76519",
-        "critical"
-      ]
-    },
-    {
-      "id": "573ab9eb66ab3421",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-33796: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Junipe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33796",
-      "published": "2026-10-14T17:18:28Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a configured external BGP neighbor to execute arbitrary commands with root privileges via BMP route monitoring.",
-      "tags": [
-        "CVE",
-        "CVE-2026-33796",
         "critical"
       ]
     },
