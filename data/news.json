@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-10-18T15:59:43Z",
+  "generated": "2026-10-19T22:29:11Z",
   "items": [
+    {
+      "id": "0b31b537531291ab",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-112779: Grav API plugin (grav-plugin-api) 1.0.40 before 1.0.42 caches a full translation dictionar…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112779",
+      "published": "2026-10-19T20:17:55Z",
+      "summary": "Grav API plugin (grav-plugin-api) 1.0.40 before 1.0.42 caches a full translation dictionary for every well-formed language code sent to the unauthenticated GET /api/v1/translations/{lang} endpoint, and 1.0.16 before 1.0.42 fails to check target and destination page rules in the s…",
+      "tags": [
+        "CVE",
+        "CVE-2026-112779",
+        "critical"
+      ]
+    },
+    {
+      "id": "00f4d099f7b947ac",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-112776: Craft CMS from 5.0.0 before 5.11.0 contains an authorization bypass vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112776",
+      "published": "2026-10-19T20:17:54Z",
+      "summary": "Craft CMS from 5.0.0 before 5.11.0 contains an authorization bypass vulnerability that allows site-scoped GraphQL tokens to mutate other sites' content because requireAllowedSite() is not enforced. Attackers holding a site-A token can create entries in site B via supplied siteId…",
+      "tags": [
+        "CVE",
+        "CVE-2026-112776",
+        "critical"
+      ]
+    },
+    {
+      "id": "97ea5bb79e0e3904",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109437: Cognition before 0.13.0 contains an unauthenticated remote code execution vulnerability du…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109437",
+      "published": "2026-10-19T19:17:19Z",
+      "summary": "Cognition before 0.13.0 contains an unauthenticated remote code execution vulnerability due to defaulting its agent sandbox backend to local execution and shipping no authentication on its REST/SSE API. Attackers can create a session via POST /sessions and post a message via POST…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109437",
+        "critical"
+      ]
+    },
+    {
+      "id": "f90f64bf1321c0f0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-111862: Rank Math SEO PRO for WordPress is affected by a supply-chain compromise in a subset of ve…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111862",
+      "published": "2026-10-19T17:17:04Z",
+      "summary": "Rank Math SEO PRO for WordPress is affected by a supply-chain compromise in a subset of version 3.0.123 packages downloaded or updated between October 15, 2026 at 20:02 UTC and October 16, 2026 at 07:12 UTC. Rank Math states that the affected plugin files contained malware that c…",
+      "tags": [
+        "CVE",
+        "CVE-2026-111862",
+        "critical"
+      ]
+    },
     {
       "id": "aea64b1b41f60719",
       "source": "sans-isc",
@@ -595,63 +651,6 @@
       "tags": [
         "CVE",
         "CVE-2026-110862",
-        "critical"
-      ]
-    },
-    {
-      "id": "7ac12144a0fe486b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110536: A vulnerability was determined in D-Link DIR-868L 2.01b05. This impacts the function syste…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110536",
-      "published": "2026-10-14T19:17:10Z",
-      "summary": "A vulnerability was determined in D-Link DIR-868L 2.01b05. This impacts the function system of the file /htdocs/cgibin of the component HNAP CGI Handler. Executing a manipulation of the argument SOAPACTION can lead to os command injection. The attack may be launched remotely. The…",
-      "tags": [
-        "CVE",
-        "CVE-2026-110536",
-        "critical"
-      ]
-    },
-    {
-      "id": "cedba2de4c33f5f6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101982: A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Junipe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101982",
-      "published": "2026-10-14T18:17:13Z",
-      "summary": "A Stack-based Buffer Overflow vulnerability in the routing protocol daemon (rpd) of Juniper Networks Junos OS and Junos OS Evolved allows a configured BGP/EVPN peer to cause root code execution on Junos OS or an rpd crash on Junos OS Evolved via protocol-valid route advertisement…",
-      "tags": [
-        "CVE",
-        "CVE-2026-101982",
-        "critical"
-      ]
-    },
-    {
-      "id": "97fe9b9ab767e97f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101954: An Improper Authentication vulnerability in the J-Web management interface and its NETCONF…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101954",
-      "published": "2026-10-14T18:17:11Z",
-      "summary": "An Improper Authentication vulnerability in the J-Web management interface and its NETCONF session handling of Juniper Networks Junos OS and Junos OS Evolved allows an unauthenticated network attacker to obtain root-level device configuration access and take over the device via a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-101954",
-        "critical"
-      ]
-    },
-    {
-      "id": "797c37d84e415538",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76519: A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gat…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-      "published": "2026-10-14T17:19:10Z",
-      "summary": "A vulnerability in the Advanced Malware Protection (AMP) feature of Cisco Secure Email Gateway could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system. This vulnerability is due to improper handling of email attachments when the…",
-      "tags": [
-        "KEV",
-        "CVE",
-        "CVE-2026-76519",
         "critical"
       ]
     },
