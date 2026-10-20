@@ -1,7 +1,19 @@
 {
   "schema": 1,
-  "generated": "2026-10-20T05:01:31Z",
+  "generated": "2026-10-20T11:51:37Z",
   "items": [
+    {
+      "id": "6fc5224c9f33d861",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Introducing a new AI chapter in the NCSC research problem book",
+      "url": "https://www.ncsc.gov.uk/blogs/introducing-new-ai-chapter-ncsc-research-problem-book",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "A revolution is underway at the intersection of AI and cyber security.",
+      "tags": [
+        "guidance"
+      ]
+    },
     {
       "id": "cd6fb20060e8ccc3",
       "source": "nvd-recent",
@@ -17,20 +29,6 @@
       ]
     },
     {
-      "id": "8abc1a3efde712f5",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-77933: DB-GPT through 0.8.2 contains a hardcoded credentials vulnerability in its default docker…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77933",
-      "published": "2026-10-20T01:17:19Z",
-      "summary": "DB-GPT through 0.8.2 contains a hardcoded credentials vulnerability in its default docker-compose.yml that sets a static MYSQL_ROOT_PASSWORD and publishes port 3306 on all interfaces. Attackers reaching port 3306 or the shared dbgptnet network can authenticate as root@% to gain f…",
-      "tags": [
-        "CVE",
-        "CVE-2026-77933",
-        "critical"
-      ]
-    },
-    {
       "id": "41e9115cfc44829e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -41,6 +39,20 @@
       "tags": [
         "CVE",
         "CVE-2026-77932",
+        "critical"
+      ]
+    },
+    {
+      "id": "8abc1a3efde712f5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-77933: DB-GPT through 0.8.2 contains a hardcoded credentials vulnerability in its default docker…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77933",
+      "published": "2026-10-20T01:17:19Z",
+      "summary": "DB-GPT through 0.8.2 contains a hardcoded credentials vulnerability in its default docker-compose.yml that sets a static MYSQL_ROOT_PASSWORD and publishes port 3306 on all interfaces. Attackers reaching port 3306 or the shared dbgptnet network can authenticate as root@% to gain f…",
+      "tags": [
+        "CVE",
+        "CVE-2026-77933",
         "critical"
       ]
     },
