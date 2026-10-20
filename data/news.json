@@ -1,7 +1,37 @@
 {
   "schema": 1,
-  "generated": "2026-10-20T11:51:37Z",
+  "generated": "2026-10-20T17:20:51Z",
   "items": [
+    {
+      "id": "1af654b0c99fb535",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "HMS Networks PEAK-System PCAN Windows drivers",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-01",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could crash the Windows kernel. The following versions of HMS Networks PEAK-System PCAN Windows drivers are affected: PEAK-System Device Driver Setup <=5.1.2.1151 (CVE-2026-109576, CVE-2026-101103, CVE-2026-94188…",
+      "tags": [
+        "CVE-2026-101103",
+        "CVE-2026-109576",
+        "CVE-2026-94188",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "42e627a08717a3a1",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Moxa AIG-302 ThingsPro Edge",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-03",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to obtain and disclose sensitive information. The following versions of Moxa AIG-302 ThingsPro Edge are affected: Moxa AIG-302 ThingsPro Edge firmware <=1.4.0 (CVE-2026-109812, CVE-2026-109…",
+      "tags": [
+        "CVE-2026-109812",
+        "advisory",
+        "ics"
+      ]
+    },
     {
       "id": "6fc5224c9f33d861",
       "source": "ncsc-uk",
@@ -12,6 +42,45 @@
       "summary": "A revolution is underway at the intersection of AI and cyber security.",
       "tags": [
         "guidance"
+      ]
+    },
+    {
+      "id": "75e799237f00825e",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "WAGO OS Linux",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-02",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "View CSAF Summary Two vulnerabilities in the Web-Based Management (WBM) interface of WAGO CC100, PFC100 G2, PFC200 G2, TP600, Edge Controller and WP400 devices allow an authenticated low-privileged user to bypass intended privilege boundaries. The issues affect both the routing c…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "8d626ff9f11dd658",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Hitachi Energy MicroSCADA X SYS600 Product",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-04",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect MicroSCADA X SYS600 product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks on the product. Please refer to the Recommended Immediate Actions fo…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "baa0eb14aec51572",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Hitachi Energy RTU500 Product",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-293-05",
+      "published": "2026-10-20T12:00:00Z",
+      "summary": "View CSAF Summary Hitachi Energy is aware of vulnerabilities that affect RTU500 product versions listed in this document. These vulnerabilities if exploited can have impact on confidentiality, integrity and availability of the product. Please refer to the Recommended Immediate Ac…",
+      "tags": [
+        "advisory",
+        "ics"
       ]
     },
     {
@@ -1080,72 +1149,6 @@
       ]
     },
     {
-      "id": "3bf96eac7c2fcc85",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy SOI",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-04",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is aware of RCE (Remote Code Execution) vulnerability in Apache ActiveMQ component of SOI product versions listed in this document. These vulnerabilities can be exploited to carry out various attacks affecting confidentiality, integrity, and avail…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "4f0c5d36cee95535",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy REB500",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) attack on the product. Please refer to the Recommended Immedi…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "70be64174d6579c0",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Savannah lwIP SMTP client",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Savannah lwIP SMTP client are affected: lwIP SMTP client 2.2.1 (CVE-2026-15340) CVSS Vendo…",
-      "tags": [
-        "CVE-2026-15340",
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "bce52ccd711d90ff",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy Asset Suite",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-03",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is aware of unauthenticated servlet access vulnerabilities that affect Asset Suite product versions listed in this document. These vulnerabilities can be exploited to potentially cause confidentiality, integrity and availability impact on the prod…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "db461caabe0c965b",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy RTU500",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU500 firmware versions that were developed…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
       "id": "e30c5b945143e32e",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -1234,6 +1237,30 @@
       ]
     },
     {
+      "id": "9bacd2ea82527c90",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Armatura LLC Armatura One",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-01",
+      "published": "2026-10-01T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain unauthorized access to the database, execute arbitrary code on the host with the highest level of privilege, or gain control of the physical access-control system. The following ver…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "af342dacbe59b3d2",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Johnson Controls EasyIO Neo Series EC and CW Controllers",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-05",
+      "published": "2026-10-01T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker tointercept and read sensitive information, including credentials andsession data. The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are affected: EasyIO Neo S…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
       "id": "b39ff47a9d6f32cc",
       "source": "cisa-ics",
       "source_name": "CISA ICS Advisories",
@@ -1241,6 +1268,18 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-04",
       "published": "2026-10-01T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to gain access to sensitive information that could be used to conduct further attacks against the system. The following versions of Johnson Controls EasyIO Neo Series EC and CW Controllers are…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "dcf8afe15256d1c7",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Monta monta.app",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
+      "published": "2026-10-01T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Monta monta.app are af…",
       "tags": [
         "ics"
       ]
@@ -1490,33 +1529,6 @@
       ]
     },
     {
-      "id": "7075b981cb319001",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Eufy Omni C20, Omni X10 Pro",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-267-02",
-      "published": "2026-09-24T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to run system level commands or execute arbitrary code. The following versions of Eufy Omni C20, Omni X10 Pro are affected: Omni C20 <1.6.4 (CVE-2026-93289, CVE-2026-93290, CVE-2026-93291)…",
-      "tags": [
-        "CVE-2026-93289",
-        "CVE-2026-93290",
-        "CVE-2026-93291",
-        "ics"
-      ]
-    },
-    {
-      "id": "d37255785eac8b01",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens Mendix Runtime (Update A)",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-209-02",
-      "published": "2026-09-24T12:00:00Z",
-      "summary": "View CSAF Summary This advisory is revoked. Re-investigation confirmed the reported behavior is expected platform configuration and does not expose the protected attribute. The following versions of Siemens Mendix Runtime are affected: Siemens Mendix Runtime vers:all/* (CVE-2026…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
       "id": "976ad119a3a76047",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1540,18 +1552,6 @@
       "tags": [
         "KEV",
         "CVE-2026-71362"
-      ]
-    },
-    {
-      "id": "1e0426abc892cecf",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Siemens Siveillance Control",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-265-03",
-      "published": "2026-09-22T12:00:00Z",
-      "summary": "View CSAF Summary A vulnerability has been identified in the Open Interface Services (OIS) web module affecting Siveillance Control and Siveillance Control Pro (versions OIS 3.x.y and OIS 4.x.y) . This vulnerability allows an attacker to upload arbitrary files, which can lead to…",
-      "tags": [
-        "ics"
       ]
     },
     {
@@ -1950,18 +1950,6 @@
       "url": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
       "published": "2026-07-23T12:00:00Z",
       "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "bc780d69efa8dbe2",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Post-quantum cryptography (PQC) migration workshop report",
-      "url": "https://www.ncsc.gov.uk/blogs/post-quantum-cryptography-pqc-migration-workshop-report",
-      "published": "2026-07-22T12:00:00Z",
-      "summary": "No organisation can navigate the migration alone; key takeaways from our first PQC migration workshop.",
       "tags": [
         "guidance"
       ]
