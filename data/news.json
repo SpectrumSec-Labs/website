@@ -1,7 +1,118 @@
 {
   "schema": 1,
-  "generated": "2026-10-21T12:03:09Z",
+  "generated": "2026-10-21T17:23:01Z",
   "items": [
+    {
+      "id": "57c8088263a1a61c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76475: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
+      "published": "2026-10-21T17:19:07Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76475",
+        "critical"
+      ]
+    },
+    {
+      "id": "9a847144a2516185",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76474: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
+      "published": "2026-10-21T17:19:07Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76474",
+        "critical"
+      ]
+    },
+    {
+      "id": "dae61814d0ffaa19",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76473: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
+      "published": "2026-10-21T17:19:06Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76473",
+        "critical"
+      ]
+    },
+    {
+      "id": "6dc2b2f40f0a5cce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76466: A vulnerability in the database service feature of Cisco Expressway Series could allow an…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
+      "published": "2026-10-21T17:19:06Z",
+      "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. This vulnerability is due to the use of persistent c…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76466",
+        "critical"
+      ]
+    },
+    {
+      "id": "3359d582de4bd2a7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-20043: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
+      "published": "2026-10-21T17:18:27Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple interna…",
+      "tags": [
+        "CVE",
+        "CVE-2026-20043",
+        "critical"
+      ]
+    },
+    {
+      "id": "8c93f156e6785774",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
+      "url": "https://isc.sans.edu/diary/rss/33440",
+      "published": "2026-10-21T15:12:02Z",
+      "tags": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "research"
+      ]
+    },
+    {
+      "id": "3e4dd48255f1a95f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109619: PHP has various global state that temporarily points into request memory. In some scenario…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "published": "2026-10-21T14:17:09Z",
+      "summary": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may r…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109619",
+        "critical"
+      ]
+    },
+    {
+      "id": "59f34b6f811267a0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109618: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort ha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+      "published": "2026-10-21T14:17:09Z",
+      "summary": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cle…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109618",
+        "critical"
+      ]
+    },
     {
       "id": "03ee9f0b2a4050ea",
       "source": "ncsc-uk",
@@ -9,9 +120,25 @@
       "title": "Critical security issue affecting PHP",
       "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
       "published": "2026-10-21T12:00:00Z",
-      "summary": "The NCSC is encouraging UK organisations to prepare for immediate updating of systems using PHP.",
+      "summary": "Updated: The NCSC is encouraging UK organisations to take immediate action to mitigate a security issue affecting PHP (CVE-2026-109618 and CVE-2026-109619).",
       "tags": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
         "guidance"
+      ]
+    },
+    {
+      "id": "f778ef1a30ddc938",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Critical Vulnerabilities in PHP Require Immediate Patching",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/10/21/critical-vulnerabilities-php-require-immediate-patching",
+      "published": "2026-10-21T12:00:00Z",
+      "summary": "CISA strongly urges organizations to immediately patch the recently disclosed critical vulnerabilities in PHP, CVE-2026-109618 and CVE-2026-109619 . These vulnerabilities, known as “php2shell,” allow for unauthenticated remote code execution in PHP and affect all PHP installation…",
+      "tags": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "advisory"
       ]
     },
     {
@@ -79,6 +206,8 @@
       "published": "2026-10-21T00:00:00Z",
       "summary": "Le 20 octobre 2026, PHP a publié une communication concernant deux vulnérabilités critiques. L'éditeur annonce la disponibilité des correctifs de sécurité pour le 21 octobre 2026 à 16h00 heure de Paris (14h00 UTC). Pour les versions de PHP 5.x, 6.x, 7.x, 8.0.x et 8.1.x , dont l'é…",
       "tags": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
         "FR",
         "alert"
       ]
@@ -98,20 +227,6 @@
       ]
     },
     {
-      "id": "c4ab34f8f9150ced",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91663: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91663",
-      "published": "2026-10-20T22:21:06Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via T3, IIOP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91663",
-        "critical"
-      ]
-    },
-    {
       "id": "3616ff4bad40aa79",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -126,16 +241,16 @@
       ]
     },
     {
-      "id": "87df515517b8d7d4",
+      "id": "c4ab34f8f9150ced",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
-      "published": "2026-10-20T22:21:05Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
+      "title": "CVE-2026-91663: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91663",
+      "published": "2026-10-20T22:21:06Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via T3, IIOP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase…",
       "tags": [
         "CVE",
-        "CVE-2026-91656",
+        "CVE-2026-91663",
         "critical"
       ]
     },
@@ -150,6 +265,20 @@
       "tags": [
         "CVE",
         "CVE-2026-91655",
+        "critical"
+      ]
+    },
+    {
+      "id": "87df515517b8d7d4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
+      "published": "2026-10-20T22:21:05Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
+      "tags": [
+        "CVE",
+        "CVE-2026-91656",
         "critical"
       ]
     },
@@ -266,20 +395,6 @@
       ]
     },
     {
-      "id": "29fac6d6ef22e8a2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91250: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91250",
-      "published": "2026-10-20T22:20:25Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compr…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91250",
-        "critical"
-      ]
-    },
-    {
       "id": "24df3f338d3edc71",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -290,6 +405,20 @@
       "tags": [
         "CVE",
         "CVE-2026-91243",
+        "critical"
+      ]
+    },
+    {
+      "id": "29fac6d6ef22e8a2",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-91250: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91250",
+      "published": "2026-10-20T22:20:25Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compr…",
+      "tags": [
+        "CVE",
+        "CVE-2026-91250",
         "critical"
       ]
     },
@@ -308,20 +437,6 @@
       ]
     },
     {
-      "id": "b8d3fe000151e1cb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91232: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91232",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91232",
-        "critical"
-      ]
-    },
-    {
       "id": "0ad33acb43838020",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -332,20 +447,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91231",
-        "critical"
-      ]
-    },
-    {
-      "id": "58a2b68a437f0143",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91230: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91230",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Ora…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91230",
         "critical"
       ]
     },
@@ -364,86 +465,16 @@
       ]
     },
     {
-      "id": "7ca27b7c3b8afa48",
+      "id": "58a2b68a437f0143",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91224: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91224",
-      "published": "2026-10-20T22:20:22Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
+      "title": "CVE-2026-91230: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91230",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Ora…",
       "tags": [
         "CVE",
-        "CVE-2026-91224",
-        "critical"
-      ]
-    },
-    {
-      "id": "f837132a9b5a0d77",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91222: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Mid…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91222",
-      "published": "2026-10-20T22:20:22Z",
-      "summary": "Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Human Workflow (11g+)). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91222",
-        "critical"
-      ]
-    },
-    {
-      "id": "6fb34f360248c362",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91221: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91221",
-      "published": "2026-10-20T22:20:22Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91221",
-        "critical"
-      ]
-    },
-    {
-      "id": "2e1c727d3f0ef5fa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91218: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91218",
-      "published": "2026-10-20T22:20:22Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91218",
-        "critical"
-      ]
-    },
-    {
-      "id": "bb0adc60d235d415",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91216: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91216",
-      "published": "2026-10-20T22:20:22Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91216",
-        "critical"
-      ]
-    },
-    {
-      "id": "65aca8d2da9b1a3a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-87347: Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: OS…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87347",
-      "published": "2026-10-20T22:20:12Z",
-      "summary": "Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: OSSL Module). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Ora…",
-      "tags": [
-        "CVE",
-        "CVE-2026-87347",
+        "CVE-2026-91230",
         "critical"
       ]
     },
@@ -1139,19 +1170,6 @@
       ]
     },
     {
-      "id": "f58da9be9c2cd903",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Red Lion Controls N-Tron 700 Series",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-281-01",
-      "published": "2026-10-08T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow a malicious user to access the device and gain administrative access. This access would allow the user to view, edit, and upload configuration files. Further, a malicious user can cause the switch to r…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
       "id": "3329164850c00ca7",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1249,6 +1267,19 @@
       "summary": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
       "tags": [
         "guidance"
+      ]
+    },
+    {
+      "id": "70be64174d6579c0",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Savannah lwIP SMTP client",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-02",
+      "published": "2026-10-06T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Savannah lwIP SMTP client are affected: lwIP SMTP client 2.2.1 (CVE-2026-15340) CVSS Vendo…",
+      "tags": [
+        "CVE-2026-15340",
+        "ics"
       ]
     },
     {
@@ -1510,18 +1541,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
       "published": "2026-09-29T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform. The following versions of Viidure Dashcam Android Ap…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "fbfa52177ee528e6",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Anjvision YSSD-RTMP-H5",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-05",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access sensitive information, access user accounts, execute OS-level commands, or take full control over the device. The following versions of Anjvision YSSD-RTMP-H5 are affected: YSSD-R…",
       "tags": [
         "ics"
       ]
