@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-21T17:23:01Z",
+  "generated": "2026-10-21T21:50:25Z",
   "items": [
+    {
+      "id": "83143f39557159fa",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114268: A flaw has been found in Tenda BE3L Pro 16.03.60.62. Affected by this vulnerability is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114268",
+      "published": "2026-10-21T19:17:00Z",
+      "summary": "A flaw has been found in Tenda BE3L Pro 16.03.60.62. Affected by this vulnerability is the function formWifiBasicSet of the file /goform/WifiBasicSet. This manipulation of the argument security_5g causes buffer overflow. It is possible to initiate the attack remotely. The exploit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-114268",
+        "critical"
+      ]
+    },
     {
       "id": "57c8088263a1a61c",
       "source": "nvd-recent",
@@ -31,20 +45,6 @@
       ]
     },
     {
-      "id": "dae61814d0ffaa19",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76473: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
-      "published": "2026-10-21T17:19:06Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76473",
-        "critical"
-      ]
-    },
-    {
       "id": "6dc2b2f40f0a5cce",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -55,6 +55,20 @@
       "tags": [
         "CVE",
         "CVE-2026-76466",
+        "critical"
+      ]
+    },
+    {
+      "id": "dae61814d0ffaa19",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76473: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
+      "published": "2026-10-21T17:19:06Z",
+      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76473",
         "critical"
       ]
     },
@@ -437,6 +451,20 @@
       ]
     },
     {
+      "id": "b8d3fe000151e1cb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-91232: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91232",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
+      "tags": [
+        "CVE",
+        "CVE-2026-91232",
+        "critical"
+      ]
+    },
+    {
       "id": "0ad33acb43838020",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -447,34 +475,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91231",
-        "critical"
-      ]
-    },
-    {
-      "id": "0eca3a8377bd762b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91225: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91225",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91225",
-        "critical"
-      ]
-    },
-    {
-      "id": "58a2b68a437f0143",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91230: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91230",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Ora…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91230",
         "critical"
       ]
     },
