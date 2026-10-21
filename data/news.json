@@ -1,424 +1,449 @@
 {
   "schema": 1,
-  "generated": "2026-10-21T05:01:18Z",
+  "generated": "2026-10-21T12:03:09Z",
   "items": [
     {
-      "id": "6aa07a95c4786cf4",
+      "id": "03ee9f0b2a4050ea",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Critical security issue affecting PHP",
+      "url": "https://www.ncsc.gov.uk/news/critical-security-issue-affecting-php",
+      "published": "2026-10-21T12:00:00Z",
+      "summary": "The NCSC is encouraging UK organisations to prepare for immediate updating of systems using PHP.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "efe29b9cf11b5079",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9869: A stack-based buffer overflow vulnerability exists in the boa formTR069Config functionalit…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9869",
-      "published": "2026-10-20T21:17:23Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formTR069Config functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request…",
+      "title": "CVE-2026-113744: A security vulnerability has been detected in Tenda AC19 16.03.10.07. The impacted element…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113744",
+      "published": "2026-10-21T02:17:07Z",
+      "summary": "A security vulnerability has been detected in Tenda AC19 16.03.10.07. The impacted element is the function formSetFirewallCfg of the file /goform/SetFirewallCfg of the component httpd Web Management Service. Such manipulation of the argument firewallEn leads to stack-based buffer…",
       "tags": [
         "CVE",
-        "CVE-2026-9869",
+        "CVE-2026-113744",
         "critical"
       ]
     },
     {
-      "id": "d3bdd0345bb693fd",
+      "id": "96ab27e43690d1de",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9827: A arbitrary file write vulnerability exists in the boa formUploadFile functionality of X20…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9827",
-      "published": "2026-10-20T21:17:23Z",
-      "summary": "A arbitrary file write vulnerability exists in the boa formUploadFile functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigg…",
+      "title": "CVE-2026-114119: Best Practice Software Bp Premier before 1.14.1.1128 uses a hardcoded Microsoft SQL Server…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114119",
+      "published": "2026-10-21T01:17:38Z",
+      "summary": "Best Practice Software Bp Premier before 1.14.1.1128 uses a hardcoded Microsoft SQL Server administrative password that is shared across all installations and cannot be changed without breaking the application. Attackers with network access to the database instance can authentica…",
       "tags": [
         "CVE",
-        "CVE-2026-9827",
+        "CVE-2026-114119",
         "critical"
       ]
     },
     {
-      "id": "21ab7c708190ae00",
+      "id": "6e8baf7b5be8b394",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9660: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilt…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9660",
-      "published": "2026-10-20T21:17:22Z",
-      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilter functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticate…",
+      "title": "CVE-2026-114108: HKUDS Vibe-Trading from 0.1.0 before 0.1.7 contains a missing authentication vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114108",
+      "published": "2026-10-21T01:17:36Z",
+      "summary": "HKUDS Vibe-Trading from 0.1.0 before 0.1.7 contains a missing authentication vulnerability that allows unauthenticated attackers to access the FastAPI surface because require_auth() returns early when API_AUTH_KEY is unset. Attackers can post messages to /sessions/{id}/messages t…",
       "tags": [
         "CVE",
-        "CVE-2026-9660",
+        "CVE-2026-114108",
         "critical"
       ]
     },
     {
-      "id": "4e495816eada7e52",
+      "id": "d6715ccc3ee76c9e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9814: An OS command injection vulnerability exists in the boa formWizard newPass functionality o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9814",
-      "published": "2026-10-20T21:17:22Z",
-      "summary": "An OS command injection vulnerability exists in the boa formWizard newPass functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to…",
+      "title": "CVE-2026-113736: A vulnerability has been found in D-Link DHP-W610AV 1.02EUb03. The impacted element is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113736",
+      "published": "2026-10-21T01:17:25Z",
+      "summary": "A vulnerability has been found in D-Link DHP-W610AV 1.02EUb03. The impacted element is the function login_prepare_hnap of the file etc/defnodes/defaultvalue.xml of the component HNAP Login. The manipulation of the argument Password leads to empty password in configuration file. T…",
       "tags": [
         "CVE",
-        "CVE-2026-9814",
+        "CVE-2026-113736",
         "critical"
       ]
     },
     {
-      "id": "58affc8a5ba16970",
+      "id": "3e0ac085dc7f4215",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Multiples vulnérabilités dans PHP (21 octobre 2026)",
+      "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "published": "2026-10-21T00:00:00Z",
+      "summary": "Le 20 octobre 2026, PHP a publié une communication concernant deux vulnérabilités critiques. L'éditeur annonce la disponibilité des correctifs de sécurité pour le 21 octobre 2026 à 16h00 heure de Paris (14h00 UTC). Pour les versions de PHP 5.x, 6.x, 7.x, 8.0.x et 8.1.x , dont l'é…",
+      "tags": [
+        "FR",
+        "alert"
+      ]
+    },
+    {
+      "id": "1dabc633768bfc3c",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9817: A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9817",
-      "published": "2026-10-20T21:17:22Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request t…",
+      "title": "CVE-2026-92559: IBM App Connect Enterprise 13.0.1.0 through 13.0.8.2 could allow a remote attacker to obta…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92559",
+      "published": "2026-10-20T22:21:07Z",
+      "summary": "IBM App Connect Enterprise 13.0.1.0 through 13.0.8.2 could allow a remote attacker to obtain sensitive information due to binding to an unrestricted IP address.",
       "tags": [
         "CVE",
-        "CVE-2026-9817",
+        "CVE-2026-92559",
         "critical"
       ]
     },
     {
-      "id": "9dfc34e7bbb39e55",
+      "id": "c4ab34f8f9150ced",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9659: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilt…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9659",
-      "published": "2026-10-20T21:17:22Z",
-      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilter functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticate…",
+      "title": "CVE-2026-91663: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91663",
+      "published": "2026-10-20T22:21:06Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via T3, IIOP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase…",
       "tags": [
         "CVE",
-        "CVE-2026-9659",
+        "CVE-2026-91663",
         "critical"
       ]
     },
     {
-      "id": "2ac669d4f0e384a9",
+      "id": "3616ff4bad40aa79",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42020: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42020",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP r…",
+      "title": "CVE-2026-91658: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91658",
+      "published": "2026-10-20T22:21:06Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
       "tags": [
         "CVE",
-        "CVE-2026-42020",
+        "CVE-2026-91658",
         "critical"
       ]
     },
     {
-      "id": "575ad880649ef369",
+      "id": "87df515517b8d7d4",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42021: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42021",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
+      "published": "2026-10-20T22:21:05Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
       "tags": [
         "CVE",
-        "CVE-2026-42021",
+        "CVE-2026-91656",
         "critical"
       ]
     },
     {
-      "id": "78e3119fe30ecdda",
+      "id": "4022238ff35dabd4",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42024: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42024",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "title": "CVE-2026-91655: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91655",
+      "published": "2026-10-20T22:21:05Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
       "tags": [
         "CVE",
-        "CVE-2026-42024",
+        "CVE-2026-91655",
         "critical"
       ]
     },
     {
-      "id": "a41195a863bebb91",
+      "id": "e5c734d35e4efe62",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42022: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42022",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "title": "CVE-2026-91644: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91644",
+      "published": "2026-10-20T22:21:04Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, a…",
       "tags": [
         "CVE",
-        "CVE-2026-42022",
+        "CVE-2026-91644",
         "critical"
       ]
     },
     {
-      "id": "b60174401d3a0470",
+      "id": "054a226be94703cf",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42023: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42023",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "title": "CVE-2026-91638: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91638",
+      "published": "2026-10-20T22:21:03Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
       "tags": [
         "CVE",
-        "CVE-2026-42023",
+        "CVE-2026-91638",
         "critical"
       ]
     },
     {
-      "id": "d0d1979888f4f72e",
+      "id": "bb0432843dde1c3d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42026: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formIpv6…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42026",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup dhcp_dns functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an…",
+      "title": "CVE-2026-91637: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91637",
+      "published": "2026-10-20T22:21:03Z",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
       "tags": [
         "CVE",
-        "CVE-2026-42026",
+        "CVE-2026-91637",
         "critical"
       ]
     },
     {
-      "id": "d544ac5905f7bad5",
+      "id": "9c1ba671555f2de9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42025: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formIpv6…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42025",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup dhcp_dns functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an…",
+      "title": "CVE-2026-91622: Vulnerability in the Oracle Agile Product Lifecycle Management for Process product of Orac…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91622",
+      "published": "2026-10-20T22:21:02Z",
+      "summary": "Vulnerability in the Oracle Agile Product Lifecycle Management for Process product of Oracle Supply Chain (component: Product Quality Management). The supported version that is affected is 6.2.4. Easily exploitable vulnerability allows unauthenticated attacker with network access…",
       "tags": [
         "CVE",
-        "CVE-2026-42025",
+        "CVE-2026-91622",
         "critical"
       ]
     },
     {
-      "id": "25e0b84b161d38d3",
+      "id": "486541f9b2d8cb38",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-40615: A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40615",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated…",
+      "title": "CVE-2026-91354: Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (com…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91354",
+      "published": "2026-10-20T22:20:38Z",
+      "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Clean Content SDK). The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compro…",
       "tags": [
         "CVE",
-        "CVE-2026-40615",
+        "CVE-2026-91354",
         "critical"
       ]
     },
     {
-      "id": "4c6ffd439d6dfaef",
+      "id": "6822080e456bae50",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42019: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42019",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP r…",
+      "title": "CVE-2026-91341: Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (com…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91341",
+      "published": "2026-10-20T22:20:36Z",
+      "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Clean Content SDK). The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compr…",
       "tags": [
         "CVE",
-        "CVE-2026-42019",
+        "CVE-2026-91341",
         "critical"
       ]
     },
     {
-      "id": "4e3ed1797875b74d",
+      "id": "394cd6c3a0f061c3",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-40627: An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40627",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to tri…",
+      "title": "CVE-2026-91299: Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (c…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91299",
+      "published": "2026-10-20T22:20:31Z",
+      "summary": "Vulnerability in the JD Edwards EnterpriseOne Orchestrator product of Oracle JD Edwards (component: E1 IOT Orchestrator Security). Supported versions that are affected are 9.2.0.0-9.2.26.5. Easily exploitable vulnerability allows unauthenticated attacker with network access via H…",
       "tags": [
         "CVE",
-        "CVE-2026-40627",
+        "CVE-2026-91299",
         "critical"
       ]
     },
     {
-      "id": "5eb1287845dfc8c4",
+      "id": "0de5313ed77f07f0",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-28763: A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname fu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28763",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTT…",
+      "title": "CVE-2026-91251: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91251",
+      "published": "2026-10-20T22:20:26Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle S…",
       "tags": [
         "CVE",
-        "CVE-2026-28763",
+        "CVE-2026-91251",
         "critical"
       ]
     },
     {
-      "id": "79046af2b54a2b31",
+      "id": "29fac6d6ef22e8a2",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-35499: An os command injection vulnerability exists in the boa formWsc peerRptPin functionality o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35499",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "An os command injection vulnerability exists in the boa formWsc peerRptPin functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigg…",
+      "title": "CVE-2026-91250: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91250",
+      "published": "2026-10-20T22:20:25Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compr…",
       "tags": [
         "CVE",
-        "CVE-2026-35499",
+        "CVE-2026-91250",
         "critical"
       ]
     },
     {
-      "id": "7ed639184e7eef73",
+      "id": "24df3f338d3edc71",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-41223: A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice macstr func…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41223",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice macstr functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP…",
+      "title": "CVE-2026-91243: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Mid…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91243",
+      "published": "2026-10-20T22:20:25Z",
+      "summary": "Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via…",
       "tags": [
         "CVE",
-        "CVE-2026-41223",
+        "CVE-2026-91243",
         "critical"
       ]
     },
     {
-      "id": "a730649044764a9e",
+      "id": "78dcd71f1a4b6cc9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-41222: A stack-based buffer overflow vulnerability exists in the boa formParentControl url functi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41222",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formParentControl url functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP re…",
+      "title": "CVE-2026-91241: Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Ana…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91241",
+      "published": "2026-10-20T22:20:24Z",
+      "summary": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Analytics Web Administration). Supported versions that are affected are 8.2.0.0.0, 12.2.1.4.0 and 26.01.0.0.0. Easily exploitable vulnerability allows high privileged atta…",
       "tags": [
         "CVE",
-        "CVE-2026-41222",
+        "CVE-2026-91241",
         "critical"
       ]
     },
     {
-      "id": "abbac8c917ad4c5e",
+      "id": "b8d3fe000151e1cb",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-33568: A OS command injection vulnerability exists in the boa formMapDelDevice macstr functionali…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-33568",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A OS command injection vulnerability exists in the boa formMapDelDevice macstr functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request…",
+      "title": "CVE-2026-91232: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91232",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
       "tags": [
         "CVE",
-        "CVE-2026-33568",
+        "CVE-2026-91232",
         "critical"
       ]
     },
     {
-      "id": "0ce59d518c36024a",
+      "id": "0ad33acb43838020",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10133: A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10133",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
+      "title": "CVE-2026-91231: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91231",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
       "tags": [
         "CVE",
-        "CVE-2026-10133",
+        "CVE-2026-91231",
         "critical"
       ]
     },
     {
-      "id": "5a153ecacd436653",
+      "id": "58a2b68a437f0143",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10137: A stack-based buffer overflow vulnerability exists in the boa formUpload() functionality o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10137",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formUpload() functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to…",
+      "title": "CVE-2026-91230: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91230",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Ora…",
       "tags": [
         "CVE",
-        "CVE-2026-10137",
+        "CVE-2026-91230",
         "critical"
       ]
     },
     {
-      "id": "90ef9ff9999226e3",
+      "id": "0eca3a8377bd762b",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10138: A OS command injection vulnerability exists in the boa formUpload() functionality of X2000…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10138",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A OS command injection vulnerability exists in the boa formUpload() functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
+      "title": "CVE-2026-91225: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91225",
+      "published": "2026-10-20T22:20:23Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
       "tags": [
         "CVE",
-        "CVE-2026-10138",
+        "CVE-2026-91225",
         "critical"
       ]
     },
     {
-      "id": "9a2704ef273fd5fe",
+      "id": "7ca27b7c3b8afa48",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10136: A heap-based buffer overflow vulnerability exists in the boa formUpload() functionality of…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10136",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A heap-based buffer overflow vulnerability exists in the boa formUpload() functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to t…",
+      "title": "CVE-2026-91224: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91224",
+      "published": "2026-10-20T22:20:22Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
       "tags": [
         "CVE",
-        "CVE-2026-10136",
+        "CVE-2026-91224",
         "critical"
       ]
     },
     {
-      "id": "b6b6c2c35f7c3a15",
+      "id": "f837132a9b5a0d77",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10135: A OS command injection vulnerability exists in the batchupg functionality of X2000R (versi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10135",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A OS command injection vulnerability exists in the batchupg functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger this vu…",
+      "title": "CVE-2026-91222: Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Mid…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91222",
+      "published": "2026-10-20T22:20:22Z",
+      "summary": "Vulnerability in the Oracle Business Process Management Suite product of Oracle Fusion Middleware (component: Human Workflow (11g+)). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network a…",
       "tags": [
         "CVE",
-        "CVE-2026-10135",
+        "CVE-2026-91222",
         "critical"
       ]
     },
     {
-      "id": "c26b1fb03edee525",
+      "id": "6fb34f360248c362",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10141: A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10141",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted firmware binary can lead to arbitrary firmware update. An attacker can make an authenticated HTTP request to tri…",
+      "title": "CVE-2026-91221: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91221",
+      "published": "2026-10-20T22:20:22Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise…",
       "tags": [
         "CVE",
-        "CVE-2026-10141",
+        "CVE-2026-91221",
         "critical"
       ]
     },
     {
-      "id": "db52fc5154b0e348",
+      "id": "2e1c727d3f0ef5fa",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10139: A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (ve…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10139",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger this…",
+      "title": "CVE-2026-91218: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91218",
+      "published": "2026-10-20T22:20:22Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
       "tags": [
         "CVE",
-        "CVE-2026-10139",
+        "CVE-2026-91218",
         "critical"
       ]
     },
     {
-      "id": "b7e689b984f85fb2",
+      "id": "bb0adc60d235d415",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10132: A stack-based buffer overflow vulnerability exists in the boa formIpQos mac functionality…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10132",
-      "published": "2026-10-20T21:17:15Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formIpQos mac functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to…",
+      "title": "CVE-2026-91216: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91216",
+      "published": "2026-10-20T22:20:22Z",
+      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via T3, IIOP to compromise…",
       "tags": [
         "CVE",
-        "CVE-2026-10132",
+        "CVE-2026-91216",
         "critical"
       ]
     },
     {
-      "id": "ea9fe2f7a7fbc1ec",
+      "id": "65aca8d2da9b1a3a",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10131: An OS command injection vulnerability exists in the boa formPasswordSetup functionality of…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10131",
-      "published": "2026-10-20T21:17:15Z",
-      "summary": "An OS command injection vulnerability exists in the boa formPasswordSetup functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to t…",
+      "title": "CVE-2026-87347: Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: OS…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87347",
+      "published": "2026-10-20T22:20:12Z",
+      "summary": "Vulnerability in the Oracle HTTP Server product of Oracle Fusion Middleware (component: OSSL Module). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Ora…",
       "tags": [
         "CVE",
-        "CVE-2026-10131",
+        "CVE-2026-87347",
         "critical"
       ]
     },
@@ -1938,18 +1963,6 @@
       "url": "https://www.ncsc.gov.uk/blogs/when-cyber-attacks-happen-helping-organisations-recover",
       "published": "2026-07-28T12:00:00Z",
       "summary": "A highly disruptive incident can feel overwhelming. New guidance provides a framework for response and recovery.",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "98f3a356bca73b1b",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "UK and partners expose Russian state-supported actors for new ‘zero-click’ phishing campaign targeting Western organisations",
-      "url": "https://www.ncsc.gov.uk/news/uk-and-partners-expose-russian-state-supported-actors-for-new-zero-click-phishing-campaign",
-      "published": "2026-07-23T12:00:00Z",
-      "summary": "GCHQ’s National Cyber Security Centre and international partners issue warning as ‘LAUNDRY BEAR’ cyber threat group exposed for targeted phishing campaign",
       "tags": [
         "guidance"
       ]
