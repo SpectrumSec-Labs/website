@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "generated": "2026-10-20T21:43:52Z",
+  "generated": "2026-10-21T05:01:18Z",
   "items": [
     {
       "id": "6aa07a95c4786cf4",
@@ -31,16 +31,16 @@
       ]
     },
     {
-      "id": "58affc8a5ba16970",
+      "id": "21ab7c708190ae00",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9817: A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9817",
+      "title": "CVE-2026-9660: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilt…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9660",
       "published": "2026-10-20T21:17:22Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request t…",
+      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilter functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticate…",
       "tags": [
         "CVE",
-        "CVE-2026-9817",
+        "CVE-2026-9660",
         "critical"
       ]
     },
@@ -59,16 +59,16 @@
       ]
     },
     {
-      "id": "21ab7c708190ae00",
+      "id": "58affc8a5ba16970",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-9660: Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilt…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9660",
+      "title": "CVE-2026-9817: A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-9817",
       "published": "2026-10-20T21:17:22Z",
-      "summary": "Multiple exploitable stack-based buffer overflow vulnerabilities exist in the boa formFilter functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticate…",
+      "summary": "A stack-based buffer overflow vulnerability exists in the boa formUploadFile functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request t…",
       "tags": [
         "CVE",
-        "CVE-2026-9660",
+        "CVE-2026-9817",
         "critical"
       ]
     },
@@ -83,6 +83,76 @@
       "tags": [
         "CVE",
         "CVE-2026-9659",
+        "critical"
+      ]
+    },
+    {
+      "id": "2ac669d4f0e384a9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42020: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42020",
+      "published": "2026-10-20T21:17:19Z",
+      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP r…",
+      "tags": [
+        "CVE",
+        "CVE-2026-42020",
+        "critical"
+      ]
+    },
+    {
+      "id": "575ad880649ef369",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42021: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42021",
+      "published": "2026-10-20T21:17:19Z",
+      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "tags": [
+        "CVE",
+        "CVE-2026-42021",
+        "critical"
+      ]
+    },
+    {
+      "id": "78e3119fe30ecdda",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42024: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42024",
+      "published": "2026-10-20T21:17:19Z",
+      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "tags": [
+        "CVE",
+        "CVE-2026-42024",
+        "critical"
+      ]
+    },
+    {
+      "id": "a41195a863bebb91",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42022: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42022",
+      "published": "2026-10-20T21:17:19Z",
+      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "tags": [
+        "CVE",
+        "CVE-2026-42022",
+        "critical"
+      ]
+    },
+    {
+      "id": "b60174401d3a0470",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42023: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42023",
+      "published": "2026-10-20T21:17:19Z",
+      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "tags": [
+        "CVE",
+        "CVE-2026-42023",
         "critical"
       ]
     },
@@ -115,72 +185,16 @@
       ]
     },
     {
-      "id": "78e3119fe30ecdda",
+      "id": "25e0b84b161d38d3",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42024: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42024",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
+      "title": "CVE-2026-40615: A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40615",
+      "published": "2026-10-20T21:17:18Z",
+      "summary": "A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated…",
       "tags": [
         "CVE",
-        "CVE-2026-42024",
-        "critical"
-      ]
-    },
-    {
-      "id": "b60174401d3a0470",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42023: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42023",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
-      "tags": [
-        "CVE",
-        "CVE-2026-42023",
-        "critical"
-      ]
-    },
-    {
-      "id": "a41195a863bebb91",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42022: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42022",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
-      "tags": [
-        "CVE",
-        "CVE-2026-42022",
-        "critical"
-      ]
-    },
-    {
-      "id": "575ad880649ef369",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42021: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42021",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup static network configuration functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make…",
-      "tags": [
-        "CVE",
-        "CVE-2026-42021",
-        "critical"
-      ]
-    },
-    {
-      "id": "2ac669d4f0e384a9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-42020: Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42020",
-      "published": "2026-10-20T21:17:19Z",
-      "summary": "Multiple stack-based buffer overflow vulnerabilities exist in the boa formIpv6Setup pppoe functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-42020",
+        "CVE-2026-40615",
         "critical"
       ]
     },
@@ -195,6 +209,48 @@
       "tags": [
         "CVE",
         "CVE-2026-42019",
+        "critical"
+      ]
+    },
+    {
+      "id": "4e3ed1797875b74d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-40627: An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40627",
+      "published": "2026-10-20T21:17:18Z",
+      "summary": "An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to tri…",
+      "tags": [
+        "CVE",
+        "CVE-2026-40627",
+        "critical"
+      ]
+    },
+    {
+      "id": "5eb1287845dfc8c4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-28763: A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname fu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28763",
+      "published": "2026-10-20T21:17:18Z",
+      "summary": "A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTT…",
+      "tags": [
+        "CVE",
+        "CVE-2026-28763",
+        "critical"
+      ]
+    },
+    {
+      "id": "79046af2b54a2b31",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-35499: An os command injection vulnerability exists in the boa formWsc peerRptPin functionality o…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35499",
+      "published": "2026-10-20T21:17:18Z",
+      "summary": "An os command injection vulnerability exists in the boa formWsc peerRptPin functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigg…",
+      "tags": [
+        "CVE",
+        "CVE-2026-35499",
         "critical"
       ]
     },
@@ -227,48 +283,6 @@
       ]
     },
     {
-      "id": "4e3ed1797875b74d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-40627: An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40627",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "An os command injection vulnerability exists in the boa formWsc targetAPSsid functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to tri…",
-      "tags": [
-        "CVE",
-        "CVE-2026-40627",
-        "critical"
-      ]
-    },
-    {
-      "id": "25e0b84b161d38d3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-40615: A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40615",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formParentControl deviceName functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated…",
-      "tags": [
-        "CVE",
-        "CVE-2026-40615",
-        "critical"
-      ]
-    },
-    {
-      "id": "79046af2b54a2b31",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-35499: An os command injection vulnerability exists in the boa formWsc peerRptPin functionality o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-35499",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "An os command injection vulnerability exists in the boa formWsc peerRptPin functionality of Totolink X2000R TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327. A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigg…",
-      "tags": [
-        "CVE",
-        "CVE-2026-35499",
-        "critical"
-      ]
-    },
-    {
       "id": "abbac8c917ad4c5e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -283,58 +297,16 @@
       ]
     },
     {
-      "id": "5eb1287845dfc8c4",
+      "id": "0ce59d518c36024a",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-28763: A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname fu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-28763",
-      "published": "2026-10-20T21:17:18Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the boa formMapDelDevice hostname functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTT…",
-      "tags": [
-        "CVE",
-        "CVE-2026-28763",
-        "critical"
-      ]
-    },
-    {
-      "id": "c26b1fb03edee525",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10141: A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10141",
+      "title": "CVE-2026-10133: A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10133",
       "published": "2026-10-20T21:17:16Z",
-      "summary": "A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted firmware binary can lead to arbitrary firmware update. An attacker can make an authenticated HTTP request to tri…",
+      "summary": "A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
       "tags": [
         "CVE",
-        "CVE-2026-10141",
-        "critical"
-      ]
-    },
-    {
-      "id": "db52fc5154b0e348",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10139: A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (ve…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10139",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger this…",
-      "tags": [
-        "CVE",
-        "CVE-2026-10139",
-        "critical"
-      ]
-    },
-    {
-      "id": "90ef9ff9999226e3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10138: A OS command injection vulnerability exists in the boa formUpload() functionality of X2000…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10138",
-      "published": "2026-10-20T21:17:16Z",
-      "summary": "A OS command injection vulnerability exists in the boa formUpload() functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
-      "tags": [
-        "CVE",
-        "CVE-2026-10138",
+        "CVE-2026-10133",
         "critical"
       ]
     },
@@ -349,6 +321,20 @@
       "tags": [
         "CVE",
         "CVE-2026-10137",
+        "critical"
+      ]
+    },
+    {
+      "id": "90ef9ff9999226e3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-10138: A OS command injection vulnerability exists in the boa formUpload() functionality of X2000…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10138",
+      "published": "2026-10-20T21:17:16Z",
+      "summary": "A OS command injection vulnerability exists in the boa formUpload() functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
+      "tags": [
+        "CVE",
+        "CVE-2026-10138",
         "critical"
       ]
     },
@@ -381,16 +367,30 @@
       ]
     },
     {
-      "id": "0ce59d518c36024a",
+      "id": "c26b1fb03edee525",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-10133: A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10133",
+      "title": "CVE-2026-10141: A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10141",
       "published": "2026-10-20T21:17:16Z",
-      "summary": "A stack-based buffer overflow vulnerability exists in the batchupg functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger…",
+      "summary": "A Unsigned Firmware vulnerability exists in the boa Firmware Update functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted firmware binary can lead to arbitrary firmware update. An attacker can make an authenticated HTTP request to tri…",
       "tags": [
         "CVE",
-        "CVE-2026-10133",
+        "CVE-2026-10141",
+        "critical"
+      ]
+    },
+    {
+      "id": "db52fc5154b0e348",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-10139: A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (ve…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-10139",
+      "published": "2026-10-20T21:17:16Z",
+      "summary": "A stack-based buffer overflow vulnerability exists in the Mcli functionality of X2000R (version(s): TOTOLINK-X2000R-Gh-V1.0.0-B20250421.1327). A specially crafted HTTP request can lead to arbitrary code execution. An attacker can make an authenticated HTTP request to trigger this…",
+      "tags": [
+        "CVE",
+        "CVE-2026-10139",
         "critical"
       ]
     },
