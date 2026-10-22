@@ -1,7 +1,19 @@
 {
   "schema": 1,
-  "generated": "2026-10-22T12:06:19Z",
+  "generated": "2026-10-22T17:20:17Z",
   "items": [
+    {
+      "id": "f4bc3275b7eab2a0",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Managing AI Token Consumption for Operational Resilience",
+      "url": "https://www.cisa.gov/resources-tools/resources/managing-ai-token-consumption-operational-resilience",
+      "published": "2026-10-22T12:00:00Z",
+      "summary": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for Operational Resilience , to help organizations understand and manage token usage in support of operations. As organizations adopt third-party…",
+      "tags": [
+        "advisory"
+      ]
+    },
     {
       "id": "55680ec9d53adf7f",
       "source": "nvd-recent",
@@ -1158,18 +1170,6 @@
       ]
     },
     {
-      "id": "bf1d7ae18b6dedec",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data",
-      "url": "https://www.cisa.gov/news-events/cybersecurity-advisories/aa26-281a",
-      "published": "2026-10-08T12:00:00Z",
-      "summary": "Advisory at a Glance Title Chinese Government-linked Cyber Threat Actors Combine Automated and Hands-on Hacking Tools to Steal Sensitive Data Original Publication October 8, 2026 Executive Summary Chinese government-linked cyber threat actors, enabled by the Integrity Technology…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
       "id": "3329164850c00ca7",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1267,6 +1267,18 @@
       "summary": "ASOS has said it is investigating a cyber incident and that some customer personal information may have been accessed.",
       "tags": [
         "guidance"
+      ]
+    },
+    {
+      "id": "4f0c5d36cee95535",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Hitachi Energy REB500",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-05",
+      "published": "2026-10-06T12:00:00Z",
+      "summary": "View CSAF Summary Hitachi Energy is aware of open-source software vulnerabilities that affect REB500 product versions listed in this document. These vulnerabilities can be exploited to carry out Denial of Service (DoS) attack on the product. Please refer to the Recommended Immedi…",
+      "tags": [
+        "ics"
       ]
     },
     {
@@ -1529,18 +1541,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
       "published": "2026-09-29T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affected: Nova 430H eNodeB (model pBS3101SH) <=BaiBLQ_3.0.12 (CVE…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "faadc0b2b19a69a4",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Viidure Dashcam Android Application",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-07",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow attackers to access, modify, or delete sensitive user data and critical system files, potentially compromising the operation of the entire platform. The following versions of Viidure Dashcam Android Ap…",
       "tags": [
         "ics"
       ]
