@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-10-22T17:20:17Z",
+  "generated": "2026-10-22T21:45:44Z",
   "items": [
+    {
+      "id": "020708da8cefdaab",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115384: Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 contains a stack buffer overflow vu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115384",
+      "published": "2026-10-22T19:17:45Z",
+      "summary": "Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 contains a stack buffer overflow vulnerability that allows malicious guests to write ~16KB to the native stack via unvalidated async callback result types. Attackers can supply components with mistyped component-model-async c…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115384",
+        "critical"
+      ]
+    },
+    {
+      "id": "b7ce317fa88a3077",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115377: Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115377",
+      "published": "2026-10-22T19:17:44Z",
+      "summary": "Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file write vulnerability that allows malicious migration sources to write host files by planting symlinks in transferred volumes. Attackers can craft rsync or btrfs receive streams with a symlink…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115377",
+        "critical"
+      ]
+    },
+    {
+      "id": "28d7e7326204666f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115375: Incus 7.0.0 before 7.0.2 and 7.1.0 before 7.5.0 contains a path traversal vulnerability th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115375",
+      "published": "2026-10-22T19:17:44Z",
+      "summary": "Incus 7.0.0 before 7.0.2 and 7.1.0 before 7.5.0 contains a path traversal vulnerability that allows clients able to create instances to write files on the host. The flaw stems from unvalidated dependent custom volume names in instance backup index.yaml files. Attackers can import…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115375",
+        "critical"
+      ]
+    },
+    {
+      "id": "ece271dfd71e70cb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2022-51026: Bytebase 0.12.0 before 1.0.1 contains an authentication bypass vulnerability that allows u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51026",
+      "published": "2026-10-22T19:17:30Z",
+      "summary": "Bytebase 0.12.0 before 1.0.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as any user. The flaw stems from trusting client-supplied GitLab provider configuration in the POST /api/auth/login/GITLAB_SELF_HOST endpoint. Attackers ca…",
+      "tags": [
+        "CVE",
+        "CVE-2022-51026",
+        "critical"
+      ]
+    },
     {
       "id": "f4bc3275b7eab2a0",
       "source": "cisa-advisories",
@@ -431,62 +487,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91644",
-        "critical"
-      ]
-    },
-    {
-      "id": "054a226be94703cf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91638: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91638",
-      "published": "2026-10-20T22:21:03Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91638",
-        "critical"
-      ]
-    },
-    {
-      "id": "bb0432843dde1c3d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91637: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91637",
-      "published": "2026-10-20T22:21:03Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91637",
-        "critical"
-      ]
-    },
-    {
-      "id": "9c1ba671555f2de9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91622: Vulnerability in the Oracle Agile Product Lifecycle Management for Process product of Orac…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91622",
-      "published": "2026-10-20T22:21:02Z",
-      "summary": "Vulnerability in the Oracle Agile Product Lifecycle Management for Process product of Oracle Supply Chain (component: Product Quality Management). The supported version that is affected is 6.2.4. Easily exploitable vulnerability allows unauthenticated attacker with network access…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91622",
-        "critical"
-      ]
-    },
-    {
-      "id": "486541f9b2d8cb38",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91354: Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (com…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91354",
-      "published": "2026-10-20T22:20:38Z",
-      "summary": "Vulnerability in the Oracle Outside In Technology product of Oracle Fusion Middleware (component: Outside In Clean Content SDK). The supported version that is affected is 8.5.8. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compro…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91354",
         "critical"
       ]
     },
