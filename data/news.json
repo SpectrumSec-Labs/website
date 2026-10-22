@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-10-21T21:50:25Z",
+  "generated": "2026-10-22T05:03:47Z",
   "items": [
+    {
+      "id": "42839e93ee1b456b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114575: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114575",
+      "published": "2026-10-22T01:16:58Z",
+      "summary": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function UploadCustomModule of the file lib/cste_modules/product.so. Executing a manipulation of the argument FileMd5 can lead to command injection. The attack can be launched remotely…",
+      "tags": [
+        "CVE",
+        "CVE-2026-114575",
+        "critical"
+      ]
+    },
+    {
+      "id": "1d88d4936098c3de",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-91403: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91403",
+      "published": "2026-10-21T22:16:50Z",
+      "summary": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE). Supported versions that are affected are Oracle Java SE: 8u511, 8u511-perf, 11.0.33, 17.0.21, 21.0.13, 25.0.5, 27.0.1; Oracle GraalVM for JD…",
+      "tags": [
+        "CVE",
+        "CVE-2026-91403",
+        "critical"
+      ]
+    },
+    {
+      "id": "77c7eea0db89e84d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114383: A weakness has been identified in TOTOLINK EX200 5.2.3c.7200. This impacts the function se…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114383",
+      "published": "2026-10-21T22:16:49Z",
+      "summary": "A weakness has been identified in TOTOLINK EX200 5.2.3c.7200. This impacts the function setWiFiAclAddConfig of the file /cgi-bin/cstecgi.cgi of the component wireless.so. This manipulation of the argument macAddress causes stack-based buffer overflow. The attack can be initiated…",
+      "tags": [
+        "CVE",
+        "CVE-2026-114383",
+        "critical"
+      ]
+    },
+    {
+      "id": "6a84656cb163605a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114382: A security flaw has been discovered in TOTOLINK EX200 5.2.3c.7200. This affects the functi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114382",
+      "published": "2026-10-21T22:16:48Z",
+      "summary": "A security flaw has been discovered in TOTOLINK EX200 5.2.3c.7200. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecgi.cgi of the component lan.so. The manipulation of the argument Comment results in stack-based buffer overflow. It is possible to launch the…",
+      "tags": [
+        "CVE",
+        "CVE-2026-114382",
+        "critical"
+      ]
+    },
     {
       "id": "83143f39557159fa",
       "source": "nvd-recent",
@@ -419,62 +475,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91243",
-        "critical"
-      ]
-    },
-    {
-      "id": "29fac6d6ef22e8a2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91250: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91250",
-      "published": "2026-10-20T22:20:25Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via multiple protocols to compr…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91250",
-        "critical"
-      ]
-    },
-    {
-      "id": "78dcd71f1a4b6cc9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91241: Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Ana…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91241",
-      "published": "2026-10-20T22:20:24Z",
-      "summary": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Analytics Web Administration). Supported versions that are affected are 8.2.0.0.0, 12.2.1.4.0 and 26.01.0.0.0. Easily exploitable vulnerability allows high privileged atta…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91241",
-        "critical"
-      ]
-    },
-    {
-      "id": "b8d3fe000151e1cb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91232: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91232",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Fabric Layer). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Orac…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91232",
-        "critical"
-      ]
-    },
-    {
-      "id": "0ad33acb43838020",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91231: Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91231",
-      "published": "2026-10-20T22:20:23Z",
-      "summary": "Vulnerability in the Oracle SOA Suite product of Oracle Fusion Middleware (component: Adapters). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91231",
         "critical"
       ]
     },
