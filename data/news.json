@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-10-22T21:45:44Z",
+  "generated": "2026-10-23T05:03:40Z",
   "items": [
+    {
+      "id": "84d3ef595e93ac7c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-97785: Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privil…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97785",
+      "published": "2026-10-22T22:20:13Z",
+      "summary": "Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-97785",
+        "critical"
+      ]
+    },
+    {
+      "id": "d1358edf74b80650",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-83938: Missing authentication for critical function in Azure Kubernetes Configuration Service all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83938",
+      "published": "2026-10-22T22:19:18Z",
+      "summary": "Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-83938",
+        "critical"
+      ]
+    },
     {
       "id": "020708da8cefdaab",
       "source": "nvd-recent",
@@ -17,20 +45,6 @@
       ]
     },
     {
-      "id": "b7ce317fa88a3077",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115377: Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115377",
-      "published": "2026-10-22T19:17:44Z",
-      "summary": "Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file write vulnerability that allows malicious migration sources to write host files by planting symlinks in transferred volumes. Attackers can craft rsync or btrfs receive streams with a symlink…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115377",
-        "critical"
-      ]
-    },
-    {
       "id": "28d7e7326204666f",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -41,6 +55,20 @@
       "tags": [
         "CVE",
         "CVE-2026-115375",
+        "critical"
+      ]
+    },
+    {
+      "id": "b7ce317fa88a3077",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115377: Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115377",
+      "published": "2026-10-22T19:17:44Z",
+      "summary": "Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file write vulnerability that allows malicious migration sources to write host files by planting symlinks in transferred volumes. Attackers can craft rsync or btrfs receive streams with a symlink…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115377",
         "critical"
       ]
     },
@@ -459,34 +487,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91655",
-        "critical"
-      ]
-    },
-    {
-      "id": "87df515517b8d7d4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
-      "published": "2026-10-20T22:21:05Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91656",
-        "critical"
-      ]
-    },
-    {
-      "id": "e5c734d35e4efe62",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91644: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91644",
-      "published": "2026-10-20T22:21:04Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91644",
         "critical"
       ]
     },
