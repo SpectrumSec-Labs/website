@@ -1,7 +1,31 @@
 {
   "schema": 1,
-  "generated": "2026-10-23T11:50:47Z",
+  "generated": "2026-10-23T17:17:46Z",
   "items": [
+    {
+      "id": "cadd6afddac3d48e",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33450",
+      "published": "2026-10-23T13:43:20Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "a9b67050d1660580",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-114625 — Arista VeloCloud Orchestrator: Arista VeloCloud Orchestrator SQL Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
+      "published": "2026-10-23T00:00:00Z",
+      "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orches…",
+      "tags": [
+        "KEV",
+        "CVE-2026-114625"
+      ]
+    },
     {
       "id": "84d3ef595e93ac7c",
       "source": "nvd-recent",
@@ -477,16 +501,16 @@
       ]
     },
     {
-      "id": "87df515517b8d7d4",
+      "id": "4022238ff35dabd4",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
+      "title": "CVE-2026-91655: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91655",
       "published": "2026-10-20T22:21:05Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
+      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
       "tags": [
         "CVE",
-        "CVE-2026-91656",
+        "CVE-2026-91655",
         "critical"
       ]
     },
@@ -1764,19 +1788,6 @@
       "tags": [
         "KEV",
         "CVE-2025-39964"
-      ]
-    },
-    {
-      "id": "614f64918c627b8c",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-53266 — Linux Kernel: Linux Kernel Out-of-Bounds Write Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-53266",
-      "published": "2026-09-18T00:00:00Z",
-      "summary": "Linux Kernel contains an out-of-bounds write vulnerability in the ebtables SNAT target which allows an ARP sender hardware address rewrite to write directly into a nonlinear socket-buffer fragment backed by a splice-imported file page. The impacted product(s) could be end-of-life…",
-      "tags": [
-        "KEV",
-        "CVE-2026-53266"
       ]
     },
     {
