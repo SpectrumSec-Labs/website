@@ -34,7 +34,7 @@
   enabled   = false
   # Path-proxied under the apex so CSP stays 'self' (Caddy config: website-ops repo).
   basePath  = "/_a"
-  websiteId = ""
+  websiteId = "add2da9f-68ad-4efc-9d20-5fd6c4bb6fbf"
 
 [securityTxt]
   # RFC 9116. `expires` is bumped automatically by a scheduled workflow.
