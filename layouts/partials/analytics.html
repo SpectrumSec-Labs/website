@@ -2,11 +2,13 @@
        in the private website-ops repo).
        Because it is served from our own origin under basePath, CSP stays
        script-src 'self' / connect-src 'self' — no external hosts, no cookies.
-       Disabled until Phase 7 flips analytics.enabled and sets websiteId. */ -}}
+       Rendered only in production builds (not `hugo server`), and data-domains
+       stops any other copy of the site from reporting. */ -}}
 {{- $a := site.Params.analytics -}}
-{{- if and $a.enabled $a.websiteId (not (eq (getenv "HUGO_ENV") "development")) -}}
-  {{- $src := printf "%s/script.js" (strings.TrimSuffix "/" $a.basePath) -}}
-  <script defer src="{{ $src }}" data-website-id="{{ $a.websiteId }}"
-          data-host-url="{{ strings.TrimSuffix "/" $a.basePath }}"
+{{- if and $a.enabled $a.websiteId hugo.IsProduction -}}
+  {{- $base := strings.TrimSuffix "/" $a.basePath -}}
+  <script defer src="{{ $base }}/script.js" data-website-id="{{ $a.websiteId }}"
+          data-host-url="{{ $base }}"
+          data-domains="{{ site.Params.company.domain }}"
           data-do-not-track="true"></script>
 {{- end -}}

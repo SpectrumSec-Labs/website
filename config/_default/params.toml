@@ -30,8 +30,8 @@
 # Feature flags / integration config
 # ---------------------------------------------------------------------------
 [analytics]
-  # Flipped to true in Phase 7 once the Umami pod is live behind Caddy.
-  enabled   = false
+  # The tracker tag is only added when enabled = true AND websiteId is set.
+  enabled   = true
   # Path-proxied under the apex so CSP stays 'self' (Caddy config: website-ops repo).
   basePath  = "/_a"
   websiteId = "add2da9f-68ad-4efc-9d20-5fd6c4bb6fbf"
