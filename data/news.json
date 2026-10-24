@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-23T21:31:24Z",
+  "generated": "2026-10-24T11:17:19Z",
   "items": [
+    {
+      "id": "18dd3901eba03363",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115806: The Prime Mover – Backup and Migration plugin for WordPress is vulnerable to PHP Object In…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115806",
+      "published": "2026-10-24T05:17:04Z",
+      "summary": "The Prime Mover – Backup and Migration plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.2.1 via deserialization of untrusted input in the migration search-and-replace routine (recursiveUnserializeReplace()). An unauthenticated att…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115806",
+        "critical"
+      ]
+    },
     {
       "id": "9abacdc57711ec24",
       "source": "sans-isc",
@@ -521,20 +535,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91663",
-        "critical"
-      ]
-    },
-    {
-      "id": "87df515517b8d7d4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91656: Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91656",
-      "published": "2026-10-20T22:21:05Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Federated Partitions). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91656",
         "critical"
       ]
     },
