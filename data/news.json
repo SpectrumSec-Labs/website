@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-25T04:56:53Z",
+  "generated": "2026-10-25T16:35:21Z",
   "items": [
+    {
+      "id": "751c5b09d1f97e72",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116207: YesWiki 4.6.0 before 4.7.0 and 5.0.0-alpha1 before 5.0.0-alpha4 contains an unauthenticate…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116207",
+      "published": "2026-10-25T14:17:01Z",
+      "summary": "YesWiki 4.6.0 before 4.7.0 and 5.0.0-alpha1 before 5.0.0-alpha4 contains an unauthenticated SQL injection vulnerability in SearchManager::prepareSearchRequest(). Field names from the query and searchfields parameters of the public Bazar entries search API are placed in a backtick…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116207",
+        "critical"
+      ]
+    },
     {
       "id": "73bcfeea38c0bb80",
       "source": "nvd-recent",
@@ -521,20 +535,6 @@
       "tags": [
         "CVE",
         "CVE-2026-92559",
-        "critical"
-      ]
-    },
-    {
-      "id": "3616ff4bad40aa79",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91658: Vulnerability in Oracle Essbase (component: Security). The supported version that is affec…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91658",
-      "published": "2026-10-20T22:21:06Z",
-      "summary": "Vulnerability in Oracle Essbase (component: Security). The supported version that is affected is 21.8.3.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle Essbase. While the vulnerability is in Oracle Essbase, at…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91658",
         "critical"
       ]
     },
