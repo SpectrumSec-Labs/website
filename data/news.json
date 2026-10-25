@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-10-25T16:35:21Z",
+  "generated": "2026-10-25T20:58:46Z",
   "items": [
+    {
+      "id": "cbc6b5f311de5bf3",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
+      "url": "https://isc.sans.edu/diary/rss/33454",
+      "published": "2026-10-25T19:57:53Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "751c5b09d1f97e72",
       "source": "nvd-recent",
