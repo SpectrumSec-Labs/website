@@ -1,7 +1,105 @@
 {
   "schema": 1,
-  "generated": "2026-10-26T13:19:26Z",
+  "generated": "2026-10-26T22:46:25Z",
   "items": [
+    {
+      "id": "cc050c65de40b990",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116508",
+      "published": "2026-10-26T22:16:54Z",
+      "summary": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffe…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116508",
+        "critical"
+      ]
+    },
+    {
+      "id": "39333fdc0b2cbe0f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116506: A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116506",
+      "published": "2026-10-26T21:18:13Z",
+      "summary": "A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function apmib_set of the file firewall.so. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
+      "tags": [
+        "CVE",
+        "CVE-2026-116506",
+        "critical"
+      ]
+    },
+    {
+      "id": "b98ace94197234be",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116505: A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the func…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
+      "published": "2026-10-26T21:18:12Z",
+      "summary": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116505",
+        "critical"
+      ]
+    },
+    {
+      "id": "9c28c346ad030dca",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116504: A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116504",
+      "published": "2026-10-26T21:18:12Z",
+      "summary": "A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setCloudUpgradeFW of the file lib/cste_modules/upgrade.so of the component Cloud Upgrade. The manipulation of the argument FileName leads to command injection. The attack can be in…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116504",
+        "critical"
+      ]
+    },
+    {
+      "id": "25e44e893497cba6",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-112346: OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code executi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112346",
+      "published": "2026-10-26T16:17:14Z",
+      "summary": "OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and Apptainer workspace launchers bind the sandbox agent server to all network interfaces (0.0.0.0) with an empty session_api_keys list, disabling…",
+      "tags": [
+        "CVE",
+        "CVE-2026-112346",
+        "critical"
+      ]
+    },
+    {
+      "id": "d469bb948656de88",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116485: danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauth…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116485",
+      "published": "2026-10-26T14:16:37Z",
+      "summary": "danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to modify server environment configuration when the default TOKEN is used and ADMIN_TOKEN is unset. Attackers can send POST requests to /api/env/set, /api/env/add, or /ap…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116485",
+        "critical"
+      ]
+    },
+    {
+      "id": "f0a929e2f779e8de",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116214: MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116214",
+      "published": "2026-10-26T14:16:34Z",
+      "summary": "MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's password because check_msg() never compares msg_to. Attackers can request a recovery code to their own mailbox via user/findpass_msg, then…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116214",
+        "critical"
+      ]
+    },
     {
       "id": "3752165e9c29de9f",
       "source": "sans-isc",
@@ -56,20 +154,6 @@
       ]
     },
     {
-      "id": "f6367cbc69b873b9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116232: A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116232",
-      "published": "2026-10-26T08:17:17Z",
-      "summary": "A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function snmp_set of the component SNMP Handler. Executing a manipulation of the argument info.community can lead to crlf injection. It is possible to launch the attack remotely. The exploit has been…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116232",
-        "critical"
-      ]
-    },
-    {
       "id": "7d111af2430c4816",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -80,6 +164,20 @@
       "tags": [
         "CVE",
         "CVE-2026-116231",
+        "critical"
+      ]
+    },
+    {
+      "id": "f6367cbc69b873b9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116232: A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116232",
+      "published": "2026-10-26T08:17:17Z",
+      "summary": "A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function snmp_set of the component SNMP Handler. Executing a manipulation of the argument info.community can lead to crlf injection. It is possible to launch the attack remotely. The exploit has been…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116232",
         "critical"
       ]
     },
@@ -407,76 +505,6 @@
       ]
     },
     {
-      "id": "57c8088263a1a61c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76475: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76475",
-      "published": "2026-10-21T17:19:07Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76475",
-        "critical"
-      ]
-    },
-    {
-      "id": "9a847144a2516185",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76474: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76474",
-      "published": "2026-10-21T17:19:07Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76474",
-        "critical"
-      ]
-    },
-    {
-      "id": "6dc2b2f40f0a5cce",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76466: A vulnerability in the database service feature of Cisco Expressway Series could allow an…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76466",
-      "published": "2026-10-21T17:19:06Z",
-      "summary": "A vulnerability in the database service feature of Cisco Expressway Series could allow an unauthenticated, remote attacker with network access to a Cisco Expressway device to execute arbitrary operating system commands as root. This vulnerability is due to the use of persistent c…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76466",
-        "critical"
-      ]
-    },
-    {
-      "id": "dae61814d0ffaa19",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76473: As part of Cisco's ongoing commitment to proactive security and product quality, engineeri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76473",
-      "published": "2026-10-21T17:19:06Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, engineering teams for Cisco Emergency Responder, Cisco Prime Collaboration Deployment, Cisco Unified Communications Manager (Unified CM), Cisco Unified Communications Manager IM & Presence Service (U…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76473",
-        "critical"
-      ]
-    },
-    {
-      "id": "3359d582de4bd2a7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-20043: As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20043",
-      "published": "2026-10-21T17:18:27Z",
-      "summary": "As part of Cisco's ongoing commitment to proactive security and product quality, the Cisco owned Open Source Snort 3 Software engineering team has conducted a comprehensive internal security review. This review resulted in software hardening releases that address multiple interna…",
-      "tags": [
-        "CVE",
-        "CVE-2026-20043",
-        "critical"
-      ]
-    },
-    {
       "id": "8c93f156e6785774",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -487,34 +515,6 @@
         "CVE-2026-109618",
         "CVE-2026-109619",
         "research"
-      ]
-    },
-    {
-      "id": "3e4dd48255f1a95f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109619: PHP has various global state that temporarily points into request memory. In some scenario…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-      "published": "2026-10-21T14:17:09Z",
-      "summary": "PHP has various global state that temporarily points into request memory. In some scenarios, global state may not be correctly reset, or may be repopulated after being reset. The global state may then refer to request memory even after it has been freed. Subsequent requests may r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109619",
-        "critical"
-      ]
-    },
-    {
-      "id": "59f34b6f811267a0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109618: PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort ha…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-      "published": "2026-10-21T14:17:09Z",
-      "summary": "PHP uses longjmp() for out-of-memory (OOM) errors to exit the current context and abort handling of the request. Some contexts may not properly account for this scenario and leave request memory in an uninitialized state before performing an allocation. The subsequent request cle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109618",
-        "critical"
       ]
     },
     {
@@ -543,6 +543,20 @@
         "CVE-2026-109618",
         "CVE-2026-109619",
         "advisory"
+      ]
+    },
+    {
+      "id": "0f4de67236acef69",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "[Màj] Multiples vulnérabilités dans PHP (21 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-014/",
+      "published": "2026-10-21T00:00:00Z",
+      "summary": "**[Mise à jour du 26 octobre 2026]** Le 23 octobre 2026, PHP a publié un avis de sécurité concernant la vulnérabilité CVE-2026-115560. Celle-ci permet une exécution de code arbitraire à distance. L'éditeur estime que les conditions d'exploitation exigent une combinaison d'options…",
+      "tags": [
+        "CVE-2026-115560",
+        "FR",
+        "alert"
       ]
     },
     {
@@ -1062,6 +1076,19 @@
       ]
     },
     {
+      "id": "5f03656d9ef91dee",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Vulnérabilité dans Ivanti Connect Secure (ICS) (14 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-013/",
+      "published": "2026-10-14T00:00:00Z",
+      "summary": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-1…",
+      "tags": [
+        "FR",
+        "alert"
+      ]
+    },
+    {
       "id": "797c37d84e415538",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1177,6 +1204,19 @@
       "summary": "We're looking to hear from people involved in evaluating, selecting or adopting EASM.",
       "tags": [
         "guidance"
+      ]
+    },
+    {
+      "id": "4ba4f2abd6b7bd5e",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Incident de sécurité ciblant les contrôleurs à distance des installations de réfrigération (12 octobre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-012/",
+      "published": "2026-10-12T00:00:00Z",
+      "summary": "Le CERT-FR a connaissance de nombreuses compromissions des controleurs à distance d'installation de réfrigération Danfoss série AK-SM, AK-SC ainsi que Copeland xweb et Dixell xweb. De manière générale l'exposition d'une interface de gestion sur Internet est contraire aux bonnes p…",
+      "tags": [
+        "FR",
+        "alert"
       ]
     },
     {
@@ -1641,6 +1681,20 @@
       ]
     },
     {
+      "id": "4387a3e52203cc93",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Multiples vulnérabilités dans Citrix NetScaler ADC et Gateway (28 septembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-011/",
+      "published": "2026-09-28T00:00:00Z",
+      "summary": "**[Mise à jour du 05 octobre 2026]** Le 4 octobre 2026, Citrix a publié un avis concernant une nouvelle vulnérabilité (CVE-2026-88779) permettant un déni de service à distance. La CISA indique que cette vulnérabilité est activement exploitée. **[Mise à jour du 30 septembre 2026]*…",
+      "tags": [
+        "CVE-2026-88779",
+        "FR",
+        "alert"
+      ]
+    },
+    {
       "id": "52369fa32b06599e",
       "source": "cert-fr-alerte",
       "source_name": "CERT-FR Alertes",
@@ -1885,6 +1939,19 @@
       ]
     },
     {
+      "id": "330e0eb212840927",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Vulnérabilité dans Metabase (10 septembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-010/",
+      "published": "2026-09-10T00:00:00Z",
+      "summary": "Le 06 août 2026, Metabase a publié un avis de sécurité concernant une vulnérabilité critique permettant à un attaquant non authentifié de provoquer une injection SQL (SQLi) dans la base de donnée de l'application Metabase. Cette injection SQL permet d’obtenir les droits administr…",
+      "tags": [
+        "FR",
+        "alert"
+      ]
+    },
+    {
       "id": "65b33f6caf3eb2e0",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1914,6 +1981,20 @@
       "source_name": "CERT-FR Alertes",
       "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
       "url": "https://www.cert.ssi.gouv.fr/alerte/CERTFR-2026-ALE-009/",
+      "published": "2026-09-02T00:00:00Z",
+      "summary": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié…",
+      "tags": [
+        "CVE-2026-83548",
+        "FR",
+        "alert"
+      ]
+    },
+    {
+      "id": "de67ce3183d98717",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Multiples vulnérabilités dans SonicWall Secure Mobile Access (02 septembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-009/",
       "published": "2026-09-02T00:00:00Z",
       "summary": "Le 01 septembre 2026, SonicWall a publié un avis de sécurité concernant deux vulnérabilités affectant les Secure Mobile Access (SMA) 1000. La vulnérabilité critique CVE-2026-83548 permet une falsification de requêtes côté serveur (SSRF) de la part d'un attaquant non authentifié…",
       "tags": [
