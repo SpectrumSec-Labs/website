@@ -1,7 +1,161 @@
 {
   "schema": 1,
-  "generated": "2026-10-27T12:27:10Z",
+  "generated": "2026-10-27T22:25:17Z",
   "items": [
+    {
+      "id": "7146301f6c771466",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-112352: Sunhillo SureLine before 9.1.5 contains an authentication bypass vulnerability that allows…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112352",
+      "published": "2026-10-27T20:17:12Z",
+      "summary": "Sunhillo SureLine before 9.1.5 contains an authentication bypass vulnerability that allows an unauthenticated remote attacker to impersonate any user with an active web session by forging a session cookie containing only a cleartext username with no random identifier or integrity…",
+      "tags": [
+        "CVE",
+        "CVE-2026-112352",
+        "critical"
+      ]
+    },
+    {
+      "id": "97eda1c98a294794",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-48360: Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection')…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48360",
+      "published": "2026-10-27T17:17:00Z",
+      "summary": "Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this i…",
+      "tags": [
+        "CVE",
+        "CVE-2026-48360",
+        "critical"
+      ]
+    },
+    {
+      "id": "4efbf6d4c5a85edb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105781: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105781",
+      "published": "2026-10-27T17:16:56Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to exec…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105781",
+        "critical"
+      ]
+    },
+    {
+      "id": "562ead506c3fc1e6",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105780: Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105780",
+      "published": "2026-10-27T17:16:56Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105780",
+        "critical"
+      ]
+    },
+    {
+      "id": "48e70487e269ae3d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105779: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105779",
+      "published": "2026-10-27T17:16:56Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105779",
+        "critical"
+      ]
+    },
+    {
+      "id": "d4d03e45b78633cd",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105489: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105489",
+      "published": "2026-10-27T17:16:56Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnera…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105489",
+        "critical"
+      ]
+    },
+    {
+      "id": "a2ae1b3b78587d70",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104354: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104354",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104354",
+        "critical"
+      ]
+    },
+    {
+      "id": "7ab729feb595b0b5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104353: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this v…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104353",
+        "critical"
+      ]
+    },
+    {
+      "id": "10f4865cb9f57904",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104351: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104351",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104351",
+        "critical"
+      ]
+    },
+    {
+      "id": "221ec9d37f3c1050",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104350: Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnera…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104350",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104350",
+        "critical"
+      ]
+    },
+    {
+      "id": "38a6ba1a2ca03f27",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-117564: nest-admin before 1.0.1 contains an authentication bypass vulnerability that allows unauth…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117564",
+      "published": "2026-10-27T14:16:38Z",
+      "summary": "nest-admin before 1.0.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens by using a hardcoded JWT_SECRET committed in .env.production. Attackers can sign tokens with the known secret that JwtStrategy and RbacGuard…",
+      "tags": [
+        "CVE",
+        "CVE-2026-117564",
+        "critical"
+      ]
+    },
     {
       "id": "dc5c27b683bcf6ff",
       "source": "ncsc-uk",
@@ -51,6 +205,32 @@
       "published": "2026-10-27T02:09:55Z",
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "42cb99426262f50e",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-111497 — Google Brotli: Google Brotli Unchecked Return Value Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
+      "published": "2026-10-27T00:00:00Z",
+      "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compr…",
+      "tags": [
+        "KEV",
+        "CVE-2026-111497"
+      ]
+    },
+    {
+      "id": "70b120f7f6d04898",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-48356 — Adobe Commerce and Magento: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
+      "published": "2026-10-27T00:00:00Z",
+      "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
+      "tags": [
+        "KEV",
+        "CVE-2026-48356"
       ]
     },
     {
@@ -388,62 +568,6 @@
       ]
     },
     {
-      "id": "020708da8cefdaab",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115384: Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 contains a stack buffer overflow vu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115384",
-      "published": "2026-10-22T19:17:45Z",
-      "summary": "Wasmtime 39.0.0 before 48.0.4 and 49.0.0 before 49.0.2 contains a stack buffer overflow vulnerability that allows malicious guests to write ~16KB to the native stack via unvalidated async callback result types. Attackers can supply components with mistyped component-model-async c…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115384",
-        "critical"
-      ]
-    },
-    {
-      "id": "28d7e7326204666f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115375: Incus 7.0.0 before 7.0.2 and 7.1.0 before 7.5.0 contains a path traversal vulnerability th…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115375",
-      "published": "2026-10-22T19:17:44Z",
-      "summary": "Incus 7.0.0 before 7.0.2 and 7.1.0 before 7.5.0 contains a path traversal vulnerability that allows clients able to create instances to write files on the host. The flaw stems from unvalidated dependent custom volume names in instance backup index.yaml files. Attackers can import…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115375",
-        "critical"
-      ]
-    },
-    {
-      "id": "b7ce317fa88a3077",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115377: Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115377",
-      "published": "2026-10-22T19:17:44Z",
-      "summary": "Incus before 6.0.7, 6.1.0 before 7.0.2, and 7.1.0 before 7.5.0 contains an arbitrary file write vulnerability that allows malicious migration sources to write host files by planting symlinks in transferred volumes. Attackers can craft rsync or btrfs receive streams with a symlink…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115377",
-        "critical"
-      ]
-    },
-    {
-      "id": "ece271dfd71e70cb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2022-51026: Bytebase 0.12.0 before 1.0.1 contains an authentication bypass vulnerability that allows u…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51026",
-      "published": "2026-10-22T19:17:30Z",
-      "summary": "Bytebase 0.12.0 before 1.0.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as any user. The flaw stems from trusting client-supplied GitLab provider configuration in the POST /api/auth/login/GITLAB_SELF_HOST endpoint. Attackers ca…",
-      "tags": [
-        "CVE",
-        "CVE-2022-51026",
-        "critical"
-      ]
-    },
-    {
       "id": "f4bc3275b7eab2a0",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -453,104 +577,6 @@
       "summary": "CISA, the Canadian Centre for Cyber Security (Cyber Centre), and partners are releasing joint guidance, Managing AI Token Consumption for Operational Resilience , to help organizations understand and manage token usage in support of operations. As organizations adopt third-party…",
       "tags": [
         "advisory"
-      ]
-    },
-    {
-      "id": "55680ec9d53adf7f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2022-51022: YiShaAdmin 2.2 through 3.1, fixed in commit 025b062, contains an unauthenticated path trav…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2022-51022",
-      "published": "2026-10-22T11:17:05Z",
-      "summary": "YiShaAdmin 2.2 through 3.1, fixed in commit 025b062, contains an unauthenticated path traversal vulnerability in the /admin/File/DownloadFile endpoint that allows attackers to read and delete arbitrary files via the filePath parameter. Attackers can send crafted GET requests with…",
-      "tags": [
-        "CVE",
-        "CVE-2022-51022",
-        "critical"
-      ]
-    },
-    {
-      "id": "175462ecaf61678e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2021-48016: DedeCMS through 5.8.1-beta contains a PHP code injection vulnerability in ShowMsg() where…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48016",
-      "published": "2026-10-22T11:17:04Z",
-      "summary": "DedeCMS through 5.8.1-beta contains a PHP code injection vulnerability in ShowMsg() where the HTTP Referer header is written into a DedeTemplate string and included. Unauthenticated attackers can send a crafted Referer to /plus/flink.php?dopost=save with an empty validate code to…",
-      "tags": [
-        "CVE",
-        "CVE-2021-48016",
-        "critical"
-      ]
-    },
-    {
-      "id": "b21619c0158d9023",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2021-48014: FineReport 9.0 contains a path traversal vulnerability in the /WebReport/ReportServer desi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-48014",
-      "published": "2026-10-22T11:17:04Z",
-      "summary": "FineReport 9.0 contains a path traversal vulnerability in the /WebReport/ReportServer design_save_svg operation that allows unauthenticated attackers to write arbitrary files via the filePath parameter. Attackers can send a POST request with directory traversal sequences in fileP…",
-      "tags": [
-        "CVE",
-        "CVE-2021-48014",
-        "critical"
-      ]
-    },
-    {
-      "id": "c8865bfbbd75259e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114220: NT OneAPP developed by NewType Infortech has an Improper Certificate Validation vulnerabil…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114220",
-      "published": "2026-10-22T05:16:50Z",
-      "summary": "NT OneAPP developed by NewType Infortech has an Improper Certificate Validation vulnerability. Unauthenticated network-adjacent attackers can perform a man-in-the-middle attack by failing to validate the server certificate and the hostname, thereby intercepting or modifying commu…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114220",
-        "critical"
-      ]
-    },
-    {
-      "id": "42839e93ee1b456b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114575: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114575",
-      "published": "2026-10-22T01:16:58Z",
-      "summary": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function UploadCustomModule of the file lib/cste_modules/product.so. Executing a manipulation of the argument FileMd5 can lead to command injection. The attack can be launched remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114575",
-        "critical"
-      ]
-    },
-    {
-      "id": "1d88d4936098c3de",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91403: Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91403",
-      "published": "2026-10-21T22:16:50Z",
-      "summary": "Vulnerability in the Oracle Java SE, Oracle GraalVM for JDK, Oracle GraalVM Enterprise Edition product of Oracle Java SE (component: JSSE). Supported versions that are affected are Oracle Java SE: 8u511, 8u511-perf, 11.0.33, 17.0.21, 21.0.13, 25.0.5, 27.0.1; Oracle GraalVM for JD…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91403",
-        "critical"
-      ]
-    },
-    {
-      "id": "77c7eea0db89e84d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114383: A weakness has been identified in TOTOLINK EX200 5.2.3c.7200. This impacts the function se…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114383",
-      "published": "2026-10-21T22:16:49Z",
-      "summary": "A weakness has been identified in TOTOLINK EX200 5.2.3c.7200. This impacts the function setWiFiAclAddConfig of the file /cgi-bin/cstecgi.cgi of the component wireless.so. This manipulation of the argument macAddress causes stack-based buffer overflow. The attack can be initiated…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114383",
-        "critical"
       ]
     },
     {
@@ -1860,32 +1886,6 @@
       "tags": [
         "KEV",
         "CVE-2026-93952"
-      ]
-    },
-    {
-      "id": "0f86d09d31f17aa5",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-94127 — F5 BIG-IP APM: F5 BIG-IP APM Heap-based Buffer Overflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-94127",
-      "published": "2026-09-22T00:00:00Z",
-      "summary": "F5 BIG-IP APM contains a heap-based buffer overflow vulnerability when access policy and an OAuth profile are configured on a virtual server. This vulnerability could allow an unauthenticated attacker to perform remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2026-94127"
-      ]
-    },
-    {
-      "id": "2e32251fa43351ed",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-85102 — Check Point Multiple Products: Check Point Multiple Products Improper Certificate Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85102",
-      "published": "2026-09-22T00:00:00Z",
-      "summary": "Check Point Security Gateway and Check Point Spark Firewall using Site to Site VPN or Remote Access VPN contain an improper certificate validation vulnerability which could allow an unauthenticated remote attacker to execute arbitrary code on the Gateway.",
-      "tags": [
-        "KEV",
-        "CVE-2026-85102"
       ]
     },
     {
