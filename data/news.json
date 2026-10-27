@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-10-26T22:46:25Z",
+  "generated": "2026-10-27T05:17:22Z",
   "items": [
+    {
+      "id": "344bdc9286a24997",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
+      "url": "https://isc.sans.edu/diary/rss/33458",
+      "published": "2026-10-27T02:09:55Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "cc050c65de40b990",
       "source": "nvd-recent",
@@ -31,20 +42,6 @@
       ]
     },
     {
-      "id": "b98ace94197234be",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116505: A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the func…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
-      "published": "2026-10-26T21:18:12Z",
-      "summary": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116505",
-        "critical"
-      ]
-    },
-    {
       "id": "9c28c346ad030dca",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -55,6 +52,20 @@
       "tags": [
         "CVE",
         "CVE-2026-116504",
+        "critical"
+      ]
+    },
+    {
+      "id": "b98ace94197234be",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116505: A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the func…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
+      "published": "2026-10-26T21:18:12Z",
+      "summary": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116505",
         "critical"
       ]
     },
@@ -179,6 +190,32 @@
         "CVE",
         "CVE-2026-116232",
         "critical"
+      ]
+    },
+    {
+      "id": "3e4dd48255f1a95f",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-109619 — PHP Group PHP: PHP Stale Internal Request-State Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
+      "published": "2026-10-26T00:00:00Z",
+      "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
+      "tags": [
+        "KEV",
+        "CVE-2026-109619"
+      ]
+    },
+    {
+      "id": "59f34b6f811267a0",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-109618 — PHP Group PHP: PHP Memory Corruption Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
+      "published": "2026-10-26T00:00:00Z",
+      "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
+      "tags": [
+        "KEV",
+        "CVE-2026-109618"
       ]
     },
     {
@@ -1840,19 +1877,6 @@
       ]
     },
     {
-      "id": "ef40b60f4f9033d3",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-93616 — Check Point Multiple Products: Check Point Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93616",
-      "published": "2026-09-22T00:00:00Z",
-      "summary": "Check Point Security Management Server, Multi-Domain Security Management Server, Log Server, Multi-Domain Log Server, and SmartEvent contain a path traversal vulnerability that allows an unauthenticated attacker to upload and execute arbitrary scripts.",
-      "tags": [
-        "KEV",
-        "CVE-2026-93616"
-      ]
-    },
-    {
       "id": "b6d406ece8bb58b3",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1862,19 +1886,6 @@
       "summary": "Defenders can’t use AI in the same way attackers can, but there’s much they can do to unlock the potential of agentic cyber defence.",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "1d08545d4b3250bd",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-7273 — Zyxel GS1900 Series Switches: Zyxel GS1900 Series Switches Stack-Based Buffer Overflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-7273",
-      "published": "2026-09-21T00:00:00Z",
-      "summary": "Zyxel GS1900 series switches contain a stack-based buffer overflow vulnerability in the CGI program which could allow a LAN-based, unauthenticated attacker to exploit the flaw and potentially execute OS commands via a crafted HTTP request.",
-      "tags": [
-        "KEV",
-        "CVE-2026-7273"
       ]
     },
     {
