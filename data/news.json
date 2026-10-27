@@ -1,7 +1,47 @@
 {
   "schema": 1,
-  "generated": "2026-10-27T05:17:22Z",
+  "generated": "2026-10-27T12:27:10Z",
   "items": [
+    {
+      "id": "dc5c27b683bcf6ff",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "From industry concern to practical action: the value of working with regulators",
+      "url": "https://www.ncsc.gov.uk/blogs/industry-concern-practical-action-value-working-regulators",
+      "published": "2026-10-27T12:00:00Z",
+      "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "e2821048ea87052c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-117532: REDAXO core from 5.3.0 before 5.21.4 contains an authentication bypass vulnerability in th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117532",
+      "published": "2026-10-27T11:17:33Z",
+      "summary": "REDAXO core from 5.3.0 before 5.21.4 contains an authentication bypass vulnerability in the structure/history plugin that allows unauthenticated attackers to forge temporary login tokens. Attackers can force the session-tied secret into a predictable state and forge tokens for ac…",
+      "tags": [
+        "CVE",
+        "CVE-2026-117532",
+        "critical"
+      ]
+    },
+    {
+      "id": "c74821d0875adb11",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-92885: The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92885",
+      "published": "2026-10-27T09:16:34Z",
+      "summary": "The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.0.6.2 via the qode_membership_check_facebook_user AJAX action. This is due to a typographic error in the Facebook OAuth token verifi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-92885",
+        "critical"
+      ]
+    },
     {
       "id": "344bdc9286a24997",
       "source": "sans-isc",
@@ -510,34 +550,6 @@
       "tags": [
         "CVE",
         "CVE-2026-114383",
-        "critical"
-      ]
-    },
-    {
-      "id": "6a84656cb163605a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114382: A security flaw has been discovered in TOTOLINK EX200 5.2.3c.7200. This affects the functi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114382",
-      "published": "2026-10-21T22:16:48Z",
-      "summary": "A security flaw has been discovered in TOTOLINK EX200 5.2.3c.7200. This affects the function setStaticDhcpConfig of the file /cgi-bin/cstecgi.cgi of the component lan.so. The manipulation of the argument Comment results in stack-based buffer overflow. It is possible to launch the…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114382",
-        "critical"
-      ]
-    },
-    {
-      "id": "83143f39557159fa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114268: A flaw has been found in Tenda BE3L Pro 16.03.60.62. Affected by this vulnerability is the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114268",
-      "published": "2026-10-21T19:17:00Z",
-      "summary": "A flaw has been found in Tenda BE3L Pro 16.03.60.62. Affected by this vulnerability is the function formWifiBasicSet of the file /goform/WifiBasicSet. This manipulation of the argument security_5g causes buffer overflow. It is possible to initiate the attack remotely. The exploit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114268",
         "critical"
       ]
     },
@@ -2096,18 +2108,6 @@
       "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any i…",
       "tags": [
         "threat-intel"
-      ]
-    },
-    {
-      "id": "fbd1206cb8010f67",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Making forensic observability the norm for network devices",
-      "url": "https://www.ncsc.gov.uk/blogs/making-forensic-observability-the-norm-for-network-devices",
-      "published": "2026-07-29T12:00:00Z",
-      "summary": "Progress is being made, but too many network devices still remain difficult to investigate after compromise",
-      "tags": [
-        "guidance"
       ]
     }
   ]
