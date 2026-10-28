@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-28T05:56:07Z",
+  "generated": "2026-10-28T13:14:15Z",
   "items": [
+    {
+      "id": "4581f37246b12f7e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109218: The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all ver…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109218",
+      "published": "2026-10-28T07:16:44Z",
+      "summary": "The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the add_message function. This is due to an incomplete extension blacklist that fails to detect dangerous extensions when a trailing dot causes the exte…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109218",
+        "critical"
+      ]
+    },
     {
       "id": "67b468fc048de6fb",
       "source": "nvd-recent",
@@ -502,20 +516,6 @@
       "tags": [
         "CVE",
         "CVE-2026-115995",
-        "critical"
-      ]
-    },
-    {
-      "id": "18dd3901eba03363",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115806: The Prime Mover – Backup and Migration plugin for WordPress is vulnerable to PHP Object In…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115806",
-      "published": "2026-10-24T05:17:04Z",
-      "summary": "The Prime Mover – Backup and Migration plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 2.2.1 via deserialization of untrusted input in the migration search-and-replace routine (recursiveUnserializeReplace()). An unauthenticated att…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115806",
         "critical"
       ]
     },
