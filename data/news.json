@@ -1,7 +1,74 @@
 {
   "schema": 1,
-  "generated": "2026-10-28T13:14:15Z",
+  "generated": "2026-10-28T22:42:08Z",
   "items": [
+    {
+      "id": "8192899f18095f3d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118690: Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118690",
+      "published": "2026-10-28T22:17:13Z",
+      "summary": "Signal K Server before 2.33.0 contains a missing authentication vulnerability that allows unauthenticated remote attackers to download log archives via the /skServer/ziplogs endpoint. Attackers can extract the JWT secretKey from security.json in the ZIP, forge administrator token…",
+      "tags": [
+        "CVE",
+        "CVE-2026-118690",
+        "critical"
+      ]
+    },
+    {
+      "id": "8fd61bfb82377a08",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-117574: A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can ex…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117574",
+      "published": "2026-10-28T20:17:21Z",
+      "summary": "A flaw was found in ai-gateway-payload-processing. An authenticated remote attacker can exploit this vulnerability by submitting a request specifying another tenant's model identifier in the request body or header. Because the service does not verify authorization before retrievi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-117574",
+        "critical"
+      ]
+    },
+    {
+      "id": "73481249d9949d9c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-103409: A Missing authentication for critical function vulnerability in Juniper Networks Session S…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103409",
+      "published": "2026-10-28T17:17:27Z",
+      "summary": "A Missing authentication for critical function vulnerability in Juniper Networks Session Smart Router allows an unauthenticated network-based attacker to obtain administrative privileges by passing crafted URL parameters to an insecure endpoint running as root. Note that this vul…",
+      "tags": [
+        "CVE",
+        "CVE-2026-103409",
+        "critical"
+      ]
+    },
+    {
+      "id": "bdc80e6b4781d379",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-103406: An Improper Neutralization of Special Elements used in an OS Command vulnerability in the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+      "published": "2026-10-28T17:17:25Z",
+      "summary": "An Improper Neutralization of Special Elements used in an OS Command vulnerability in the AutomatedProvisioner in Juniper Networks Session Smart Conductor allows a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "tags": [
+        "CVE",
+        "CVE-2026-103406",
+        "critical"
+      ]
+    },
+    {
+      "id": "241b0a1b56759dc1",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
+      "url": "https://isc.sans.edu/diary/rss/33466",
+      "published": "2026-10-28T16:07:03Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "4581f37246b12f7e",
       "source": "nvd-recent",
@@ -42,6 +109,32 @@
         "CVE",
         "CVE-2026-106013",
         "critical"
+      ]
+    },
+    {
+      "id": "79814acf062d096b",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-41709 — Broadcom VMware ESX: Broadcom VMWare ESX Insufficient Logging Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
+      "published": "2026-10-28T00:00:00Z",
+      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
+      "tags": [
+        "KEV",
+        "CVE-2026-41709"
+      ]
+    },
+    {
+      "id": "8e5ce52d365f4652",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-46300 — Linux Kernel: Linux Kernel Missing Initialization of a Variable Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
+      "published": "2026-10-28T00:00:00Z",
+      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fra…",
+      "tags": [
+        "KEV",
+        "CVE-2026-46300"
       ]
     },
     {
@@ -332,6 +425,34 @@
       ]
     },
     {
+      "id": "2b34a490aa53c209",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115915: vLLM is an inference and serving engine for large language models. Prior to 0.32.0, ImageM…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115915",
+      "published": "2026-10-26T18:17:38Z",
+      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.32.0, ImageMediaIO passes attacker-controlled image bytes to Pillow through Image.open(BytesIO(data)) without restricting decoder selection, and the MIME label does not constrain the selected format. Im…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115915",
+        "critical"
+      ]
+    },
+    {
+      "id": "ef42570eb0e35bfb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116370: A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116370",
+      "published": "2026-10-26T17:17:25Z",
+      "summary": "A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The affected element is the function loadstring of the component Lua sandbox. Performing a manipulation results in type confusion. The attack may be initiated remotely. The exploit has been rel…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116370",
+        "critical"
+      ]
+    },
+    {
       "id": "25e44e893497cba6",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -399,62 +520,6 @@
       ]
     },
     {
-      "id": "97ef5013092ddf0e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116234: A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1. Affected is an unknown funct…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116234",
-      "published": "2026-10-26T09:16:34Z",
-      "summary": "A vulnerability was detected in Oray Pugongying X5 Pro 7.6.1. Affected is an unknown function of the file /etc/ipsec.conf of the component IPsec Policy Handler. The manipulation of the argument secproto results in crlf injection. The attack can be launched remotely. The exploit i…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116234",
-        "critical"
-      ]
-    },
-    {
-      "id": "a77a128fc704d3a0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116233: A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116233",
-      "published": "2026-10-26T09:16:34Z",
-      "summary": "A security vulnerability has been detected in Oray Pugongying X5 Pro 7.6.1. This impacts an unknown function of the component Dnsmasq. The manipulation of the argument rent_time leads to crlf injection. The attack can be initiated remotely. The exploit has been disclosed publicly…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116233",
-        "critical"
-      ]
-    },
-    {
-      "id": "7d111af2430c4816",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116231: A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1. The impacted element…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116231",
-      "published": "2026-10-26T08:17:17Z",
-      "summary": "A security flaw has been discovered in Oray Pugongying X5 Pro 7.6.1. The impacted element is an unknown function of the component Ser2net. Performing a manipulation of the argument regmsg results in crlf injection. It is possible to initiate the attack remotely. The exploit has b…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116231",
-        "critical"
-      ]
-    },
-    {
-      "id": "f6367cbc69b873b9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116232: A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116232",
-      "published": "2026-10-26T08:17:17Z",
-      "summary": "A weakness has been identified in Oray Pugongying X5 Pro 7.6.1. This affects the function snmp_set of the component SNMP Handler. Executing a manipulation of the argument info.community can lead to crlf injection. It is possible to launch the attack remotely. The exploit has been…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116232",
-        "critical"
-      ]
-    },
-    {
       "id": "3e4dd48255f1a95f",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -489,34 +554,6 @@
       "published": "2026-10-25T19:57:53Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "751c5b09d1f97e72",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116207: YesWiki 4.6.0 before 4.7.0 and 5.0.0-alpha1 before 5.0.0-alpha4 contains an unauthenticate…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116207",
-      "published": "2026-10-25T14:17:01Z",
-      "summary": "YesWiki 4.6.0 before 4.7.0 and 5.0.0-alpha1 before 5.0.0-alpha4 contains an unauthenticated SQL injection vulnerability in SearchManager::prepareSearchRequest(). Field names from the query and searchfields parameters of the public Bazar entries search API are placed in a backtick…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116207",
-        "critical"
-      ]
-    },
-    {
-      "id": "73bcfeea38c0bb80",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115995: A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115995",
-      "published": "2026-10-24T23:16:58Z",
-      "summary": "A security vulnerability has been detected in Unitree Robotics Unitree Go2 up to 1.1.11.4. The impacted element is the function set_volume of the file gpt_thread.py of the component chat_go. Such manipulation of the argument Value leads to os command injection. The attack can be…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115995",
-        "critical"
       ]
     },
     {
@@ -1860,32 +1897,6 @@
       "tags": [
         "KEV",
         "CVE-2026-5430"
-      ]
-    },
-    {
-      "id": "9ca85014a9e93eed",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-71362 — Adobe Commerce and Magento : Adobe Commerce and Magento Incorrect Authorization Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-71362",
-      "published": "2026-09-24T00:00:00Z",
-      "summary": "Adobe Commerce and Magento contains an incorrect authorization vulnerability that could allow an attacker to leverage this vulnerability to gain elevated access to sensitive resources without any user interaction.",
-      "tags": [
-        "KEV",
-        "CVE-2026-71362"
-      ]
-    },
-    {
-      "id": "01271320a5d0fd19",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-93952 — Arista VeloCloud Orchestrator: Arista VeloCloud Orchestrator Improper Input Validation Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93952",
-      "published": "2026-09-22T00:00:00Z",
-      "summary": "Arista VeloCloud Orchestrator (VCO) on-prem contains an improper input validation vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availab…",
-      "tags": [
-        "KEV",
-        "CVE-2026-93952"
       ]
     },
     {
