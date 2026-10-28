@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-10-27T22:25:17Z",
+  "generated": "2026-10-28T05:56:07Z",
   "items": [
+    {
+      "id": "67b468fc048de6fb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-84999: The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Uplo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84999",
+      "published": "2026-10-28T03:17:16Z",
+      "summary": "The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via the piereg_file_upload function. This is due to the plugin performing file type validation via wp_check_filetype and wp_check_filetype_an…",
+      "tags": [
+        "CVE",
+        "CVE-2026-84999",
+        "critical"
+      ]
+    },
+    {
+      "id": "1beb020a5f45c521",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-106013: The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013",
+      "published": "2026-10-28T02:17:01Z",
+      "summary": "The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to and including 4.61.0. The vulnerability exists within the verify_twitter_callback function because after exchanging the visitor's oauth_veri…",
+      "tags": [
+        "CVE",
+        "CVE-2026-106013",
+        "critical"
+      ]
+    },
     {
       "id": "7146301f6c771466",
       "source": "nvd-recent",
@@ -27,6 +55,20 @@
       "tags": [
         "CVE",
         "CVE-2026-48360",
+        "critical"
+      ]
+    },
+    {
+      "id": "48e70487e269ae3d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-105779: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105779",
+      "published": "2026-10-27T17:16:56Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
+      "tags": [
+        "CVE",
+        "CVE-2026-105779",
         "critical"
       ]
     },
@@ -59,20 +101,6 @@
       ]
     },
     {
-      "id": "48e70487e269ae3d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105779: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105779",
-      "published": "2026-10-27T17:16:56Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105779",
-        "critical"
-      ]
-    },
-    {
       "id": "d4d03e45b78633cd",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -83,34 +111,6 @@
       "tags": [
         "CVE",
         "CVE-2026-105489",
-        "critical"
-      ]
-    },
-    {
-      "id": "a2ae1b3b78587d70",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104354: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104354",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104354",
-        "critical"
-      ]
-    },
-    {
-      "id": "7ab729feb595b0b5",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104353: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this v…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104353",
         "critical"
       ]
     },
@@ -139,6 +139,34 @@
       "tags": [
         "CVE",
         "CVE-2026-104350",
+        "critical"
+      ]
+    },
+    {
+      "id": "7ab729feb595b0b5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104353: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this v…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104353",
+        "critical"
+      ]
+    },
+    {
+      "id": "a2ae1b3b78587d70",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104354: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104354",
+      "published": "2026-10-27T17:16:55Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104354",
         "critical"
       ]
     },
@@ -537,34 +565,6 @@
       "tags": [
         "KEV",
         "CVE-2026-114625"
-      ]
-    },
-    {
-      "id": "84d3ef595e93ac7c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-97785: Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privil…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97785",
-      "published": "2026-10-22T22:20:13Z",
-      "summary": "Improper authentication in AAD App Proxy allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-97785",
-        "critical"
-      ]
-    },
-    {
-      "id": "d1358edf74b80650",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-83938: Missing authentication for critical function in Azure Kubernetes Configuration Service all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-83938",
-      "published": "2026-10-22T22:19:18Z",
-      "summary": "Missing authentication for critical function in Azure Kubernetes Configuration Service allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-83938",
-        "critical"
       ]
     },
     {
