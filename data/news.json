@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-10-29T13:20:51Z",
+  "generated": "2026-10-29T22:51:39Z",
   "items": [
+    {
+      "id": "300cea334f1ccb91",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-93680: IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to bypass security res…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-93680",
+      "published": "2026-10-29T16:20:06Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to bypass security restrictions due to improper authentication.",
+      "tags": [
+        "CVE",
+        "CVE-2026-93680",
+        "critical"
+      ]
+    },
+    {
+      "id": "e1779d519d2baab0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110186: IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary c…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110186",
+      "published": "2026-10-29T16:17:55Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary code due to improper control of code generation.",
+      "tags": [
+        "CVE",
+        "CVE-2026-110186",
+        "critical"
+      ]
+    },
+    {
+      "id": "68a85b5ae7f45b14",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-107329: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107329",
+      "published": "2026-10-29T16:17:50Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to improper control of code generation.",
+      "tags": [
+        "CVE",
+        "CVE-2026-107329",
+        "critical"
+      ]
+    },
+    {
+      "id": "b241c73a5b40999b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-107327: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107327",
+      "published": "2026-10-29T16:17:50Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to missing authorization.",
+      "tags": [
+        "CVE",
+        "CVE-2026-107327",
+        "critical"
+      ]
+    },
     {
       "id": "9cc4b6c5e4fbe3cb",
       "source": "sans-isc",
@@ -25,6 +81,32 @@
         "CVE",
         "CVE-2026-42922",
         "critical"
+      ]
+    },
+    {
+      "id": "d258560330da941d",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
+      "published": "2026-10-29T00:00:00Z",
+      "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient…",
+      "tags": [
+        "KEV",
+        "CVE-2026-97229"
+      ]
+    },
+    {
+      "id": "eb7c9c330a115867",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-76418 — Cisco Secure Firewall ASA Software and Cisco Secure FTD Software: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference V…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
+      "published": "2026-10-29T00:00:00Z",
+      "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) co…",
+      "tags": [
+        "KEV",
+        "CVE-2026-76418"
       ]
     },
     {
@@ -460,62 +542,6 @@
       "tags": [
         "CVE",
         "CVE-2026-116505",
-        "critical"
-      ]
-    },
-    {
-      "id": "2b34a490aa53c209",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115915: vLLM is an inference and serving engine for large language models. Prior to 0.32.0, ImageM…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115915",
-      "published": "2026-10-26T18:17:38Z",
-      "summary": "vLLM is an inference and serving engine for large language models. Prior to 0.32.0, ImageMediaIO passes attacker-controlled image bytes to Pillow through Image.open(BytesIO(data)) without restricting decoder selection, and the MIME label does not constrain the selected format. Im…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115915",
-        "critical"
-      ]
-    },
-    {
-      "id": "ef42570eb0e35bfb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116370: A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116370",
-      "published": "2026-10-26T17:17:25Z",
-      "summary": "A security flaw has been discovered in 2K Games Sid Meier's Civilization VI 1.0.12.68. The affected element is the function loadstring of the component Lua sandbox. Performing a manipulation results in type confusion. The attack may be initiated remotely. The exploit has been rel…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116370",
-        "critical"
-      ]
-    },
-    {
-      "id": "25e44e893497cba6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-112346: OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code executi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112346",
-      "published": "2026-10-26T16:17:14Z",
-      "summary": "OpenHands Software Agent SDK before 1.52.0 contains an unauthenticated remote code execution vulnerability where the DockerWorkspace and Apptainer workspace launchers bind the sandbox agent server to all network interfaces (0.0.0.0) with an empty session_api_keys list, disabling…",
-      "tags": [
-        "CVE",
-        "CVE-2026-112346",
-        "critical"
-      ]
-    },
-    {
-      "id": "d469bb948656de88",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116485: danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauth…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116485",
-      "published": "2026-10-26T14:16:37Z",
-      "summary": "danmu_api before 1.21.7 contains an authentication bypass vulnerability that allows unauthenticated attackers to modify server environment configuration when the default TOKEN is used and ADMIN_TOKEN is unset. Attackers can send POST requests to /api/env/set, /api/env/add, or /ap…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116485",
         "critical"
       ]
     },
@@ -1881,33 +1907,6 @@
       "tags": [
         "KEV",
         "CVE-2026-65660"
-      ]
-    },
-    {
-      "id": "c3ad82d8a0e4309c",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-67279 — MikroTik RouterOS: Mikrotik RouterOS Improper Enforcement of Behavioral Workflow Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-67279",
-      "published": "2026-09-25T00:00:00Z",
-      "summary": "Mikrotik RouterOS contains an improper enforcement of behavioral workflow vulnerability that could allow an unauthenticated client to open a session channel and send an exec request. This vulnerability can be chained to achieve unauthenticated exploitation of CVE-2026-86060.",
-      "tags": [
-        "KEV",
-        "CVE-2026-67279",
-        "CVE-2026-86060"
-      ]
-    },
-    {
-      "id": "976ad119a3a76047",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-5430 — WSO2 Multiple Products: WSO2 Multiple Products Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-5430",
-      "published": "2026-09-24T00:00:00Z",
-      "summary": "WSO2 API Control Plane, API Manager, Traffic Manager & Universal Gateway contain a path traversal vulnerability that could allow for unrestricted file upload and lead to remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2026-5430"
       ]
     },
     {
