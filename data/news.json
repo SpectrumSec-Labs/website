@@ -1,7 +1,46 @@
 {
   "schema": 1,
-  "generated": "2026-10-28T22:42:08Z",
+  "generated": "2026-10-29T13:20:51Z",
   "items": [
+    {
+      "id": "9cc4b6c5e4fbe3cb",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Deploying a Local Ghidra Server for Your Malware Analysis Lab, (Thu, Oct 29th)",
+      "url": "https://isc.sans.edu/diary/rss/33470",
+      "published": "2026-10-29T06:17:41Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "1b91afaf4ac94a5d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-42922: A authorization bypass vulnerability exists in the /nodered functionality of FUXA (version…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-42922",
+      "published": "2026-10-29T04:18:36Z",
+      "summary": "A authorization bypass vulnerability exists in the /nodered functionality of FUXA (version(s): 1.3.2-2809). A specially crafted HTTP request can lead to a arbitrary code execution. An attacker can make an unauthenticated HTTP request to trigger this vulnerability.",
+      "tags": [
+        "CVE",
+        "CVE-2026-42922",
+        "critical"
+      ]
+    },
+    {
+      "id": "055aef6d0b73d369",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118579: A weakness has been identified in D-Link DIR-505 1.10B02. The impacted element is the func…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118579",
+      "published": "2026-10-28T23:17:09Z",
+      "summary": "A weakness has been identified in D-Link DIR-505 1.10B02. The impacted element is the function main of the file /secmark1524.cgi of the component Web Management CGI. This manipulation of the argument accu/pass/code/hash/cmds causes backdoor. The attack is possible to be carried o…",
+      "tags": [
+        "CVE",
+        "CVE-2026-118579",
+        "critical"
+      ]
+    },
     {
       "id": "8192899f18095f3d",
       "source": "nvd-recent",
@@ -481,20 +520,6 @@
       ]
     },
     {
-      "id": "f0a929e2f779e8de",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116214: MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116214",
-      "published": "2026-10-26T14:16:34Z",
-      "summary": "MacCMS v10 before 2026.1000.4054 contains an authentication bypass vulnerability that allows unauthenticated attackers to reset any member's password because check_msg() never compares msg_to. Attackers can request a recovery code to their own mailbox via user/findpass_msg, then…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116214",
-        "critical"
-      ]
-    },
-    {
       "id": "3752165e9c29de9f",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -503,20 +528,6 @@
       "published": "2026-10-26T09:38:03Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "4d46adac301bdf0d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116235: A flaw has been found in Oray Pugongying X5 Pro 7.6.1. Affected by this vulnerability is a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116235",
-      "published": "2026-10-26T09:16:35Z",
-      "summary": "A flaw has been found in Oray Pugongying X5 Pro 7.6.1. Affected by this vulnerability is an unknown functionality of the component L2TP Authentication. This manipulation of the argument Username causes crlf injection. The attack may be initiated remotely. The exploit has been pub…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116235",
-        "critical"
       ]
     },
     {
