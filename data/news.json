@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-10-29T22:51:39Z",
+  "generated": "2026-10-30T13:12:32Z",
   "items": [
+    {
+      "id": "cfc5e63fe34254b0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-103039: The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103039",
+      "published": "2026-10-30T07:16:30Z",
+      "summary": "The Gravity Forms plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 3.1.2 via a Post Custom Field whose input type is List. This is due to GFFormsModel::create_post() passing the submitted value to WordPress' unrestricted global mayb…",
+      "tags": [
+        "CVE",
+        "CVE-2026-103039",
+        "critical"
+      ]
+    },
     {
       "id": "300cea334f1ccb91",
       "source": "nvd-recent",
@@ -528,20 +542,6 @@
       "tags": [
         "CVE",
         "CVE-2026-116504",
-        "critical"
-      ]
-    },
-    {
-      "id": "b98ace94197234be",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116505: A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the func…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116505",
-      "published": "2026-10-26T21:18:12Z",
-      "summary": "A vulnerability was found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This impacts the function getDeviceInfo of the file /var/lib/misc/udhcpd.leases of the component device-information Handler. The manipulation of the argument MAC address results in command injection. The attack…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116505",
         "critical"
       ]
     },
