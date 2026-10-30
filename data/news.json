@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-10-30T13:12:32Z",
+  "generated": "2026-10-30T22:29:31Z",
   "items": [
+    {
+      "id": "2845f9a8e76931d1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119706: InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution v…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119706",
+      "published": "2026-10-30T16:17:51Z",
+      "summary": "InternLM LMDeploy 0.9.0 through 0.18.0 contains an unauthenticated remote code execution vulnerability that allows remote attackers to run OS commands by sending pickled data to the /update_weights endpoint. Attackers can submit a base64-encoded crafted pickle in serialized_named…",
+      "tags": [
+        "CVE",
+        "CVE-2026-119706",
+        "critical"
+      ]
+    },
+    {
+      "id": "92779a2032a3cf1b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119660: MuseBot before 2.0.0 contains an authentication bypass vulnerability that allows unauthent…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119660",
+      "published": "2026-10-30T15:16:50Z",
+      "summary": "MuseBot before 2.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge admin sessions by using the hard-coded default session_key 'muse_bot_session_key'. Attackers can sign a MuseBot-session cookie carrying a user_id to gain full admin…",
+      "tags": [
+        "CVE",
+        "CVE-2026-119660",
+        "critical"
+      ]
+    },
+    {
+      "id": "b624cbf9eb77b6c9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119597: OpenDeepWiki through 2.0.6 contains a hard-coded JWT signing key vulnerability that allows…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119597",
+      "published": "2026-10-30T14:16:47Z",
+      "summary": "OpenDeepWiki through 2.0.6 contains a hard-coded JWT signing key vulnerability that allows unauthenticated attackers to forge administrator tokens using the publicly known Jwt:SecretKey in appsettings.json. Attackers can mint HS256 bearer tokens with an Admin role claim to access…",
+      "tags": [
+        "CVE",
+        "CVE-2026-119597",
+        "critical"
+      ]
+    },
     {
       "id": "cfc5e63fe34254b0",
       "source": "nvd-recent",
@@ -17,6 +59,35 @@
       ]
     },
     {
+      "id": "41d002bd444a3ccf",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-118527 — Ivanti Connect Secure: Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118527",
+      "published": "2026-10-30T00:00:00Z",
+      "summary": "Ivanti Connect Secure contains a generation of predictable numbers or identifiers vulnerability that allows a remote authenticated attacker to upload files with attacker-controlled content to a known location on disk. This vulnerability can be chained with CVE-2026-104935 and CVE…",
+      "tags": [
+        "KEV",
+        "CVE-2026-104935",
+        "CVE-2026-118527"
+      ]
+    },
+    {
+      "id": "e1ee8cc687115799",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-111357 — Ivanti Connect Secure: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
+      "published": "2026-10-30T00:00:00Z",
+      "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
+      "tags": [
+        "KEV",
+        "CVE-2026-104935",
+        "CVE-2026-111357",
+        "CVE-2026-118527"
+      ]
+    },
+    {
       "id": "300cea334f1ccb91",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -27,6 +98,20 @@
       "tags": [
         "CVE",
         "CVE-2026-93680",
+        "critical"
+      ]
+    },
+    {
+      "id": "606e145095d691db",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-18894: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote attacker to trigger pre-existin…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18894",
+      "published": "2026-10-29T16:18:08Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote attacker to trigger pre-existing stored Python component code in a public workflow, executing it under the flow owner's runtime context within the server process. This bypasses the intended trust boundary where public exe…",
+      "tags": [
+        "CVE",
+        "CVE-2026-18894",
         "critical"
       ]
     },
@@ -69,6 +154,20 @@
       "tags": [
         "CVE",
         "CVE-2026-107327",
+        "critical"
+      ]
+    },
+    {
+      "id": "1df956c7dc6c2957",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104317: IBM Langflow OSS 1.0.0 through 1.12.3 could allow a remote attacker who could reach the me…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104317",
+      "published": "2026-10-29T16:17:43Z",
+      "summary": "IBM Langflow OSS 1.0.0 through 1.12.3 could allow a remote attacker who could reach the message broker to execute arbitrary code on the system due to the deserialization of untrusted data.",
+      "tags": [
+        "CVE",
+        "CVE-2026-104317",
         "critical"
       ]
     },
@@ -273,6 +372,34 @@
       ]
     },
     {
+      "id": "5fcf605191367ff7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118337: Improper access control in Forms in Google Chrome prior to 156.0.8078.73 allowed a remote…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118337",
+      "published": "2026-10-27T23:17:02Z",
+      "summary": "Improper access control in Forms in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+      "tags": [
+        "CVE",
+        "CVE-2026-118337",
+        "critical"
+      ]
+    },
+    {
+      "id": "1fb7df725bfd783e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118333: Missing authorization in Video in Google Chrome prior to 156.0.8078.73 allowed a remote at…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118333",
+      "published": "2026-10-27T23:17:01Z",
+      "summary": "Missing authorization in Video in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
+      "tags": [
+        "CVE",
+        "CVE-2026-118333",
+        "critical"
+      ]
+    },
+    {
       "id": "7146301f6c771466",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -399,34 +526,6 @@
       ]
     },
     {
-      "id": "a2ae1b3b78587d70",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104354: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104354",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker with high privileges could exploit this…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104354",
-        "critical"
-      ]
-    },
-    {
-      "id": "38a6ba1a2ca03f27",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-117564: nest-admin before 1.0.1 contains an authentication bypass vulnerability that allows unauth…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117564",
-      "published": "2026-10-27T14:16:38Z",
-      "summary": "nest-admin before 1.0.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens by using a hardcoded JWT_SECRET committed in .env.production. Attackers can sign tokens with the known secret that JwtStrategy and RbacGuard…",
-      "tags": [
-        "CVE",
-        "CVE-2026-117564",
-        "critical"
-      ]
-    },
-    {
       "id": "dc5c27b683bcf6ff",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -436,34 +535,6 @@
       "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "e2821048ea87052c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-117532: REDAXO core from 5.3.0 before 5.21.4 contains an authentication bypass vulnerability in th…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117532",
-      "published": "2026-10-27T11:17:33Z",
-      "summary": "REDAXO core from 5.3.0 before 5.21.4 contains an authentication bypass vulnerability in the structure/history plugin that allows unauthenticated attackers to forge temporary login tokens. Attackers can force the session-tied secret into a predictable state and forge tokens for ac…",
-      "tags": [
-        "CVE",
-        "CVE-2026-117532",
-        "critical"
-      ]
-    },
-    {
-      "id": "c74821d0875adb11",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-92885: The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-92885",
-      "published": "2026-10-27T09:16:34Z",
-      "summary": "The Qode Membership plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.0.6.2 via the qode_membership_check_facebook_user AJAX action. This is due to a typographic error in the Facebook OAuth token verifi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-92885",
-        "critical"
       ]
     },
     {
@@ -501,48 +572,6 @@
       "tags": [
         "KEV",
         "CVE-2026-48356"
-      ]
-    },
-    {
-      "id": "cc050c65de40b990",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116508: A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116508",
-      "published": "2026-10-26T22:16:54Z",
-      "summary": "A security flaw has been discovered in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this issue is the function sub_402340 of the file infostat.cgi of the component Device-Information CGI. Performing a manipulation of the argument CONTENT_LENGTH results in stack-based buffe…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116508",
-        "critical"
-      ]
-    },
-    {
-      "id": "39333fdc0b2cbe0f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116506: A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116506",
-      "published": "2026-10-26T21:18:13Z",
-      "summary": "A vulnerability was determined in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected is the function apmib_set of the file firewall.so. This manipulation causes command injection. The attack may be initiated remotely. The exploit has been publicly disclosed and may be utilized.",
-      "tags": [
-        "CVE",
-        "CVE-2026-116506",
-        "critical"
-      ]
-    },
-    {
-      "id": "9c28c346ad030dca",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116504: A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116504",
-      "published": "2026-10-26T21:18:12Z",
-      "summary": "A vulnerability has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. This affects the function setCloudUpgradeFW of the file lib/cste_modules/upgrade.so of the component Cloud Upgrade. The manipulation of the argument FileName leads to command injection. The attack can be in…",
-      "tags": [
-        "CVE",
-        "CVE-2026-116504",
-        "critical"
       ]
     },
     {
@@ -1881,32 +1910,6 @@
       "tags": [
         "KEV",
         "CVE-2026-88771"
-      ]
-    },
-    {
-      "id": "2754cda4fe7bd868",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-87902 — WordPress Core: WordPress Core Remote File Inclusion Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-87902",
-      "published": "2026-09-25T00:00:00Z",
-      "summary": "WordPress Core contains a remote file inclusion vulnerability which could allow an unauthenticated attacker to make page-template resolution include a chosen readable local `.php` file outside the active theme directories, leading to remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2026-87902"
-      ]
-    },
-    {
-      "id": "6c7b4a4e3da57e0f",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-65660 — Microsoft SharePoint: Microsoft SharePoint Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-65660",
-      "published": "2026-09-25T00:00:00Z",
-      "summary": "Microsoft SharePoint contains a code injection vulnerability which could allow an authorized attacker to execute code over a network.",
-      "tags": [
-        "KEV",
-        "CVE-2026-65660"
       ]
     },
     {
