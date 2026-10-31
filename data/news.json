@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T12:48:35Z",
+  "generated": "2026-10-31T21:44:27Z",
   "items": [
+    {
+      "id": "3dfc44d2f8307165",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120209: AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attacker…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
+      "published": "2026-10-31T18:17:09Z",
+      "summary": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticate…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120209",
+        "critical"
+      ]
+    },
+    {
+      "id": "082c497e9eb83e9f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120201: Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows un…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201",
+      "published": "2026-10-31T18:17:07Z",
+      "summary": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120201",
+        "critical"
+      ]
+    },
     {
       "id": "1ee24f3ddee579a8",
       "source": "sans-isc",
@@ -516,34 +544,6 @@
       "tags": [
         "CVE",
         "CVE-2026-118333",
-        "critical"
-      ]
-    },
-    {
-      "id": "7146301f6c771466",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-112352: Sunhillo SureLine before 9.1.5 contains an authentication bypass vulnerability that allows…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112352",
-      "published": "2026-10-27T20:17:12Z",
-      "summary": "Sunhillo SureLine before 9.1.5 contains an authentication bypass vulnerability that allows an unauthenticated remote attacker to impersonate any user with an active web session by forging a session cookie containing only a cleartext username with no random identifier or integrity…",
-      "tags": [
-        "CVE",
-        "CVE-2026-112352",
-        "critical"
-      ]
-    },
-    {
-      "id": "97eda1c98a294794",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-48360: Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection')…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48360",
-      "published": "2026-10-27T17:17:00Z",
-      "summary": "Adobe Connect is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this i…",
-      "tags": [
-        "CVE",
-        "CVE-2026-48360",
         "critical"
       ]
     },
