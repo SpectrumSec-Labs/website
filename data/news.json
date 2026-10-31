@@ -1,7 +1,127 @@
 {
   "schema": 1,
-  "generated": "2026-10-30T22:29:31Z",
+  "generated": "2026-10-31T12:48:35Z",
   "items": [
+    {
+      "id": "1ee24f3ddee579a8",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Wireshark 5.0.0rc1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33476",
+      "published": "2026-10-31T10:52:53Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "00cf2808d9fbe3f6",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "YARA-X 1.22.1 Release, (Sat, Oct 31st)",
+      "url": "https://isc.sans.edu/diary/rss/33474",
+      "published": "2026-10-31T10:48:17Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "362b13383b5e5699",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118235: The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plug…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235",
+      "published": "2026-10-31T09:16:33Z",
+      "summary": "The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.10.2 via the handle_upload function. This is due to missing server-side file key allowlist and…",
+      "tags": [
+        "CVE",
+        "CVE-2026-118235",
+        "critical"
+      ]
+    },
+    {
+      "id": "b86f4eb957b50a0c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-103882: The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for Word…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103882",
+      "published": "2026-10-31T09:16:32Z",
+      "summary": "The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the post_delete_assessment_file_by_id function in all versions up to, and including, 1.1.9. This ma…",
+      "tags": [
+        "CVE",
+        "CVE-2026-103882",
+        "critical"
+      ]
+    },
+    {
+      "id": "c4eebbcebc344c6c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119096: The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Byp…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096",
+      "published": "2026-10-31T08:16:49Z",
+      "summary": "The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.8.2 via the `email` parameter of the `uo_login_action()` function. This is due to a parser-differential flaw in which the plugin's account-verificatio…",
+      "tags": [
+        "CVE",
+        "CVE-2026-119096",
+        "critical"
+      ]
+    },
+    {
+      "id": "322f3ce7230df7c7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116512: The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116512",
+      "published": "2026-10-31T08:16:48Z",
+      "summary": "The Project Manager – AI Powered Project Management, Task Management, Kanban Board & Time Tracker plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 4.1.1 via the 'id' parameter parameter. This is due to unsanitized 'id' parameter va…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116512",
+        "critical"
+      ]
+    },
+    {
+      "id": "6f8d661b2412cce8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89270: The Popup Builder – Create highly converting, mobile friendly marketing popups. plugin for…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89270",
+      "published": "2026-10-31T07:16:37Z",
+      "summary": "The Popup Builder – Create highly converting, mobile friendly marketing popups. plugin for WordPress is vulnerable to authorization bypass in all versions up to, and including, 4.4.5 This is due to the plugin not properly verifying that a user is authorized to perform an action…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89270",
+        "critical"
+      ]
+    },
+    {
+      "id": "3018fb621aec3c69",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116557: The WP Booking System - Booking Calendar plugin for WordPress is vulnerable to unauthorize…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116557",
+      "published": "2026-10-31T07:16:35Z",
+      "summary": "The WP Booking System - Booking Calendar plugin for WordPress is vulnerable to unauthorized modification of data due to a missing capability check on the wpbs_action_ajax_calendar_remove_note() function in versions up to, and including, 2.1.0.5 This makes it possible for authenti…",
+      "tags": [
+        "CVE",
+        "CVE-2026-116557",
+        "critical"
+      ]
+    },
+    {
+      "id": "6c77459138b39bac",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109220: The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is v…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109220",
+      "published": "2026-10-31T07:16:34Z",
+      "summary": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.1.1 via the 'customer_note' parameter parameter. This is due to insufficient sanitization of the customer_note check…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109220",
+        "critical"
+      ]
+    },
     {
       "id": "2845f9a8e76931d1",
       "source": "nvd-recent",
@@ -424,104 +544,6 @@
       "tags": [
         "CVE",
         "CVE-2026-48360",
-        "critical"
-      ]
-    },
-    {
-      "id": "48e70487e269ae3d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105779: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105779",
-      "published": "2026-10-27T17:16:56Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105779",
-        "critical"
-      ]
-    },
-    {
-      "id": "4efbf6d4c5a85edb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105781: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105781",
-      "published": "2026-10-27T17:16:56Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. An attacker could exploit this vulnerability to exec…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105781",
-        "critical"
-      ]
-    },
-    {
-      "id": "562ead506c3fc1e6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105780: Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105780",
-      "published": "2026-10-27T17:16:56Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Incorrect Authorization vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary code. Exploitation of this issue…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105780",
-        "critical"
-      ]
-    },
-    {
-      "id": "d4d03e45b78633cd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-105489: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105489",
-      "published": "2026-10-27T17:16:56Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnera…",
-      "tags": [
-        "CVE",
-        "CVE-2026-105489",
-        "critical"
-      ]
-    },
-    {
-      "id": "10f4865cb9f57904",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104351: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104351",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104351",
-        "critical"
-      ]
-    },
-    {
-      "id": "221ec9d37f3c1050",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104350: Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnera…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104350",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104350",
-        "critical"
-      ]
-    },
-    {
-      "id": "7ab729feb595b0b5",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-104353: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104353",
-      "published": "2026-10-27T17:16:55Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an OS Command ('OS Command Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this v…",
-      "tags": [
-        "CVE",
-        "CVE-2026-104353",
         "critical"
       ]
     },
