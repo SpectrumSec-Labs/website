@@ -1,7 +1,77 @@
 {
   "schema": 1,
-  "generated": "2026-10-31T21:44:27Z",
+  "generated": "2026-11-01T06:26:28Z",
   "items": [
+    {
+      "id": "526a51caa2555b00",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120198: A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120198",
+      "published": "2026-11-01T05:18:57Z",
+      "summary": "A vulnerability has been found in WAVLINK WL-WN530BE1-A V251117. Affected is the function con_check_read_finish of the file /protocol.csp. Such manipulation of the argument group_name/IP-FROM leads to command injection. It is possible to launch the attack remotely. The exploit ha…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120198",
+        "critical"
+      ]
+    },
+    {
+      "id": "24de4753bdc7b1a1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120197: A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_fo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120197",
+      "published": "2026-11-01T04:18:47Z",
+      "summary": "A flaw has been found in WAVLINK WL-WN530HG4B M_V260724. This impacts the function port_forward of the file /cgi-bin/wapi.cgi. This manipulation of the argument Name causes os command injection. It is possible to initiate the attack remotely. The exploit has been published and ma…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120197",
+        "critical"
+      ]
+    },
+    {
+      "id": "092c4fe4438b424c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120196: A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120196",
+      "published": "2026-11-01T04:18:46Z",
+      "summary": "A vulnerability was detected in WAVLINK WN579X3-D V250402. This affects the function port_forward of the file /cgi-bin/wapi.cgi. The manipulation of the argument Name results in os command injection. The attack may be performed from remote. The exploit is now public and may be us…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120196",
+        "critical"
+      ]
+    },
+    {
+      "id": "a02fcdcd135ea3cf",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120195: A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
+      "published": "2026-11-01T04:18:46Z",
+      "summary": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120195",
+        "critical"
+      ]
+    },
+    {
+      "id": "4a00ee83c9685d14",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120189: A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_up…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
+      "published": "2026-11-01T01:17:16Z",
+      "summary": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120189",
+        "critical"
+      ]
+    },
     {
       "id": "3dfc44d2f8307165",
       "source": "nvd-recent",
@@ -452,48 +522,6 @@
       ]
     },
     {
-      "id": "4581f37246b12f7e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109218: The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all ver…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109218",
-      "published": "2026-10-28T07:16:44Z",
-      "summary": "The Contact Manager plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 9.1.2 via the add_message function. This is due to an incomplete extension blacklist that fails to detect dangerous extensions when a trailing dot causes the exte…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109218",
-        "critical"
-      ]
-    },
-    {
-      "id": "67b468fc048de6fb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-84999: The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Uplo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-84999",
-      "published": "2026-10-28T03:17:16Z",
-      "summary": "The Pie Register Premium plugin for WordPress is vulnerable to Unrestricted File Type Upload in all versions up to, and including, 3.8.4.0 via the piereg_file_upload function. This is due to the plugin performing file type validation via wp_check_filetype and wp_check_filetype_an…",
-      "tags": [
-        "CVE",
-        "CVE-2026-84999",
-        "critical"
-      ]
-    },
-    {
-      "id": "1beb020a5f45c521",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-106013: The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106013",
-      "published": "2026-10-28T02:17:01Z",
-      "summary": "The Jupiter X Core plugin for WordPress is vulnerable to Authentication Bypass via the Twitter/X Social Login handler in all versions up to and including 4.61.0. The vulnerability exists within the verify_twitter_callback function because after exchanging the visitor's oauth_veri…",
-      "tags": [
-        "CVE",
-        "CVE-2026-106013",
-        "critical"
-      ]
-    },
-    {
       "id": "79814acf062d096b",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -517,34 +545,6 @@
       "tags": [
         "KEV",
         "CVE-2026-46300"
-      ]
-    },
-    {
-      "id": "5fcf605191367ff7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118337: Improper access control in Forms in Google Chrome prior to 156.0.8078.73 allowed a remote…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118337",
-      "published": "2026-10-27T23:17:02Z",
-      "summary": "Improper access control in Forms in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
-      "tags": [
-        "CVE",
-        "CVE-2026-118337",
-        "critical"
-      ]
-    },
-    {
-      "id": "1fb7df725bfd783e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118333: Missing authorization in Video in Google Chrome prior to 156.0.8078.73 allowed a remote at…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118333",
-      "published": "2026-10-27T23:17:01Z",
-      "summary": "Missing authorization in Video in Google Chrome prior to 156.0.8078.73 allowed a remote attacker to bypass web origin policy via a crafted HTML page. (Chromium security severity: High)",
-      "tags": [
-        "CVE",
-        "CVE-2026-118333",
-        "critical"
       ]
     },
     {
