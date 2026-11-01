@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-11-01T17:59:01Z",
+  "generated": "2026-11-01T22:11:36Z",
   "items": [
+    {
+      "id": "2f8c8566d57a5266",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120240: A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. This issue affects the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120240",
+      "published": "2026-11-01T19:16:57Z",
+      "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. This issue affects the function sub_41A748 of the file /bin/ioos of the component WireGuard CLI Group Handler. Executing a manipulation of the argument group_id/group_name can lead to os command injection. The att…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120240",
+        "critical"
+      ]
+    },
+    {
+      "id": "e43a52a5beb30914",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120239: A vulnerability was found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120239",
+      "published": "2026-11-01T18:17:13Z",
+      "summary": "A vulnerability was found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects the function sub_419DA8 of the file /bin/ioos of the component WireGuard CLI Handler. Performing a manipulation of the argument file_id results in os command injection. The attack is possible…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120239",
+        "critical"
+      ]
+    },
+    {
+      "id": "2718ee285589aba7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120238: A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This affects the functio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120238",
+      "published": "2026-11-01T18:17:13Z",
+      "summary": "A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This affects the function sub_4162A8 of the file /bin/ioos of the component ovpn_file Handler. Such manipulation of the argument file_id leads to os command injection. The attack can be executed remotely. The explo…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120238",
+        "critical"
+      ]
+    },
     {
       "id": "f9a304e53487a784",
       "source": "nvd-recent",
@@ -73,20 +115,6 @@
       ]
     },
     {
-      "id": "8bd353cf77d061cd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120225: A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vul…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120225",
-      "published": "2026-11-01T11:18:57Z",
-      "summary": "A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vulnerability is the function config_restore_ex of the file /etc/openwrt_release. This manipulation of the argument filename causes relative path traversal. The attack may be initiated remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120225",
-        "critical"
-      ]
-    },
-    {
       "id": "2ac46c82c8985189",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -97,6 +125,20 @@
       "tags": [
         "CVE",
         "CVE-2026-120224",
+        "critical"
+      ]
+    },
+    {
+      "id": "8bd353cf77d061cd",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120225: A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vul…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120225",
+      "published": "2026-11-01T11:18:57Z",
+      "summary": "A weakness has been identified in Oray Pugongying X5 Pro up to 7.6.1. Affected by this vulnerability is the function config_restore_ex of the file /etc/openwrt_release. This manipulation of the argument filename causes relative path traversal. The attack may be initiated remotely…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120225",
         "critical"
       ]
     },
@@ -439,48 +481,6 @@
       "tags": [
         "CVE",
         "CVE-2026-18894",
-        "critical"
-      ]
-    },
-    {
-      "id": "e1779d519d2baab0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-110186: IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary c…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110186",
-      "published": "2026-10-29T16:17:55Z",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.12.8 could allow a remote attacker to execute arbitrary code due to improper control of code generation.",
-      "tags": [
-        "CVE",
-        "CVE-2026-110186",
-        "critical"
-      ]
-    },
-    {
-      "id": "68a85b5ae7f45b14",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107329: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107329",
-      "published": "2026-10-29T16:17:50Z",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to improper control of code generation.",
-      "tags": [
-        "CVE",
-        "CVE-2026-107329",
-        "critical"
-      ]
-    },
-    {
-      "id": "b241c73a5b40999b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107327: IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107327",
-      "published": "2026-10-29T16:17:50Z",
-      "summary": "IBM Langflow OSS 1.0.0 through 1.12.4 could allow a remote authenticated attacker to execute arbitrary code due to missing authorization.",
-      "tags": [
-        "CVE",
-        "CVE-2026-107327",
         "critical"
       ]
     },
