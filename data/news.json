@@ -1,7 +1,75 @@
 {
   "schema": 1,
-  "generated": "2026-11-02T06:27:22Z",
+  "generated": "2026-11-02T21:48:27Z",
   "items": [
+    {
+      "id": "0fb88fd4c9a9df86",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-102435: The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file d…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102435",
+      "published": "2026-11-02T20:17:26Z",
+      "summary": "The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the _getObjAttr function in all versions up to, and including, 3.5.54. This makes it possible for unauthenticated attackers to delete arbi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-102435",
+        "critical"
+      ]
+    },
+    {
+      "id": "907808eccf3b7a78",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-77876: Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vuln…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77876",
+      "published": "2026-11-02T16:17:43Z",
+      "summary": "Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel module that allows attackers to execute arbitrary commands by submitting unescaped input through the file POST parameter in the acc=deletedp a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-77876",
+        "critical"
+      ]
+    },
+    {
+      "id": "c0fc7d32a80c3a64",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120446: madong-admin-saas through 5.1.4 contains a missing authentication vulnerability in the pla…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120446",
+      "published": "2026-11-02T15:17:27Z",
+      "summary": "madong-admin-saas through 5.1.4 contains a missing authentication vulnerability in the platform tenant management API because the 'platformapi' middleware key never matches the 'platform' application. Unauthenticated remote attackers can call /platformapi/tenant/account, bind-pla…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120446",
+        "critical"
+      ]
+    },
+    {
+      "id": "d71996af9f4ea599",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120442: ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows un…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120442",
+      "published": "2026-11-02T15:17:26Z",
+      "summary": "ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key in appsettings.json. Attackers can sign tokens offline with the jti claim set to the seeded administra…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120442",
+        "critical"
+      ]
+    },
+    {
+      "id": "ab6c034f8492b0e3",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Mutipath TCP: Use and Detection, (Mon, Nov 2nd)",
+      "url": "https://isc.sans.edu/diary/rss/33482",
+      "published": "2026-11-02T14:52:05Z",
+      "tags": [
+        "CVE-2026-98432",
+        "research"
+      ]
+    },
     {
       "id": "42d5bcd698677f57",
       "source": "nvd-recent",
@@ -45,20 +113,6 @@
       ]
     },
     {
-      "id": "d373e2fd9eb3ef20",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120283: A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function st…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120283",
-      "published": "2026-11-02T01:17:27Z",
-      "summary": "A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function strcpy of the file /www/cgi-bin/portal.cgi. Such manipulation of the argument hidden_timezone leads to stack-based buffer overflow. The attack can be executed remotely. The vendor was contacte…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120283",
-        "critical"
-      ]
-    },
-    {
       "id": "283390a986e36f08",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -87,16 +141,16 @@
       ]
     },
     {
-      "id": "d034017685edd129",
+      "id": "d373e2fd9eb3ef20",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120280: A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120280",
-      "published": "2026-11-02T01:17:26Z",
-      "summary": "A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the function wireguard_cli_group handler of the file /protocol.csp of the component WireGuard. The manipulation of the argument group_id/group_name leads to os command injection. The attack may…",
+      "title": "CVE-2026-120283: A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function st…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120283",
+      "published": "2026-11-02T01:17:27Z",
+      "summary": "A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function strcpy of the file /www/cgi-bin/portal.cgi. Such manipulation of the argument hidden_timezone leads to stack-based buffer overflow. The attack can be executed remotely. The vendor was contacte…",
       "tags": [
         "CVE",
-        "CVE-2026-120280",
+        "CVE-2026-120283",
         "critical"
       ]
     },
@@ -111,6 +165,20 @@
       "tags": [
         "CVE",
         "CVE-2026-120279",
+        "critical"
+      ]
+    },
+    {
+      "id": "d034017685edd129",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120280: A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120280",
+      "published": "2026-11-02T01:17:26Z",
+      "summary": "A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the function wireguard_cli_group handler of the file /protocol.csp of the component WireGuard. The manipulation of the argument group_id/group_name leads to os command injection. The attack may…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120280",
         "critical"
       ]
     },
@@ -378,20 +446,6 @@
       ]
     },
     {
-      "id": "082c497e9eb83e9f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120201: Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows un…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120201",
-      "published": "2026-10-31T18:17:07Z",
-      "summary": "Jpom 2.10.0 through 2.11.12 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain super-administrator access by injecting query conditions into the JPOM-USER-TOKEN header. Attackers can send a value like 'is not null', which Hutool's Condit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120201",
-        "critical"
-      ]
-    },
-    {
       "id": "1ee24f3ddee579a8",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -411,48 +465,6 @@
       "published": "2026-10-31T10:48:17Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "362b13383b5e5699",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118235: The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plug…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118235",
-      "published": "2026-10-31T09:16:33Z",
-      "summary": "The SimpleForm – Form Maker to Chat Apps with Quiz, Poll and Multi Lead Notifications plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 3.10.2 via the handle_upload function. This is due to missing server-side file key allowlist and…",
-      "tags": [
-        "CVE",
-        "CVE-2026-118235",
-        "critical"
-      ]
-    },
-    {
-      "id": "b86f4eb957b50a0c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-103882: The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for Word…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103882",
-      "published": "2026-10-31T09:16:32Z",
-      "summary": "The Acadlix LMS – AI Quiz Maker, Online Exam & Course Plugin for WordPress plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the post_delete_assessment_file_by_id function in all versions up to, and including, 1.1.9. This ma…",
-      "tags": [
-        "CVE",
-        "CVE-2026-103882",
-        "critical"
-      ]
-    },
-    {
-      "id": "c4eebbcebc344c6c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119096: The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Byp…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119096",
-      "published": "2026-10-31T08:16:49Z",
-      "summary": "The Uncanny Toolkit for LearnDash plugin for WordPress is vulnerable to Authentication Bypass in versions up to, and including, 3.8.2 via the `email` parameter of the `uo_login_action()` function. This is due to a parser-differential flaw in which the plugin's account-verificatio…",
-      "tags": [
-        "CVE",
-        "CVE-2026-119096",
-        "critical"
       ]
     },
     {
@@ -1295,6 +1307,8 @@
       "published": "2026-10-14T00:00:00Z",
       "summary": "Une vulnérabilité a été découverte dans Ivanti Connect Secure (ICS). Elle permet à un attaquant de provoquer une exécution de code arbitraire à distance, une élévation de privilèges et un contournement de la politique de sécurité. Ivanti indique que cette vulnérabilité CVE-2026-1…",
       "tags": [
+        "CVE-2026-111357",
+        "CVE-2026-118527",
         "FR",
         "alert"
       ]
@@ -1564,17 +1578,6 @@
       "published": "2026-10-07T14:59:33Z",
       "tags": [
         "CVE-2026-21589",
-        "research"
-      ]
-    },
-    {
-      "id": "3a8c72da98193920",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "More RMM Tools In the Wild, (Tue, Oct 6th)",
-      "url": "https://isc.sans.edu/diary/rss/33400",
-      "published": "2026-10-06T13:16:02Z",
-      "tags": [
         "research"
       ]
     },
@@ -2128,18 +2131,6 @@
       "url": "https://www.ncsc.gov.uk/blogs/water-sector-example-added-to-the-ncscs-secure-connectivity-principles",
       "published": "2026-08-11T12:00:00Z",
       "summary": "New guidance is the first content authored by the Industrial Control System COI to appear on ncsc.gov.uk.",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "3d1d6ecffa743c40",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "NCSC statement in response to recent incidents resulting from frontier AI evaluations",
-      "url": "https://www.ncsc.gov.uk/news/ncsc-statement-in-response-to-recent-incidents-resulting-from-frontier-ai-evaluations",
-      "published": "2026-08-04T12:00:00Z",
-      "summary": "A statement from Ollie Whitehouse, Chief Technology Officer at the NCSC, on AI security following recent incidents.",
       "tags": [
         "guidance"
       ]
