@@ -1,7 +1,73 @@
 {
   "schema": 1,
-  "generated": "2026-11-02T21:48:27Z",
+  "generated": "2026-11-03T06:59:37Z",
   "items": [
+    {
+      "id": "4b940fe58ecf411e",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Cyber chief: UK facing AI-powered attacks on critical infrastructure within two years",
+      "url": "https://www.ncsc.gov.uk/news/cyber-chief-uk-facing-ai-powered-attacks-on-critical-infrastructure-in-two-years",
+      "published": "2026-11-03T12:00:00Z",
+      "summary": "The NCSC warns that ‘tech on the cheap’ has left UK organisations exposed to AI uncovering and exploiting longstanding cyber security weaknesses and calls for urgent investment in resilience.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "aa724a9a8e5dab63",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Artificial intelligence and cyber intrusion",
+      "url": "https://www.ncsc.gov.uk/report/artificial-intelligence-and-cyber-intrusion",
+      "published": "2026-11-03T12:00:00Z",
+      "summary": "An NCSC assessment that examines current AI-enabled threat trends and projections of the threat landscape to 2028.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "69a8348af0e55c4b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120534: The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Cod…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120534",
+      "published": "2026-11-03T05:18:31Z",
+      "summary": "The Advanced Custom Fields: Extended PRO plugin for WordPress is vulnerable to Limited Code Injection in all versions up to, and including, 0.9.2.6 via the render_field function. This is due to insufficient validation of form configuration parameters before merging into field set…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120534",
+        "critical"
+      ]
+    },
+    {
+      "id": "b3415c7da2cfb11f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120518: The BuddyPress XProfile Image Field plugin for WordPress is vulnerable to arbitrary file d…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120518",
+      "published": "2026-11-03T05:18:31Z",
+      "summary": "The BuddyPress XProfile Image Field plugin for WordPress is vulnerable to arbitrary file deletion in all versions up to, and including, 3.1.0. This is due to bpxp_image_field_update_on_user_activation() calling unlink() on a path built from visitor-supplied signup metadata with n…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120518",
+        "critical"
+      ]
+    },
+    {
+      "id": "2f882e2321904ed8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-86596: The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-86596",
+      "published": "2026-11-02T22:17:23Z",
+      "summary": "The s2Member plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, <= 260927 via the 'item_name' parameter parameter. This is due to insufficient sanitization in strip_php_tags_deep(), which only strips literal '<?' sequences, combined…",
+      "tags": [
+        "CVE",
+        "CVE-2026-86596",
+        "critical"
+      ]
+    },
     {
       "id": "0fb88fd4c9a9df86",
       "source": "nvd-recent",
@@ -400,48 +466,6 @@
       "tags": [
         "CVE",
         "CVE-2026-120196",
-        "critical"
-      ]
-    },
-    {
-      "id": "a02fcdcd135ea3cf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120195: A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120195",
-      "published": "2026-11-01T04:18:46Z",
-      "summary": "A security vulnerability has been detected in WAVLINK WL-WN579A3-A 2026-03-10-94f93d4. The impacted element is the function set_wzdgwMesh of the file /cgi-bin/adm.cgi of the component Initial Setup Wizard. The manipulation of the argument wlan_ssid leads to os command injection…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120195",
-        "critical"
-      ]
-    },
-    {
-      "id": "4a00ee83c9685d14",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120189: A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_up…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120189",
-      "published": "2026-11-01T01:17:16Z",
-      "summary": "A vulnerability was identified in D-Link DIR-505 1.10B02. Affected is the function save_upload_file/mp_upload_file of the file /usr/bin/tftpd of the component TFTP Upload Filename Handler. The manipulation leads to stack-based buffer overflow. The attack is possible to be carried…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120189",
-        "critical"
-      ]
-    },
-    {
-      "id": "3dfc44d2f8307165",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120209: AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attacker…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120209",
-      "published": "2026-10-31T18:17:09Z",
-      "summary": "AJ-Report through 1.7.1 signs share tokens with a hard-coded JWT secret, allowing attackers to forge valid Share-Tokens offline. Attackers can mint a token with reportCode 'dataSet' to access the testTransform endpoint, which passes scripts to GroovyClassLoader for unauthenticate…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120209",
         "critical"
       ]
     },
