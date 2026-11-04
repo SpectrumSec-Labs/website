@@ -1,7 +1,61 @@
 {
   "schema": 1,
-  "generated": "2026-11-04T06:42:11Z",
+  "generated": "2026-11-04T19:53:59Z",
   "items": [
+    {
+      "id": "b3f20fb67367febb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121932: A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121932",
+      "published": "2026-11-04T19:17:33Z",
+      "summary": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now publ…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121932",
+        "critical"
+      ]
+    },
+    {
+      "id": "9ca086455b5458f5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121931: A security vulnerability has been detected in Linksys WRT54GL 4.30.18. The impacted elemen…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121931",
+      "published": "2026-11-04T19:17:33Z",
+      "summary": "A security vulnerability has been detected in Linksys WRT54GL 4.30.18. The impacted element is the function system of the file apply.cgi of the component Traceroute Diagnostic Function. Such manipulation of the argument traceroute_ip leads to os command injection. The attack can…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121931",
+        "critical"
+      ]
+    },
+    {
+      "id": "da5f216e28a8ef9d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121930: A weakness has been identified in Linksys WRT54GL 4.30.18. The affected element is the fun…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121930",
+      "published": "2026-11-04T19:17:32Z",
+      "summary": "A weakness has been identified in Linksys WRT54GL 4.30.18. The affected element is the function system of the file apply.cgi of the component Ping Diagnostic. This manipulation of the argument ping_ip causes os command injection. The attack can be initiated remotely. The exploit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121930",
+        "critical"
+      ]
+    },
+    {
+      "id": "a560b2ea40ec8740",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "The Classics Return: Vulnerable E-Mail Scripts, (Wed, Nov 4th)",
+      "url": "https://isc.sans.edu/diary/rss/33488",
+      "published": "2026-11-04T13:24:13Z",
+      "tags": [
+        "CVE-2000-0411",
+        "research"
+      ]
+    },
     {
       "id": "a7f182c0a8d111d9",
       "source": "nvd-recent",
@@ -45,34 +99,6 @@
       ]
     },
     {
-      "id": "96326ce42b046821",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-121606: A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121606",
-      "published": "2026-11-04T01:17:23Z",
-      "summary": "A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706 up to 6.4.9. Affected by this issue is the function verify_sign of the file fs2/bin/iscm of the component Firmware Signature Verification. Such manipulation of the argument sign leads to imp…",
-      "tags": [
-        "CVE",
-        "CVE-2026-121606",
-        "critical"
-      ]
-    },
-    {
-      "id": "d24db027588789d4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-121600: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerab…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121600",
-      "published": "2026-11-04T01:17:23Z",
-      "summary": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerability is the function setMacFilterRules of the file /cgi-bin/cstecgi.cgi of the component MAC Filter Handler. This manipulation of the argument addEffect causes stack-based buffer overflow…",
-      "tags": [
-        "CVE",
-        "CVE-2026-121600",
-        "critical"
-      ]
-    },
-    {
       "id": "1087b15185ca2f0d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -87,6 +113,20 @@
       ]
     },
     {
+      "id": "96326ce42b046821",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121606: A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121606",
+      "published": "2026-11-04T01:17:23Z",
+      "summary": "A vulnerability has been found in Qihoo 360 D621-2, D603-2, D600-2, D619, D606-6 and D706 up to 6.4.9. Affected by this issue is the function verify_sign of the file fs2/bin/iscm of the component Firmware Signature Verification. Such manipulation of the argument sign leads to imp…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121606",
+        "critical"
+      ]
+    },
+    {
       "id": "b76969e2d5975f9c",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -97,6 +137,20 @@
       "tags": [
         "CVE",
         "CVE-2026-121598",
+        "critical"
+      ]
+    },
+    {
+      "id": "d24db027588789d4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121600: A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerab…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121600",
+      "published": "2026-11-04T01:17:23Z",
+      "summary": "A flaw has been found in TOTOLINK A950RG 4.1.2cu.5268_B20221104. Affected by this vulnerability is the function setMacFilterRules of the file /cgi-bin/cstecgi.cgi of the component MAC Filter Handler. This manipulation of the argument addEffect causes stack-based buffer overflow…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121600",
         "critical"
       ]
     },
@@ -426,48 +480,6 @@
       "tags": [
         "CVE",
         "CVE-2026-120240",
-        "critical"
-      ]
-    },
-    {
-      "id": "2718ee285589aba7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120238: A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This affects the functio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120238",
-      "published": "2026-11-01T18:17:13Z",
-      "summary": "A vulnerability has been found in WAVLINK WN553X1-B 260403_2.0.0. This affects the function sub_4162A8 of the file /bin/ioos of the component ovpn_file Handler. Such manipulation of the argument file_id leads to os command injection. The attack can be executed remotely. The explo…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120238",
-        "critical"
-      ]
-    },
-    {
-      "id": "e43a52a5beb30914",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120239: A vulnerability was found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120239",
-      "published": "2026-11-01T18:17:13Z",
-      "summary": "A vulnerability was found in WAVLINK WN553X1-B V260403_2.0.0. This vulnerability affects the function sub_419DA8 of the file /bin/ioos of the component WireGuard CLI Handler. Performing a manipulation of the argument file_id results in os command injection. The attack is possible…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120239",
-        "critical"
-      ]
-    },
-    {
-      "id": "f9a304e53487a784",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120231: A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. The affected element is…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120231",
-      "published": "2026-11-01T15:17:23Z",
-      "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. The affected element is the function sub_416568 of the file /bin/ioos of the component OpenVPN CLI Handler. This manipulation of the argument file_id causes os command injection. It is possible to initiate the att…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120231",
         "critical"
       ]
     },
@@ -1604,18 +1616,6 @@
       "tags": [
         "KEV",
         "CVE-2015-3306"
-      ]
-    },
-    {
-      "id": "394be2a0c7c952ff",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Scans for Atlassian vulnerablity (CVE-2026-21589), (Wed, Oct 7th)",
-      "url": "https://isc.sans.edu/diary/rss/33406",
-      "published": "2026-10-07T14:59:33Z",
-      "tags": [
-        "CVE-2026-21589",
-        "research"
       ]
     },
     {
