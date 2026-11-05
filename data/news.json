@@ -1,18 +1,200 @@
 {
   "schema": 1,
-  "generated": "2026-11-04T19:53:59Z",
+  "generated": "2026-11-05T07:01:50Z",
   "items": [
     {
-      "id": "b3f20fb67367febb",
+      "id": "500d23bfbd3aa4a4",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-121932: A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121932",
-      "published": "2026-11-04T19:17:33Z",
-      "summary": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now publ…",
+      "title": "CVE-2026-122321: Kyverno 1.18.0 before 1.19.2 contains a signature verification bypass in verifyImages beca…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122321",
+      "published": "2026-11-05T03:17:25Z",
+      "summary": "Kyverno 1.18.0 before 1.19.2 contains a signature verification bypass in verifyImages because cached verification results are keyed by the image reference string (such as a tag) rather than bound to the verified digest, so cache hits skip signature and attestation checks. An atta…",
       "tags": [
         "CVE",
-        "CVE-2026-121932",
+        "CVE-2026-122321",
+        "critical"
+      ]
+    },
+    {
+      "id": "4bea92b29520069d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122313: Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122313",
+      "published": "2026-11-05T03:17:23Z",
+      "summary": "Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allows namespace-scoped tenants to modify resources in other namespaces through NamespacedMutatingPolicy targetMatchConstraints.expression CEL output lacking namespace checks. Attackers can emit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122313",
+        "critical"
+      ]
+    },
+    {
+      "id": "3a2914ed400d92ce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122311: Kyverno from 1.16.0 before 1.19.2 fails to validate path segments in the resource argument…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122311",
+      "published": "2026-11-05T03:17:23Z",
+      "summary": "Kyverno from 1.16.0 before 1.19.2 fails to validate path segments in the resource argument of resource.get() and resource.post(), allowing namespaced CEL policies to escape their namespace. Tenants who can create a NamespacedValidatingPolicy can insert .. segments to read and wri…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122311",
+        "critical"
+      ]
+    },
+    {
+      "id": "761a42bcd8ca7c84",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122310: Kyverno from 1.19.1 before 1.19.2 validates a Policy's context.apiCall urlPath after clean…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122310",
+      "published": "2026-11-05T03:17:23Z",
+      "summary": "Kyverno from 1.19.1 before 1.19.2 validates a Policy's context.apiCall urlPath after cleaning it but executes the raw path, whose fragment or query the Kubernetes client discards. A namespace-scoped user who can create a Policy can hide ../ segments behind # or ? to reach cluster…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122310",
+        "critical"
+      ]
+    },
+    {
+      "id": "3d2dad8cc622103c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122304: Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304",
+      "published": "2026-11-05T03:17:22Z",
+      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall o…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122304",
+        "critical"
+      ]
+    },
+    {
+      "id": "13d819930749b7d6",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122303: Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122303",
+      "published": "2026-11-05T03:17:22Z",
+      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace tenants to overwrite resources in other namespaces via NamespacedMutatingPolicy mutate-existing targetMatchConstraints.expression. Attackers can return a CEL map literal fabrica…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122303",
+        "critical"
+      ]
+    },
+    {
+      "id": "62e9eda2b1266268",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122302: Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122302",
+      "published": "2026-11-05T03:17:22Z",
+      "summary": "Kyverno before 1.19.2 contains a privilege escalation vulnerability that allows namespace admins to create resources beyond their RBAC because generate-rule admission checks verify the controller's permissions, not the author's. Attackers can create a namespaced Policy with gener…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122302",
+        "critical"
+      ]
+    },
+    {
+      "id": "58cd32d6b533e668",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122051: A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unkno…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122051",
+      "published": "2026-11-05T00:17:24Z",
+      "summary": "A flaw has been found in Edimax BR-6208AC 1.32. Affected by this vulnerability is an unknown functionality of the file /goform/mp. Executing a manipulation can lead to command injection. The attack may be launched remotely. The exploit has been published and may be used. The vend…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122051",
+        "critical"
+      ]
+    },
+    {
+      "id": "9bcc714be4671ca0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-54384: VitaFit cloud API before 2026-10-30 contained an authentication bypass vulnerability that…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54384",
+      "published": "2026-11-04T23:17:48Z",
+      "summary": "VitaFit cloud API before 2026-10-30 contained an authentication bypass vulnerability that allows remote attackers to obtain a full session for a victim's account by submitting a linked Google or Facebook account identifier to the POST /front/login/sns/ endpoint without providing…",
+      "tags": [
+        "CVE",
+        "CVE-2026-54384",
+        "critical"
+      ]
+    },
+    {
+      "id": "338d7c6cd99251df",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-54378: VitaFit cloud API before 2026-10-30 contained a broken access control vulnerability that a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-54378",
+      "published": "2026-11-04T22:18:05Z",
+      "summary": "VitaFit cloud API before 2026-10-30 contained a broken access control vulnerability that allows any authenticated user to obtain temporary AWS credentials by calling the POST /front/user/s3/token/ endpoint. Attackers can use these improperly scoped credentials to list the shared…",
+      "tags": [
+        "CVE",
+        "CVE-2026-54378",
+        "critical"
+      ]
+    },
+    {
+      "id": "c23c5087fdbea1b1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82418: IBM Watson Speech Services Cartridge 4.0.0 through 5.4.0 could allow a remote attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82418",
+      "published": "2026-11-04T21:18:14Z",
+      "summary": "IBM Watson Speech Services Cartridge 4.0.0 through 5.4.0 could allow a remote attacker to execute arbitrary code due to a use-after-free vulnerability.",
+      "tags": [
+        "CVE",
+        "CVE-2026-82418",
+        "critical"
+      ]
+    },
+    {
+      "id": "082a6d81e2813312",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122013: A vulnerability was detected in Comfast CF-WR632AX 2.6.0.1. Affected by this vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122013",
+      "published": "2026-11-04T21:18:07Z",
+      "summary": "A vulnerability was detected in Comfast CF-WR632AX 2.6.0.1. Affected by this vulnerability is an unknown functionality of the file /usr/bin/webmgnt of the component Multipart Parser. Performing a manipulation of the argument filename results in path traversal. It is possible to i…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122013",
+        "critical"
+      ]
+    },
+    {
+      "id": "8dffd73c80c14174",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2025-71457: vtenext 25.02 before 25.02.1 contains an authentication bypass vulnerability that allows u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-71457",
+      "published": "2026-11-04T21:17:40Z",
+      "summary": "vtenext 25.02 before 25.02.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to change any account password via hub/rpwd.php without token verification. Attackers knowing a valid user_name can send action=change_password to RecoverPwd::displa…",
+      "tags": [
+        "CVE",
+        "CVE-2025-71457",
+        "critical"
+      ]
+    },
+    {
+      "id": "f343dc3aa07aa09d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121933: A flaw has been found in Linksys E5350 1.0.00.037. This impacts the function save_settings…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121933",
+      "published": "2026-11-04T20:19:11Z",
+      "summary": "A flaw has been found in Linksys E5350 1.0.00.037. This impacts the function save_settings of the file /wizard/apply.cgi of the component Setup Wizard. Executing a manipulation of the argument wizard_router_pwd can lead to missing authentication. The attack may be launched remote…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121933",
         "critical"
       ]
     },
@@ -27,6 +209,20 @@
       "tags": [
         "CVE",
         "CVE-2026-121931",
+        "critical"
+      ]
+    },
+    {
+      "id": "b3f20fb67367febb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121932: A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121932",
+      "published": "2026-11-04T19:17:33Z",
+      "summary": "A vulnerability was detected in Linksys E5350 1.0.00.037. This affects the function system of the file /wizard/apply.cgi. Performing a manipulation of the argument ping_ip/traceroute_ip results in os command injection. The attack may be initiated remotely. The exploit is now publ…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121932",
         "critical"
       ]
     },
@@ -169,6 +365,19 @@
       ]
     },
     {
+      "id": "ff75aca6bd8abed1",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2024-27834 — Apple Multiple Products: Apple Multiple Products Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-27834",
+      "published": "2026-11-04T00:00:00Z",
+      "summary": "Apple iOS, iPadOS, macOS, Safari, tvOS and watchOS 10.5 contain an improper authentication vulnerability which could allow an attacker with arbitrary read and write capability to bypass pointer authentication.",
+      "tags": [
+        "KEV",
+        "CVE-2024-27834"
+      ]
+    },
+    {
       "id": "77417966cdf6906e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -276,48 +485,6 @@
       ]
     },
     {
-      "id": "907808eccf3b7a78",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-77876: Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vuln…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-77876",
-      "published": "2026-11-02T16:17:43Z",
-      "summary": "Control Web Panel (CWP) before webpanel_version 1.16 contains an OS command injection vulnerability in the protected_directory user panel module that allows attackers to execute arbitrary commands by submitting unescaped input through the file POST parameter in the acc=deletedp a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-77876",
-        "critical"
-      ]
-    },
-    {
-      "id": "c0fc7d32a80c3a64",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120446: madong-admin-saas through 5.1.4 contains a missing authentication vulnerability in the pla…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120446",
-      "published": "2026-11-02T15:17:27Z",
-      "summary": "madong-admin-saas through 5.1.4 contains a missing authentication vulnerability in the platform tenant management API because the 'platformapi' middleware key never matches the 'platform' application. Unauthenticated remote attackers can call /platformapi/tenant/account, bind-pla…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120446",
-        "critical"
-      ]
-    },
-    {
-      "id": "d71996af9f4ea599",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120442: ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows un…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120442",
-      "published": "2026-11-02T15:17:26Z",
-      "summary": "ape-volo-admin before 3.6.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key in appsettings.json. Attackers can sign tokens offline with the jti claim set to the seeded administra…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120442",
-        "critical"
-      ]
-    },
-    {
       "id": "ab6c034f8492b0e3",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -327,160 +494,6 @@
       "tags": [
         "CVE-2026-98432",
         "research"
-      ]
-    },
-    {
-      "id": "42d5bcd698677f57",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120345: A vulnerability was found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This impacts the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120345",
-      "published": "2026-11-02T06:17:43Z",
-      "summary": "A vulnerability was found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This impacts the function sub_41a430 of the file /bin/ioos of the component DNS Resolution Handler. Performing a manipulation of the argument data results in os command injection. It is possible to initiate…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120345",
-        "critical"
-      ]
-    },
-    {
-      "id": "10e336e7f8f39e96",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120344: A vulnerability has been found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This affects…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120344",
-      "published": "2026-11-02T05:18:25Z",
-      "summary": "A vulnerability has been found in WAVLINK WN551X3-A M51X3_V251020-WO-182e965. This affects the function system of the file /bin/ioos of the component WireGuard CLI Group Handler. Such manipulation of the argument group_name leads to os command injection. The attack may be perform…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120344",
-        "critical"
-      ]
-    },
-    {
-      "id": "ff37f14cc22898e6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120322: A vulnerability was identified in Termix-SSH Termix up to 2.9.2. This issue affects some u…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120322",
-      "published": "2026-11-02T02:18:47Z",
-      "summary": "A vulnerability was identified in Termix-SSH Termix up to 2.9.2. This issue affects some unknown processing of the file /plugin-api/file-manager/transferToHost. The manipulation of the argument destPath leads to path traversal. The attack may be initiated remotely. The exploit is…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120322",
-        "critical"
-      ]
-    },
-    {
-      "id": "283390a986e36f08",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120282: A vulnerability was determined in WAVLINK WN536AX6-A V260507. This impacts the function ho…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120282",
-      "published": "2026-11-02T01:17:27Z",
-      "summary": "A vulnerability was determined in WAVLINK WN536AX6-A V260507. This impacts the function host_black of the file /protocol.csp. This manipulation of the argument mac causes os command injection. Remote exploitation of the attack is possible. The exploit has been publicly disclosed…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120282",
-        "critical"
-      ]
-    },
-    {
-      "id": "ccc88cf43b5041f2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120281: A vulnerability was found in WAVLINK WN536AX6-A V260507. This affects the function strcpy…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120281",
-      "published": "2026-11-02T01:17:27Z",
-      "summary": "A vulnerability was found in WAVLINK WN536AX6-A V260507. This affects the function strcpy of the file /protocol.csp of the component OpenVPN Handler. The manipulation of the argument openvpn_ip results in stack-based buffer overflow. The attack may be launched remotely. The explo…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120281",
-        "critical"
-      ]
-    },
-    {
-      "id": "d373e2fd9eb3ef20",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120283: A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function st…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120283",
-      "published": "2026-11-02T01:17:27Z",
-      "summary": "A vulnerability was identified in Linksys E8450 1.2.00.360516. Affected is the function strcpy of the file /www/cgi-bin/portal.cgi. Such manipulation of the argument hidden_timezone leads to stack-based buffer overflow. The attack can be executed remotely. The vendor was contacte…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120283",
-        "critical"
-      ]
-    },
-    {
-      "id": "b861aa6dc201f4d0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120279: A flaw has been found in WAVLINK WN536AX6-A V260507. The affected element is an unknown fu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120279",
-      "published": "2026-11-02T01:17:26Z",
-      "summary": "A flaw has been found in WAVLINK WN536AX6-A V260507. The affected element is an unknown function of the file /protocol.csp of the component openvpn_cli Handler. Executing a manipulation of the argument file_id can lead to os command injection. The attack can be launched remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120279",
-        "critical"
-      ]
-    },
-    {
-      "id": "d034017685edd129",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120280: A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120280",
-      "published": "2026-11-02T01:17:26Z",
-      "summary": "A vulnerability has been found in WAVLINK WN536AX6-A V260507. The impacted element is the function wireguard_cli_group handler of the file /protocol.csp of the component WireGuard. The manipulation of the argument group_id/group_name leads to os command injection. The attack may…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120280",
-        "critical"
-      ]
-    },
-    {
-      "id": "7072c29dd3b10855",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120277: A security vulnerability has been detected in WAVLINK WN536AX6-A V260507_2.0.0. This issue…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120277",
-      "published": "2026-11-02T00:18:10Z",
-      "summary": "A security vulnerability has been detected in WAVLINK WN536AX6-A V260507_2.0.0. This issue affects the function sub_41a1d8 of the file /bin/ioos of the component WireGuard CLI Group Handler. Such manipulation of the argument group_name leads to os command injection. It is possibl…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120277",
-        "critical"
-      ]
-    },
-    {
-      "id": "3262e865aee39572",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120276: A weakness has been identified in WAVLINK WN536AX6-A V260507_2.0.0. This vulnerability aff…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120276",
-      "published": "2026-11-02T00:18:09Z",
-      "summary": "A weakness has been identified in WAVLINK WN536AX6-A V260507_2.0.0. This vulnerability affects the function sub_416760 of the file /bin/ioos of the component Web Management Interface. This manipulation of the argument group_name causes os command injection. It is possible to init…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120276",
-        "critical"
-      ]
-    },
-    {
-      "id": "2f8c8566d57a5266",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120240: A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. This issue affects the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120240",
-      "published": "2026-11-01T19:16:57Z",
-      "summary": "A vulnerability was determined in WAVLINK WN553X1-B V260403_2.0.0. This issue affects the function sub_41A748 of the file /bin/ioos of the component WireGuard CLI Group Handler. Executing a manipulation of the argument group_id/group_name can lead to os command injection. The att…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120240",
-        "critical"
       ]
     },
     {
@@ -1946,19 +1959,6 @@
         "CVE-2026-88779",
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "5341fefad01dc143",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-88772 — Citrix NetScaler: Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88772",
-      "published": "2026-09-27T00:00:00Z",
-      "summary": "Citrix NetScaler ADC and NetScaler Gateway contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for remote code execution or denial of service",
-      "tags": [
-        "KEV",
-        "CVE-2026-88772"
       ]
     },
     {
