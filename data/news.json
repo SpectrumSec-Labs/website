@@ -1,7 +1,32 @@
 {
   "schema": 1,
-  "generated": "2026-11-05T07:01:50Z",
+  "generated": "2026-11-05T20:06:52Z",
   "items": [
+    {
+      "id": "8297cebc375aa594",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123198: LMFDB before commit 01829bd contains a server-side template injection vulnerability in the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123198",
+      "published": "2026-11-05T19:17:18Z",
+      "summary": "LMFDB before commit 01829bd contains a server-side template injection vulnerability in the render_knowl function that allows unauthenticated attackers to inject Jinja expressions via request parameters. Attackers can supply crafted query-string values or 'content' data to /knowle…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123198",
+        "critical"
+      ]
+    },
+    {
+      "id": "2993bb03a807082f",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Vulnerability Scans for Older Cisco IOS Vulnerability / Opt-Out Headers, (Thu, Nov 5th)",
+      "url": "https://isc.sans.edu/diary/rss/33492",
+      "published": "2026-11-05T15:29:08Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "500d23bfbd3aa4a4",
       "source": "nvd-recent",
@@ -13,20 +38,6 @@
       "tags": [
         "CVE",
         "CVE-2026-122321",
-        "critical"
-      ]
-    },
-    {
-      "id": "4bea92b29520069d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-122313: Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allow…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122313",
-      "published": "2026-11-05T03:17:23Z",
-      "summary": "Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allows namespace-scoped tenants to modify resources in other namespaces through NamespacedMutatingPolicy targetMatchConstraints.expression CEL output lacking namespace checks. Attackers can emit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-122313",
         "critical"
       ]
     },
@@ -45,6 +56,20 @@
       ]
     },
     {
+      "id": "4bea92b29520069d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122313: Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122313",
+      "published": "2026-11-05T03:17:23Z",
+      "summary": "Kyverno from 1.17.0 before 1.19.2 contains a privilege escalation vulnerability that allows namespace-scoped tenants to modify resources in other namespaces through NamespacedMutatingPolicy targetMatchConstraints.expression CEL output lacking namespace checks. Attackers can emit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122313",
+        "critical"
+      ]
+    },
+    {
       "id": "761a42bcd8ca7c84",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -59,20 +84,6 @@
       ]
     },
     {
-      "id": "3d2dad8cc622103c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-122304: Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304",
-      "published": "2026-11-05T03:17:22Z",
-      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall o…",
-      "tags": [
-        "CVE",
-        "CVE-2026-122304",
-        "critical"
-      ]
-    },
-    {
       "id": "13d819930749b7d6",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -83,6 +94,20 @@
       "tags": [
         "CVE",
         "CVE-2026-122303",
+        "critical"
+      ]
+    },
+    {
+      "id": "3d2dad8cc622103c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122304: Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122304",
+      "published": "2026-11-05T03:17:22Z",
+      "summary": "Kyverno from 1.17.0 before 1.19.2 contains an authorization bypass vulnerability that allows namespace admins to escape namespace confinement because the cleanup controller builds its context loader with a nil policy. Attackers can create a namespaced CleanupPolicy with apiCall o…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122304",
         "critical"
       ]
     },
@@ -112,6 +137,19 @@
         "CVE",
         "CVE-2026-122051",
         "critical"
+      ]
+    },
+    {
+      "id": "2af442540bfa4a7c",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Vulnérabilité dans OpenSSH (05 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-015/",
+      "published": "2026-11-05T00:00:00Z",
+      "summary": "Le 5 novembre 2026, OpenSSH a publié un avis de sécurité concernant une vulnérabilité qui permet à un attaquant de contourner l’authentification d'un service SSH. En effet, sur les systèmes Linux qui utilisent la bibliothèque standard C musl, compilés sans support PAM ou avec PAM…",
+      "tags": [
+        "FR",
+        "alert"
       ]
     },
     {
@@ -467,20 +505,6 @@
       "tags": [
         "CVE",
         "CVE-2026-86596",
-        "critical"
-      ]
-    },
-    {
-      "id": "0fb88fd4c9a9df86",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-102435: The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file d…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-102435",
-      "published": "2026-11-02T20:17:26Z",
-      "summary": "The Ultra Addons for Contact Form 7 plugin for WordPress is vulnerable to arbitrary file deletion due to insufficient file path validation in the _getObjAttr function in all versions up to, and including, 3.5.54. This makes it possible for unauthenticated attackers to delete arbi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-102435",
         "critical"
       ]
     },
@@ -1526,17 +1550,6 @@
       "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
       "url": "https://isc.sans.edu/diary/rss/33414",
       "published": "2026-10-10T09:11:34Z",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "ef3bdd7a7d22935a",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Reconstructing AI Agent Activity: Two New Scripts for Forensic Review, (Thu, Oct 8th)",
-      "url": "https://isc.sans.edu/diary/rss/33410",
-      "published": "2026-10-08T16:52:53Z",
       "tags": [
         "research"
       ]
