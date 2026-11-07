@@ -1,7 +1,133 @@
 {
   "schema": 1,
-  "generated": "2026-11-07T06:14:08Z",
+  "generated": "2026-11-07T13:18:17Z",
   "items": [
+    {
+      "id": "a8490c0c8c74747d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-122041: The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unau…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122041",
+      "published": "2026-11-07T13:16:36Z",
+      "summary": "The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unauthorized deletion of arbitrary attachments due to a missing capability/ownership check in the ajax_remove_uploaded() function in versions up to, and including, 3.8.0. The handler is register…",
+      "tags": [
+        "CVE",
+        "CVE-2026-122041",
+        "critical"
+      ]
+    },
+    {
+      "id": "79ec33eb7c39524a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119075: The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege esca…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119075",
+      "published": "2026-11-07T12:17:44Z",
+      "summary": "The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege escalation due to a missing allow-list check in the FormHandler::validate_checkout_fields() function in versions up to, and including, 1.1.4 The My Account registration path (validate_fields())…",
+      "tags": [
+        "CVE",
+        "CVE-2026-119075",
+        "critical"
+      ]
+    },
+    {
+      "id": "0c1905d8e85a88de",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118066: The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin fo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118066",
+      "published": "2026-11-07T12:17:43Z",
+      "summary": "The Appointment Booking Plugin – LatePoint | Calendar & Scheduling for WordPress plugin for WordPress is vulnerable to Authentication Bypass via Account Takeover in all versions up to, and including, 5.7.6. This is due to the `OsModel::build_conditions_query()` function in `lib/m…",
+      "tags": [
+        "CVE",
+        "CVE-2026-118066",
+        "critical"
+      ]
+    },
+    {
+      "id": "c64e058a8297e216",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104014: The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to au…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104014",
+      "published": "2026-11-07T12:17:41Z",
+      "summary": "The Naimur Email OTP Verification for WooCommerce plugin for WordPress is vulnerable to authentication bypass in versions up to, and including, 2.1.0. This is due to the plugin's password-reset finalization endpoint (the wp_ajax_nopriv_ceovw_update_new_password action handled by…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104014",
+        "critical"
+      ]
+    },
+    {
+      "id": "bc2afcb6a09bdb66",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123961: A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. This impacts th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123961",
+      "published": "2026-11-07T11:17:01Z",
+      "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiBasicConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument KeyStr leads to buffer overflow. The attack may be initiated remotely. The exploit has been d…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123961",
+        "critical"
+      ]
+    },
+    {
+      "id": "f4af87997e3adabe",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123960: A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function s…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123960",
+      "published": "2026-11-07T10:17:12Z",
+      "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit h…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123960",
+        "critical"
+      ]
+    },
+    {
+      "id": "59d846bd566b7263",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123959: A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123959",
+      "published": "2026-11-07T10:17:12Z",
+      "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. The impacted element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument langType results in buffer overflow. The attack can be initiated remotely. The explo…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123959",
+        "critical"
+      ]
+    },
+    {
+      "id": "a9c8491e35e41d71",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123958: A vulnerability was identified in TOTOLINK CA300-PoE 6.2c.884. The affected element is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123958",
+      "published": "2026-11-07T09:17:15Z",
+      "summary": "A vulnerability was identified in TOTOLINK CA300-PoE 6.2c.884. The affected element is the function setLanConfig of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument lanDns/lanSecDns/langType leads to buffer overflow. It is possible to launch the attack remotely. T…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123958",
+        "critical"
+      ]
+    },
+    {
+      "id": "44a20fb571e66c1e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123957: A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function se…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123957",
+      "published": "2026-11-07T09:17:14Z",
+      "summary": "A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function setIpQosRules of the file /cgi-bin/cstecgi.cgi. This manipulation of the argument ipStart causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been publicly…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123957",
+        "critical"
+      ]
+    },
     {
       "id": "23e5a611af3ffc79",
       "source": "nvd-recent",
@@ -171,20 +297,6 @@
       ]
     },
     {
-      "id": "cb1a444fdb24e6a4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17360: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full admin…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17360",
-      "published": "2026-11-07T05:18:48Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17360",
-        "critical"
-      ]
-    },
-    {
       "id": "471a9c43c162cf9e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -195,6 +307,20 @@
       "tags": [
         "CVE",
         "CVE-2026-17359",
+        "critical"
+      ]
+    },
+    {
+      "id": "cb1a444fdb24e6a4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-17360: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full admin…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17360",
+      "published": "2026-11-07T05:18:48Z",
+      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
+      "tags": [
+        "CVE",
+        "CVE-2026-17360",
         "critical"
       ]
     },
@@ -241,20 +367,6 @@
       ]
     },
     {
-      "id": "bec9f1c30332333b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17342: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17342",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17342",
-        "critical"
-      ]
-    },
-    {
       "id": "0f6db4ad816c570f",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -265,20 +377,6 @@
       "tags": [
         "CVE",
         "CVE-2026-17340",
-        "critical"
-      ]
-    },
-    {
-      "id": "c5271353b1aa31dc",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17339: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17339",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access or delete resources belonging to other tenants due to path traversal.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17339",
         "critical"
       ]
     },
@@ -297,128 +395,30 @@
       ]
     },
     {
-      "id": "6c7f7ed4cfb634f9",
+      "id": "bec9f1c30332333b",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17336: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to e…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17336",
-      "published": "2026-11-07T05:18:44Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary SQL commands due to improper neutralization of special elements used in an SQL command.",
+      "title": "CVE-2026-17342: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17342",
+      "published": "2026-11-07T05:18:45Z",
+      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.",
       "tags": [
         "CVE",
-        "CVE-2026-17336",
+        "CVE-2026-17342",
         "critical"
       ]
     },
     {
-      "id": "05cc19882de2d204",
+      "id": "c5271353b1aa31dc",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17329: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitiv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17329",
-      "published": "2026-11-07T05:18:43Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to improper validation of endpoint URLs.",
+      "title": "CVE-2026-17339: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17339",
+      "published": "2026-11-07T05:18:45Z",
+      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access or delete resources belonging to other tenants due to path traversal.",
       "tags": [
         "CVE",
-        "CVE-2026-17329",
-        "critical"
-      ]
-    },
-    {
-      "id": "d4df132fe58dea30",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17313: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitiv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17313",
-      "published": "2026-11-07T05:18:40Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and take control of gateway configuration due to authentication bypass via an alternate path.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17313",
-        "critical"
-      ]
-    },
-    {
-      "id": "fc06a8b11a85a1db",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17301: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an un…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17301",
-      "published": "2026-11-07T05:18:37Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow an unauthenticated attacker to bypass authentication due to improper verification of a cryptographic signature.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17301",
-        "critical"
-      ]
-    },
-    {
-      "id": "e8a71b0612c0df37",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17299: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17299",
-      "published": "2026-11-07T05:18:37Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to perform arbitrary file reads and server-side request forgery due to unrestricted resolution of external references. Externally referenced content in submitted d…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17299",
-        "critical"
-      ]
-    },
-    {
-      "id": "98289c8ca9b44343",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17298: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17298",
-      "published": "2026-11-07T05:18:37Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17298",
-        "critical"
-      ]
-    },
-    {
-      "id": "4faa6560ef2d6ecc",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17297: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17297",
-      "published": "2026-11-07T05:18:37Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to perform an account takeover due to an open redirect vulnerability. The redirect address used during sign-in is not sufficiently validated, which could allow authentication re…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17297",
-        "critical"
-      ]
-    },
-    {
-      "id": "283f02b9680bcf93",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17296: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17296",
-      "published": "2026-11-07T05:18:37Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to server-side request forgery.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17296",
-        "critical"
-      ]
-    },
-    {
-      "id": "fd0691e972df98d8",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17292: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17292",
-      "published": "2026-11-07T05:18:36Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to take over ownership of other organizations due to broken object-level authorization. Access checks on organization objects are incomplete, which could allow own…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17292",
+        "CVE-2026-17339",
         "critical"
       ]
     },
