@@ -1,7 +1,91 @@
 {
   "schema": 1,
-  "generated": "2026-11-07T13:18:17Z",
+  "generated": "2026-11-07T22:01:38Z",
   "items": [
+    {
+      "id": "a06a132edc04248a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124060: A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124060",
+      "published": "2026-11-07T21:17:00Z",
+      "summary": "A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the function UploadCustomModule of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument File results in buffer overflow. The attack may be launched remotely. The exploit is now publi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124060",
+        "critical"
+      ]
+    },
+    {
+      "id": "5f972e3570384009",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124059: A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by thi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124059",
+      "published": "2026-11-07T19:17:28Z",
+      "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. The attack may be initiated remot…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124059",
+        "critical"
+      ]
+    },
+    {
+      "id": "a8240359d0db911d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124058: A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function se…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124058",
+      "published": "2026-11-07T19:17:28Z",
+      "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be launched remotely. The exploit has b…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124058",
+        "critical"
+      ]
+    },
+    {
+      "id": "a265915a55087b79",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124057: A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the funct…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124057",
+      "published": "2026-11-07T18:17:21Z",
+      "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be initiated remotely. The exploit h…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124057",
+        "critical"
+      ]
+    },
+    {
+      "id": "35ba72376eb6ef7a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123966: A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the fu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123966",
+      "published": "2026-11-07T14:17:01Z",
+      "summary": "A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the function saveParentControlInfo of the file /goform/saveParentControlInfo. This manipulation of the argument deviceId causes heap-based buffer overflow. The attack is possible to be carried out…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123966",
+        "critical"
+      ]
+    },
+    {
+      "id": "a5e07f442dbf680b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120984: A flaw was found in the Keycloak server's client management component. When a client is cr…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120984",
+      "published": "2026-11-07T14:17:01Z",
+      "summary": "A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker w…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120984",
+        "critical"
+      ]
+    },
     {
       "id": "a8490c0c8c74747d",
       "source": "nvd-recent",
@@ -73,20 +157,6 @@
       ]
     },
     {
-      "id": "f4af87997e3adabe",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123960: A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function s…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123960",
-      "published": "2026-11-07T10:17:12Z",
-      "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit h…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123960",
-        "critical"
-      ]
-    },
-    {
       "id": "59d846bd566b7263",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -97,6 +167,20 @@
       "tags": [
         "CVE",
         "CVE-2026-123959",
+        "critical"
+      ]
+    },
+    {
+      "id": "f4af87997e3adabe",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123960: A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function s…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123960",
+      "published": "2026-11-07T10:17:12Z",
+      "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. This affects the function setWanConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument pppoeUser/priDns/secDns can lead to buffer overflow. The attack can be launched remotely. The exploit h…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123960",
         "critical"
       ]
     },
@@ -335,90 +419,6 @@
       "tags": [
         "CVE",
         "CVE-2026-17354",
-        "critical"
-      ]
-    },
-    {
-      "id": "0577416754924bcf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17353: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17353",
-      "published": "2026-11-07T05:18:46Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information and bypass security restrictions due to server-side request forgery.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17353",
-        "critical"
-      ]
-    },
-    {
-      "id": "caa710a046694bd0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17344: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitiv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17344",
-      "published": "2026-11-07T05:18:46Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. A service that can be reached without authentication could be made to send requests to unintended destinations.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17344",
-        "critical"
-      ]
-    },
-    {
-      "id": "0f6db4ad816c570f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17340: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitra…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17340",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to a path traversal vulnerability.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17340",
-        "critical"
-      ]
-    },
-    {
-      "id": "33e63a722bfd139b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17338: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17338",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to broken object-level authorization.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17338",
-        "critical"
-      ]
-    },
-    {
-      "id": "bec9f1c30332333b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17342: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17342",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17342",
-        "critical"
-      ]
-    },
-    {
-      "id": "c5271353b1aa31dc",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17339: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17339",
-      "published": "2026-11-07T05:18:45Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access or delete resources belonging to other tenants due to path traversal.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17339",
         "critical"
       ]
     },
