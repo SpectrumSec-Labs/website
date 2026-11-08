@@ -1,7 +1,187 @@
 {
   "schema": 1,
-  "generated": "2026-11-08T13:40:26Z",
+  "generated": "2026-11-08T22:16:50Z",
   "items": [
+    {
+      "id": "e88310d07957b1f9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-6715: IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorp…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6715",
+      "published": "2026-11-08T19:17:39Z",
+      "summary": "IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorporated into an operating system command without adequate validation or sanitization. Successful exploitation allows remote attackers to execute arbitrary commands on the underlying operating…",
+      "tags": [
+        "CVE",
+        "CVE-2026-6715",
+        "critical"
+      ]
+    },
+    {
+      "id": "fc2f0ad662d036bb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-17466: IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain se…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17466",
+      "published": "2026-11-08T18:17:03Z",
+      "summary": "IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
+      "tags": [
+        "CVE",
+        "CVE-2026-17466",
+        "critical"
+      ]
+    },
+    {
+      "id": "db58cb19d5fe601d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-15266: IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15266",
+      "published": "2026-11-08T18:17:02Z",
+      "summary": "IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command execution, which could be exploited to run arbitrary system commands on the host.",
+      "tags": [
+        "CVE",
+        "CVE-2026-15266",
+        "critical"
+      ]
+    },
+    {
+      "id": "fe11ef8288272127",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114464: IBM Process Mining 2.0.0 through 2.2.1 could allow a remote attacker to obtain sensitive i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114464",
+      "published": "2026-11-08T17:16:36Z",
+      "summary": "IBM Process Mining 2.0.0 through 2.2.1 could allow a remote attacker to obtain sensitive information due to improper access control.",
+      "tags": [
+        "CVE",
+        "CVE-2026-114464",
+        "critical"
+      ]
+    },
+    {
+      "id": "146c922c18187ccb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-107331: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331",
+      "published": "2026-11-08T17:16:35Z",
+      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
+      "tags": [
+        "CVE",
+        "CVE-2026-107331",
+        "critical"
+      ]
+    },
+    {
+      "id": "319db0456fd4dff9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-101117: IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.2.2 could allow a remote attacker to bypas…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101117",
+      "published": "2026-11-08T16:16:36Z",
+      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.2.2 could allow a remote attacker to bypass security restrictions due to improper Content Security Policy configuration.",
+      "tags": [
+        "CVE",
+        "CVE-2026-101117",
+        "critical"
+      ]
+    },
+    {
+      "id": "4b7df559b706314d",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Scans for Sshole Vulnerability (CVE-2026-123158), (Sun, Nov 8th)",
+      "url": "https://isc.sans.edu/diary/rss/33498",
+      "published": "2026-11-08T15:44:33Z",
+      "tags": [
+        "CVE-2026-123158",
+        "research"
+      ]
+    },
+    {
+      "id": "0660a6a49f109e63",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124490: OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClien…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124490",
+      "published": "2026-11-08T14:18:18Z",
+      "summary": "OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClient disposeDocument() method of oe-module-faxsms that allows authenticated attackers to read and write arbitrary files via the file_path parameter. Attackers can use action=download to read cr…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124490",
+        "critical"
+      ]
+    },
+    {
+      "id": "50e3cfc48358f147",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124469: OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-invento…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124469",
+      "published": "2026-11-08T14:18:15Z",
+      "summary": "OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-inventory lookup (DrugSalesService::sellDrug) that interpolates the prod[N][warehouse] POST field into an ORDER BY clause. Low-privileged authenticated users can submit Fee Sheet product lines with…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124469",
+        "critical"
+      ]
+    },
+    {
+      "id": "fc0d5b9934912f4f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124450: OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124450",
+      "published": "2026-11-08T14:18:12Z",
+      "summary": "OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary f…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124450",
+        "critical"
+      ]
+    },
+    {
+      "id": "f2377a87253d3479",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124445: OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ig…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124445",
+      "published": "2026-11-08T14:18:11Z",
+      "summary": "OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ignores the enforce_onetime_use and max_access_count flags, never revokes consumed service_auth tokens, and checks login_pin without rate limiting or strict comparison. Attackers holding a cap…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124445",
+        "critical"
+      ]
+    },
+    {
+      "id": "33693608105e9df7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124440: Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the ap…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124440",
+      "published": "2026-11-08T14:18:10Z",
+      "summary": "Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the apiCall namespace clamp that allows namespace tenants to issue cross-namespace and cluster-scoped API requests by appending malformed percent-escapes to urlPath. Attackers can create namespace…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124440",
+        "critical"
+      ]
+    },
+    {
+      "id": "4f817e4c49bf9f51",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-124427: Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124427",
+      "published": "2026-11-08T14:18:08Z",
+      "summary": "Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that allows anonymous GraphQL clients to read out-of-scope section entries via prev/next fields. Attackers can chain next hops from one visible in-scope entry to enumerate entries and read titles, s…",
+      "tags": [
+        "CVE",
+        "CVE-2026-124427",
+        "critical"
+      ]
+    },
     {
       "id": "7ae5e8274bd81efd",
       "source": "nvd-recent",
@@ -251,174 +431,6 @@
       "tags": [
         "CVE",
         "CVE-2026-123958",
-        "critical"
-      ]
-    },
-    {
-      "id": "44a20fb571e66c1e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123957: A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function se…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123957",
-      "published": "2026-11-07T09:17:14Z",
-      "summary": "A vulnerability was determined in TOTOLINK CA300-PoE 6.2c.884. Impacted is the function setIpQosRules of the file /cgi-bin/cstecgi.cgi. This manipulation of the argument ipStart causes buffer overflow. It is possible to initiate the attack remotely. The exploit has been publicly…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123957",
-        "critical"
-      ]
-    },
-    {
-      "id": "23e5a611af3ffc79",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-18838: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitiv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18838",
-      "published": "2026-11-07T05:18:59Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information and modify API configurations due to improper authentication. Identity information supplied in requests is not sufficiently verified, which could allow a caller to impersonate…",
-      "tags": [
-        "CVE",
-        "CVE-2026-18838",
-        "critical"
-      ]
-    },
-    {
-      "id": "52ee5ed8f11e5aef",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-18836: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18836",
-      "published": "2026-11-07T05:18:59Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to obtain sensitive information due to server-side request forgery. The affected component can be made to send requests to unintended destinations and return the response to the…",
-      "tags": [
-        "CVE",
-        "CVE-2026-18836",
-        "critical"
-      ]
-    },
-    {
-      "id": "629f25782702d655",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-18535: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 are vulnerable to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-18535",
-      "published": "2026-11-07T05:18:59Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 are vulnerable to a Regular Expression Denial of Service (ReDoS) attack and to improper neutralisation of wildcard query operators.",
-      "tags": [
-        "CVE",
-        "CVE-2026-18535",
-        "critical"
-      ]
-    },
-    {
-      "id": "993096b0d8fcc7a7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17410: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17410",
-      "published": "2026-11-07T05:18:58Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to access and modify other tenants' portal data due to improper neutralization of argument delimiters.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17410",
-        "critical"
-      ]
-    },
-    {
-      "id": "ab0d54886cd20047",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17409: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17409",
-      "published": "2026-11-07T05:18:58Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute unauthorized administrative operations and obtain sensitive information due to improper handling of case sensitivity. Access controls are not applied consistently to…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17409",
-        "critical"
-      ]
-    },
-    {
-      "id": "e2ebc1702ad5b003",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17408: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17408",
-      "published": "2026-11-07T05:18:57Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to execute arbitrary code due to improper neutralization of special elements in an OS command.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17408",
-        "critical"
-      ]
-    },
-    {
-      "id": "23fa28f5d69ae3f7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17403: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17403",
-      "published": "2026-11-07T05:18:56Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17403",
-        "critical"
-      ]
-    },
-    {
-      "id": "7da28a929c574aa6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17402: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17402",
-      "published": "2026-11-07T05:18:56Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary commands due to OS command injection. User-supplied input is not properly neutralized before it is passed to the operating system, which could…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17402",
-        "critical"
-      ]
-    },
-    {
-      "id": "607322eaf5e3569c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17399: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17399",
-      "published": "2026-11-07T05:18:55Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to insufficient validation of uploaded content. Content uploaded to the product is not sufficiently checked before it is processed, w…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17399",
-        "critical"
-      ]
-    },
-    {
-      "id": "b50652967e7e5446",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17396: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17396",
-      "published": "2026-11-07T05:18:55Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to obtain sensitive information due to SQL injection.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17396",
-        "critical"
-      ]
-    },
-    {
-      "id": "fd8e7b426af01bba",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17392: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17392",
-      "published": "2026-11-07T05:18:54Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain unauthorized administrative access to other tenants due to LDAP injection. User-supplied input is not properly neutralized in directory queries, which coul…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17392",
         "critical"
       ]
     },
@@ -1564,17 +1576,6 @@
       "tags": [
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "22a3e2e00caf6482",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Why TLP should not replace your internal information classification, (Sat, Oct 10th)",
-      "url": "https://isc.sans.edu/diary/rss/33414",
-      "published": "2026-10-10T09:11:34Z",
-      "tags": [
-        "research"
       ]
     },
     {
