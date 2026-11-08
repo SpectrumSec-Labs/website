@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-11-07T22:01:38Z",
+  "generated": "2026-11-08T06:20:14Z",
   "items": [
+    {
+      "id": "7ae5e8274bd81efd",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123614: imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123614",
+      "published": "2026-11-08T02:16:56Z",
+      "summary": "imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overflow via a crafted data_size value. Attackers can submit a crafted ICO image whose data_size wraps the allocation in vips/icoload.c, corrupti…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123614",
+        "critical"
+      ]
+    },
+    {
+      "id": "fbd71110e26539f9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123551: OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551",
+      "published": "2026-11-08T02:16:46Z",
+      "summary": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123551",
+        "critical"
+      ]
+    },
+    {
+      "id": "0aef38c40c6a8cd1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123550: OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 serv…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123550",
+      "published": "2026-11-08T02:16:46Z",
+      "summary": "OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 service provider that accepts unsigned assertions on the ECP (PAOS) and HTTP-Artifact bindings when WantAssertionsSigned is false. Unauthenticated remote attackers can submit forged assertions t…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123550",
+        "critical"
+      ]
+    },
+    {
+      "id": "5cd68ab994a92d05",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123549: OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-regis…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549",
+      "published": "2026-11-08T02:16:46Z",
+      "summary": "OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-registration, allowing anonymous attackers to set restricted attributes including group membership. Attackers can register through the legacy self-service REST endpoint or User Self-Service flow…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123549",
+        "critical"
+      ]
+    },
     {
       "id": "a06a132edc04248a",
       "source": "nvd-recent",
@@ -363,62 +419,6 @@
       "tags": [
         "CVE",
         "CVE-2026-17394",
-        "critical"
-      ]
-    },
-    {
-      "id": "fd8e7b426af01bba",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17392: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17392",
-      "published": "2026-11-07T05:18:54Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to gain unauthorized administrative access to other tenants due to LDAP injection. User-supplied input is not properly neutralized in directory queries, which coul…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17392",
-        "critical"
-      ]
-    },
-    {
-      "id": "471a9c43c162cf9e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17359: IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a rem…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17359",
-      "published": "2026-11-07T05:18:48Z",
-      "summary": "IBM API Connect 10.0.8.0 through 10.0.8.12 and 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to execute arbitrary code due to improper control of generation of code. A user-supplied value can influence code that the product generates, which could lead to c…",
-      "tags": [
-        "CVE",
-        "CVE-2026-17359",
-        "critical"
-      ]
-    },
-    {
-      "id": "cb1a444fdb24e6a4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17360: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full admin…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17360",
-      "published": "2026-11-07T05:18:48Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote attacker to gain full administrative control due to the use of hard-coded credentials.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17360",
-        "critical"
-      ]
-    },
-    {
-      "id": "b967e560b12f1b87",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17354: IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to p…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17354",
-      "published": "2026-11-07T05:18:47Z",
-      "summary": "IBM API Connect 12.1.0.0 through 12.1.1.2 could allow a remote authenticated attacker to perform arbitrary file writes due to path traversal.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17354",
         "critical"
       ]
     },
