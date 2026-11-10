@@ -1,7 +1,189 @@
 {
   "schema": 1,
-  "generated": "2026-11-09T22:31:37Z",
+  "generated": "2026-11-10T07:30:51Z",
   "items": [
+    {
+      "id": "0abebc4967f96c8b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89126: SAP Web Dispatcher does not sufficiently validate certain network input processed by an in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89126",
+      "published": "2026-11-10T01:17:22Z",
+      "summary": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation cou…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89126",
+        "critical"
+      ]
+    },
+    {
+      "id": "085656b3fc6fe3b0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89119: SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manag…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89119",
+      "published": "2026-11-10T01:17:22Z",
+      "summary": "SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manager) do not perform sufficient request validation in certain administrative functionality. In the context of Application Server ABAP and SAP Web Dispatcher, an unauthenticated attacker could…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89119",
+        "critical"
+      ]
+    },
+    {
+      "id": "f0d1bd519022265d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89103: SAP Gateway activates the default Access Control List with high privileges allowing catego…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89103",
+      "published": "2026-11-10T01:17:21Z",
+      "summary": "SAP Gateway activates the default Access Control List with high privileges allowing categorization of external attacker as internal application server. As a result an unauthenticated attacker with network access to the SAP Gateway could exploit this weakness to potentially perfor…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89103",
+        "critical"
+      ]
+    },
+    {
+      "id": "5850f554ea9f7f3b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76965: SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authori…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76965",
+      "published": "2026-11-10T01:17:20Z",
+      "summary": "SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. S…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76965",
+        "critical"
+      ]
+    },
+    {
+      "id": "3a43017c7027cdc3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76964: SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76964",
+      "published": "2026-11-10T01:17:20Z",
+      "summary": "SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successf…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76964",
+        "critical"
+      ]
+    },
+    {
+      "id": "22fd62081eda61b4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125086: A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125086",
+      "published": "2026-11-10T01:17:19Z",
+      "summary": "A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of the file /etc/emDaemon/mosquitto.conf of the component emDaemon MQTT Broker. Such manipulation leads to hard-coded credentials. The attack can be executed remotely. The exploit has been disc…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125086",
+        "critical"
+      ]
+    },
+    {
+      "id": "bf78f939a2057a99",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120017: SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incomi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120017",
+      "published": "2026-11-10T01:17:16Z",
+      "summary": "SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication assertions under certain configurations. An unauthenticated attacker could submit specially crafted data to bypass authentication and impersonate arbitrary users, including…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120017",
+        "critical"
+      ]
+    },
+    {
+      "id": "fe890db61fe35a59",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109803: SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selectio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803",
+      "published": "2026-11-10T01:17:14Z",
+      "summary": "SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL tr…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109803",
+        "critical"
+      ]
+    },
+    {
+      "id": "342075fd0cd0ce12",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109798: SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly re…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109798",
+      "published": "2026-11-10T01:17:13Z",
+      "summary": "SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read s…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109798",
+        "critical"
+      ]
+    },
+    {
+      "id": "584cad452d5de0b3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109795: SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input v…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795",
+      "published": "2026-11-10T01:17:13Z",
+      "summary": "SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within t…",
+      "tags": [
+        "CVE",
+        "CVE-2026-109795",
+        "critical"
+      ]
+    },
+    {
+      "id": "5be09bb04ff61ae7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125384: INDOTALENT WHMS before 10.20261109 contains a default credentials vulnerability that allow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125384",
+      "published": "2026-11-10T00:17:11Z",
+      "summary": "INDOTALENT WHMS before 10.20261109 contains a default credentials vulnerability that allows unauthenticated attackers to gain administrator access because UserAdminSeeder creates admin@root.com with password 123456. Attackers can log in with these credentials, which carry every a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125384",
+        "critical"
+      ]
+    },
+    {
+      "id": "12f6deb2d1bbc9ad",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125383: INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) before 10.20261109 contai…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125383",
+      "published": "2026-11-10T00:17:11Z",
+      "summary": "INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) before 10.20261109 contains an authentication bypass vulnerability caused by a hard-coded JWT signing key, issuer and audience in appsettings.json. Unauthenticated remote attackers can forge tokens for any user ID a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125383",
+        "critical"
+      ]
+    },
+    {
+      "id": "0e51d2c828142c56",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125370: Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows una…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125370",
+      "published": "2026-11-10T00:17:09Z",
+      "summary": "Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge administrative JWTs by using a hardcoded fallback signing secret when JWT_SECRET is unset. Attackers can sign tokens with arbitrary role, userGroups an…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125370",
+        "critical"
+      ]
+    },
     {
       "id": "dcde3d2c46f168c1",
       "source": "sans-isc",
@@ -312,188 +494,6 @@
       "tags": [
         "CVE",
         "CVE-2026-124440",
-        "critical"
-      ]
-    },
-    {
-      "id": "4f817e4c49bf9f51",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124427: Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124427",
-      "published": "2026-11-08T14:18:08Z",
-      "summary": "Craft CMS from 5.0.0 before 5.11.2 contains an authorization bypass vulnerability that allows anonymous GraphQL clients to read out-of-scope section entries via prev/next fields. Attackers can chain next hops from one visible in-scope entry to enumerate entries and read titles, s…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124427",
-        "critical"
-      ]
-    },
-    {
-      "id": "7ae5e8274bd81efd",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123614: imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123614",
-      "published": "2026-11-08T02:16:56Z",
-      "summary": "imgproxy from 4.0.0 before 4.0.16 contains an integer overflow in the ICO loader that allows remote attackers to trigger a heap buffer overflow via a crafted data_size value. Attackers can submit a crafted ICO image whose data_size wraps the allocation in vips/icoload.c, corrupti…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123614",
-        "critical"
-      ]
-    },
-    {
-      "id": "0aef38c40c6a8cd1",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123550: OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 serv…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123550",
-      "published": "2026-11-08T02:16:46Z",
-      "summary": "OpenAM before 16.1.4 contains an authentication bypass vulnerability in its SAML v2.0 service provider that accepts unsigned assertions on the ECP (PAOS) and HTTP-Artifact bindings when WantAssertionsSigned is false. Unauthenticated remote attackers can submit forged assertions t…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123550",
-        "critical"
-      ]
-    },
-    {
-      "id": "5cd68ab994a92d05",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123549: OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-regis…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123549",
-      "published": "2026-11-08T02:16:46Z",
-      "summary": "OpenAM before 16.1.4 fails to enforce the Valid Creation Attributes list during self-registration, allowing anonymous attackers to set restricted attributes including group membership. Attackers can register through the legacy self-service REST endpoint or User Self-Service flow…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123549",
-        "critical"
-      ]
-    },
-    {
-      "id": "fbd71110e26539f9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123551: OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123551",
-      "published": "2026-11-08T02:16:46Z",
-      "summary": "OpenAM from 14.0.0 before 16.1.4 contains an information disclosure vulnerability that allows unauthenticated attackers to read live session tokens from the notification WebSocket. Attackers can bypass the agent-only check through an unvalidated internal forward on legacy Liberty…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123551",
-        "critical"
-      ]
-    },
-    {
-      "id": "a06a132edc04248a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124060: A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124060",
-      "published": "2026-11-07T21:17:00Z",
-      "summary": "A vulnerability was detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this issue is the function UploadCustomModule of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument File results in buffer overflow. The attack may be launched remotely. The exploit is now publi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124060",
-        "critical"
-      ]
-    },
-    {
-      "id": "5f972e3570384009",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124059: A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by thi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124059",
-      "published": "2026-11-07T19:17:28Z",
-      "summary": "A security vulnerability has been detected in TOTOLINK CA300-PoE 6.2c.884. Affected by this vulnerability is the function setWiFiWdsAddConfig of the file /cgi-bin/cstecgi.cgi. The manipulation of the argument ApCliKeyStr leads to buffer overflow. The attack may be initiated remot…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124059",
-        "critical"
-      ]
-    },
-    {
-      "id": "a8240359d0db911d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124058: A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function se…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124058",
-      "published": "2026-11-07T19:17:28Z",
-      "summary": "A weakness has been identified in TOTOLINK CA300-PoE 6.2c.884. Affected is the function setWiFiRepeaterConfig of the file /cgi-bin/cstecgi.cgi. Executing a manipulation of the argument ApCliKeyStr can lead to buffer overflow. The attack can be launched remotely. The exploit has b…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124058",
-        "critical"
-      ]
-    },
-    {
-      "id": "a265915a55087b79",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124057: A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the funct…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124057",
-      "published": "2026-11-07T18:17:21Z",
-      "summary": "A security flaw has been discovered in TOTOLINK CA300-PoE 6.2c.884. This impacts the function setWiFiMultipleConfig of the file /cgi-bin/cstecgi.cgi. Performing a manipulation of the argument Key1Str1 results in buffer overflow. The attack can be initiated remotely. The exploit h…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124057",
-        "critical"
-      ]
-    },
-    {
-      "id": "35ba72376eb6ef7a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123966: A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the fu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123966",
-      "published": "2026-11-07T14:17:01Z",
-      "summary": "A vulnerability was determined in Tenda AC19 16.03.10.07. Affected by this issue is the function saveParentControlInfo of the file /goform/saveParentControlInfo. This manipulation of the argument deviceId causes heap-based buffer overflow. The attack is possible to be carried out…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123966",
-        "critical"
-      ]
-    },
-    {
-      "id": "a5e07f442dbf680b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120984: A flaw was found in the Keycloak server's client management component. When a client is cr…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120984",
-      "published": "2026-11-07T14:17:01Z",
-      "summary": "A flaw was found in the Keycloak server's client management component. When a client is created or imported with authorization services enabled, the system fails to properly clear an internal session attribute used during the setup process. This allows an authenticated attacker w…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120984",
-        "critical"
-      ]
-    },
-    {
-      "id": "a8490c0c8c74747d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-122041: The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unau…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-122041",
-      "published": "2026-11-07T13:16:36Z",
-      "summary": "The Checkout Field Editor for WooCommerce (Pro) plugin for WordPress is vulnerable to unauthorized deletion of arbitrary attachments due to a missing capability/ownership check in the ajax_remove_uploaded() function in versions up to, and including, 3.8.0. The handler is register…",
-      "tags": [
-        "CVE",
-        "CVE-2026-122041",
-        "critical"
-      ]
-    },
-    {
-      "id": "79ec33eb7c39524a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119075: The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege esca…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119075",
-      "published": "2026-11-07T12:17:44Z",
-      "summary": "The Registration Form for WooCommerce plugin for WordPress is vulnerable to privilege escalation due to a missing allow-list check in the FormHandler::validate_checkout_fields() function in versions up to, and including, 1.1.4 The My Account registration path (validate_fields())…",
-      "tags": [
-        "CVE",
-        "CVE-2026-119075",
         "critical"
       ]
     },
