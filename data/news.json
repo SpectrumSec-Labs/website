@@ -1,18 +1,390 @@
 {
   "schema": 1,
-  "generated": "2026-11-10T07:30:51Z",
+  "generated": "2026-11-10T19:51:49Z",
   "items": [
     {
-      "id": "0abebc4967f96c8b",
+      "id": "64b3def3aacbf2e1",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-89126: SAP Web Dispatcher does not sufficiently validate certain network input processed by an in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89126",
-      "published": "2026-11-10T01:17:22Z",
-      "summary": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation cou…",
+      "title": "CVE-2026-96157: Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized at…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96157",
+      "published": "2026-11-10T19:22:13Z",
+      "summary": "Heap-based buffer overflow in Microsoft Windows Media Foundation allows an unauthorized attacker to execute code over a network.",
       "tags": [
         "CVE",
-        "CVE-2026-89126",
+        "CVE-2026-96157",
+        "critical"
+      ]
+    },
+    {
+      "id": "3b1fcf4d43f72491",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-96078: Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96078",
+      "published": "2026-11-10T19:22:06Z",
+      "summary": "Heap-based buffer overflow in Microsoft Color Management allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-96078",
+        "critical"
+      ]
+    },
+    {
+      "id": "1e9a87dbf9d4ac9b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-96067: Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attack…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96067",
+      "published": "2026-11-10T19:22:04Z",
+      "summary": "Integer overflow or wraparound in Microsoft Color Management allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-96067",
+        "critical"
+      ]
+    },
+    {
+      "id": "4d39f12a4a3fa8f5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-95962: Use after free in Windows Virtual Filtering Platform (VFP) allows an unauthorized attacker…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95962",
+      "published": "2026-11-10T19:21:51Z",
+      "summary": "Use after free in Windows Virtual Filtering Platform (VFP) allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-95962",
+        "critical"
+      ]
+    },
+    {
+      "id": "dc59d3583db3b4fe",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-95901: Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95901",
+      "published": "2026-11-10T19:21:43Z",
+      "summary": "Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-95901",
+        "critical"
+      ]
+    },
+    {
+      "id": "128fee2f589ca83d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-95882: Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attack…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95882",
+      "published": "2026-11-10T19:21:41Z",
+      "summary": "Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-95882",
+        "critical"
+      ]
+    },
+    {
+      "id": "c506428ef19de41b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-88243: Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88243",
+      "published": "2026-11-10T19:21:33Z",
+      "summary": "Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-88243",
+        "critical"
+      ]
+    },
+    {
+      "id": "274970db2bcbba74",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-88234: Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88234",
+      "published": "2026-11-10T19:21:32Z",
+      "summary": "Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-88234",
+        "critical"
+      ]
+    },
+    {
+      "id": "cae25323b5887a09",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-88218: Double free in Windows DNS allows an unauthorized attacker to execute code over a network.",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88218",
+      "published": "2026-11-10T19:21:28Z",
+      "summary": "Double free in Windows DNS allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-88218",
+        "critical"
+      ]
+    },
+    {
+      "id": "eed3fd639db0836b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-85844: Authentication bypass using an alternate path or channel in Windows Kerberos allows an una…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85844",
+      "published": "2026-11-10T19:21:25Z",
+      "summary": "Authentication bypass using an alternate path or channel in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-85844",
+        "critical"
+      ]
+    },
+    {
+      "id": "4eb73f5f4b5d9c89",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-80095: Improper neutralization of input during web page generation ('cross-site scripting') in Mi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80095",
+      "published": "2026-11-10T19:21:22Z",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-80095",
+        "critical"
+      ]
+    },
+    {
+      "id": "64e2287c52053fce",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-66801: Heap-based buffer overflow in Xbox allows an unauthorized attacker to execute code over a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66801",
+      "published": "2026-11-10T19:21:17Z",
+      "summary": "Heap-based buffer overflow in Xbox allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-66801",
+        "critical"
+      ]
+    },
+    {
+      "id": "f179ed501ea5be15",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120779: Improper control of generation of code ('code injection') in Visual Studio Code allows an…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779",
+      "published": "2026-11-10T19:20:27Z",
+      "summary": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-120779",
+        "critical"
+      ]
+    },
+    {
+      "id": "ab265a6340ecc815",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120002: Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to el…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
+      "published": "2026-11-10T19:20:26Z",
+      "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-120002",
+        "critical"
+      ]
+    },
+    {
+      "id": "c3ec89180712fffb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119990: Missing authentication for critical function in Azure OpenAI allows an unauthorized attack…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119990",
+      "published": "2026-11-10T19:20:24Z",
+      "summary": "Missing authentication for critical function in Azure OpenAI allows an unauthorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-119990",
+        "critical"
+      ]
+    },
+    {
+      "id": "f6ea991dea10be81",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119958: Out-of-bounds write in Windows LDAP - Lightweight Directory Access Protocol allows an unau…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119958",
+      "published": "2026-11-10T19:20:19Z",
+      "summary": "Out-of-bounds write in Windows LDAP - Lightweight Directory Access Protocol allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-119958",
+        "critical"
+      ]
+    },
+    {
+      "id": "06231048b8b9bf05",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-118740: Missing authorization in Aspire allows an unauthorized attacker to bypass a security featu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118740",
+      "published": "2026-11-10T19:19:50Z",
+      "summary": "Missing authorization in Aspire allows an unauthorized attacker to bypass a security feature over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-118740",
+        "critical"
+      ]
+    },
+    {
+      "id": "64162ad88defba38",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116945: Heap-based buffer overflow in SQL Server allows an unauthorized attacker to execute code o…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116945",
+      "published": "2026-11-10T19:19:27Z",
+      "summary": "Heap-based buffer overflow in SQL Server allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-116945",
+        "critical"
+      ]
+    },
+    {
+      "id": "7b4e433bb8b708ea",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-116928: Out-of-bounds write in Microsoft Windows Search Component allows an unauthorized attacker…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116928",
+      "published": "2026-11-10T19:19:21Z",
+      "summary": "Out-of-bounds write in Microsoft Windows Search Component allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-116928",
+        "critical"
+      ]
+    },
+    {
+      "id": "954bd64e7dde4ae9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114162: Incorrect authorization in Microsoft Graph allows an authorized attacker to elevate privil…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114162",
+      "published": "2026-11-10T19:19:09Z",
+      "summary": "Incorrect authorization in Microsoft Graph allows an authorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-114162",
+        "critical"
+      ]
+    },
+    {
+      "id": "fc9f5d819cb4ba3b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114160: No cwe for this issue in Azure Managed Grafana allows an unauthorized attacker to elevate…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114160",
+      "published": "2026-11-10T19:19:09Z",
+      "summary": "No cwe for this issue in Azure Managed Grafana allows an unauthorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-114160",
+        "critical"
+      ]
+    },
+    {
+      "id": "fe93219b9c4acbaa",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-114146: Incorrect authorization in ASP.NET Core allows an authorized attacker to elevate privilege…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114146",
+      "published": "2026-11-10T19:19:07Z",
+      "summary": "Incorrect authorization in ASP.NET Core allows an authorized attacker to elevate privileges over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-114146",
+        "critical"
+      ]
+    },
+    {
+      "id": "f6d7b0c80ca6eb4e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-112967: Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112967",
+      "published": "2026-11-10T19:18:46Z",
+      "summary": "Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-112967",
+        "critical"
+      ]
+    },
+    {
+      "id": "f34a44be41291191",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109467: Improper authentication in Azure DevOps allows an authorized attacker to execute code over…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109467",
+      "published": "2026-11-10T19:18:15Z",
+      "summary": "Improper authentication in Azure DevOps allows an authorized attacker to execute code over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-109467",
+        "critical"
+      ]
+    },
+    {
+      "id": "6b4c2a7ce677fc47",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-109454: Improper neutralization of input during web page generation ('cross-site scripting') in Mi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
+      "published": "2026-11-10T19:18:14Z",
+      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
+      "tags": [
+        "CVE",
+        "CVE-2026-109454",
+        "critical"
+      ]
+    },
+    {
+      "id": "f802327bf7c7bbbc",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Microsoft Patch Tuesday November 2027 , (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33508",
+      "published": "2026-11-10T19:09:32Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "f5abc9ae3aeb8386",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Apple Patches Everyting: November 2026 Edition, (Tue, Nov 10th)",
+      "url": "https://isc.sans.edu/diary/rss/33506",
+      "published": "2026-11-10T12:48:55Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "8bfb59b44d526795",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-60043: An unauthenticated remote attacker can perform a XSS attack on a logged in backend user al…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60043",
+      "published": "2026-11-10T09:17:24Z",
+      "summary": "An unauthenticated remote attacker can perform a XSS attack on a logged in backend user allowing for execution of multiple critical system actions. This could allow an attacker to shutdown the server or restore an uploaded backup. This can result in a loss of integrity and availa…",
+      "tags": [
+        "CVE",
+        "CVE-2026-60043",
         "critical"
       ]
     },
@@ -31,6 +403,20 @@
       ]
     },
     {
+      "id": "0abebc4967f96c8b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89126: SAP Web Dispatcher does not sufficiently validate certain network input processed by an in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89126",
+      "published": "2026-11-10T01:17:22Z",
+      "summary": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation cou…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89126",
+        "critical"
+      ]
+    },
+    {
       "id": "f0d1bd519022265d",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -41,20 +427,6 @@
       "tags": [
         "CVE",
         "CVE-2026-89103",
-        "critical"
-      ]
-    },
-    {
-      "id": "5850f554ea9f7f3b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76965: SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authori…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76965",
-      "published": "2026-11-10T01:17:20Z",
-      "summary": "SAP NetWeaver Application Server ABAP and ABAP Platform does not perform necessary authorization checks for certain internal functionality. An attacker with low privileges could invoke affected functionality to execute arbitrary operating system commands on the underlying host. S…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76965",
         "critical"
       ]
     },
@@ -73,118 +445,6 @@
       ]
     },
     {
-      "id": "22fd62081eda61b4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125086: A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125086",
-      "published": "2026-11-10T01:17:19Z",
-      "summary": "A vulnerability has been found in D-Link M60 1.12.B01. Impacted is the function system of the file /etc/emDaemon/mosquitto.conf of the component emDaemon MQTT Broker. Such manipulation leads to hard-coded credentials. The attack can be executed remotely. The exploit has been disc…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125086",
-        "critical"
-      ]
-    },
-    {
-      "id": "bf78f939a2057a99",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120017: SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incomi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120017",
-      "published": "2026-11-10T01:17:16Z",
-      "summary": "SAP NetWeaver AS ABAP and ABAP Platform does not perform sufficient verification of incoming authentication assertions under certain configurations. An unauthenticated attacker could submit specially crafted data to bypass authentication and impersonate arbitrary users, including…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120017",
-        "critical"
-      ]
-    },
-    {
-      "id": "fe890db61fe35a59",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109803: SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selectio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109803",
-      "published": "2026-11-10T01:17:14Z",
-      "summary": "SAP NetWeaver Knowledge Management (XML Forms) does not sufficiently restrict the selection of XSL transformations processed by the affected functionality. Under certain conditions, an authenticated user with access to the affected functionality could cause an unauthorized XSL tr…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109803",
-        "critical"
-      ]
-    },
-    {
-      "id": "342075fd0cd0ce12",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109798: SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly re…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109798",
-      "published": "2026-11-10T01:17:13Z",
-      "summary": "SAP BusinessObjects Business Intelligence Platform (Web Intelligence) does not properly restrict external entity resolution when processing OLAP connection requests. An authenticated attacker could exploit this vulnerability to access restricted resources, enabling them to read s…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109798",
-        "critical"
-      ]
-    },
-    {
-      "id": "584cad452d5de0b3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109795: SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input v…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109795",
-      "published": "2026-11-10T01:17:13Z",
-      "summary": "SAP NetWeaver does not perform necessary authorization checks and lacks sufficient input validation in certain remote-enabled functionality. An attacker with low privileges could send specially crafted input through a remote interface to inject and execute arbitrary code within t…",
-      "tags": [
-        "CVE",
-        "CVE-2026-109795",
-        "critical"
-      ]
-    },
-    {
-      "id": "5be09bb04ff61ae7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125384: INDOTALENT WHMS before 10.20261109 contains a default credentials vulnerability that allow…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125384",
-      "published": "2026-11-10T00:17:11Z",
-      "summary": "INDOTALENT WHMS before 10.20261109 contains a default credentials vulnerability that allows unauthenticated attackers to gain administrator access because UserAdminSeeder creates admin@root.com with password 123456. Attackers can log in with these credentials, which carry every a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125384",
-        "critical"
-      ]
-    },
-    {
-      "id": "12f6deb2d1bbc9ad",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125383: INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) before 10.20261109 contai…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125383",
-      "published": "2026-11-10T00:17:11Z",
-      "summary": "INDOTALENT WHMS (Asp.Net-Core-Inventory-Order-Management-System) before 10.20261109 contains an authentication bypass vulnerability caused by a hard-coded JWT signing key, issuer and audience in appsettings.json. Unauthenticated remote attackers can forge tokens for any user ID a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125383",
-        "critical"
-      ]
-    },
-    {
-      "id": "0e51d2c828142c56",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125370: Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows una…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125370",
-      "published": "2026-11-10T00:17:09Z",
-      "summary": "Kubero 3.0.0 through 3.1.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to forge administrative JWTs by using a hardcoded fallback signing secret when JWT_SECRET is unset. Attackers can sign tokens with arbitrary role, userGroups an…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125370",
-        "critical"
-      ]
-    },
-    {
       "id": "dcde3d2c46f168c1",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -193,90 +453,6 @@
       "published": "2026-11-09T18:18:15Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "a6d0312d0db65869",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119756: Tasmota through 16.0.0, fixed in commit e97e1e4, contains a heap out-of-bounds write vulne…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119756",
-      "published": "2026-11-09T18:17:22Z",
-      "summary": "Tasmota through 16.0.0, fixed in commit e97e1e4, contains a heap out-of-bounds write vulnerability in SendReceiveDeviceGroupMessage() that allows unauthenticated attackers on the local network to corrupt heap memory by sending crafted Device Groups messages over UDP port 4447 tha…",
-      "tags": [
-        "CVE",
-        "CVE-2026-119756",
-        "critical"
-      ]
-    },
-    {
-      "id": "c1894943897633bf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124079: rConfig Core 8.0.0 before 8.2.19 and rConfig Pro before 8.4.1 contain a deserialization of…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124079",
-      "published": "2026-11-09T13:17:07Z",
-      "summary": "rConfig Core 8.0.0 before 8.2.19 and rConfig Pro before 8.4.1 contain a deserialization of untrusted data vulnerability that allows unauthenticated network attackers to execute arbitrary code by pushing a crafted serialized job onto the Redis-backed Laravel Horizon queue, which r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124079",
-        "critical"
-      ]
-    },
-    {
-      "id": "95ce5f79e1b34865",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124585: A vulnerability was found in Chengdu Feiyuxing Technology VW2100 and VEC10GP 1.0 B-MB3W202…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124585",
-      "published": "2026-11-09T09:16:59Z",
-      "summary": "A vulnerability was found in Chengdu Feiyuxing Technology VW2100 and VEC10GP 1.0 B-MB3W202-210825-r11775. This issue affects the function add_expmac of the file var/html/webserver of the component Web Administration Interface. The manipulation of the argument mac results in os co…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124585",
-        "critical"
-      ]
-    },
-    {
-      "id": "25a7abc05e07f201",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124580: A vulnerability was found in Chengdu Feiyuxing Technology VW2100 and VEC10GP 1.0 B-MB3W202…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124580",
-      "published": "2026-11-09T08:17:02Z",
-      "summary": "A vulnerability was found in Chengdu Feiyuxing Technology VW2100 and VEC10GP 1.0 B-MB3W202-210825-r11775. This impacts the function handle_wechat_cn_wifi of the file var/html/webserver of the component Weixin Auth Endpoint. The manipulation of the argument extend results in os co…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124580",
-        "critical"
-      ]
-    },
-    {
-      "id": "618d03f061b9e8e3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124577: A weakness has been identified in Intelbras SG 2404 PoE L2+ 1.00.70/1.00.72. The affected…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124577",
-      "published": "2026-11-09T08:17:02Z",
-      "summary": "A weakness has been identified in Intelbras SG 2404 PoE L2+ 1.00.70/1.00.72. The affected element is an unknown function of the file /EXCU_SHELL of the component Web Management Interface. Executing a manipulation can lead to improper authentication. The attack can be launched rem…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124577",
-        "critical"
-      ]
-    },
-    {
-      "id": "02f4d9d114423a16",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124560: A vulnerability was found in D-Link DIR-878 1.20B05. This affects the function GetCAPTCHAs…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124560",
-      "published": "2026-11-09T03:16:38Z",
-      "summary": "A vulnerability was found in D-Link DIR-878 1.20B05. This affects the function GetCAPTCHAsetting of the file bin/prog.cgi of the component HNAP Handler. Performing a manipulation of the argument uid results in heap-based buffer overflow. The attack can be initiated remotely. The…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124560",
-        "critical"
       ]
     },
     {
@@ -332,90 +508,6 @@
       ]
     },
     {
-      "id": "e88310d07957b1f9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-6715: IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorp…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-6715",
-      "published": "2026-11-08T19:17:39Z",
-      "summary": "IBM Concert 1.0 through 3.0.1.1 allows an attacker can supply crafted input that is incorporated into an operating system command without adequate validation or sanitization. Successful exploitation allows remote attackers to execute arbitrary commands on the underlying operating…",
-      "tags": [
-        "CVE",
-        "CVE-2026-6715",
-        "critical"
-      ]
-    },
-    {
-      "id": "fc2f0ad662d036bb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-17466: IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain se…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-17466",
-      "published": "2026-11-08T18:17:03Z",
-      "summary": "IBM Optim 1.0.0, 1.1.0, and 1.2.0 could allow a remote authenticated attacker to obtain sensitive information due to path traversal.",
-      "tags": [
-        "CVE",
-        "CVE-2026-17466",
-        "critical"
-      ]
-    },
-    {
-      "id": "db58cb19d5fe601d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-15266: IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-15266",
-      "published": "2026-11-08T18:17:02Z",
-      "summary": "IBM Concert 1.0 through 3.0.1.1 contains components that allow potentially unsafe command execution, which could be exploited to run arbitrary system commands on the host.",
-      "tags": [
-        "CVE",
-        "CVE-2026-15266",
-        "critical"
-      ]
-    },
-    {
-      "id": "fe11ef8288272127",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114464: IBM Process Mining 2.0.0 through 2.2.1 could allow a remote attacker to obtain sensitive i…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114464",
-      "published": "2026-11-08T17:16:36Z",
-      "summary": "IBM Process Mining 2.0.0 through 2.2.1 could allow a remote attacker to obtain sensitive information due to improper access control.",
-      "tags": [
-        "CVE",
-        "CVE-2026-114464",
-        "critical"
-      ]
-    },
-    {
-      "id": "146c922c18187ccb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-107331: IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-107331",
-      "published": "2026-11-08T17:16:35Z",
-      "summary": "IBM DataStage on Cloud Pak for Data 5.4.0.0 could allow a remote authenticated attacker to obtain sensitive information due to an absolute-path traversal vulnerability.",
-      "tags": [
-        "CVE",
-        "CVE-2026-107331",
-        "critical"
-      ]
-    },
-    {
-      "id": "319db0456fd4dff9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101117: IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.2.2 could allow a remote attacker to bypas…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101117",
-      "published": "2026-11-08T16:16:36Z",
-      "summary": "IBM WebSphere Extreme Scale 8.6.1.0 through 8.6.2.2 could allow a remote attacker to bypass security restrictions due to improper Content Security Policy configuration.",
-      "tags": [
-        "CVE",
-        "CVE-2026-101117",
-        "critical"
-      ]
-    },
-    {
       "id": "4b7df559b706314d",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -425,76 +517,6 @@
       "tags": [
         "CVE-2026-123158",
         "research"
-      ]
-    },
-    {
-      "id": "0660a6a49f109e63",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124490: OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClien…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124490",
-      "published": "2026-11-08T14:18:18Z",
-      "summary": "OpenEMR before 8.3.0 contains a path traversal vulnerability in the RingCentral RCFaxClient disposeDocument() method of oe-module-faxsms that allows authenticated attackers to read and write arbitrary files via the file_path parameter. Attackers can use action=download to read cr…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124490",
-        "critical"
-      ]
-    },
-    {
-      "id": "50e3cfc48358f147",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124469: OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-invento…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124469",
-      "published": "2026-11-08T14:18:15Z",
-      "summary": "OpenEMR before 8.3.0 contains an SQL injection vulnerability in the Fee Sheet drug-inventory lookup (DrugSalesService::sellDrug) that interpolates the prod[N][warehouse] POST field into an ORDER BY clause. Low-privileged authenticated users can submit Fee Sheet product lines with…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124469",
-        "critical"
-      ]
-    },
-    {
-      "id": "fc0d5b9934912f4f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124450: OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124450",
-      "published": "2026-11-08T14:18:12Z",
-      "summary": "OpenEMR before 8.3.0 contains a broken access control and path traversal vulnerability in the fax/sms module disposeDocument action via an unvalidated file_path parameter. Authenticated low-privilege users can read sqlconf.php to recover database credentials and write arbitrary f…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124450",
-        "critical"
-      ]
-    },
-    {
-      "id": "f2377a87253d3479",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124445: OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ig…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124445",
-      "published": "2026-11-08T14:18:11Z",
-      "summary": "OpenEMR from 7.0.1 before 8.4.0 contains a flaw in src/Common/Auth/OneTimeAuth.php that ignores the enforce_onetime_use and max_access_count flags, never revokes consumed service_auth tokens, and checks login_pin without rate limiting or strict comparison. Attackers holding a cap…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124445",
-        "critical"
-      ]
-    },
-    {
-      "id": "33693608105e9df7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-124440: Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the ap…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124440",
-      "published": "2026-11-08T14:18:10Z",
-      "summary": "Kyverno from 1.19.1 before 1.19.2 contains an authorization bypass vulnerability in the apiCall namespace clamp that allows namespace tenants to issue cross-namespace and cluster-scoped API requests by appending malformed percent-escapes to urlPath. Attackers can create namespace…",
-      "tags": [
-        "CVE",
-        "CVE-2026-124440",
-        "critical"
       ]
     },
     {
@@ -1451,17 +1473,6 @@
       ]
     },
     {
-      "id": "f71fb556fb862bd9",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Panchan's Mining Island [Guest Diary], (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33426",
-      "published": "2026-10-15T01:10:57Z",
-      "tags": [
-        "research"
-      ]
-    },
-    {
       "id": "a28d52db14409911",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1472,17 +1483,6 @@
       "tags": [
         "KEV",
         "CVE-2026-21589"
-      ]
-    },
-    {
-      "id": "ec26e3c9fb04b850",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Orphaned VBA Projects Inside DWG Files, (Wed, Oct 14th)",
-      "url": "https://isc.sans.edu/diary/rss/33420",
-      "published": "2026-10-14T06:49:46Z",
-      "tags": [
-        "research"
       ]
     },
     {
@@ -2140,18 +2140,6 @@
       "url": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
       "published": "2026-08-13T12:00:00Z",
       "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "c6485440726300b8",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Help shape the future of resilient private 5G",
-      "url": "https://www.ncsc.gov.uk/blogs/help-shape-the-future-of-resilient-private-5g",
-      "published": "2026-08-12T12:00:00Z",
-      "summary": "The NCSC wants to collaborate with organisations developing technologies and approaches for secure, resilient and deployable private 5G",
       "tags": [
         "guidance"
       ]
