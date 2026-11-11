@@ -1,7 +1,63 @@
 {
   "schema": 1,
-  "generated": "2026-11-10T19:51:49Z",
+  "generated": "2026-11-11T06:47:40Z",
   "items": [
+    {
+      "id": "6c5ff47cf6d5df5b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-126542: WWBN AVideo 6.5 through 29.7.1 contains an authentication bypass vulnerability that allows…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126542",
+      "published": "2026-11-11T01:17:15Z",
+      "summary": "WWBN AVideo 6.5 through 29.7.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to log in as any user via Hybridauth social login display names. Attackers can set their X, Facebook, Yahoo or LinkedIn display name to a victim's username and wit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-126542",
+        "critical"
+      ]
+    },
+    {
+      "id": "54d19034e9f07ea5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-89324: The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all ve…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89324",
+      "published": "2026-11-10T22:21:14Z",
+      "summary": "The Basel Post Types plugin for WordPress is vulnerable to Authentication Bypass in all versions up to, and including, 1.18. The vulnerability exists because a missing-quotes coding error in the defined() call for SECURE_AUTH_SALT inside BASEL_Auth::get_config() causes PHP to eva…",
+      "tags": [
+        "CVE",
+        "CVE-2026-89324",
+        "critical"
+      ]
+    },
+    {
+      "id": "584320e3cbcba8a7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121904: Adobe Connect is affected by a stored Cross-Site Scripting (XSS) vulnerability that could…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121904",
+      "published": "2026-11-10T22:18:27Z",
+      "summary": "Adobe Connect is affected by a stored Cross-Site Scripting (XSS) vulnerability that could be abused by a low-privileged attacker to inject malicious scripts into vulnerable form fields. Malicious JavaScript may be executed in a victim's browser when they browse to the page contai…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121904",
+        "critical"
+      ]
+    },
+    {
+      "id": "0a91eed986a80c64",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-121355: Adobe Connect is affected by an Incorrect Authorization vulnerability that could result in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-121355",
+      "published": "2026-11-10T22:18:25Z",
+      "summary": "Adobe Connect is affected by an Incorrect Authorization vulnerability that could result in privilege escalation. An attacker could exploit this vulnerability to gain elevated access to sensitive information or functionality. Exploitation of this issue does not require user intera…",
+      "tags": [
+        "CVE",
+        "CVE-2026-121355",
+        "critical"
+      ]
+    },
     {
       "id": "64b3def3aacbf2e1",
       "source": "nvd-recent",
@@ -375,6 +431,20 @@
       ]
     },
     {
+      "id": "f4b34728a6f8e326",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Six Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/10/cisa-adds-six-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-10T12:00:00Z",
+      "summary": "CISA has added six new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-20320 Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability CVE-2026-111560 Barracuda Networks Multiple…",
+      "tags": [
+        "CVE-2026-111560",
+        "CVE-2026-20320",
+        "advisory"
+      ]
+    },
+    {
       "id": "8bfb59b44d526795",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -389,59 +459,81 @@
       ]
     },
     {
-      "id": "085656b3fc6fe3b0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-89119: SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manag…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89119",
-      "published": "2026-11-10T01:17:22Z",
-      "summary": "SAP Web Dispatcher and SAP NetWeaver Application Server ABAP (Internet Communication Manager) do not perform sufficient request validation in certain administrative functionality. In the context of Application Server ABAP and SAP Web Dispatcher, an unauthenticated attacker could…",
+      "id": "10778b0220258709",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-125350 — Google Chromium: Google Chromium Use-After-Free Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125350",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Google Chromium contains a use-after-free vulnerability in the XML component that could allow a remote attacker to execute arbitrary code inside the sandbox via a specially crafted webpage. This vulnerability could affect multiple web browsers that utilize Chromium, including, bu…",
       "tags": [
-        "CVE",
-        "CVE-2026-89119",
-        "critical"
+        "KEV",
+        "CVE-2026-125350"
       ]
     },
     {
-      "id": "0abebc4967f96c8b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-89126: SAP Web Dispatcher does not sufficiently validate certain network input processed by an in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89126",
-      "published": "2026-11-10T01:17:22Z",
-      "summary": "SAP Web Dispatcher does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successful exploitation cou…",
+      "id": "1d7669dc0617ad48",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-111793 — Openwave Messaging Limited Webtop Media Transcoder: Openwave Messaging Limited Webtop Media Transcoder Incorrect Resource Transfer Between Spheres Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111793",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Openwave Messaging Limited Webtop Media Transcoder contains an incorrect resource transfer between spheres vulnerability that may allow an authenticated user to process and convert unintended document types if bypassing the Webmail experience.",
       "tags": [
-        "CVE",
-        "CVE-2026-89126",
-        "critical"
+        "KEV",
+        "CVE-2026-111793"
       ]
     },
     {
-      "id": "f0d1bd519022265d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-89103: SAP Gateway activates the default Access Control List with high privileges allowing catego…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-89103",
-      "published": "2026-11-10T01:17:21Z",
-      "summary": "SAP Gateway activates the default Access Control List with high privileges allowing categorization of external attacker as internal application server. As a result an unauthenticated attacker with network access to the SAP Gateway could exploit this weakness to potentially perfor…",
+      "id": "4e812905eca94055",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-111560 — Barracuda Networks Multiple Products: Barracuda Networks Multiple Products OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111560",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Barracuda Networks Email Security Gateway (ESG), Load Balancer, Application Delivery Controller (ADC), Message Archiver (BMA), WAF Control Center (WCC), Web Application Firewall (WAF), and Web Security Gateway (WSG) contain an OS command injection vulnerability. This vulnerabilit…",
       "tags": [
-        "CVE",
-        "CVE-2026-89103",
-        "critical"
+        "KEV",
+        "CVE-2026-111560"
       ]
     },
     {
-      "id": "3a43017c7027cdc3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76964: SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76964",
-      "published": "2026-11-10T01:17:20Z",
-      "summary": "SAP NetWeaver Application Server ABAP does not sufficiently validate certain network input processed by an internal component. An unauthenticated attacker could send specially crafted network traffic to trigger a memory corruption condition in the affected functionality. Successf…",
+      "id": "5d03ef12e6a10a40",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-116606 — Barracuda Networks Barracuda Email Security Gateway (ESG): Barracuda Networks Email Security Gateway (ESG) Authentication Bypass Using an Alternate Path or Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116606",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Barracuda Networks Email Security Gateway (ESG) contains an authentication bypass using an alternate path or channel that could allow an unauthenticated remote attacker to invoke a configuration-import function and restore a crafted, compatible backup archive, resulting in unauth…",
       "tags": [
-        "CVE",
-        "CVE-2026-76964",
-        "critical"
+        "KEV",
+        "CVE-2026-116606"
+      ]
+    },
+    {
+      "id": "67aac981b3588005",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-20320 — Cisco BroadWorks: Cisco BroadWorks Improper Restriction of XML External Entity Reference Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-20320",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Cisco BroadWorks contains an improper restriction of XML external entity reference vulnerability that could allow an unauthenticated, remote attacker to read sensitive configuration information on an affected system.",
+      "tags": [
+        "KEV",
+        "CVE-2026-20320"
+      ]
+    },
+    {
+      "id": "a2dd93c853c3ece8",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-124194 — Microsoft Office: Microsoft Office Outlook Missing User Interaction for Potentially Unsafe Action Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-124194",
+      "published": "2026-11-10T00:00:00Z",
+      "summary": "Microsoft Office Outlook contains a missing user interaction for potentially unsafe action vulnerability that allows an unauthorized attacker to perform spoofing over a network.",
+      "tags": [
+        "KEV",
+        "CVE-2026-124194"
       ]
     },
     {
@@ -453,6 +545,21 @@
       "published": "2026-11-09T18:18:15Z",
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "b13d0e78edd1a3e7",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/09/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-09T12:00:00Z",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-102895 GPUStack Improper Authentication Vulnerability CVE-2026-116779 SignalWire FreeSwitch Code Injection Vulnerability CVE-2026-1231…",
+      "tags": [
+        "CVE-2026-102895",
+        "CVE-2026-116779",
+        "CVE-2026-1231",
+        "advisory"
       ]
     },
     {
@@ -529,6 +636,19 @@
       "summary": "Cyber Briefs are monthly executive reports that aim to present an overview of the most relevant developments in cyber security, based exclusively on open sources, with a view to inform political leadership and senior management in its constituency. Additional information on any i…",
       "tags": [
         "threat-intel"
+      ]
+    },
+    {
+      "id": "2e68c49691546005",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-11-06T12:00:00Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector f…",
+      "tags": [
+        "CVE-2026-19868",
+        "advisory"
       ]
     },
     {
@@ -1211,42 +1331,6 @@
       ]
     },
     {
-      "id": "844f494ee2626f9c",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
-      "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "96a49d1740a18b8a",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Capital Embedded AR Classic",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-04",
-      "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary The products listed below contain an out-of-bounds read vulnerability that could allow an attacker to cause abnormal product behavior, instability, or denial of service. Siemens has released a new version for Capital Embedded AR Classic R20-11 and recommends upd…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "afec29b000e9df44",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens RUGGEDCOM CROSSBOW Station Access Controller",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-15",
-      "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW Station Access Controller (SAC) contains multiple vulnerabilities in the integrated SQLite component that could allow an attacker to execute arbitrary code, cause a denial of service, or obtain sensitive information. Siemens has released a new…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
       "id": "8c93f156e6785774",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -1643,71 +1727,6 @@
       ]
     },
     {
-      "id": "3329164850c00ca7",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2015-5477 — ISC BIND: ISC BIND Data Processing Errors Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-5477",
-      "published": "2026-10-08T00:00:00Z",
-      "summary": "ISC BIND contains a data processing errors vulnerability that could allow remote attackers to cause a denial of service via TKEY queries.",
-      "tags": [
-        "KEV",
-        "CVE-2015-5477"
-      ]
-    },
-    {
-      "id": "643268a2ab4f71b6",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2023-22894 — Strapi Strapi: Strapi Cleartext Storage of Sensitive Information Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-22894",
-      "published": "2026-10-08T00:00:00Z",
-      "summary": "Strapi contains a cleartext storage of sensitive information vulnerability that could allow attackers with access to the admin panel to discover sensitive user details via the query filter. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are…",
-      "tags": [
-        "KEV",
-        "CVE-2023-22894"
-      ]
-    },
-    {
-      "id": "6d4b290d6194eeb4",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2021-3199 — ONLYOFFICE Docs: ONLYOFFICE Docs Server Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2021-3199",
-      "published": "2026-10-08T00:00:00Z",
-      "summary": "ONLYOFFICE Docs contains a path traversal vulnerability that can occur when JWT is used, via a /.. sequence in an image upload parameter and could allow for remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2021-3199"
-      ]
-    },
-    {
-      "id": "a170cad5cf8a8376",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2016-3081 — Apache Struts: Apache Struts Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2016-3081",
-      "published": "2026-10-08T00:00:00Z",
-      "summary": "Apache Struts contains a command injection vulnerability that could allow remote attackers to execute arbitrary code via method:prefix when Dynamic Method Invocation is enabled.",
-      "tags": [
-        "KEV",
-        "CVE-2016-3081"
-      ]
-    },
-    {
-      "id": "b7b5aa464b4a6ce4",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2015-3306 — ProFTPD ProFTPD: ProFTPD Improper Access Control Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2015-3306",
-      "published": "2026-10-08T00:00:00Z",
-      "summary": "ProFTPD contains an improper access control vulnerability that could allow remote attackers to read and write to arbitrary files via the site cpfr and site cpto commands.",
-      "tags": [
-        "KEV",
-        "CVE-2015-3306"
-      ]
-    },
-    {
       "id": "0aa7163c9d2cb844",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1754,19 +1773,6 @@
       "summary": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU500 firmware versions that were developed…",
       "tags": [
         "ics"
-      ]
-    },
-    {
-      "id": "ef91de618747d24e",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-88779 — Citrix NetScaler: Citrix NetScaler Improper Restriction of Operations within the Bounds of a Memory Buffer Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88779",
-      "published": "2026-10-04T00:00:00Z",
-      "summary": "Citrix NetScaler ADC (formerly Citrix ADC) and Citrix NetScaler Gateway (formerly Citrix Gateway) contain an improper restriction of operations within the bounds of a memory buffer vulnerability that could allow for a denial of service.",
-      "tags": [
-        "KEV",
-        "CVE-2026-88779"
       ]
     },
     {
