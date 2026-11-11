@@ -1,7 +1,89 @@
 {
   "schema": 1,
-  "generated": "2026-11-11T06:47:40Z",
+  "generated": "2026-11-11T19:43:47Z",
   "items": [
+    {
+      "id": "6e03a88db2e41bd3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-126768: OpsTree REMS through 1.0.0 contains an authentication bypass vulnerability that allows una…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126768",
+      "published": "2026-11-11T19:17:37Z",
+      "summary": "OpsTree REMS through 1.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to obtain valid JWTs by setting the client-controlled is_local_auth field. Attackers can send a POST /api/v1/user/login/ request for the admin account with an invalid…",
+      "tags": [
+        "CVE",
+        "CVE-2026-126768",
+        "critical"
+      ]
+    },
+    {
+      "id": "57269cc5d8118b43",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110697: A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pa…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110697",
+      "published": "2026-11-11T17:17:14Z",
+      "summary": "A flaw was found in Quay where the robot account listing function constructs a SQL LIKE pattern from user-controlled namespace names without escaping wildcard metacharacters. An attacker who creates a namespace containing an underscore character can match and retrieve robot accou…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110697",
+        "critical"
+      ]
+    },
+    {
+      "id": "ccfd520939bbbded",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-85632: Missing authentication for critical function and Improper validation of integrity check va…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85632",
+      "published": "2026-11-11T15:17:25Z",
+      "summary": "Missing authentication for critical function and Improper validation of integrity check value vulnerability in Sipay Electronic Money and Payment Services Inc. WooCommerce Virtual POS Module allows Authentication Bypass and Application API Message Manipulation via Man-in-the-Midd…",
+      "tags": [
+        "CVE",
+        "CVE-2026-85632",
+        "critical"
+      ]
+    },
+    {
+      "id": "11e67ade26e14242",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123710: A flaw was found in Red Hat Quay. An unauthenticated client can obtain an anonymous regist…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123710",
+      "published": "2026-11-11T15:17:18Z",
+      "summary": "A flaw was found in Red Hat Quay. An unauthenticated client can obtain an anonymous registry token with an audience it controls, present that token to the service key rotation endpoint, and install its own approved signing key with no expiry. Registry tokens signed with that key…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123710",
+        "critical"
+      ]
+    },
+    {
+      "id": "7554b86e0c960299",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-126537: The Ninja Forms - File Uploads add-on for WordPress is vulnerable to Arbitrary File Deleti…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126537",
+      "published": "2026-11-11T13:17:23Z",
+      "summary": "The Ninja Forms - File Uploads add-on for WordPress is vulnerable to Arbitrary File Deletion (and arbitrary file read via S3/Dropbox/Google Drive exfiltration) in versions up to, and including, 3.3.36. The flaw spans NF_FU_Fields_Upload::process() in includes/fields/upload.php…",
+      "tags": [
+        "CVE",
+        "CVE-2026-126537",
+        "critical"
+      ]
+    },
+    {
+      "id": "6df26830d7a11a57",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "NCSC scheme will help critical organisations test their cyber defences",
+      "url": "https://www.ncsc.gov.uk/news/ncsc-scheme-help-critical-organisations-test-their-cyber-defences",
+      "published": "2026-11-11T12:00:00Z",
+      "summary": "New NCSC Cyber Adversary Simulation scheme will help critical organisations strengthen their resilience through rigorous, real-world testing by trusted providers.",
+      "tags": [
+        "guidance"
+      ]
+    },
     {
       "id": "6c5ff47cf6d5df5b",
       "source": "nvd-recent",
@@ -353,62 +435,6 @@
       ]
     },
     {
-      "id": "fe93219b9c4acbaa",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114146: Incorrect authorization in ASP.NET Core allows an authorized attacker to elevate privilege…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114146",
-      "published": "2026-11-10T19:19:07Z",
-      "summary": "Incorrect authorization in ASP.NET Core allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-114146",
-        "critical"
-      ]
-    },
-    {
-      "id": "f6d7b0c80ca6eb4e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-112967: Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-112967",
-      "published": "2026-11-10T19:18:46Z",
-      "summary": "Heap-based buffer overflow in Windows Xbox Live Networking Service allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-112967",
-        "critical"
-      ]
-    },
-    {
-      "id": "f34a44be41291191",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109467: Improper authentication in Azure DevOps allows an authorized attacker to execute code over…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109467",
-      "published": "2026-11-10T19:18:15Z",
-      "summary": "Improper authentication in Azure DevOps allows an authorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-109467",
-        "critical"
-      ]
-    },
-    {
-      "id": "6b4c2a7ce677fc47",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109454: Improper neutralization of input during web page generation ('cross-site scripting') in Mi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109454",
-      "published": "2026-11-10T19:18:14Z",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to perform spoofing over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-109454",
-        "critical"
-      ]
-    },
-    {
       "id": "f802327bf7c7bbbc",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -442,20 +468,6 @@
         "CVE-2026-111560",
         "CVE-2026-20320",
         "advisory"
-      ]
-    },
-    {
-      "id": "8bfb59b44d526795",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-60043: An unauthenticated remote attacker can perform a XSS attack on a logged in backend user al…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-60043",
-      "published": "2026-11-10T09:17:24Z",
-      "summary": "An unauthenticated remote attacker can perform a XSS attack on a logged in backend user allowing for execution of multiple critical system actions. This could allow an attacker to shutdown the server or restore an uploaded backup. This can result in a loss of integrity and availa…",
-      "tags": [
-        "CVE",
-        "CVE-2026-60043",
-        "critical"
       ]
     },
     {
@@ -2134,18 +2146,6 @@
       "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
       "published": "2026-08-20T12:00:00Z",
       "summary": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "7e155a93bd41d6e2",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "How BitLocker PINs help protect your data and devices",
-      "url": "https://www.ncsc.gov.uk/blogs/how-bitlocker-pins-help-protect-your-data-and-devices",
-      "published": "2026-08-13T12:00:00Z",
-      "summary": "Using a PIN mitigates many BitLocker vulnerabilities. Make sure you’re ready for the next one...",
       "tags": [
         "guidance"
       ]
