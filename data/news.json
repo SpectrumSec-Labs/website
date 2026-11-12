@@ -1,7 +1,19 @@
 {
   "schema": 1,
-  "generated": "2026-11-12T07:25:36Z",
+  "generated": "2026-11-12T20:08:05Z",
   "items": [
+    {
+      "id": "f929241d501729b0",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Exploit Attempts for GPUStack Authentication Bypass (CVE-2026-102895), (Thu, Nov 12th)",
+      "url": "https://isc.sans.edu/diary/rss/33514",
+      "published": "2026-11-12T11:56:24Z",
+      "tags": [
+        "CVE-2026-102895",
+        "research"
+      ]
+    },
     {
       "id": "8316049e3c1480aa",
       "source": "nvd-recent",
@@ -1501,17 +1513,6 @@
       "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
       "url": "https://isc.sans.edu/diary/rss/33434",
       "published": "2026-10-18T12:59:30Z",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "6d11cb1202f1c0c8",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Small Agents, Smaller Blast Radius: Controlling What AI Can Do, (Fri, Oct 16th)",
-      "url": "https://isc.sans.edu/diary/rss/33430",
-      "published": "2026-10-16T00:46:35Z",
       "tags": [
         "research"
       ]
