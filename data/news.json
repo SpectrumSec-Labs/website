@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-11-11T19:43:47Z",
+  "generated": "2026-11-12T07:25:36Z",
   "items": [
+    {
+      "id": "8316049e3c1480aa",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76954: An improper neutralization of special elements used in an SQL command vulnerability in the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76954",
+      "published": "2026-11-12T04:17:20Z",
+      "summary": "An improper neutralization of special elements used in an SQL command vulnerability in the Auth API in Synology DiskStation Manager (DSM) before 7.2.1-69057-13, 7.2.2-72806-10, 7.3.2-86009-5, and 7.4.1-90080-1 allows remote attackers to read or write arbitrary files and conduct d…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76954",
+        "critical"
+      ]
+    },
+    {
+      "id": "ff246765d50cbdd5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-126812: blueprintUE Self-Hosted Edition before 4.3.7 contains an insecure default configuration in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126812",
+      "published": "2026-11-11T21:16:45Z",
+      "summary": "blueprintUE Self-Hosted Edition before 4.3.7 contains an insecure default configuration in its Docker Compose examples that sets MYSQL_ALLOW_EMPTY_PASSWORD=yes in database.env and publishes MariaDB on port 3306. Unauthenticated attackers reaching the Docker host on port 3306 can…",
+      "tags": [
+        "CVE",
+        "CVE-2026-126812",
+        "critical"
+      ]
+    },
+    {
+      "id": "cab72cf6dc801501",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-126797: NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-126797",
+      "published": "2026-11-11T21:16:43Z",
+      "summary": "NextScan 1.1.0 through 1.2.0 contains an authentication bypass vulnerability in ns-admin that allows unauthenticated attackers to forge administrator tokens using a hardcoded JWT signing key. Attackers can sign an HS256 X-Access-Token carrying the public super administrator role…",
+      "tags": [
+        "CVE",
+        "CVE-2026-126797",
+        "critical"
+      ]
+    },
     {
       "id": "6e03a88db2e41bd3",
       "source": "nvd-recent",
@@ -389,48 +431,6 @@
       "tags": [
         "CVE",
         "CVE-2026-116945",
-        "critical"
-      ]
-    },
-    {
-      "id": "7b4e433bb8b708ea",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116928: Out-of-bounds write in Microsoft Windows Search Component allows an unauthorized attacker…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116928",
-      "published": "2026-11-10T19:19:21Z",
-      "summary": "Out-of-bounds write in Microsoft Windows Search Component allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-116928",
-        "critical"
-      ]
-    },
-    {
-      "id": "954bd64e7dde4ae9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114162: Incorrect authorization in Microsoft Graph allows an authorized attacker to elevate privil…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114162",
-      "published": "2026-11-10T19:19:09Z",
-      "summary": "Incorrect authorization in Microsoft Graph allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-114162",
-        "critical"
-      ]
-    },
-    {
-      "id": "fc9f5d819cb4ba3b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114160: No cwe for this issue in Azure Managed Grafana allows an unauthorized attacker to elevate…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114160",
-      "published": "2026-11-10T19:19:09Z",
-      "summary": "No cwe for this issue in Azure Managed Grafana allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-114160",
         "critical"
       ]
     },
