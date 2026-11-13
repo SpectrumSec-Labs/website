@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-11-12T20:08:05Z",
+  "generated": "2026-11-13T06:57:36Z",
   "items": [
+    {
+      "id": "9ec7415c4afe1244",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Macfinger ClickFix campaign sends DownTheDRAIN infostealer for macOS, (Fri, Nov 13th)",
+      "url": "https://isc.sans.edu/diary/rss/33518",
+      "published": "2026-11-13T03:41:41Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "f929241d501729b0",
       "source": "sans-isc",
@@ -1504,17 +1515,6 @@
         "CVE-2026-96654",
         "CVE-2026-96655",
         "CVE-2026-96656"
-      ]
-    },
-    {
-      "id": "aea64b1b41f60719",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Orphaned VBA Projects Inside DWG Files: YARA Rule, (Sun, Oct 18th)",
-      "url": "https://isc.sans.edu/diary/rss/33434",
-      "published": "2026-10-18T12:59:30Z",
-      "tags": [
-        "research"
       ]
     },
     {
