@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-11-13T19:53:00Z",
+  "generated": "2026-11-15T18:58:16Z",
   "items": [
+    {
+      "id": "40c76eb04edd8ce7",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "YARA-X 1.23.0 Release, (Sun, Nov 15th)",
+      "url": "https://isc.sans.edu/diary/rss/33496",
+      "published": "2026-11-15T18:17:27Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "9ec7415c4afe1244",
       "source": "sans-isc",
@@ -1389,19 +1400,6 @@
       "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution wit…",
       "tags": [
         "advisory"
-      ]
-    },
-    {
-      "id": "8c93f156e6785774",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Critical PHP Vulnerability (CVE-2026-109618, CVE-2026-109619) [infocon yellow], (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33440",
-      "published": "2026-10-21T15:12:02Z",
-      "tags": [
-        "CVE-2026-109618",
-        "CVE-2026-109619",
-        "research"
       ]
     },
     {
