@@ -1,7 +1,20 @@
 {
   "schema": 1,
-  "generated": "2026-11-15T18:58:16Z",
+  "generated": "2026-11-16T22:20:12Z",
   "items": [
+    {
+      "id": "1742a693aba8e200",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Scans for LiteLLM/Starlette (CVE-2026-42271, CVE-2026-48710), (Mon, Nov 16th)",
+      "url": "https://isc.sans.edu/diary/rss/33522",
+      "published": "2026-11-16T13:11:04Z",
+      "tags": [
+        "CVE-2026-42271",
+        "CVE-2026-48710",
+        "research"
+      ]
+    },
     {
       "id": "40c76eb04edd8ce7",
       "source": "sans-isc",
@@ -1271,17 +1284,6 @@
       "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
       "url": "https://isc.sans.edu/diary/rss/33452",
       "published": "2026-10-23T20:04:47Z",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "cadd6afddac3d48e",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "PHP Vulnerability Wrap-Up, (Fri, Oct 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33450",
-      "published": "2026-10-23T13:43:20Z",
       "tags": [
         "research"
       ]
