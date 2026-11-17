@@ -1,7 +1,244 @@
 {
   "schema": 1,
-  "generated": "2026-11-17T08:08:59Z",
+  "generated": "2026-11-17T21:05:42Z",
   "items": [
+    {
+      "id": "13457af5dbdbc295",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130856: 53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote un…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130856",
+      "published": "2026-11-17T20:17:51Z",
+      "summary": "53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote unauthenticated attackers to reinitialize installed instances by calling the public POST /api/init endpoint. Attackers can reset an existing account's password, assign the top creator role, an…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130856",
+        "critical"
+      ]
+    },
+    {
+      "id": "fdca8dfd403fe426",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130849: BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130849",
+      "published": "2026-11-17T20:17:50Z",
+      "summary": "BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler::tcpReceive() that allows remote unauthenticated attackers to corrupt heap memory by sending a TCP message with a body length of exactly 1024. Attackers can overwrite the tcplen receive offs…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130849",
+        "critical"
+      ]
+    },
+    {
+      "id": "3bd6fff24244f893",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130840: BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthent…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130840",
+      "published": "2026-11-17T20:17:48Z",
+      "summary": "BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to impersonate administrators by abusing a hard-coded default jwt_secret used by AuthJwt. Attackers can forge an HS256 token offline naming user_id 1 with the admin r…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130840",
+        "critical"
+      ]
+    },
+    {
+      "id": "6e75a435cd8398cf",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130583: Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenti…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130583",
+      "published": "2026-11-17T14:17:44Z",
+      "summary": "Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenticated server-side request forgery vulnerability in the Apple Pay merchant validation controller. Attackers can supply file://, gopher://, or dict:// URLs in the validationUrl parameter to re…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130583",
+        "critical"
+      ]
+    },
+    {
+      "id": "1e3a8a0a7e3cd062",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens SIMATIC WinCC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-09",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary Graphics Designer of SIMATIC WinCC before V8.2 contains an implicit active content execution vulnerability upon opening files, which could allow an attacker to cause arbitrary code execution on the device. Siemens is preparing fixes and recommends specific mitig…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "37902359fb183e15",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/17/cisa-adds-one-known-exploited-vulnerability-catalog",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-115731 Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability This type of vulnerability is a frequent attack vector…",
+      "tags": [
+        "CVE-2026-115731",
+        "advisory"
+      ]
+    },
+    {
+      "id": "3989b95c68b62c6d",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Simcenter Femap",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-10",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary Simcenter Femap is affected by an out of bounds read vulnerability that could be triggered when the application reads files in X_T format. This could allow an attacker to crash the application or execute arbitrary code. Siemens has released a new version for Sim…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "3b573666de1648f8",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Industrial Automation Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-03",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that…",
+      "tags": [
+        "CVE-2026-111497",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "4a756643b0596f8c",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens ROS#",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-06",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary ROS# before version 2.3.1 contains a code injection vulnerability that could allow an attacker that is able to pass a crafted message definition file to the user to inject arbitrary code into the generated program. Siemens has released a new version for ROS# and…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "5b5cf4f017dbab0e",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens SIMATIC",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-08",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary The products listed below contain an authentication bypass vulnerability that could allow an on-path attacker to take over the session of a legitimate user and execute arbitrary code with the privileges of the victim user. Siemens is preparing fixes and recommen…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "639fac0f8727e01a",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens .NET Client Library for SIMATIC S7 Webserver API",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-02",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary .NET Client Library for SIMATIC S7 Webserver API contains multiple vulnerabilities that could allow an attacker to obtain sensitive information or write arbitrary files outside the intended download directory. Siemens has released a new version for .NET Client L…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "91475641f52fb30d",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Industrial Software Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-04",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that…",
+      "tags": [
+        "CVE-2026-111497",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "986d782997068f3c",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Dorsett Controls InfoScan",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-01",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to retrieve sensitive system information, access application data without authorization, recover stored credentials, or intercept and manipulate network communications. The following versio…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "a6652e59ebd5f8cc",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Why threat hunting should matter to every board",
+      "url": "https://www.ncsc.gov.uk/blogs/why-threat-hunting-should-matter-to-every-board",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "Monitoring alone cannot detect every threat. Proactive threat hunting can expose gaps in defences and help organisations learn from others facing common threats.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "b408794a3196e1df",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-07",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary Fortinet has published information on a Double Free vulnerability in FortiOS. This advisory lists the related Siemens Industrial products. Siemens recommends to update Fortigate NGFW to V7.6.9 or later following the secure update recommendation procedure. Contac…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "f61efca8f592b87c",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Mendix Studio Pro",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-05",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary Mendix Studio Pro contains multiple vulnerabilities in the MCP Server, that could allow an attacker with network access to interact with the server remotely or trick a user's browser into sending unauthorized requests, potentially leading to unauthorized data ac…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "fae4ec42780a6b53",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens meta-iot2050",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-321-11",
+      "published": "2026-11-17T12:00:00Z",
+      "summary": "View CSAF Summary meta-iot2050 (https://github.com/siemens/meta-iot2050) from V01.03.01 contains a Command Injection vulnerability in the firmware update tool that could allow an attacker which is able to manipulate a configuration file to have arbitrary commands run as root. Sie…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "e56d2b7cb05958b9",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "A phishing page interested in MX records, (Tue, Nov 17th)",
+      "url": "https://isc.sans.edu/diary/rss/33526",
+      "published": "2026-11-17T10:56:38Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "9f7bd88d4cd97240",
       "source": "nvd-recent",
@@ -17,17 +254,16 @@
       ]
     },
     {
-      "id": "0dd034dcff858893",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130072: Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path trave…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130072",
-      "published": "2026-11-16T22:18:22Z",
-      "summary": "Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated attackers to rename files by sending PUT /rename requests handled before authentication middleware. Attackers can supply absolute or ../ paths…",
+      "id": "d8baa5508f9a9db6",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-115731 — Perforce Puppet Enterprise: Perforce Puppet Enterprise Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115731",
+      "published": "2026-11-17T00:00:00Z",
+      "summary": "Perforce Puppet Enterprise contains a deserialization of untrusted data vulnerability in Puppet’s report-processing code that allows a client with any CA-signed agent certificate to execute arbitrary code on the Puppet Server as the service user by submitting a report containing…",
       "tags": [
-        "CVE",
-        "CVE-2026-130072",
-        "critical"
+        "KEV",
+        "CVE-2026-115731"
       ]
     },
     {
@@ -41,6 +277,20 @@
       "tags": [
         "CVE",
         "CVE-2026-130071",
+        "critical"
+      ]
+    },
+    {
+      "id": "0dd034dcff858893",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130072: Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path trave…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130072",
+      "published": "2026-11-16T22:18:22Z",
+      "summary": "Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated attackers to rename files by sending PUT /rename requests handled before authentication middleware. Attackers can supply absolute or ../ paths…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130072",
         "critical"
       ]
     },
@@ -181,6 +431,20 @@
       ]
     },
     {
+      "id": "7b5dacba886b8db5",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/13/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-13T12:00:00Z",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114713 UnrealIRCd Improper Neutralization of Delimiters Vulnerability CVE-2026-123039 Check Point Multiple Products Incorrect Permissio…",
+      "tags": [
+        "CVE-2026-114713",
+        "CVE-2026-123039",
+        "advisory"
+      ]
+    },
+    {
       "id": "9ec7415c4afe1244",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -215,6 +479,75 @@
       "tags": [
         "KEV",
         "CVE-2026-123039"
+      ]
+    },
+    {
+      "id": "057c02b04cc39ce1",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
+      "published": "2026-11-12T12:00:00Z",
+      "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the work…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "652c8f30b0994d6c",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens RUGGEDCOM APE1808",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
+      "published": "2026-11-12T12:00:00Z",
+      "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the work…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "89146ff5418730c2",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Building Automation and Energy Products",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
+      "published": "2026-11-12T12:00:00Z",
+      "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory cove…",
+      "tags": [
+        "CVE-2026-109618",
+        "CVE-2026-109619",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "f45d3069b40c902e",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Desigo, Gridscale",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
+      "published": "2026-11-12T12:00:00Z",
+      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that…",
+      "tags": [
+        "CVE-2026-111497",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "ff020ded0d332431",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Siemens Industrial Edge Management",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
+      "published": "2026-11-12T12:00:00Z",
+      "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is include…",
+      "tags": [
+        "CVE-2026-111497",
+        "advisory",
+        "ics"
       ]
     },
     {
@@ -448,62 +781,6 @@
       "tags": [
         "CVE",
         "CVE-2026-96067",
-        "critical"
-      ]
-    },
-    {
-      "id": "4d39f12a4a3fa8f5",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-95962: Use after free in Windows Virtual Filtering Platform (VFP) allows an unauthorized attacker…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95962",
-      "published": "2026-11-10T19:21:51Z",
-      "summary": "Use after free in Windows Virtual Filtering Platform (VFP) allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-95962",
-        "critical"
-      ]
-    },
-    {
-      "id": "dc59d3583db3b4fe",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-95901: Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95901",
-      "published": "2026-11-10T19:21:43Z",
-      "summary": "Double free in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-95901",
-        "critical"
-      ]
-    },
-    {
-      "id": "128fee2f589ca83d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-95882: Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attack…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-95882",
-      "published": "2026-11-10T19:21:41Z",
-      "summary": "Stack-based buffer overflow in Windows Microsoft DirectMusic allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-95882",
-        "critical"
-      ]
-    },
-    {
-      "id": "c506428ef19de41b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-88243: Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88243",
-      "published": "2026-11-10T19:21:33Z",
-      "summary": "Out-of-bounds read in Windows DHCP Server allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-88243",
         "critical"
       ]
     },
@@ -862,18 +1139,6 @@
       ]
     },
     {
-      "id": "626b3ee2d010a08d",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Subnet Solutions PowerSYSTEM Center",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-307-01",
-      "published": "2026-11-03T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute unauthorized SQL commands and gain access to unauthorized resources. The following versions of Subnet Solutions PowerSYSTEM Center are affected: PowerSYSTEM Center 2020 <=5.29.x…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
       "id": "aa724a9a8e5dab63",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -944,20 +1209,6 @@
       ]
     },
     {
-      "id": "f635e51b46992649",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-30T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generatio…",
-      "tags": [
-        "CVE-2026-111357",
-        "CVE-2026-118527",
-        "advisory"
-      ]
-    },
-    {
       "id": "41d002bd444a3ccf",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -984,56 +1235,6 @@
         "CVE-2026-104935",
         "CVE-2026-111357",
         "CVE-2026-118527"
-      ]
-    },
-    {
-      "id": "550e95ef6ab5f80b",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy TRO600 series products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
-      "published": "2026-10-29T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive informatio…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "c0138fec61383be4",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Mendix SAML Module",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
-      "published": "2026-10-29T12:00:00Z",
-      "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for th…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "d3ed0a84a8f24477",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Hitachi Energy CoreTec Product",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-03",
-      "published": "2026-10-29T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is aware of OS command injection and Dirty Frag vulnerabilities that affect CoreTec product versions listed in this document. Successful exploitation of these vulnerabilities could result in impact on confidentiality, integrity and availability of…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "e24342c52a0b2ee1",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/29/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-29T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-97229 GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound vulnerability CVE-2026-76418 Cisco Secure Firewall…",
-      "tags": [
-        "CVE-2026-76418",
-        "CVE-2026-97229",
-        "advisory"
       ]
     },
     {
@@ -1085,20 +1286,6 @@
       ]
     },
     {
-      "id": "22d2ccd53543886c",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/28/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-28T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-41709 Broadcom VMWare ESX Insufficient Logging Vulnerability CVE-2026-46300 Linux Kernel Missing Initialization of a Variable Vulnerabi…",
-      "tags": [
-        "CVE-2026-41709",
-        "CVE-2026-46300",
-        "advisory"
-      ]
-    },
-    {
       "id": "79814acf062d096b",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1125,34 +1312,6 @@
       ]
     },
     {
-      "id": "b933b8867a0cffd5",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "EPICS Base",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-01",
-      "published": "2026-10-27T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to cause a denial-of-service condition, corrupt memory, disclose sensitive information, or potentially execute arbitrary code. The following versions of EPICS Base are affected: EPICS Base…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "c67cf62fcc6ed47b",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Mitsubishi Electric and Mitsubishi Electric Iconics Digital Solutions GENESIS, GENESIS64, ICONICS Suite, Hyper Historian, AnalytiX, MobileHMI, IoTWorX, MC Works64, GENESIS32 and BizViz",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-300-02",
-      "published": "2026-10-27T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to execute arbitrary code (CVE-2023-4863), bypass authentication (CVE-2026-16436 and CVE-2026-16437), or perform arbitrary operations (CVE-2026-16438), resulting in information disclosure…",
-      "tags": [
-        "CVE-2023-4863",
-        "CVE-2026-16436",
-        "CVE-2026-16437",
-        "CVE-2026-16438",
-        "advisory"
-      ]
-    },
-    {
       "id": "dc5c27b683bcf6ff",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1162,20 +1321,6 @@
       "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "f7763a757c0c37e7",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/27/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-27T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-48356 Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-111497 Google Brotli Unchecked…",
-      "tags": [
-        "CVE-2026-111497",
-        "CVE-2026-48356",
-        "advisory"
       ]
     },
     {
@@ -1213,20 +1358,6 @@
       "tags": [
         "KEV",
         "CVE-2026-48356"
-      ]
-    },
-    {
-      "id": "f6b4dc44bc2f931c",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/26/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "published": "2026-10-26T12:00:00Z",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog and updated the PHP Alert, Critical Vulnerabilities in PHP Require Immediate Patching : CVE-2026-109618 – PHP Memory Corruption Vulnerability CVE-2026-109619 – PHP Stale Internal Request-S…",
-      "tags": [
-        "CVE-2026-109618",
-        "CVE-2026-109619",
-        "advisory"
       ]
     },
     {
@@ -1278,43 +1409,6 @@
       ]
     },
     {
-      "id": "9abacdc57711ec24",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "(Reliable)? php2shell exploitability, (Fri, Oct 23rd)",
-      "url": "https://isc.sans.edu/diary/rss/33452",
-      "published": "2026-10-23T20:04:47Z",
-      "tags": [
-        "research"
-      ]
-    },
-    {
-      "id": "87bf34b6e070a947",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-10-23T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-114625 Arista VeloCloud Orchestrator SQL Injection Vulnerability This type of vulnerability is a frequent attack vector for malicious cyb…",
-      "tags": [
-        "CVE-2026-114625",
-        "advisory"
-      ]
-    },
-    {
-      "id": "ce87e3f627c6f42f",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/23/cisa-adds-one-known-exploited-vulnerability-catalog-0",
-      "published": "2026-10-23T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-110447 Collabora Online – Built-in CODE Server OS Command Injection Vulnerability This type of vulnerability is a frequent attack vector…",
-      "tags": [
-        "CVE-2026-110447",
-        "advisory"
-      ]
-    },
-    {
       "id": "489414d092e0607d",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1341,67 +1435,75 @@
       ]
     },
     {
-      "id": "0202aafb6242b802",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Kiloview E3 NDI Encoder",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-01",
+      "id": "503138c62becba11",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens Industrial Edge Devices",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-17",
       "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this these vulnerabilities could allow an attacker to fully compromise the device. The following versions of Kiloview E3 NDI Encoder are affected: E3 Firmware <1.30 (CVE-2026-109122, CVE-2026-111100, CVE-2026-96616, CVE-2026-105265, CV…",
+      "summary": "View CSAF Summary Siemens Industrial Edge Devices contain multiple path traversal vulnerabilities that could facilitate an authenticated remote attacker to access sensitive internal information. Siemens has released new versions for several affected products and recommends to upd…",
       "tags": [
-        "CVE-2026-105265",
-        "CVE-2026-109122",
-        "CVE-2026-111100",
-        "CVE-2026-96616",
-        "advisory"
+        "ics"
       ]
     },
     {
-      "id": "04c08a3131a86ce1",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens WinCC",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-13",
+      "id": "844f494ee2626f9c",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-11",
       "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary Multiple SIMATIC WinCC versions are affected by a database privilege escalation vulnerability that could allow an authenticated user with access to the database to execute commands on the underlying host system. Siemens has released new versions for several affe…",
+      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the firmware version V3.1.7 for the SIMATIC S7-1500 CPU 1518(F)-4 PN/DP MFP (incl. SIPLUS variant). Siemens is preparing fixes and recommends specific mitigations for products…",
       "tags": [
-        "advisory"
+        "ics"
       ]
     },
     {
-      "id": "2336f33ff6e7965d",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens SIMATIC S7-1500 TM MFP",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-16",
+      "id": "c78c25936feab8b7",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens SIMATIC IPCs",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-07",
       "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary Multiple vulnerabilities have been identified in the additional GNU/Linux subsystem of the SIMATIC S7-1500 TM MFP V1.1.1. Siemens is preparing fixes and recommends specific mitigations for products where fixes are not or not yet available. The following versions…",
+      "summary": "View CSAF Summary The products listed below contain a vulnerability that could allow an attacker to boot an operating system or UEFI application signed with that test key, bypassing UEFI Secure Boot protections even when Secure Boot is enabled. Siemens has released new versions f…",
       "tags": [
-        "advisory"
+        "ics"
       ]
     },
     {
-      "id": "284eb83ac7e25543",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens RUGGEDCOM APE1808 Devices",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-18",
+      "id": "c93040c85b3a8065",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens RUGGEDCOM CROSSBOW",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-12",
       "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary Nozomi Networks has published information on vulnerabilities in Nozomi Guardian/CMC. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Siemens recommends to contact customer support to receive patch and update informa…",
+      "summary": "View CSAF Summary RUGGEDCOM CROSSBOW contains multiple vulnerabilities that could allow an attacker to execute arbitrary SQL commands on the underlying database, retrieve sensitive administrative credentials, escalate privileges, and perform unauthorized operations such as modify…",
       "tags": [
-        "advisory"
+        "ics"
       ]
     },
     {
-      "id": "29dd574c6050a162",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Software Center",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-03",
+      "id": "d0a00ec0797d3bcb",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens SENTRON 3NA COM Fuse",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-05",
       "published": "2026-10-22T12:00:00Z",
-      "summary": "View CSAF Summary The affected application loads dynamic-link libraries (DLLs) from an uncontrolled search path. This could allow an authenticated local attacker to place a specially crafted DLL in a directory that the application searches, leading to arbitrary code execution wit…",
+      "summary": "View CSAF Summary SENTRON 3NA COM Fuse contains a Denial-of-Service vulnerability. Improper handling of a network management message could allow an attacker to trigger a denial-of-service (DoS) condition. Successful exploitation may require the affected network to be re-establish…",
       "tags": [
-        "advisory"
+        "ics"
+      ]
+    },
+    {
+      "id": "e80b70f1619682f2",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens Industrial Edge App Publisher",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-295-02",
+      "published": "2026-10-22T12:00:00Z",
+      "summary": "View CSAF Summary The Industrial Edge App Publisher contains a vulnerability chain involving improper certificate validation and the rendering of unescaped data from backend responses. These issues can be combined to allow an attacker on the network to impersonate the management…",
+      "tags": [
+        "ics"
       ]
     },
     {
@@ -1677,19 +1779,6 @@
       ]
     },
     {
-      "id": "797c37d84e415538",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-76519 — Cisco Secure Email Gateway: Cisco Secure Email Gateway Relative Path Traversal Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76519",
-      "published": "2026-10-14T00:00:00Z",
-      "summary": "Cisco Secure Email Gateway contains a relative path traversal vulnerability that could allow an unauthenticated, remote attacker to write arbitrary files on the underlying operating system.",
-      "tags": [
-        "KEV",
-        "CVE-2026-76519"
-      ]
-    },
-    {
       "id": "bd329adf4cfc001e",
       "source": "ncsc-uk",
       "source_name": "NCSC UK",
@@ -1868,83 +1957,6 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-02",
       "published": "2026-10-01T12:00:00Z",
       "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could enable attackers to gain unauthorized administrative control over vulnerable charging stations or disrupt charging services through denial-of-service attacks. The following versions of Monta monta.app are af…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "e6c25c75b7ceaa11",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "ABB Protection and Control IED Manager PCM600",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-274-03",
-      "published": "2026-10-01T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to escalate privileges or overwrite files. The following versions of ABB Protection and Control IED Manager PCM600 are affected: Protection and Control IED Manager PCM600 <=2.14 (CVE-2026-1…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "4325786426012c69",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "MikroTik RouterOS",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-06",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to achieve remote code execution or cause a denial of service. The following versions of MikroTik RouterOS are affected: RouterOS <7.24 (CVE-2026-84411) CVSS Vendor Equipment Vulnerabilities v…",
-      "tags": [
-        "CVE-2026-84411",
-        "ics"
-      ]
-    },
-    {
-      "id": "6c7ec78480f96d0e",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "VIVOTEK Camera Firmware",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-03",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability may allow attackers to achieve remote command execution on affected devices, potentially with root privileges, leading to full compromise of the camera system. The following versions of VIVOTEK Camera Firmware are af…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "b99a27d23f5221f3",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Lantronix G520 Series Cellular Gateway",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-01",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to replace software and execute arbitrary code with root privileges. The following versions of Lantronix G520 Series Cellular Gateway are affected: G520 Series 2.6.0.4R6_stable (CVE-2026-84…",
-      "tags": [
-        "ics"
-      ]
-    },
-    {
-      "id": "c8fcbf0e2df6a700",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Toptech TMS7 and TopHAT",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-02",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to access critical data or execute arbitrary code. The following versions of Toptech TMS7 and TopHAT are affected: TMS7 7.6.3 (CVE-2026-71379, CVE-2026-70356, CVE-2026-72510, CVE-2026-63713…",
-      "tags": [
-        "CVE-2026-63713",
-        "CVE-2026-70356",
-        "CVE-2026-71379",
-        "CVE-2026-72510",
-        "ics"
-      ]
-    },
-    {
-      "id": "ef19b502f5a8b531",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Baicells Nova 430H",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-272-04",
-      "published": "2026-09-29T12:00:00Z",
-      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to inject malformed messages which may lead to a denial-of-service condition. The following versions of Baicells Nova 430H are affected: Nova 430H eNodeB (model pBS3101SH) <=BaiBLQ_3.0.12 (CVE…",
       "tags": [
         "ics"
       ]
