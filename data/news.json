@@ -1,7 +1,91 @@
 {
   "schema": 1,
-  "generated": "2026-11-16T22:20:12Z",
+  "generated": "2026-11-17T08:08:59Z",
   "items": [
+    {
+      "id": "9f7bd88d4cd97240",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-79614: An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmwa…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614",
+      "published": "2026-11-17T02:17:22Z",
+      "summary": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is…",
+      "tags": [
+        "CVE",
+        "CVE-2026-79614",
+        "critical"
+      ]
+    },
+    {
+      "id": "0dd034dcff858893",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130072: Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path trave…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130072",
+      "published": "2026-11-16T22:18:22Z",
+      "summary": "Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated attackers to rename files by sending PUT /rename requests handled before authentication middleware. Attackers can supply absolute or ../ paths…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130072",
+        "critical"
+      ]
+    },
+    {
+      "id": "0b56e216cf60fcc7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130071: TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130071",
+      "published": "2026-11-16T22:18:22Z",
+      "summary": "TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit ead8da3 contains a missing authentication vulnerability in the guest-whitelisted update_doc method that allows unauthenticated attackers to modify any document. Attackers can supply a docty…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130071",
+        "critical"
+      ]
+    },
+    {
+      "id": "33de39f54cd8298f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130070: Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130070",
+      "published": "2026-11-16T22:18:22Z",
+      "summary": "Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains an authentication bypass vulnerability in the whitelisted ghost.api.ghost.convert_to_real_user method that allows unauthenticated attackers to skip OTP verification by setting the client-sup…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130070",
+        "critical"
+      ]
+    },
+    {
+      "id": "0cba196cc45b2be4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129955: NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauth…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129955",
+      "published": "2026-11-16T15:17:31Z",
+      "summary": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated attackers to gain administrator access by using the hardcoded default password 'root'. Attackers can send base64-encoded 'root' to POST /admin/login when NP_ADMIN_DEFAULT_PASSWORD…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129955",
+        "critical"
+      ]
+    },
+    {
+      "id": "27412d2bcdcd2e3b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129952: NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauth…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129952",
+      "published": "2026-11-16T15:17:30Z",
+      "summary": "NodePress through 8.5.1 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to gain administrator access by forging JWTs with the hardcoded 'nodepress-secret' fallback key. Attackers can sign HS256 bearer tokens with the default issuer, au…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129952",
+        "critical"
+      ]
+    },
     {
       "id": "1742a693aba8e200",
       "source": "sans-isc",
@@ -24,6 +108,76 @@
       "published": "2026-11-15T18:17:27Z",
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "9539171c435d6a62",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129483: Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP serve…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129483",
+      "published": "2026-11-15T14:17:27Z",
+      "summary": "Cyrus SASL through 2.1.28 contains an authentication bypass vulnerability in the SRP server mechanism because srp_server_mech_step2 does not reject client public values A that are multiples of N. Unauthenticated network clients can send A equal to N to force a zero shared secret…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129483",
+        "critical"
+      ]
+    },
+    {
+      "id": "458fe9c3ea4f600a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129452: A vulnerability has been found in DrayTek Vigor2960 1.5.1.6. This vulnerability affects th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129452",
+      "published": "2026-11-15T13:16:59Z",
+      "summary": "A vulnerability has been found in DrayTek Vigor2960 1.5.1.6. This vulnerability affects the function set_table of the file /cgi-bin/mainfunction.cgi. Such manipulation of the argument jsondata leads to command injection. The attack can be launched remotely. The exploit has been d…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129452",
+        "critical"
+      ]
+    },
+    {
+      "id": "434f4a2471d7829b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129451: A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function app_gu…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129451",
+      "published": "2026-11-15T13:16:58Z",
+      "summary": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function app_guest_export of the file /cgi-bin/mainfunction.cgi. This manipulation of the argument filename causes path traversal. The attack can be initiated remotely. The exploit has been published and m…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129451",
+        "critical"
+      ]
+    },
+    {
+      "id": "49553cb6f7fa1782",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129354: A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function h…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129354",
+      "published": "2026-11-15T01:18:03Z",
+      "summary": "A flaw has been found in D-Link DIR-600L 2.17b02. Affected by this issue is the function hnap_main of the file htdocs/cgibin of the component HNAP Handler. Executing a manipulation can lead to stack-based buffer overflow. The attack can be executed remotely. The exploit has been…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129354",
+        "critical"
+      ]
+    },
+    {
+      "id": "34ce562396580170",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-129351: A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerabili…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-129351",
+      "published": "2026-11-14T23:16:47Z",
+      "summary": "A security vulnerability has been detected in TRENDnet TEW-657BRM 1.00.1. This vulnerability affects the function sprintf of the file /setup.cgi of the component mini_httpd. Such manipulation leads to out-of-bounds write. The attack can be executed remotely. The exploit has been…",
+      "tags": [
+        "CVE",
+        "CVE-2026-129351",
+        "critical"
       ]
     },
     {
@@ -350,160 +504,6 @@
       "tags": [
         "CVE",
         "CVE-2026-88243",
-        "critical"
-      ]
-    },
-    {
-      "id": "274970db2bcbba74",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-88234: Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88234",
-      "published": "2026-11-10T19:21:32Z",
-      "summary": "Release of invalid pointer or reference in Windows iSCSI allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-88234",
-        "critical"
-      ]
-    },
-    {
-      "id": "cae25323b5887a09",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-88218: Double free in Windows DNS allows an unauthorized attacker to execute code over a network.",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-88218",
-      "published": "2026-11-10T19:21:28Z",
-      "summary": "Double free in Windows DNS allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-88218",
-        "critical"
-      ]
-    },
-    {
-      "id": "eed3fd639db0836b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-85844: Authentication bypass using an alternate path or channel in Windows Kerberos allows an una…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-85844",
-      "published": "2026-11-10T19:21:25Z",
-      "summary": "Authentication bypass using an alternate path or channel in Windows Kerberos allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-85844",
-        "critical"
-      ]
-    },
-    {
-      "id": "4eb73f5f4b5d9c89",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-80095: Improper neutralization of input during web page generation ('cross-site scripting') in Mi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-80095",
-      "published": "2026-11-10T19:21:22Z",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-80095",
-        "critical"
-      ]
-    },
-    {
-      "id": "64e2287c52053fce",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-66801: Heap-based buffer overflow in Xbox allows an unauthorized attacker to execute code over a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-66801",
-      "published": "2026-11-10T19:21:17Z",
-      "summary": "Heap-based buffer overflow in Xbox allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-66801",
-        "critical"
-      ]
-    },
-    {
-      "id": "f179ed501ea5be15",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120779: Improper control of generation of code ('code injection') in Visual Studio Code allows an…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120779",
-      "published": "2026-11-10T19:20:27Z",
-      "summary": "Improper control of generation of code ('code injection') in Visual Studio Code allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-120779",
-        "critical"
-      ]
-    },
-    {
-      "id": "ab265a6340ecc815",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120002: Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to el…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120002",
-      "published": "2026-11-10T19:20:26Z",
-      "summary": "Incorrect authorization in Microsoft Office SharePoint allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-120002",
-        "critical"
-      ]
-    },
-    {
-      "id": "c3ec89180712fffb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119990: Missing authentication for critical function in Azure OpenAI allows an unauthorized attack…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119990",
-      "published": "2026-11-10T19:20:24Z",
-      "summary": "Missing authentication for critical function in Azure OpenAI allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-119990",
-        "critical"
-      ]
-    },
-    {
-      "id": "f6ea991dea10be81",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119958: Out-of-bounds write in Windows LDAP - Lightweight Directory Access Protocol allows an unau…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119958",
-      "published": "2026-11-10T19:20:19Z",
-      "summary": "Out-of-bounds write in Windows LDAP - Lightweight Directory Access Protocol allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-119958",
-        "critical"
-      ]
-    },
-    {
-      "id": "06231048b8b9bf05",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118740: Missing authorization in Aspire allows an unauthorized attacker to bypass a security featu…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118740",
-      "published": "2026-11-10T19:19:50Z",
-      "summary": "Missing authorization in Aspire allows an unauthorized attacker to bypass a security feature over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-118740",
-        "critical"
-      ]
-    },
-    {
-      "id": "64162ad88defba38",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-116945: Heap-based buffer overflow in SQL Server allows an unauthorized attacker to execute code o…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-116945",
-      "published": "2026-11-10T19:19:27Z",
-      "summary": "Heap-based buffer overflow in SQL Server allows an unauthorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-116945",
         "critical"
       ]
     },
