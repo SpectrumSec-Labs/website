@@ -1,7 +1,270 @@
 {
   "schema": 1,
-  "generated": "2026-11-18T07:43:16Z",
+  "generated": "2026-11-18T20:43:18Z",
   "items": [
+    {
+      "id": "fb98039a3f6f8d21",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Java4Shell, NGINX2Shell and more: Why we are not at \"Yellow\", (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33532",
+      "published": "2026-11-18T19:54:50Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "5b71c4d53b711b53",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130786: Incus before 7.6.0 contains a configuration injection vulnerability that allows users who…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786",
+      "published": "2026-11-18T19:17:55Z",
+      "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130786",
+        "critical"
+      ]
+    },
+    {
+      "id": "45ce971546d9e538",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130784: Incus before 7.6.0 contains an authorization bypass vulnerability that allows restricted c…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130784",
+      "published": "2026-11-18T19:17:54Z",
+      "summary": "Incus before 7.6.0 contains an authorization bypass vulnerability that allows restricted clients to create and access default project resources by exploiting entitlement checks against the requested project. Attackers can create bridge networks with raw.dnsmasq directives to exec…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130784",
+        "critical"
+      ]
+    },
+    {
+      "id": "d0891a8bd8e33343",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130783: Incus before 7.6.0 exposes certificate and cluster join token secrets through the default…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130783",
+      "published": "2026-11-18T19:17:54Z",
+      "summary": "Incus before 7.6.0 exposes certificate and cluster join token secrets through the default project event stream and skips authorization when cancelling operations without associated permissions. Restricted clients can subscribe to operation events to capture certificate tokens and…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130783",
+        "critical"
+      ]
+    },
+    {
+      "id": "22a2f11d074e27f8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130780: Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130780",
+      "published": "2026-11-18T19:17:54Z",
+      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration peers to write outside intended directories by supplying unvalidated dependent volume and snapshot names in the migration offer header. Attackers controlling a migration source can create r…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130780",
+        "critical"
+      ]
+    },
+    {
+      "id": "1e0ee863dae946c5",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130779: Incus before 7.6.0 contains a path traversal vulnerability that allows users permitted to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130779",
+      "published": "2026-11-18T19:17:53Z",
+      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows users permitted to import custom volumes to store unvalidated snapshot names from the backup index configuration section. Attackers can craft a backup with traversal sequences in snapshot names so later deleti…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130779",
+        "critical"
+      ]
+    },
+    {
+      "id": "83948b7316889376",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130778: Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote atta…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130778",
+      "published": "2026-11-18T19:17:53Z",
+      "summary": "Incus before 7.6.0 contains an authentication bypass vulnerability that allows remote attackers to authenticate as any trusted certificate by appending its public certificate to their presented TLS client chain. Attackers can append the server's or a cluster member's certificate…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130778",
+        "critical"
+      ]
+    },
+    {
+      "id": "f39312fc90bb1635",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130773: Incus before 7.6.0 contains an authorization bypass that allows restricted project users t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130773",
+      "published": "2026-11-18T19:17:51Z",
+      "summary": "Incus before 7.6.0 contains an authorization bypass that allows restricted project users to create resources in the unrestricted default project by targeting projects lacking features.* flags. Attackers can create bridge networks with raw.dnsmasq dhcp-script injection to run scri…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130773",
+        "critical"
+      ]
+    },
+    {
+      "id": "d4ffc18bd6317904",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130771: Incus before 7.6.0 fails to reject special files, hard links, or symlinks in backup or ima…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130771",
+      "published": "2026-11-18T19:17:50Z",
+      "summary": "Incus before 7.6.0 fails to reject special files, hard links, or symlinks in backup or image metadata, allowing restricted project users to read or overwrite host files. Attackers can import crafted backups containing device nodes, a hard-linked backup.yaml, or symlinks to corrup…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130771",
+        "critical"
+      ]
+    },
+    {
+      "id": "ebc7dac834fdc148",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130759: Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAM…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130759",
+      "published": "2026-11-18T19:17:46Z",
+      "summary": "Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAML SSO callback that looks up sessions using unvalidated client-supplied identifiers. Users able to run live queries or enroll secret holders can plant attacker-controlled identity provider m…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130759",
+        "critical"
+      ]
+    },
+    {
+      "id": "8afd3648c3ecd127",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130756: pnpm exe before 10.34.8 embeds an outdated Node.js runtime that still trusts compromised e…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130756",
+      "published": "2026-11-18T19:17:46Z",
+      "summary": "pnpm exe before 10.34.8 embeds an outdated Node.js runtime that still trusts compromised eMudhra intermediate CA certificates during registry TLS connections. Network attackers holding a recovered intermediate key can intercept standalone pnpm registry fetches and serve forged pa…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130756",
+        "critical"
+      ]
+    },
+    {
+      "id": "415f63b31972aec7",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130754: All versions of LaraDashboard contain an authentication bypass in SocialAuthService::findO…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130754",
+      "published": "2026-11-18T19:17:45Z",
+      "summary": "All versions of LaraDashboard contain an authentication bypass in SocialAuthService::findOrCreateUser(), which links a social login to an existing account by email without checking that the OAuth provider verified that email. Unauthenticated attackers using an OAuth/OIDC provider…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130754",
+        "critical"
+      ]
+    },
+    {
+      "id": "f93dcd2bde11b5ab",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2018-25443: Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2018-25443",
+      "published": "2026-11-18T16:17:48Z",
+      "summary": "Baidu UEditor 1.4.0 through 1.4.3.3 contains an unrestricted file upload vulnerability in the catchimage action of /ueditor/net/controller.ashx that only validates the Content-Type header. Unauthenticated attackers can supply a source[] URL like x.jpg?.aspx to retain a malicious…",
+      "tags": [
+        "CVE",
+        "CVE-2018-25443",
+        "critical"
+      ]
+    },
+    {
+      "id": "0a194967c16afdcb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2012-20007: ThinkPHP 2.0 through 2.2 and 3.0 Lite mode contains an eval injection vulnerability in the…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2012-20007",
+      "published": "2026-11-18T16:17:47Z",
+      "summary": "ThinkPHP 2.0 through 2.2 and 3.0 Lite mode contains an eval injection vulnerability in the Dispatcher PATH_INFO parsing, which uses preg_replace with the /e modifier and a double-quoted replacement. Unauthenticated attackers can send crafted requests to index.php with a malicious…",
+      "tags": [
+        "CVE",
+        "CVE-2012-20007",
+        "critical"
+      ]
+    },
+    {
+      "id": "3613daa99855eb2a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-110009: The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110009",
+      "published": "2026-11-18T14:17:25Z",
+      "summary": "The Unzer Payments plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.2.1. The vulnerability exists because the Google Pay Express Checkout endpoint (`/?wc-api=google_pay_express`), handled by `startChec…",
+      "tags": [
+        "CVE",
+        "CVE-2026-110009",
+        "critical"
+      ]
+    },
+    {
+      "id": "efd51cb602147884",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130733: Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows p…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130733",
+      "published": "2026-11-18T12:17:19Z",
+      "summary": "Grav from 2.0.0 before 2.2.18 contains an authorization bypass vulnerability that allows publishers to overwrite pages their per-page permissions deny by abusing FolderStorage key delimiter collisions and PageStorage folder reconstruction. Attackers can rename a folder like locke…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130733",
+        "critical"
+      ]
+    },
+    {
+      "id": "6efaab4012c7d4cf",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130679: SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTM…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130679",
+      "published": "2026-11-18T12:17:11Z",
+      "summary": "SiYuan before 3.8.10 contains a stored cross-site scripting vulnerability in genAVValueHTML() that allows attackers who can store Attribute View asset values to inject script through an unescaped image src attribute. Attackers can store an image URL containing a double quote and…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130679",
+        "critical"
+      ]
+    },
+    {
+      "id": "128633cb0f4a0f2c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130675: Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in Image…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130675",
+      "published": "2026-11-18T12:17:10Z",
+      "summary": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attackers can reach the method through Craft Commerce's pa…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130675",
+        "critical"
+      ]
+    },
+    {
+      "id": "2bf6e3b53184cd10",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Four Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/18/cisa-adds-four-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-18T12:00:00Z",
+      "summary": "CISA has added four new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-10441 Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability CVE-2026-40217 BerriAI LiteLLM Unprotec…",
+      "tags": [
+        "CVE-2024-10441",
+        "CVE-2026-40217",
+        "advisory"
+      ]
+    },
     {
       "id": "79fee5ca2bf9fad1",
       "source": "nvd-recent",
@@ -13,6 +276,101 @@
       "tags": [
         "CVE",
         "CVE-2026-131852",
+        "critical"
+      ]
+    },
+    {
+      "id": "7dae31ce27c5073c",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-90436 — Apache Axis: Apache Axis Unsafe Reflection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90436",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "Apache Axis contains an unsafe reflection vulnerability that could allow an unauthenticated remote attacker to execute arbitrary code via a crafted SOAP fault message that causes Axis to load and instantiate an attacker-specified class when a suitable class is available on the ap…",
+      "tags": [
+        "KEV",
+        "CVE-2026-90436"
+      ]
+    },
+    {
+      "id": "8a626a9260468ecd",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Vulnérabilité dans Oracle Java SE (18 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-016/",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "Le 17 novembre 2026, Oracle a publié un avis de sécurité concernant la vulnérabilité CVE-2026-114938, surnommée *java4shell*, qui affecte le décodeur Base64 de OpenJDK sur les processeurs x86-64 supportant AVX-512 VBMI. Celle-ci permet à un attaquant de provoquer une exécution de…",
+      "tags": [
+        "CVE-2026-114938",
+        "FR",
+        "alert"
+      ]
+    },
+    {
+      "id": "9855ee6d8e5f671c",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2024-10441 — Synology DiskStation Manager (DSM): Synology DiskStation Manager (DSM) Improper Encoding or Escaping of Output Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2024-10441",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "Synology DSM contains an improper encoding or escaping of output vulnerability in the system plugin daemon in Synology BeeStation OS (BSM) that could allow a remote attacker to execute arbitrary code via unspecified vectors.",
+      "tags": [
+        "KEV",
+        "CVE-2024-10441"
+      ]
+    },
+    {
+      "id": "d6f3784b2ff9c72d",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-40217 — BerriAI LiteLLM: BerriAI LiteLLM Unprotected Alternate Channel Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-40217",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "BerriAI LiteLLM contains an unprotected alternate channel vulnerability that could allow remote attackers to execute arbitrary code via bytecode rewriting at the /guardrails/test_custom_code URI.",
+      "tags": [
+        "KEV",
+        "CVE-2026-40217"
+      ]
+    },
+    {
+      "id": "d8f112053b7a33a9",
+      "source": "cert-fr-alerte",
+      "source_name": "CERT-FR Alertes",
+      "title": "Multiples vulnérabilités dans F5 NGINX (18 novembre 2026)",
+      "url": "https://www.cert.cyber.gouv.fr/alerte/CERTFR-2026-ALE-017/",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "Le 18 novembre 2026, F5 a publié deux avis de sécurité concernant les vulnérabilités CVE-2026-123633 et CVE-2026-123007. Celles-ci affectent NGINX Open Source et NGINX Plus permettent à un attaquant non authentifié d'exécuter du code à distance, en utilisant le protocole HTTP en…",
+      "tags": [
+        "CVE-2026-123007",
+        "CVE-2026-123633",
+        "FR",
+        "alert"
+      ]
+    },
+    {
+      "id": "de39caa0b7626fd0",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-90817 — Vanderbilt University Research Electronic Data Capture (REDCap): Vanderbilt University Research Electronic Data Capture (REDCap) Code Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-90817",
+      "published": "2026-11-18T00:00:00Z",
+      "summary": "Vanderbilt University Research Electronic Data Capture (REDCap) contains a code injection vulnerability which could allow an unauthenticated attacker to execute arbitrary code on the server. An attacker could exploit this via crafted HTTP requests that access an unintended contro…",
+      "tags": [
+        "KEV",
+        "CVE-2026-90817"
+      ]
+    },
+    {
+      "id": "27b0f93fea89a69d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-91561: Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91561",
+      "published": "2026-11-17T22:19:24Z",
+      "summary": "Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via RMI to compromise Oracle Serv…",
+      "tags": [
+        "CVE",
+        "CVE-2026-91561",
         "critical"
       ]
     },
@@ -31,30 +389,16 @@
       ]
     },
     {
-      "id": "27b0f93fea89a69d",
+      "id": "16a035214ee8dde0",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91561: Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91561",
-      "published": "2026-11-17T22:19:24Z",
-      "summary": "Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via RMI to compromise Oracle Serv…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91561",
-        "critical"
-      ]
-    },
-    {
-      "id": "b5ed91bfee409263",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91510: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510",
+      "title": "CVE-2026-91500: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500",
       "published": "2026-11-17T22:19:22Z",
       "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
       "tags": [
         "CVE",
-        "CVE-2026-91510",
+        "CVE-2026-91500",
         "critical"
       ]
     },
@@ -73,16 +417,16 @@
       ]
     },
     {
-      "id": "16a035214ee8dde0",
+      "id": "b5ed91bfee409263",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91500: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91500",
+      "title": "CVE-2026-91510: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510",
       "published": "2026-11-17T22:19:22Z",
       "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
       "tags": [
         "CVE",
-        "CVE-2026-91500",
+        "CVE-2026-91510",
         "critical"
       ]
     },
@@ -181,188 +525,6 @@
       "tags": [
         "CVE",
         "CVE-2026-114881",
-        "critical"
-      ]
-    },
-    {
-      "id": "f761a96d96a28746",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114856: Vulnerability in Oracle REST Data Services (component: General). Supported versions that a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114856",
-      "published": "2026-11-17T22:18:14Z",
-      "summary": "Vulnerability in Oracle REST Data Services (component: General). Supported versions that are affected are 24.2.0-26.3.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTPS to compromise Oracle REST Data Services. Successful attacks requ…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114856",
-        "critical"
-      ]
-    },
-    {
-      "id": "ffbb1b316bdd75d9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114848: Vulnerability in the Oracle Text component of Oracle Database Server. Supported versions t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114848",
-      "published": "2026-11-17T22:18:13Z",
-      "summary": "Vulnerability in the Oracle Text component of Oracle Database Server. Supported versions that are affected are 19.3-19.33, 21.3-21.24 and 23.4.0-23.26.3. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114848",
-        "critical"
-      ]
-    },
-    {
-      "id": "a827c2f433d788bc",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114835: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114835",
-      "published": "2026-11-17T22:18:11Z",
-      "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Admin Console). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114835",
-        "critical"
-      ]
-    },
-    {
-      "id": "4181f2d67d9986d2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114824: Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114824",
-      "published": "2026-11-17T22:18:10Z",
-      "summary": "Vulnerability in the Oracle Platform Security for Java product of Oracle Fusion Middleware (component: Centralized Thirdparty Jars). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network a…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114824",
-        "critical"
-      ]
-    },
-    {
-      "id": "62740dc0b2345fe2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114822: Vulnerability in the RDBMS component of Oracle Database Server. Supported versions that ar…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114822",
-      "published": "2026-11-17T22:18:10Z",
-      "summary": "Vulnerability in the RDBMS component of Oracle Database Server. Supported versions that are affected are 23.4.0-23.26.4. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle Net to compromise RDBMS. While t…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114822",
-        "critical"
-      ]
-    },
-    {
-      "id": "d21b9fd986b2da4c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114819: Vulnerability in the Oracle Text component of Oracle Database Server. Supported versions t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114819",
-      "published": "2026-11-17T22:18:09Z",
-      "summary": "Vulnerability in the Oracle Text component of Oracle Database Server. Supported versions that are affected are 19.3-19.32, 21.3-21.24 and 23.4.0-23.26.3. Easily exploitable vulnerability allows low privileged attacker having Create Session privilege with network access via Oracle…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114819",
-        "critical"
-      ]
-    },
-    {
-      "id": "f62efe17436fb8c2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114785: Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Secur…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114785",
-      "published": "2026-11-17T22:18:05Z",
-      "summary": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Pla…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114785",
-        "critical"
-      ]
-    },
-    {
-      "id": "efc4b1edf0ba4e05",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114784: Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Ana…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114784",
-      "published": "2026-11-17T22:18:05Z",
-      "summary": "Vulnerability in the Oracle Business Intelligence Enterprise Edition product of Oracle Analytics (component: Platform Security). Supported versions that are affected are 8.2.0.0.0 and 26.01.0.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network acces…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114784",
-        "critical"
-      ]
-    },
-    {
-      "id": "76f267de5118bd3c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-101691: Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (compo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-101691",
-      "published": "2026-11-17T22:18:04Z",
-      "summary": "Vulnerability in the Oracle Mobile Field Service product of Oracle E-Business Suite (component: Admin UI). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle M…",
-      "tags": [
-        "CVE",
-        "CVE-2026-101691",
-        "critical"
-      ]
-    },
-    {
-      "id": "13457af5dbdbc295",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130856: 53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote un…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130856",
-      "published": "2026-11-17T20:17:51Z",
-      "summary": "53AIHub before 0.5.5 contains a missing authentication vulnerability that allows remote unauthenticated attackers to reinitialize installed instances by calling the public POST /api/init endpoint. Attackers can reset an existing account's password, assign the top creator role, an…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130856",
-        "critical"
-      ]
-    },
-    {
-      "id": "fdca8dfd403fe426",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130849: BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130849",
-      "published": "2026-11-17T20:17:50Z",
-      "summary": "BZFlag bzfs before 2.4.32 contains a heap out-of-bounds write vulnerability in NetHandler::tcpReceive() that allows remote unauthenticated attackers to corrupt heap memory by sending a TCP message with a body length of exactly 1024. Attackers can overwrite the tcplen receive offs…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130849",
-        "critical"
-      ]
-    },
-    {
-      "id": "3bd6fff24244f893",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130840: BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthent…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130840",
-      "published": "2026-11-17T20:17:48Z",
-      "summary": "BISHENG before 3.0.0 contains an authentication bypass vulnerability that allows unauthenticated remote attackers to impersonate administrators by abusing a hard-coded default jwt_secret used by AuthJwt. Attackers can forge an HS256 token offline naming user_id 1 with the admin r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130840",
-        "critical"
-      ]
-    },
-    {
-      "id": "6e75a435cd8398cf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130583: Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenti…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130583",
-      "published": "2026-11-17T14:17:44Z",
-      "summary": "Rootways Authorize.net CIM Pro extension for Magento 2 before 4.1.5 contains an unauthenticated server-side request forgery vulnerability in the Apple Pay merchant validation controller. Attackers can supply file://, gopher://, or dict:// URLs in the validationUrl parameter to re…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130583",
         "critical"
       ]
     },
@@ -561,20 +723,6 @@
       ]
     },
     {
-      "id": "9f7bd88d4cd97240",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-79614: An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmwa…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-79614",
-      "published": "2026-11-17T02:17:22Z",
-      "summary": "An out-of-bounds write vulnerability in “libclinkc.so” in Zyxel DX3301-T0/EX3301-T0 firmware versions through 5.50(ABVY.8.3)C0 could allow an unauthenticated attacker to elevate privileges and potentially execute arbitrary commands by sending a crafted HTTP request. WAN access is…",
-      "tags": [
-        "CVE",
-        "CVE-2026-79614",
-        "critical"
-      ]
-    },
-    {
       "id": "d8baa5508f9a9db6",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -585,48 +733,6 @@
       "tags": [
         "KEV",
         "CVE-2026-115731"
-      ]
-    },
-    {
-      "id": "0b56e216cf60fcc7",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130071: TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130071",
-      "published": "2026-11-16T22:18:22Z",
-      "summary": "TridotsTech go1cms master branch through commit 7f68d05 and version-3 branch before commit ead8da3 contains a missing authentication vulnerability in the guest-whitelisted update_doc method that allows unauthenticated attackers to modify any document. Attackers can supply a docty…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130071",
-        "critical"
-      ]
-    },
-    {
-      "id": "0dd034dcff858893",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130072: Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path trave…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130072",
-      "published": "2026-11-16T22:18:22Z",
-      "summary": "Cloud Commander (cloudcmd) before 19.21.4 contains an authentication bypass and path traversal vulnerability that allows unauthenticated attackers to rename files by sending PUT /rename requests handled before authentication middleware. Attackers can supply absolute or ../ paths…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130072",
-        "critical"
-      ]
-    },
-    {
-      "id": "33de39f54cd8298f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130070: Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130070",
-      "published": "2026-11-16T22:18:22Z",
-      "summary": "Ghost by muneeb141 on the main branch from commit c731cdf through commit 672dfec contains an authentication bypass vulnerability in the whitelisted ghost.api.ghost.convert_to_real_user method that allows unauthenticated attackers to skip OTP verification by setting the client-sup…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130070",
-        "critical"
       ]
     },
     {
@@ -1101,19 +1207,6 @@
       ]
     },
     {
-      "id": "c5bfeedc9f881460",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/04/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-11-04T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2024-27834 Apple Multiple Products Improper Authentication Vulnerability This type of vulnerability is a frequent attack vector for malicious…",
-      "tags": [
-        "CVE-2024-27834",
-        "advisory"
-      ]
-    },
-    {
       "id": "ff75aca6bd8abed1",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1245,6 +1338,18 @@
       "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-02",
       "published": "2026-10-29T12:00:00Z",
       "summary": "View CSAF Summary Hitachi Energy is aware of multiple vulnerabilities that affect the TRO600 series product versions listed in this document. These vulnerabilities can be exploited for remote code execution (RCE) to carry out further attacks and disclosure of sensitive informatio…",
+      "tags": [
+        "ics"
+      ]
+    },
+    {
+      "id": "c0138fec61383be4",
+      "source": "cisa-ics",
+      "source_name": "CISA ICS Advisories",
+      "title": "Siemens Mendix SAML Module",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-302-01",
+      "published": "2026-10-29T12:00:00Z",
+      "summary": "View CSAF Summary Mendix SAML module contains an authentication bypass vulnerability that could allow an unauthenticated remote attacker to gain unauthorized access by replaying a valid SAML assertion in IdP-initiated authentication flows. Siemens has released new versions for th…",
       "tags": [
         "ics"
       ]
@@ -1447,17 +1552,6 @@
       "tags": [
         "KEV",
         "CVE-2026-109618"
-      ]
-    },
-    {
-      "id": "cbc6b5f311de5bf3",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "YARA-X 1.22.0 Release, (Sun, Oct 25th)",
-      "url": "https://isc.sans.edu/diary/rss/33454",
-      "published": "2026-10-25T19:57:53Z",
-      "tags": [
-        "research"
       ]
     },
     {
@@ -1774,32 +1868,6 @@
       ]
     },
     {
-      "id": "a28d52db14409911",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-21589 — Atlassian Multiple Products: Atlassian Multiple Products Files or Directories Accessible to External Parties Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-21589",
-      "published": "2026-10-15T00:00:00Z",
-      "summary": "Multiple Atlassian products (Bitbucket Data Center ,Confluence Data Center, Jira Service Management Data Center, Jira Software Data Center, Bamboo Data Center, Crowd Data Center, Crucible and Fisheye) contain a files or directories accessible to external parties vulnerability whi…",
-      "tags": [
-        "KEV",
-        "CVE-2026-21589"
-      ]
-    },
-    {
-      "id": "00c155ac620da522",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-105134 — Ahsay AhsayCBS: Ahsay AhsayCBS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105134",
-      "published": "2026-10-14T00:00:00Z",
-      "summary": "Ahsay AhsayCBS contains a command injection vulnerability that could allow a remote attacker to execute operating system commands via manipulation of the random parameter in the Replication Receiver component’s /rps/api/json/UpdateReceivers.do endpoint. This vulnerability can be…",
-      "tags": [
-        "KEV",
-        "CVE-2026-105134"
-      ]
-    },
-    {
       "id": "2b733717310dddec",
       "source": "cert-fr-alerte",
       "source_name": "CERT-FR Alertes",
@@ -1810,33 +1878,6 @@
       "tags": [
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "2f5fc483578596d3",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-0322 — Palo Alto Networks PAN-OS: Palo Alto Networks PAN-OS Code Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-0322",
-      "published": "2026-10-14T00:00:00Z",
-      "summary": "Palo Alto Networks PAN-OS contains a code injection vulnerability that could allow an authenticated attacker with network access to execute arbitrary code with root privileges on the firewall.",
-      "tags": [
-        "KEV",
-        "CVE-2026-0322"
-      ]
-    },
-    {
-      "id": "5c8355910c62fa69",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-105133 — Ahsay AhsayCBS: Ahsay AhsayCBS Improper Authentication Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-105133",
-      "published": "2026-10-14T00:00:00Z",
-      "summary": "Ahsay AhsayCBS contains an improper authentication vulnerability that could allow a remote attacker to bypass authentication via manipulation of the random parameter in the API component’s checkSysPwd function. This vulnerability can be chained with CVE-2026-105134.",
-      "tags": [
-        "KEV",
-        "CVE-2026-105133",
-        "CVE-2026-105134"
       ]
     },
     {
@@ -1938,18 +1979,6 @@
       "summary": "View CSAF Summary Successful exploitation of this vulnerability could crash the device being accessed; a buffer overflow condition may allow remote code execution. The following versions of Savannah lwIP SMTP client are affected: lwIP SMTP client 2.2.1 (CVE-2026-15340) CVSS Vendo…",
       "tags": [
         "CVE-2026-15340",
-        "ics"
-      ]
-    },
-    {
-      "id": "db461caabe0c965b",
-      "source": "cisa-ics",
-      "source_name": "CISA ICS Advisories",
-      "title": "Hitachi Energy RTU500",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-279-06",
-      "published": "2026-10-06T12:00:00Z",
-      "summary": "View CSAF Summary Hitachi Energy is publishing this cybersecurity advisory in response to the security findings reported by Dragos affecting end-of-life RTU500 CMU firmware version 9.x. The reported findings are associated with legacy RTU500 firmware versions that were developed…",
-      "tags": [
         "ics"
       ]
     },
@@ -2151,18 +2180,6 @@
       "url": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
       "published": "2026-08-27T12:00:00Z",
       "summary": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
-      "tags": [
-        "guidance"
-      ]
-    },
-    {
-      "id": "a5fe1c1863fc89a8",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Managing the cyber risk of agentic AI",
-      "url": "https://www.ncsc.gov.uk/blogs/managing-the-cyber-risk-of-agentic-ai",
-      "published": "2026-08-20T12:00:00Z",
-      "summary": "Use safeguards, sandboxing and active oversight to realise the benefits of autonomous systems while limiting the unintended activity.",
       "tags": [
         "guidance"
       ]
