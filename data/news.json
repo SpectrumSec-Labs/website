@@ -1,7 +1,48 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T07:39:28Z",
+  "generated": "2026-11-19T20:48:53Z",
   "items": [
+    {
+      "id": "31c4bb63cffd59f4",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Elecbrakes EB2, VM1, ELBC2000",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-02",
+      "published": "2026-11-19T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of these vulnerabilities could allow an attacker to gain control of the brakes of a trailer, modify the firmware, disable the brake lights, modify the brake conditions or disable other critical safety features. The following versions of E…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "ad267eaa2b115482",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Autonomy Logic OpenPLC Runtime",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-01",
+      "published": "2026-11-19T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow several unauthenticated admin accounts to be created. The following versions of Autonomy Logic OpenPLC Runtime are affected: OpenPLC Runtime <=4.2.4 (CVE-2026-126088) CVSS Vendor Equipment v3 8.1 Autonomy…",
+      "tags": [
+        "CVE-2026-126088",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "bf2611689a6fa7cb",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "libumqtt",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-323-03",
+      "published": "2026-11-19T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow a remote attacker to cause a denial of service, memory corruption, or information disclosure. The following versions of libumqtt are affected: libumqtt <=1.1.1 (CVE-2026-125132) CVSS Vendor Equipment v3 8…",
+      "tags": [
+        "CVE-2026-125132",
+        "advisory",
+        "ics"
+      ]
+    },
     {
       "id": "711ba511b7cedc80",
       "source": "nvd-recent",
@@ -28,20 +69,6 @@
       ]
     },
     {
-      "id": "88f9a375ea6f6da3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132143: A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132143",
-      "published": "2026-11-18T22:17:20Z",
-      "summary": "A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affects the function doWebBackup of the file /cgi-bin/mainfunction.cgi of the component Backup Handler. Such manipulation of the argument path/value leads to stack-based buffer overflow. The att…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132143",
-        "critical"
-      ]
-    },
-    {
       "id": "4267bad63fc7345e",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -52,6 +79,20 @@
       "tags": [
         "CVE",
         "CVE-2026-132142",
+        "critical"
+      ]
+    },
+    {
+      "id": "88f9a375ea6f6da3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132143: A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132143",
+      "published": "2026-11-18T22:17:20Z",
+      "summary": "A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affects the function doWebBackup of the file /cgi-bin/mainfunction.cgi of the component Backup Handler. Such manipulation of the argument path/value leads to stack-based buffer overflow. The att…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132143",
         "critical"
       ]
     },
@@ -1131,19 +1172,6 @@
       ]
     },
     {
-      "id": "2e68c49691546005",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "CISA Adds One Known Exploited Vulnerability to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/11/06/cisa-adds-one-known-exploited-vulnerability-catalog",
-      "published": "2026-11-06T12:00:00Z",
-      "summary": "CISA has added one new vulnerability to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-19868 SonicWall SonicOS SSLVPN Use of Single-factor Authentication Vulnerability This type of vulnerability is a frequent attack vector f…",
-      "tags": [
-        "CVE-2026-19868",
-        "advisory"
-      ]
-    },
-    {
       "id": "953902135b609ed3",
       "source": "cisa-kev",
       "source_name": "CISA Known Exploited Vulnerabilities",
@@ -1165,30 +1193,6 @@
       "published": "2026-11-05T15:29:08Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "384cea25d0e901e6",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Post-Quantum Questions to Ask Your Vendors",
-      "url": "https://www.cisa.gov/resources-tools/resources/post-quantum-questions-ask-your-vendors",
-      "published": "2026-11-05T12:00:00Z",
-      "summary": "CISA, the Australian Signals Directorate’s Australian Cyber Security Centre (ASD’s ACSC) and the National Security Agency (NSA) released joint guidance and an accompanying quick-reference list to help organizations assess vendor readiness for transitioning to post-quantum cryptog…",
-      "tags": [
-        "advisory"
-      ]
-    },
-    {
-      "id": "cddef5bb18e3bcbf",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "US Government Partners Urge Hardening Industrial Refrigeration and Cold Chain Monitoring Systems",
-      "url": "https://www.cisa.gov/resources-tools/resources/us-government-partners-urge-hardening-industrial-refrigeration-and-cold-chain-monitoring-systems",
-      "published": "2026-11-05T12:00:00Z",
-      "summary": "Overview The Cybersecurity and Infrastructure Security Agency (CISA), Federal Bureau of Investigation (FBI), Health and Human Services (HHS), U.S. Department of Agriculture (USDA), and the Department of Transportation (DoT)—hereafter referred to as “the authoring organizations”—a…",
-      "tags": [
-        "advisory"
       ]
     },
     {
