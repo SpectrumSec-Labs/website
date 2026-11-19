@@ -1,7 +1,88 @@
 {
   "schema": 1,
-  "generated": "2026-11-18T20:43:18Z",
+  "generated": "2026-11-19T07:39:28Z",
   "items": [
+    {
+      "id": "711ba511b7cedc80",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132622: A vulnerability was found in GearUP Hyperev up to 20261020. This impacts the function get_…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132622",
+      "published": "2026-11-19T04:17:27Z",
+      "summary": "A vulnerability was found in GearUP Hyperev up to 20261020. This impacts the function get_wlan_sitesurvey of the file ld/utils.lua of the component WLAN Site Survey. Performing a manipulation of the argument line results in os command injection. The attack is possible to be carri…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132622",
+        "critical"
+      ]
+    },
+    {
+      "id": "316b1322e9256e8e",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Treat Your Honeypot Analysis Like Code: Git, Pull Requests and a Human Gate for AI [Guest Diary], (Wed, Nov 18th)",
+      "url": "https://isc.sans.edu/diary/rss/33534",
+      "published": "2026-11-19T01:53:48Z",
+      "tags": [
+        "research"
+      ]
+    },
+    {
+      "id": "88f9a375ea6f6da3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132143: A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affe…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132143",
+      "published": "2026-11-18T22:17:20Z",
+      "summary": "A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affects the function doWebBackup of the file /cgi-bin/mainfunction.cgi of the component Backup Handler. Such manipulation of the argument path/value leads to stack-based buffer overflow. The att…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132143",
+        "critical"
+      ]
+    },
+    {
+      "id": "4267bad63fc7345e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132142: A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function datafl…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132142",
+      "published": "2026-11-18T22:17:20Z",
+      "summary": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function dataflowstatus of the file /cgi-bin/mainfunction.cgi of the component CGI Process. This manipulation of the argument option causes stack-based buffer overflow. The attack can be initiated remotely…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132142",
+        "critical"
+      ]
+    },
+    {
+      "id": "e50485621a7da994",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132141: A vulnerability was detected in DrayTek Vigor2960 up to 1.5.1.6. Affected by this issue is…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132141",
+      "published": "2026-11-18T22:17:19Z",
+      "summary": "A vulnerability was detected in DrayTek Vigor2960 up to 1.5.1.6. Affected by this issue is the function json_load_lock of the file /cgi-bin/mainfunction.cgi of the component Jsonstatus. The manipulation of the argument usefile results in stack-based buffer overflow. It is possibl…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132141",
+        "critical"
+      ]
+    },
+    {
+      "id": "9c27c3aa5ad5f04a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132139: A weakness has been identified in DrayTek Vigor2960 up to 1.5.1.6. Affected is the functio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132139",
+      "published": "2026-11-18T21:17:55Z",
+      "summary": "A weakness has been identified in DrayTek Vigor2960 up to 1.5.1.6. Affected is the function setSWMProfile of the file /cgi-bin/mainfunction.cgi. Executing a manipulation of the argument filename can lead to stack-based buffer overflow. The attack may be performed from remote. The…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132139",
+        "critical"
+      ]
+    },
     {
       "id": "fb98039a3f6f8d21",
       "source": "sans-isc",
@@ -24,6 +105,20 @@
       "tags": [
         "CVE",
         "CVE-2026-130786",
+        "critical"
+      ]
+    },
+    {
+      "id": "22a2f11d074e27f8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130780: Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130780",
+      "published": "2026-11-18T19:17:54Z",
+      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration peers to write outside intended directories by supplying unvalidated dependent volume and snapshot names in the migration offer header. Attackers controlling a migration source can create r…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130780",
         "critical"
       ]
     },
@@ -52,20 +147,6 @@
       "tags": [
         "CVE",
         "CVE-2026-130783",
-        "critical"
-      ]
-    },
-    {
-      "id": "22a2f11d074e27f8",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130780: Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130780",
-      "published": "2026-11-18T19:17:54Z",
-      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration peers to write outside intended directories by supplying unvalidated dependent volume and snapshot names in the migration offer header. Attackers controlling a migration source can create r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130780",
         "critical"
       ]
     },
@@ -126,20 +207,6 @@
       ]
     },
     {
-      "id": "ebc7dac834fdc148",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130759: Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAM…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130759",
-      "published": "2026-11-18T19:17:46Z",
-      "summary": "Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAML SSO callback that looks up sessions using unvalidated client-supplied identifiers. Users able to run live queries or enroll secret holders can plant attacker-controlled identity provider m…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130759",
-        "critical"
-      ]
-    },
-    {
       "id": "8afd3648c3ecd127",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -150,6 +217,20 @@
       "tags": [
         "CVE",
         "CVE-2026-130756",
+        "critical"
+      ]
+    },
+    {
+      "id": "ebc7dac834fdc148",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-130759: Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAM…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130759",
+      "published": "2026-11-18T19:17:46Z",
+      "summary": "Fleet from 4.71.0 before 4.88.2 contains an authentication bypass vulnerability in the SAML SSO callback that looks up sessions using unvalidated client-supplied identifiers. Users able to run live queries or enroll secret holders can plant attacker-controlled identity provider m…",
+      "tags": [
+        "CVE",
+        "CVE-2026-130759",
         "critical"
       ]
     },
@@ -455,76 +536,6 @@
       "tags": [
         "CVE",
         "CVE-2026-115139",
-        "critical"
-      ]
-    },
-    {
-      "id": "73d03ca86b74b4ae",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114980: Vulnerability in the Oracle AutoVue product of Oracle Supply Chain (component: Security Re…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114980",
-      "published": "2026-11-17T22:18:28Z",
-      "summary": "Vulnerability in the Oracle AutoVue product of Oracle Supply Chain (component: Security Related Issues). The supported version that is affected is 21.1.0. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle AutoVue. Wh…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114980",
-        "critical"
-      ]
-    },
-    {
-      "id": "b0d56b6440d859eb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114978: Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (comp…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114978",
-      "published": "2026-11-17T22:18:28Z",
-      "summary": "Vulnerability in the Oracle Hyperion Financial Management product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows low privileged attacker with network access via HTTP to compromise Oracle H…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114978",
-        "critical"
-      ]
-    },
-    {
-      "id": "f9a36f9b89fa6ace",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114956: Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Secur…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114956",
-      "published": "2026-11-17T22:18:26Z",
-      "summary": "Vulnerability in the Oracle Hyperion Planning product of Oracle Hyperion (component: Security). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Oracle Hyperion Pla…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114956",
-        "critical"
-      ]
-    },
-    {
-      "id": "79976c62038cad35",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114934: Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (compo…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114934",
-      "published": "2026-11-17T22:18:23Z",
-      "summary": "Vulnerability in the PeopleSoft Enterprise PeopleTools product of Oracle PeopleSoft (component: Integration Broker). Supported versions that are affected are 8.61-8.63. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compromise Peo…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114934",
-        "critical"
-      ]
-    },
-    {
-      "id": "5b56df2712dadc07",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-114881: Vulnerability in the Document Management and Collaboration product of Oracle E-Business Su…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114881",
-      "published": "2026-11-17T22:18:17Z",
-      "summary": "Vulnerability in the Document Management and Collaboration product of Oracle E-Business Suite (component: Attachments). Supported versions that are affected are 12.2.3-12.2.15. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to compro…",
-      "tags": [
-        "CVE",
-        "CVE-2026-114881",
         "critical"
       ]
     },
@@ -1515,17 +1526,6 @@
       "tags": [
         "KEV",
         "CVE-2026-48356"
-      ]
-    },
-    {
-      "id": "3752165e9c29de9f",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Looking for a Language [Guest Diary], (Wed, Oct 21st)",
-      "url": "https://isc.sans.edu/diary/rss/33442",
-      "published": "2026-10-26T09:38:03Z",
-      "tags": [
-        "research"
       ]
     },
     {
