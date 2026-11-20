@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-11-19T20:48:53Z",
+  "generated": "2026-11-20T07:30:04Z",
   "items": [
+    {
+      "id": "2a467651e8a9ded2",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-133493: A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacg…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
+      "published": "2026-11-20T07:17:10Z",
+      "summary": "A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might b…",
+      "tags": [
+        "CVE",
+        "CVE-2026-133493",
+        "critical"
+      ]
+    },
+    {
+      "id": "1da1041a89e7b977",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-76536: In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticate…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536",
+      "published": "2026-11-19T20:17:52Z",
+      "summary": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticated user could use an empty clustering shared secret to read and modify clustering configuration through the cluster configuration Representational State Transfer (REST) API endpoint on a stan…",
+      "tags": [
+        "CVE",
+        "CVE-2026-76536",
+        "critical"
+      ]
+    },
     {
       "id": "31c4bb63cffd59f4",
       "source": "cisa-advisories",
@@ -41,6 +69,20 @@
         "CVE-2026-125132",
         "advisory",
         "ics"
+      ]
+    },
+    {
+      "id": "a9ea75dc1b1a6319",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-14492: The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492",
+      "published": "2026-11-19T10:17:28Z",
+      "summary": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no…",
+      "tags": [
+        "CVE",
+        "CVE-2026-14492",
+        "critical"
       ]
     },
     {
@@ -535,48 +577,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91507",
-        "critical"
-      ]
-    },
-    {
-      "id": "b5ed91bfee409263",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91510: Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91510",
-      "published": "2026-11-17T22:19:22Z",
-      "summary": "Vulnerability in the Oracle Access Manager product of Oracle Fusion Middleware (component: Authentication Engine). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.1.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via HTTP to…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91510",
-        "critical"
-      ]
-    },
-    {
-      "id": "f745195a24c09dac",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91469: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91469",
-      "published": "2026-11-17T22:19:22Z",
-      "summary": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and 15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with network access via…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91469",
-        "critical"
-      ]
-    },
-    {
-      "id": "ba63f19439d7e78c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-115139: Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115139",
-      "published": "2026-11-17T22:18:47Z",
-      "summary": "Vulnerability in the Oracle Hyperion Infrastructure Technology product of Oracle Hyperion (component: Installation and Configuration). The supported version that is affected is 11.2.26.0.000. Easily exploitable vulnerability allows unauthenticated attacker with network access via…",
-      "tags": [
-        "CVE",
-        "CVE-2026-115139",
         "critical"
       ]
     },
