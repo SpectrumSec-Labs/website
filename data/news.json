@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-11-21T07:25:58Z",
+  "generated": "2026-11-21T19:29:54Z",
   "items": [
+    {
+      "id": "99d09348b4553899",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125294: The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all ve…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
+      "published": "2026-11-21T19:16:31Z",
+      "summary": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125294",
+        "critical"
+      ]
+    },
+    {
+      "id": "8d6963922c4777a1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-133993: A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993",
+      "published": "2026-11-21T18:16:54Z",
+      "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible…",
+      "tags": [
+        "CVE",
+        "CVE-2026-133993",
+        "critical"
+      ]
+    },
+    {
+      "id": "59a61aadd94a74a2",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-134292: SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292",
+      "published": "2026-11-21T17:16:48Z",
+      "summary": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated…",
+      "tags": [
+        "CVE",
+        "CVE-2026-134292",
+        "critical"
+      ]
+    },
     {
       "id": "9db60cbdb40f54ae",
       "source": "nvd-recent",
@@ -510,20 +552,6 @@
       ]
     },
     {
-      "id": "128633cb0f4a0f2c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130675: Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in Image…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130675",
-      "published": "2026-11-18T12:17:10Z",
-      "summary": "Craft CMS from 5.0.0 before 5.11.4 contains a remote code execution vulnerability in ImageTransforms::normalizeTransform() that allows attackers to instantiate arbitrary classes by supplying class:null with a __class key. Attackers can reach the method through Craft Commerce's pa…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130675",
-        "critical"
-      ]
-    },
-    {
       "id": "2bf6e3b53184cd10",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -535,20 +563,6 @@
         "CVE-2024-10441",
         "CVE-2026-40217",
         "advisory"
-      ]
-    },
-    {
-      "id": "79fee5ca2bf9fad1",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-131852: OwnTracks Recorder before 1.0.5 contains a format string vulnerability in json_response()…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131852",
-      "published": "2026-11-18T00:18:43Z",
-      "summary": "OwnTracks Recorder before 1.0.5 contains a format string vulnerability in json_response() and related output functions that allows unauthenticated attackers to execute code by storing a malicious tid value. Attackers can publish locations via POST /pub or MQTT with printf specifi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-131852",
-        "critical"
       ]
     },
     {
@@ -630,20 +644,6 @@
       "tags": [
         "KEV",
         "CVE-2026-90817"
-      ]
-    },
-    {
-      "id": "27b0f93fea89a69d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91561: Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91561",
-      "published": "2026-11-17T22:19:24Z",
-      "summary": "Vulnerability in the Oracle Service Bus product of Oracle Fusion Middleware (component: Core). Supported versions that are affected are 12.2.1.4.0 and 14.1.2.0.0. Easily exploitable vulnerability allows low privileged attacker with network access via RMI to compromise Oracle Serv…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91561",
-        "critical"
       ]
     },
     {
