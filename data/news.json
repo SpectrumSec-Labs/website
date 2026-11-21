@@ -1,7 +1,21 @@
 {
   "schema": 1,
-  "generated": "2026-11-20T20:33:15Z",
+  "generated": "2026-11-21T07:25:58Z",
   "items": [
+    {
+      "id": "9db60cbdb40f54ae",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-120539: The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Executio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
+      "published": "2026-11-21T06:16:33Z",
+      "summary": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it wit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-120539",
+        "critical"
+      ]
+    },
     {
       "id": "239e1930f24ff61b",
       "source": "nvd-recent",
@@ -629,20 +643,6 @@
       "tags": [
         "CVE",
         "CVE-2026-91561",
-        "critical"
-      ]
-    },
-    {
-      "id": "b24bf6f1190e958c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-91569: Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-91569",
-      "published": "2026-11-17T22:19:24Z",
-      "summary": "Vulnerability in the Oracle WebLogic Server product of Oracle Fusion Middleware (component: TopLink Integration). Supported versions that are affected are 12.2.1.4.0, 14.1.1.0.0, 14.1.2.0.0 and 15.1.1.0.0. Easily exploitable vulnerability allows unauthenticated attacker with netw…",
-      "tags": [
-        "CVE",
-        "CVE-2026-91569",
         "critical"
       ]
     },
