@@ -1,7 +1,18 @@
 {
   "schema": 1,
-  "generated": "2026-11-21T19:29:54Z",
+  "generated": "2026-11-22T19:51:26Z",
   "items": [
+    {
+      "id": "a1fea56d8f1e82e1",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "A brief history of syslog timestamps, (Sun, Nov 22nd)",
+      "url": "https://isc.sans.edu/diary/rss/33530",
+      "published": "2026-11-22T18:40:18Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "99d09348b4553899",
       "source": "nvd-recent",
@@ -1556,17 +1567,6 @@
       "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "344bdc9286a24997",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Apple Patches for October 2026, (Mon, Oct 26th)",
-      "url": "https://isc.sans.edu/diary/rss/33458",
-      "published": "2026-10-27T02:09:55Z",
-      "tags": [
-        "research"
       ]
     },
     {
