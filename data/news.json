@@ -1,7 +1,44 @@
 {
   "schema": 1,
-  "generated": "2026-11-24T00:04:34Z",
+  "generated": "2026-11-24T10:06:27Z",
   "items": [
+    {
+      "id": "c44a1e00da7e3410",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Introducing CORNERSTONE: delivering external services for the NCSC",
+      "url": "https://www.ncsc.gov.uk/blogs/introducing-cornerstone-delivering-external-services-for-the-ncsc",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "The NCSC is seeking industry feedback on a new delivery model for modernising external cyber security services.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "d2cb47cbd005b4c0",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135202: Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooComm…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
+      "published": "2026-11-24T06:17:08Z",
+      "summary": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to Word…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135202",
+        "critical"
+      ]
+    },
+    {
+      "id": "42330c2f515c00c1",
+      "source": "sans-isc",
+      "source_name": "SANS Internet Storm Center",
+      "title": "Scanning from Subnet 109.160.32.0/24, (Mon, Nov 23rd)",
+      "url": "https://isc.sans.edu/diary/rss/33550",
+      "published": "2026-11-24T02:32:00Z",
+      "tags": [
+        "research"
+      ]
+    },
     {
       "id": "9380b949de811290",
       "source": "nvd-recent",
@@ -585,20 +622,6 @@
       "tags": [
         "CVE",
         "CVE-2026-130780",
-        "critical"
-      ]
-    },
-    {
-      "id": "45ce971546d9e538",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130784: Incus before 7.6.0 contains an authorization bypass vulnerability that allows restricted c…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130784",
-      "published": "2026-11-18T19:17:54Z",
-      "summary": "Incus before 7.6.0 contains an authorization bypass vulnerability that allows restricted clients to create and access default project resources by exploiting entitlement checks against the requested project. Attackers can create bridge networks with raw.dnsmasq directives to exec…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130784",
         "critical"
       ]
     },
@@ -1517,17 +1540,6 @@
       "tags": [
         "KEV",
         "CVE-2026-76418"
-      ]
-    },
-    {
-      "id": "241b0a1b56759dc1",
-      "source": "sans-isc",
-      "source_name": "SANS Internet Storm Center",
-      "title": "Yet Another ClickFix Campaign, (Wed, Oct 28th)",
-      "url": "https://isc.sans.edu/diary/rss/33466",
-      "published": "2026-10-28T16:07:03Z",
-      "tags": [
-        "research"
       ]
     },
     {
