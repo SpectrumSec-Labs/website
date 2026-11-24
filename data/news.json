@@ -1,7 +1,423 @@
 {
   "schema": 1,
-  "generated": "2026-11-24T10:06:27Z",
+  "generated": "2026-11-24T22:37:00Z",
   "items": [
+    {
+      "id": "a35e7cf379524c5a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136522: CubeWP Forms before 1.1.13 contains an unauthenticated stored cross-site scripting vulnera…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136522",
+      "published": "2026-11-24T21:18:20Z",
+      "summary": "CubeWP Forms before 1.1.13 contains an unauthenticated stored cross-site scripting vulnerability that allows attackers to inject malicious JavaScript by submitting unregistered field names through the public REST route cubewp-custom-form/v1/submit/, which bypasses its own nonce c…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136522",
+        "critical"
+      ]
+    },
+    {
+      "id": "064d0ffec7dbc305",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136411: BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
+      "published": "2026-11-24T19:18:17Z",
+      "summary": "BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that allows unauthenticated remote attackers to access files outside any intended directory when started without a DIR argument. Attackers can send RRQ or WRQ packets with file names beginning with…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136411",
+        "critical"
+      ]
+    },
+    {
+      "id": "7b865cc89829c00f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136404: ntop n2n supernode 3.0 through 3.1.1 contains a stack-based buffer overflow vulnerability…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136404",
+      "published": "2026-11-24T19:18:16Z",
+      "summary": "ntop n2n supernode 3.0 through 3.1.1 contains a stack-based buffer overflow vulnerability that allows remote unauthenticated attackers to leak memory and execute code by sending an untrusted 16-bit auth token_size in REGISTER_SUPER_NAK datagrams. Attackers can register an edge in…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136404",
+        "critical"
+      ]
+    },
+    {
+      "id": "e707bdfaf09d73e9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135797: A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
+      "published": "2026-11-24T19:18:14Z",
+      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135797",
+        "critical"
+      ]
+    },
+    {
+      "id": "9b71d993d54e87b2",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135796: A vulnerability was determined in Volans NGFW Next-Generation Firewall r5.1. This issue af…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135796",
+      "published": "2026-11-24T19:18:14Z",
+      "summary": "A vulnerability was determined in Volans NGFW Next-Generation Firewall r5.1. This issue affects the function exec/system of the file modules/assets/port_serve_scan.mds of the component Web Management UI. This manipulation of the argument task_name/where/path causes os command inj…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135796",
+        "critical"
+      ]
+    },
+    {
+      "id": "cda0e030cd033ebf",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135794: A vulnerability was determined in Panabit Smart Application Gateway TANGr7p10. The affecte…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135794",
+      "published": "2026-11-24T19:18:14Z",
+      "summary": "A vulnerability was determined in Panabit Smart Application Gateway TANGr7p10. The affected element is the function add_crontab of the file admin/cgi-bin/sac/ajax_sac_crontab of the component SAC. Executing a manipulation of the argument cmd can lead to code injection. The attack…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135794",
+        "critical"
+      ]
+    },
+    {
+      "id": "ef199ee72e4d1e04",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-132877: Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code I…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132877",
+      "published": "2026-11-24T19:18:09Z",
+      "summary": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary cod…",
+      "tags": [
+        "CVE",
+        "CVE-2026-132877",
+        "critical"
+      ]
+    },
+    {
+      "id": "40ff8cba72573441",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135792: A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792",
+      "published": "2026-11-24T18:19:03Z",
+      "summary": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack ma…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135792",
+        "critical"
+      ]
+    },
+    {
+      "id": "c93342fef753a51d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135791: A flaw has been found in Panabit Smart Application Gateway TANGr7p10. This vulnerability a…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135791",
+      "published": "2026-11-24T18:19:02Z",
+      "summary": "A flaw has been found in Panabit Smart Application Gateway TANGr7p10. This vulnerability affects the function edit_data_pie of the file /cgi-bin/flowcontrol/ajax_data_pie. This manipulation of the argument Name causes os command injection. The attack may be initiated remotely. Th…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135791",
+        "critical"
+      ]
+    },
+    {
+      "id": "a447120ac6bd8844",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125718: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
+      "published": "2026-11-24T18:18:54Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125718",
+        "critical"
+      ]
+    },
+    {
+      "id": "2405f9641b39a981",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125717: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717",
+      "published": "2026-11-24T18:18:54Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensi…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125717",
+        "critical"
+      ]
+    },
+    {
+      "id": "e0d36c03c4093ee9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125716: Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnera…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716",
+      "published": "2026-11-24T18:18:54Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploit…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125716",
+        "critical"
+      ]
+    },
+    {
+      "id": "81731388f1ff569a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123987: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
+      "published": "2026-11-24T18:18:53Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123987",
+        "critical"
+      ]
+    },
+    {
+      "id": "332435234b23707d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123986: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986",
+      "published": "2026-11-24T18:18:53Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123986",
+        "critical"
+      ]
+    },
+    {
+      "id": "4fdf93064b98c924",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123723: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723",
+      "published": "2026-11-24T18:18:53Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123723",
+        "critical"
+      ]
+    },
+    {
+      "id": "67686e9b0ba109bb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123342: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342",
+      "published": "2026-11-24T18:18:53Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123342",
+        "critical"
+      ]
+    },
+    {
+      "id": "cb6e46cf0880dfbb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82316: SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
+      "published": "2026-11-24T17:18:54Z",
+      "summary": "SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is lower i…",
+      "tags": [
+        "CVE",
+        "CVE-2026-82316",
+        "critical"
+      ]
+    },
+    {
+      "id": "cebaddc60fe49d31",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82315: SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerabili…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
+      "published": "2026-11-24T17:18:54Z",
+      "summary": "SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is l…",
+      "tags": [
+        "CVE",
+        "CVE-2026-82315",
+        "critical"
+      ]
+    },
+    {
+      "id": "731177af93f77e91",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136184: compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184",
+      "published": "2026-11-24T17:18:46Z",
+      "summary": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse u…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136184",
+        "critical"
+      ]
+    },
+    {
+      "id": "37873d31344881e4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135790: A vulnerability was detected in Panabit Smart Application Gateway TANGr7p10. This affects…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135790",
+      "published": "2026-11-24T17:18:43Z",
+      "summary": "A vulnerability was detected in Panabit Smart Application Gateway TANGr7p10. This affects an unknown part of the file /cgi-bin/dashboard/ajax_chart_dump. The manipulation of the argument isntmeye results in os command injection. The attack can be launched remotely. The exploit is…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135790",
+        "critical"
+      ]
+    },
+    {
+      "id": "a07b4281bf16199f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135789: A security vulnerability has been detected in D-Link R95 101B06. Affected by this issue is…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135789",
+      "published": "2026-11-24T17:18:43Z",
+      "summary": "A security vulnerability has been detected in D-Link R95 101B06. Affected by this issue is the function GetBluetoothAdapterSettings/GetBluetoothBloodPressure/GetBluetoothDeviceList/GetBluetoothScanDeviceList/SetBluetoothAdapterSettings/SetBluetoothUnpairDevice/SetTriggerBluetooth…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135789",
+        "critical"
+      ]
+    },
+    {
+      "id": "01ec3fa0de7906c3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135788: A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135788",
+      "published": "2026-11-24T17:18:43Z",
+      "summary": "A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability is an unknown functionality of the file /usr/sbin/anweb. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been made ava…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135788",
+        "critical"
+      ]
+    },
+    {
+      "id": "e8af793e75095a79",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123167: SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
+      "published": "2026-11-24T17:18:13Z",
+      "summary": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise would require elevated privileges. The risk is lower for Windows installations.",
+      "tags": [
+        "CVE",
+        "CVE-2026-123167",
+        "critical"
+      ]
+    },
+    {
+      "id": "9ee3de49c1003dca",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-119582: Improper neutralization of special elements used in an SQL command ('SQL injection') vulne…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582",
+      "published": "2026-11-24T12:17:17Z",
+      "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection. This issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "tags": [
+        "CVE",
+        "CVE-2026-119582",
+        "critical"
+      ]
+    },
+    {
+      "id": "6267c6916ac9db5b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-117593: Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Te…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117593",
+      "published": "2026-11-24T12:17:17Z",
+      "summary": "Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows Password Recovery Exploitation. This issue affects vSRM: from v14.08.3 before v14.08.5.",
+      "tags": [
+        "CVE",
+        "CVE-2026-117593",
+        "critical"
+      ]
+    },
+    {
+      "id": "165729c3cbfbb2e3",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds Three Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/24/cisa-adds-three-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "CISA has added three new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-131914 Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability CVE-2026-132165 Drupal Core Remote Code Execution Vulnerabilit…",
+      "tags": [
+        "CVE-2026-131914",
+        "CVE-2026-132165",
+        "advisory"
+      ]
+    },
+    {
+      "id": "3a8ad132bbb8c2a0",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Danfoss AK-SM 8xxA Series",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-03",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow an attacker to execute arbitrary code with webserver privileges. The following versions of Danfoss AK-SM 8xxA Series are affected: AK-SM8xxA <=5.4.0 (CVE-2026-129713) CVSS Vendor Equipment v3 9.8 Danfoss…",
+      "tags": [
+        "CVE-2026-129713",
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "3ed1970e74313c87",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "AutomationDirect C-More EA9 Programming Software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-01",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "View CSAF Summary Successful exploitation of this vulnerability could allow attackers to corrupt application memory and cause instability or a crash, potentially leading to arbitrary code execution, if a user is convinced to open a malicious file. The following versions of Automa…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
+    {
+      "id": "5d4b7756ff34b084",
+      "source": "ncsc-uk",
+      "source_name": "NCSC UK",
+      "title": "Familiar weaknesses, exploited faster: defending against agentic cyber attacks",
+      "url": "https://www.ncsc.gov.uk/blogs/familiar-weaknesses-exploited-faster-defending-against-agentic-cyber-attacks",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "How to protect your organisation from cyber attacks created using ‘agentic offensive frameworks’.",
+      "tags": [
+        "guidance"
+      ]
+    },
+    {
+      "id": "7b6115f8e21f6eec",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "Schneider Electric EcoStruxure Power Build Rapsody software",
+      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-328-02",
+      "published": "2026-11-24T12:00:00Z",
+      "summary": "View CSAF Summary Schneider Electric is aware of a vulnerability in its EcoStruxure™ Power Build Rapsody product. The EcoStruxure™ Power Build Rapsody is used to enter or import the single line diagram, to get the extensive bill of material of your switchboard, including all devi…",
+      "tags": [
+        "advisory",
+        "ics"
+      ]
+    },
     {
       "id": "c44a1e00da7e3410",
       "source": "ncsc-uk",
@@ -29,6 +445,20 @@
       ]
     },
     {
+      "id": "fe9efb23527ffe5c",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135736: FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavf…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135736",
+      "published": "2026-11-24T04:17:32Z",
+      "summary": "FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavfilter/vf_deband.c that allows attackers to corrupt heap memory by sending a runtime coupling command. Attackers can send a 'deband coupling 1' command via sendcmd or an unauthenticated zmq f…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135736",
+        "critical"
+      ]
+    },
+    {
       "id": "42330c2f515c00c1",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -37,6 +467,45 @@
       "published": "2026-11-24T02:32:00Z",
       "tags": [
         "research"
+      ]
+    },
+    {
+      "id": "1e2b85d445545904",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-132165 — Drupal Core: Drupal Core Remote Code Execution Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132165",
+      "published": "2026-11-24T00:00:00Z",
+      "summary": "Drupal Core contains a not failing securely vulnerability that could allow an unauthenticated attacker to take over an existing site or execute arbitrary code via the Drupal installer. Under specific conditions, the attacker can use install.php to attempt to reinstall Drupal on t…",
+      "tags": [
+        "KEV",
+        "CVE-2026-132165"
+      ]
+    },
+    {
+      "id": "2d8ded1f16d1613f",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-132224 — Optimizely Web Experimentation: Optimizely Web Experimentation External Control of Critical State Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132224",
+      "published": "2026-11-24T00:00:00Z",
+      "summary": "Optimizely Web Experimentation contains an external control of critical state data vulnerability in its account signup flow that could allow an attacker to impersonate existing customer users and modify Project JavaScript. Successful exploitation can result in attacker-controlled…",
+      "tags": [
+        "KEV",
+        "CVE-2026-132224"
+      ]
+    },
+    {
+      "id": "91cdc0af69ccfca3",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-131914 — Idunno AntiCsrf: Idunno AntiCsrf Deserialization of Untrusted Data Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-131914",
+      "published": "2026-11-24T00:00:00Z",
+      "summary": "Idunno AntiCsrf contains a deserialization of untrusted data vulnerability that allows an unauthenticated remote attacker to execute arbitrary code via object injection. The impacted product(s) could be end-of-life (EoL) and/or end-of-service (EoS). Users are advised to discontin…",
+      "tags": [
+        "KEV",
+        "CVE-2026-131914"
       ]
     },
     {
@@ -82,118 +551,6 @@
       ]
     },
     {
-      "id": "5f95d29f68759db6",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-62841: Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate pri…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-62841",
-      "published": "2026-11-23T22:20:39Z",
-      "summary": "Improper authentication in Azure Event Grid allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-62841",
-        "critical"
-      ]
-    },
-    {
-      "id": "2b0c91b6eddc7c04",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-50691: Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-50691",
-      "published": "2026-11-23T22:20:16Z",
-      "summary": "Improper authorization in M365 Copilot allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-50691",
-        "critical"
-      ]
-    },
-    {
-      "id": "8e2f15550fbfdc63",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118286: Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118286",
-      "published": "2026-11-23T22:19:30Z",
-      "summary": "Improper access control in Azure Site Recovery allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-118286",
-        "critical"
-      ]
-    },
-    {
-      "id": "8f441377cd41027e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-118285: Server-side request forgery in Azure Machine Learning allows an authorized attacker to ele…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-118285",
-      "published": "2026-11-23T22:19:30Z",
-      "summary": "Server-side request forgery in Azure Machine Learning allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-118285",
-        "critical"
-      ]
-    },
-    {
-      "id": "9280a0f09c3fed39",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-113824: Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthoriz…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-113824",
-      "published": "2026-11-23T22:19:04Z",
-      "summary": "Authorization bypass through user-controlled key in Microsoft Clarity allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-113824",
-        "critical"
-      ]
-    },
-    {
-      "id": "fb2833c75a9c7603",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109490: Improper neutralization of input during web page generation ('cross-site scripting') in Au…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109490",
-      "published": "2026-11-23T22:18:30Z",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Authentication Methods Portal Extension allows an unauthorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-109490",
-        "critical"
-      ]
-    },
-    {
-      "id": "a0dfb8c26d236842",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-109480: Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized at…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109480",
-      "published": "2026-11-23T22:18:29Z",
-      "summary": "Server-side request forgery in Profile Data Roaming Service (PDRS) allows an authorized attacker to elevate privileges over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-109480",
-        "critical"
-      ]
-    },
-    {
-      "id": "614ceb509b025988",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135208: Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows u…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135208",
-      "published": "2026-11-23T16:17:38Z",
-      "summary": "Kerberos Agent before 3.14.4 contains an authentication bypass vulnerability that allows unauthenticated attackers to forge administrator tokens because JWTMiddleWare() falls back to the hard-coded key TOBECHANGED. Attackers can sign HS256 tokens with arbitrary username and role…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135208",
-        "critical"
-      ]
-    },
-    {
       "id": "75ea09ea3e752e02",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -205,34 +562,6 @@
         "CVE-2026-133968",
         "CVE-2026-134624",
         "advisory"
-      ]
-    },
-    {
-      "id": "cdb55db32593e960",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-134882: A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affect…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134882",
-      "published": "2026-11-23T09:17:05Z",
-      "summary": "A weakness has been identified in TOTOLINK A7100RU 7.4cu.2313_B20191024. This issue affects the function exportOvpn of the file /cgi-bin/cstecgi.cgi of the component CGI Handler. This manipulation of the argument Username causes os command injection. The attack is possible to be…",
-      "tags": [
-        "CVE",
-        "CVE-2026-134882",
-        "critical"
-      ]
-    },
-    {
-      "id": "65fe2719aae72838",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120382: An improper neutralization of argument delimiters in a command vulnerability in the OAuth…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120382",
-      "published": "2026-11-23T08:17:14Z",
-      "summary": "An improper neutralization of argument delimiters in a command vulnerability in the OAuth API in Synology DiskStation Manager (DSM) before 7.1.1-42962-10, 7.2.1-69057-14, 7.2.2-72806-11, 7.3.2-86009-6, and 7.4.1-90080-2 allows remote attackers to read or write arbitrary files and…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120382",
-        "critical"
       ]
     },
     {
@@ -273,76 +602,6 @@
       ]
     },
     {
-      "id": "99d09348b4553899",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125294: The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all ve…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125294",
-      "published": "2026-11-21T19:16:31Z",
-      "summary": "The Nexter Blocks Pro plugin for WordPress is vulnerable to Privilege Escalation in all versions up to, and including, 5.0.10 via the `tpgb_ajax_register_user()` function. This is due to a byte-level denylist on the `tpgb_acf_key[]` and `tpgb_acf[]` parameters that fails to block…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125294",
-        "critical"
-      ]
-    },
-    {
-      "id": "8d6963922c4777a1",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-133993: A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133993",
-      "published": "2026-11-21T18:16:54Z",
-      "summary": "A security flaw has been discovered in D-Link DIR-600L 2.17b02. This affects the function FUN_0040efb0 of the file gena.cgi of the component GENA Subscription Handler. Performing a manipulation of the argument service results in stack-based buffer overflow. The attack is possible…",
-      "tags": [
-        "CVE",
-        "CVE-2026-133993",
-        "critical"
-      ]
-    },
-    {
-      "id": "59a61aadd94a74a2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-134292: SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134292",
-      "published": "2026-11-21T17:16:48Z",
-      "summary": "SurrealDB 1.0.0 before 4.0.0 contains a capability check bypass in its embedded JavaScript scripting engine, where the surrealdb.functions bridge calls the internal fnc::synchronous() and fnc::asynchronous() dispatchers without enforcing function capability checks. Authenticated…",
-      "tags": [
-        "CVE",
-        "CVE-2026-134292",
-        "critical"
-      ]
-    },
-    {
-      "id": "9db60cbdb40f54ae",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-120539: The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Executio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-120539",
-      "published": "2026-11-21T06:16:33Z",
-      "summary": "The Restrictions for BuddyPress plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.5.4 This is due to the plugin splicing the attacker-controlled request URI into a PHP expression inside a double-quoted string and evaluating it wit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-120539",
-        "critical"
-      ]
-    },
-    {
-      "id": "239e1930f24ff61b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-133680: A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRoute…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133680",
-      "published": "2026-11-20T20:17:35Z",
-      "summary": "A vulnerability was found in D-Link DCS-935L 1.10.01. This affects the function loginRouter of the file web/cgi-bin/localrecording/setconf.cgi of the component Local Recording CGI. Performing a manipulation of the argument account/password results in os command injection. Remote…",
-      "tags": [
-        "CVE",
-        "CVE-2026-133680",
-        "critical"
-      ]
-    },
-    {
       "id": "b22eec5809ce5c9c",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -354,34 +613,6 @@
         "CVE-2025-42884",
         "CVE-2026-76466",
         "advisory"
-      ]
-    },
-    {
-      "id": "30ce8473b85afb9e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-133500: A vulnerability was identified in Gladys Assistant up to 4.71.0. This affects an unknown f…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133500",
-      "published": "2026-11-20T09:20:07Z",
-      "summary": "A vulnerability was identified in Gladys Assistant up to 4.71.0. This affects an unknown function of the file gateway.downloadBackup.js of the component Backup Restore Endpoint. The manipulation of the argument file_url leads to os command injection. The attack can be initiated r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-133500",
-        "critical"
-      ]
-    },
-    {
-      "id": "2a467651e8a9ded2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-133493: A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacg…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133493",
-      "published": "2026-11-20T07:17:10Z",
-      "summary": "A vulnerability was identified in D-Link DIR-600L 2.17b02. Affected is the function genacgi_main of the file gena.cgi of the component GENA Handler. Such manipulation leads to os command injection. The attack can be launched remotely. The exploit is publicly available and might b…",
-      "tags": [
-        "CVE",
-        "CVE-2026-133493",
-        "critical"
       ]
     },
     {
@@ -437,20 +668,6 @@
       ]
     },
     {
-      "id": "1da1041a89e7b977",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-76536: In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticate…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76536",
-      "published": "2026-11-19T20:17:52Z",
-      "summary": "In Splunk Enterprise versions below 10.4.5, 10.2.9, 10.0.12, and 9.4.17, an unauthenticated user could use an empty clustering shared secret to read and modify clustering configuration through the cluster configuration Representational State Transfer (REST) API endpoint on a stan…",
-      "tags": [
-        "CVE",
-        "CVE-2026-76536",
-        "critical"
-      ]
-    },
-    {
       "id": "31c4bb63cffd59f4",
       "source": "cisa-advisories",
       "source_name": "CISA Cybersecurity Advisories",
@@ -492,34 +709,6 @@
       ]
     },
     {
-      "id": "a9ea75dc1b1a6319",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-14492: The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-14492",
-      "published": "2026-11-19T10:17:28Z",
-      "summary": "The WP Duplicate – WordPress Migration Plugin plugin for WordPress is vulnerable to Remote Code Execution in all versions up to, and including, 1.1.11 via the save_single_batch_file function. This is due to a PHP type-juggling authentication bypass via loose != comparison with no…",
-      "tags": [
-        "CVE",
-        "CVE-2026-14492",
-        "critical"
-      ]
-    },
-    {
-      "id": "711ba511b7cedc80",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132622: A vulnerability was found in GearUP Hyperev up to 20261020. This impacts the function get_…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132622",
-      "published": "2026-11-19T04:17:27Z",
-      "summary": "A vulnerability was found in GearUP Hyperev up to 20261020. This impacts the function get_wlan_sitesurvey of the file ld/utils.lua of the component WLAN Site Survey. Performing a manipulation of the argument line results in os command injection. The attack is possible to be carri…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132622",
-        "critical"
-      ]
-    },
-    {
       "id": "316b1322e9256e8e",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -531,62 +720,6 @@
       ]
     },
     {
-      "id": "4267bad63fc7345e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132142: A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function datafl…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132142",
-      "published": "2026-11-18T22:17:20Z",
-      "summary": "A flaw has been found in DrayTek Vigor2960 up to 1.5.1.6. This affects the function dataflowstatus of the file /cgi-bin/mainfunction.cgi of the component CGI Process. This manipulation of the argument option causes stack-based buffer overflow. The attack can be initiated remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132142",
-        "critical"
-      ]
-    },
-    {
-      "id": "88f9a375ea6f6da3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132143: A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affe…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132143",
-      "published": "2026-11-18T22:17:20Z",
-      "summary": "A vulnerability has been found in DrayTek Vigor2960 up to 1.5.1.6. This vulnerability affects the function doWebBackup of the file /cgi-bin/mainfunction.cgi of the component Backup Handler. Such manipulation of the argument path/value leads to stack-based buffer overflow. The att…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132143",
-        "critical"
-      ]
-    },
-    {
-      "id": "e50485621a7da994",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132141: A vulnerability was detected in DrayTek Vigor2960 up to 1.5.1.6. Affected by this issue is…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132141",
-      "published": "2026-11-18T22:17:19Z",
-      "summary": "A vulnerability was detected in DrayTek Vigor2960 up to 1.5.1.6. Affected by this issue is the function json_load_lock of the file /cgi-bin/mainfunction.cgi of the component Jsonstatus. The manipulation of the argument usefile results in stack-based buffer overflow. It is possibl…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132141",
-        "critical"
-      ]
-    },
-    {
-      "id": "9c27c3aa5ad5f04a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132139: A weakness has been identified in DrayTek Vigor2960 up to 1.5.1.6. Affected is the functio…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132139",
-      "published": "2026-11-18T21:17:55Z",
-      "summary": "A weakness has been identified in DrayTek Vigor2960 up to 1.5.1.6. Affected is the function setSWMProfile of the file /cgi-bin/mainfunction.cgi. Executing a manipulation of the argument filename can lead to stack-based buffer overflow. The attack may be performed from remote. The…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132139",
-        "critical"
-      ]
-    },
-    {
       "id": "fb98039a3f6f8d21",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -595,34 +728,6 @@
       "published": "2026-11-18T19:54:50Z",
       "tags": [
         "research"
-      ]
-    },
-    {
-      "id": "5b71c4d53b711b53",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130786: Incus before 7.6.0 contains a configuration injection vulnerability that allows users who…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130786",
-      "published": "2026-11-18T19:17:55Z",
-      "summary": "Incus before 7.6.0 contains a configuration injection vulnerability that allows users who can launch instances from controlled images to inject LXC directives by embedding line breaks in OCI config.json values or oci.entrypoint and oci.cwd keys. Attackers can add liblxc hooks or…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130786",
-        "critical"
-      ]
-    },
-    {
-      "id": "22a2f11d074e27f8",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-130780: Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-130780",
-      "published": "2026-11-18T19:17:54Z",
-      "summary": "Incus before 7.6.0 contains a path traversal vulnerability that allows malicious migration peers to write outside intended directories by supplying unvalidated dependent volume and snapshot names in the migration offer header. Attackers controlling a migration source can create r…",
-      "tags": [
-        "CVE",
-        "CVE-2026-130780",
-        "critical"
       ]
     },
     {
@@ -1012,62 +1117,6 @@
       "published": "2026-11-12T12:00:00Z",
       "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the work…",
       "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "652c8f30b0994d6c",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens RUGGEDCOM APE1808",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-04",
-      "published": "2026-11-12T12:00:00Z",
-      "summary": "View CSAF Summary Palo Alto Networks has published information on a vulnerability in PAN-OS related to the Node2Shell vulnerability. This advisory lists the related Siemens Industrial products affected by this vulnerability. Customers are advised to consult and implement the work…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "89146ff5418730c2",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Building Automation and Energy Products",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-01",
-      "published": "2026-11-12T12:00:00Z",
-      "summary": "View CSAF Summary On October 21, 2026, the PHP project and security researchers disclosed two critical, unauthenticated remote code execution vulnerabilities in the core PHP language runtime known as \"php2shell\" (tracked as CVE-2026-109618 and CVE-2026-109619). This advisory cove…",
-      "tags": [
-        "CVE-2026-109618",
-        "CVE-2026-109619",
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "f45d3069b40c902e",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Desigo, Gridscale",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-02",
-      "published": "2026-11-12T12:00:00Z",
-      "summary": "View CSAF Summary On October 21, 2026, the Node.js project released security updates addressing a critical vulnerability in the Brotli decoder bundled with Node.js, commonly referred to as \"Node2Shell\" (tracked as CVE-2026-111497). The vulnerability is an out-of-bounds write that…",
-      "tags": [
-        "CVE-2026-111497",
-        "advisory",
-        "ics"
-      ]
-    },
-    {
-      "id": "ff020ded0d332431",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens Industrial Edge Management",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-03",
-      "published": "2026-11-12T12:00:00Z",
-      "summary": "View CSAF Summary Siemens is currently assessing the impact of Node2Shell (CVE-2026-111497) on Industrial Edge. Please check your Industrial Edge Management (IEM) setup: - No Management Applications installed: No action is required. Although the affected Brotli library is include…",
-      "tags": [
-        "CVE-2026-111497",
         "advisory",
         "ics"
       ]
@@ -1674,19 +1723,6 @@
       ]
     },
     {
-      "id": "a9b67050d1660580",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-114625 — Arista VeloCloud Orchestrator: Arista VeloCloud Orchestrator SQL Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-114625",
-      "published": "2026-10-23T00:00:00Z",
-      "summary": "Arista VeloCloud Orchestrator on-prem contains a SQL injection vulnerability that may allow a remote attacker to access privileged internal functionality and impact the VCO host. Successful exploitation may compromise the confidentiality, integrity, and availability of the orches…",
-      "tags": [
-        "KEV",
-        "CVE-2026-114625"
-      ]
-    },
-    {
       "id": "04c08a3131a86ce1",
       "source": "cisa-ics",
       "source_name": "CISA ICS Advisories",
@@ -1835,32 +1871,6 @@
       "summary": "A revolution is underway at the intersection of AI and cyber security.",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "2fb176535e034c9b",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-96652 — Plex Media Server: Plex Media Server Server-Side Request Forgery (SSRF) Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-96652",
-      "published": "2026-10-20T00:00:00Z",
-      "summary": "Plex Media Server contains a server-side request forgery (SSRF) vulnerability which could allow an attacker using any X-Plex-Token value to include a full URL in the 'protocol' parameter and force the Plex server to POST to the attacker's chosen destination. This vulnerability ca…",
-      "tags": [
-        "KEV",
-        "CVE-2026-96652"
-      ]
-    },
-    {
-      "id": "5ddc5d30f8ed002a",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-106931 — EG Secure Solutions SiteGuard Server Edition: EG Secure Solutions SiteGuard Server Edition OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106931",
-      "published": "2026-10-20T00:00:00Z",
-      "summary": "EG Secure Solutions SiteGuard Server Edition contains an OS command injection vulnerability which may allow an attacker to execute arbitrary OS commands with root or SYSTEM privileges on the system running the affected product.",
-      "tags": [
-        "KEV",
-        "CVE-2026-106931"
       ]
     },
     {
