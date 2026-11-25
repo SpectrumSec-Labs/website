@@ -1,7 +1,105 @@
 {
   "schema": 1,
-  "generated": "2026-11-24T22:37:00Z",
+  "generated": "2026-11-25T08:51:57Z",
   "items": [
+    {
+      "id": "60b6afcc7bc46e3b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136553: A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown functi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136553",
+      "published": "2026-11-25T07:17:18Z",
+      "summary": "A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown function of the file /goform/fast_setting_wifi_set. Performing a manipulation of the argument loginPwd results in improper authentication. It is possible to initiate the attack remotely. The explo…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136553",
+        "critical"
+      ]
+    },
+    {
+      "id": "3408a911761ab396",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136552: A security vulnerability has been detected in Tenda RX3 16.03.13.11_multi. This impacts th…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136552",
+      "published": "2026-11-25T07:17:18Z",
+      "summary": "A security vulnerability has been detected in Tenda RX3 16.03.13.11_multi. This impacts the function formSetIPv6status of the file /goform/setIPv6Status of the component multiWAN. Such manipulation of the argument remoteIP leads to command injection. The attack may be performed f…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136552",
+        "critical"
+      ]
+    },
+    {
+      "id": "765a784ce8037abd",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136550: A weakness has been identified in Tenda RX3 16.03.13.11_multi. This affects the function f…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136550",
+      "published": "2026-11-25T06:17:15Z",
+      "summary": "A weakness has been identified in Tenda RX3 16.03.13.11_multi. This affects the function fromAdvSetMacMtuWan of the file /goform/AdvSetMacMtuWan. This manipulation of the argument mac causes command injection. The attack is possible to be carried out remotely. The exploit has bee…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136550",
+        "critical"
+      ]
+    },
+    {
+      "id": "edf7530cf6c2cb2f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136549: A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136549",
+      "published": "2026-11-25T06:17:15Z",
+      "summary": "A security flaw has been discovered in Tenda RX3 16.03.13.11_multi. The impacted element is the function formSetSafeWanWebMan of the file /goform/SetRemoteWebCfg. The manipulation of the argument remoteIp results in command injection. The attack can be executed remotely. The expl…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136549",
+        "critical"
+      ]
+    },
+    {
+      "id": "831beb753a9f9330",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136548: A vulnerability was identified in Tenda RX3 16.03.13.11. The affected element is an unknow…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136548",
+      "published": "2026-11-25T06:17:13Z",
+      "summary": "A vulnerability was identified in Tenda RX3 16.03.13.11. The affected element is an unknown function of the file /bin/auto_discover of the component GBK-to-UTF-8 Conversion. The manipulation of the argument Hostname leads to stack-based buffer overflow. Remote exploitation of the…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136548",
+        "critical"
+      ]
+    },
+    {
+      "id": "e293a0c88a5ec17e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136547: A vulnerability was determined in Tenda RX3 16.03.13.11_multi. Impacted is the function R7…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136547",
+      "published": "2026-11-25T05:18:35Z",
+      "summary": "A vulnerability was determined in Tenda RX3 16.03.13.11_multi. Impacted is the function R7WebsSecurityHandler of the component httpd. Executing a manipulation can lead to improper authentication. The attack may be launched remotely. The exploit has been publicly disclosed and may…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136547",
+        "critical"
+      ]
+    },
+    {
+      "id": "3f2141da5194be2a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136136: A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
+      "published": "2026-11-25T00:17:10Z",
+      "summary": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads t…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136136",
+        "critical"
+      ]
+    },
     {
       "id": "a35e7cf379524c5a",
       "source": "nvd-recent",
@@ -45,20 +143,6 @@
       ]
     },
     {
-      "id": "e707bdfaf09d73e9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135797: A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
-      "published": "2026-11-24T19:18:14Z",
-      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135797",
-        "critical"
-      ]
-    },
-    {
       "id": "9b71d993d54e87b2",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -83,6 +167,20 @@
       "tags": [
         "CVE",
         "CVE-2026-135794",
+        "critical"
+      ]
+    },
+    {
+      "id": "e707bdfaf09d73e9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135797: A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is t…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
+      "published": "2026-11-24T19:18:14Z",
+      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135797",
         "critical"
       ]
     },
@@ -129,20 +227,6 @@
       ]
     },
     {
-      "id": "a447120ac6bd8844",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125718: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
-      "published": "2026-11-24T18:18:54Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125718",
-        "critical"
-      ]
-    },
-    {
       "id": "2405f9641b39a981",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -157,6 +241,20 @@
       ]
     },
     {
+      "id": "a447120ac6bd8844",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-125718: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
+      "published": "2026-11-24T18:18:54Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
+      "tags": [
+        "CVE",
+        "CVE-2026-125718",
+        "critical"
+      ]
+    },
+    {
       "id": "e0d36c03c4093ee9",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -167,20 +265,6 @@
       "tags": [
         "CVE",
         "CVE-2026-125716",
-        "critical"
-      ]
-    },
-    {
-      "id": "81731388f1ff569a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123987: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
-      "published": "2026-11-24T18:18:53Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123987",
         "critical"
       ]
     },
@@ -227,6 +311,20 @@
       ]
     },
     {
+      "id": "81731388f1ff569a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-123987: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
+      "published": "2026-11-24T18:18:53Z",
+      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
+      "tags": [
+        "CVE",
+        "CVE-2026-123987",
+        "critical"
+      ]
+    },
+    {
       "id": "cb6e46cf0880dfbb",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -269,6 +367,20 @@
       ]
     },
     {
+      "id": "01ec3fa0de7906c3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135788: A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability i…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135788",
+      "published": "2026-11-24T17:18:43Z",
+      "summary": "A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability is an unknown functionality of the file /usr/sbin/anweb. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been made ava…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135788",
+        "critical"
+      ]
+    },
+    {
       "id": "37873d31344881e4",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -297,20 +409,6 @@
       ]
     },
     {
-      "id": "01ec3fa0de7906c3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135788: A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability i…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135788",
-      "published": "2026-11-24T17:18:43Z",
-      "summary": "A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability is an unknown functionality of the file /usr/sbin/anweb. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been made ava…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135788",
-        "critical"
-      ]
-    },
-    {
       "id": "e8af793e75095a79",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -321,34 +419,6 @@
       "tags": [
         "CVE",
         "CVE-2026-123167",
-        "critical"
-      ]
-    },
-    {
-      "id": "9ee3de49c1003dca",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-119582: Improper neutralization of special elements used in an SQL command ('SQL injection') vulne…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-119582",
-      "published": "2026-11-24T12:17:17Z",
-      "summary": "Improper neutralization of special elements used in an SQL command ('SQL injection') vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows SQL Injection. This issue affects vSRM: from v14.08.3 before v14.08.5.",
-      "tags": [
-        "CVE",
-        "CVE-2026-119582",
-        "critical"
-      ]
-    },
-    {
-      "id": "6267c6916ac9db5b",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-117593: Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Te…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-117593",
-      "published": "2026-11-24T12:17:17Z",
-      "summary": "Weak Password Recovery Mechanism for Forgotten Password vulnerability in ITG Bilgisayar Teknoloji Grubu Tic. Ltd. Şti. VSRM allows Password Recovery Exploitation. This issue affects vSRM: from v14.08.3 before v14.08.5.",
-      "tags": [
-        "CVE",
-        "CVE-2026-117593",
         "critical"
       ]
     },
@@ -431,34 +501,6 @@
       ]
     },
     {
-      "id": "d2cb47cbd005b4c0",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135202: Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooComm…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135202",
-      "published": "2026-11-24T06:17:08Z",
-      "summary": "Several plugins for WordPress published by WP connect (Orders Sync to Airtable for WooCommerce, Add-On for Contact Form 7 to Notion, WP Sync for Notion – Notion to WordPress, Add-On for Contact Form 7 to Airtable, Add-on Brevo for Gravity Forms, and Air WP Sync – Airtable to Word…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135202",
-        "critical"
-      ]
-    },
-    {
-      "id": "fe9efb23527ffe5c",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135736: FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavf…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135736",
-      "published": "2026-11-24T04:17:32Z",
-      "summary": "FFmpeg 4.4 before 9.1 contains a heap out-of-bounds read and write vulnerability in libavfilter/vf_deband.c that allows attackers to corrupt heap memory by sending a runtime coupling command. Attackers can send a 'deband coupling 1' command via sendcmd or an unauthenticated zmq f…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135736",
-        "critical"
-      ]
-    },
-    {
       "id": "42330c2f515c00c1",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -506,48 +548,6 @@
       "tags": [
         "KEV",
         "CVE-2026-131914"
-      ]
-    },
-    {
-      "id": "9380b949de811290",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-70305: Improper neutralization of input during web page generation ('cross-site scripting') in Az…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70305",
-      "published": "2026-11-23T22:22:50Z",
-      "summary": "Improper neutralization of input during web page generation ('cross-site scripting') in Azure Portal allows an unauthorized attacker to perform spoofing over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-70305",
-        "critical"
-      ]
-    },
-    {
-      "id": "a5d786fd53a07be2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-70193: Improper limitation of a pathname to a restricted directory ('path traversal') in Microsof…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-70193",
-      "published": "2026-11-23T22:22:36Z",
-      "summary": "Improper limitation of a pathname to a restricted directory ('path traversal') in Microsoft Office SharePoint allows an authorized attacker to execute code over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-70193",
-        "critical"
-      ]
-    },
-    {
-      "id": "5d6992115e981889",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-69899: Authentication bypass by spoofing in Azure DevTest Labs allows an unauthorized attacker to…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-69899",
-      "published": "2026-11-23T22:22:11Z",
-      "summary": "Authentication bypass by spoofing in Azure DevTest Labs allows an unauthorized attacker to perform spoofing over a network.",
-      "tags": [
-        "CVE",
-        "CVE-2026-69899",
-        "critical"
       ]
     },
     {
