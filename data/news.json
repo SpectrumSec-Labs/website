@@ -1,19 +1,75 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T08:51:57Z",
+  "generated": "2026-11-25T21:50:48Z",
   "items": [
     {
-      "id": "60b6afcc7bc46e3b",
+      "id": "43092dd2507997fc",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136553: A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown functi…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136553",
-      "published": "2026-11-25T07:17:18Z",
-      "summary": "A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown function of the file /goform/fast_setting_wifi_set. Performing a manipulation of the argument loginPwd results in improper authentication. It is possible to initiate the attack remotely. The explo…",
+      "title": "CVE-2026-136822: A vulnerability has been found in D-Link R32 1.10B02. The impacted element is the function…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136822",
+      "published": "2026-11-25T21:17:19Z",
+      "summary": "A vulnerability has been found in D-Link R32 1.10B02. The impacted element is the function SetDeviceSettings of the file /usr/bin/httpd of the component DHMAPI Action Handler. Such manipulation of the argument TZLocation leads to os command injection. It is possible to launch the…",
       "tags": [
         "CVE",
-        "CVE-2026-136553",
+        "CVE-2026-136822",
         "critical"
+      ]
+    },
+    {
+      "id": "f141d8c9c07fdeda",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136821: A flaw has been found in D-Link R32 1.10B02. The affected element is the function SetTimeS…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136821",
+      "published": "2026-11-25T21:17:19Z",
+      "summary": "A flaw has been found in D-Link R32 1.10B02. The affected element is the function SetTimeSettings of the component DHMAPI Action Handler. This manipulation of the argument TZLocation causes os command injection. It is possible to initiate the attack remotely. The exploit has been…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136821",
+        "critical"
+      ]
+    },
+    {
+      "id": "a5b768c1a8a412b4",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137090: build-git-clone before 1.0.4 contains an OS command injection vulnerability in the clone()…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137090",
+      "published": "2026-11-25T20:18:46Z",
+      "summary": "build-git-clone before 1.0.4 contains an OS command injection vulnerability in the clone() function that allows attackers to execute commands by supplying crafted repository URLs. Attackers can embed shell metacharacters such as ; or $() in the url argument, which is concatenated…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137090",
+        "critical"
+      ]
+    },
+    {
+      "id": "9746233bec3c12a9",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-82489: openIMIS before 2026-10 contains an unauthenticated remote code execution vulnerability in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82489",
+      "published": "2026-11-25T15:17:52Z",
+      "summary": "openIMIS before 2026-10 contains an unauthenticated remote code execution vulnerability in the report module (openimis-be-report_py) where the /api/report/reportbro/preview endpoint evaluates printIf expressions server-side using simpleeval with an insufficient name-prefix blockl…",
+      "tags": [
+        "CVE",
+        "CVE-2026-82489",
+        "critical"
+      ]
+    },
+    {
+      "id": "c0fdeca5bfd2c130",
+      "source": "cisa-advisories",
+      "source_name": "CISA Cybersecurity Advisories",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "published": "2026-11-25T12:00:00Z",
+      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerab…",
+      "tags": [
+        "CVE-2023-25914",
+        "CVE-2023-25915",
+        "advisory"
       ]
     },
     {
@@ -27,6 +83,20 @@
       "tags": [
         "CVE",
         "CVE-2026-136552",
+        "critical"
+      ]
+    },
+    {
+      "id": "60b6afcc7bc46e3b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136553: A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown functi…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136553",
+      "published": "2026-11-25T07:17:18Z",
+      "summary": "A vulnerability was detected in Tenda RX3 16.03.13.11_multi. Affected is an unknown function of the file /goform/fast_setting_wifi_set. Performing a manipulation of the argument loginPwd results in improper authentication. It is possible to initiate the attack remotely. The explo…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136553",
         "critical"
       ]
     },
@@ -98,6 +168,136 @@
         "CVE",
         "CVE-2026-136136",
         "critical"
+      ]
+    },
+    {
+      "id": "0f33358510f4f9b4",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2025-41450 — Danfoss AK-SM 800A Series: Danfoss AK-SM 800A Series Improper Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2025-41450",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Danfoss AK-SM 800A Series contains an improper authentication vulnerability that could allow an attacker to generate a web report exposing sensitive information, including internal IP addresses, usernames, and store names.",
+      "tags": [
+        "KEV",
+        "CVE-2025-41450"
+      ]
+    },
+    {
+      "id": "30a15d097b5a2915",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133311 — Mitel MiCollab: Mitel MiCollab Weak Authentication Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133311",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Mitel MiCollab contains a weak authentication vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to access sensitive information using a specific system-generated random identifier or pre-staged content.",
+      "tags": [
+        "KEV",
+        "CVE-2026-133311"
+      ]
+    },
+    {
+      "id": "6681061276034157",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133303 — Mitel MiCollab: Mitel MiCollab XML Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133303",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Mitel MiCollab contains an XML injection vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary commands using pre-staged malicious content.",
+      "tags": [
+        "KEV",
+        "CVE-2026-133303"
+      ]
+    },
+    {
+      "id": "9fd6a5a6bb6d0877",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2023-25914 — Danfoss AK-SM 800A Series: Danfoss AK-SM 800A Series Path Traversal Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25914",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Danfoss AK-SM 800A Series contains a path traversal vulnerability that could allow an attacker to access and read underlying server system files via the XML interface.",
+      "tags": [
+        "KEV",
+        "CVE-2023-25914"
+      ]
+    },
+    {
+      "id": "9fe902b099533a5b",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133469 — Vates Xen Orchestra: Vates Xen Orchestra Improper Validation of Specified Type of Input Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133469",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Vates Xen Orchestra contains an improper validation of specified type of input vulnerability that could allow an unauthenticated attacker to bypass authentication and perform actions with administrative privileges via a specially crafted authentication token containing an empty J…",
+      "tags": [
+        "KEV",
+        "CVE-2026-133469"
+      ]
+    },
+    {
+      "id": "bdc80e6b4781d379",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-103406 — Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router: Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router O…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-103406",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router contain an OS command injection vulnerability that could allow a remote attacker to execute arbitrary commands as root via a specially crafted salt minion ID.",
+      "tags": [
+        "KEV",
+        "CVE-2026-103406"
+      ]
+    },
+    {
+      "id": "bef116082e736ffc",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133324 — Mitel MiCollab: Mitel MiCollab Not Failing Securely Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133324",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Mitel MiCollab contains a not failing securely vulnerability in the Audio, Web and Video Conferencing (AWV) component that could allow an unauthenticated attacker to bypass authentication controls and perform unauthorized actions.",
+      "tags": [
+        "KEV",
+        "CVE-2026-133324"
+      ]
+    },
+    {
+      "id": "d97445b18b78e841",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2023-25915 — Danfoss AK-SM 800A Series: Danfoss AK-SM 800A Series Improper Input Validation Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2023-25915",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Danfoss AK-SM 800A Series contains an improper input validation vulnerability that could allow a remote attacker to run arbitrary commands on the affected system.",
+      "tags": [
+        "KEV",
+        "CVE-2023-25915"
+      ]
+    },
+    {
+      "id": "f2dbf31cc4bbc5f8",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133323 — Mitel MiCollab: Mitel MiCollab OS Command Injection Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133323",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Mitel MiCollab contains an improper neutralization of special elements used in an OS command (OS command injection) vulnerability in its Audio, Web, and Video Conferencing (AWV) component that could allow an unauthenticated attacker to execute arbitrary system commands.",
+      "tags": [
+        "KEV",
+        "CVE-2026-133323"
+      ]
+    },
+    {
+      "id": "ff6136e518db89c7",
+      "source": "cisa-kev",
+      "source_name": "CISA Known Exploited Vulnerabilities",
+      "title": "CVE-2026-133275 — Mitel MiCollab: Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133275",
+      "published": "2026-11-25T00:00:00Z",
+      "summary": "Mitel MiCollab contains an unrestricted upload of file with dangerous type vulnerability in the Audio, Web and Video Conferencing (AWV) component due to insufficient file type validation that could allow an unauthenticated attacker to upload arbitrary files.",
+      "tags": [
+        "KEV",
+        "CVE-2026-133275"
       ]
     },
     {
@@ -363,62 +563,6 @@
       "tags": [
         "CVE",
         "CVE-2026-136184",
-        "critical"
-      ]
-    },
-    {
-      "id": "01ec3fa0de7906c3",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135788: A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability i…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135788",
-      "published": "2026-11-24T17:18:43Z",
-      "summary": "A weakness has been identified in D-Link DIR-X1860 4.5.2. Affected by this vulnerability is an unknown functionality of the file /usr/sbin/anweb. Executing a manipulation can lead to os command injection. It is possible to launch the attack remotely. The exploit has been made ava…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135788",
-        "critical"
-      ]
-    },
-    {
-      "id": "37873d31344881e4",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135790: A vulnerability was detected in Panabit Smart Application Gateway TANGr7p10. This affects…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135790",
-      "published": "2026-11-24T17:18:43Z",
-      "summary": "A vulnerability was detected in Panabit Smart Application Gateway TANGr7p10. This affects an unknown part of the file /cgi-bin/dashboard/ajax_chart_dump. The manipulation of the argument isntmeye results in os command injection. The attack can be launched remotely. The exploit is…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135790",
-        "critical"
-      ]
-    },
-    {
-      "id": "a07b4281bf16199f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135789: A security vulnerability has been detected in D-Link R95 101B06. Affected by this issue is…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135789",
-      "published": "2026-11-24T17:18:43Z",
-      "summary": "A security vulnerability has been detected in D-Link R95 101B06. Affected by this issue is the function GetBluetoothAdapterSettings/GetBluetoothBloodPressure/GetBluetoothDeviceList/GetBluetoothScanDeviceList/SetBluetoothAdapterSettings/SetBluetoothUnpairDevice/SetTriggerBluetooth…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135789",
-        "critical"
-      ]
-    },
-    {
-      "id": "e8af793e75095a79",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123167: SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123167",
-      "published": "2026-11-24T17:18:13Z",
-      "summary": "SolarWinds Serv-U is affected by a privilege escalation vulnerability that, when exploited, can allow a domain administrator to access files that otherwise would require elevated privileges. The risk is lower for Windows installations.",
-      "tags": [
-        "CVE",
-        "CVE-2026-123167",
         "critical"
       ]
     },
@@ -1109,19 +1253,6 @@
       ]
     },
     {
-      "id": "057c02b04cc39ce1",
-      "source": "cisa-advisories",
-      "source_name": "CISA Cybersecurity Advisories",
-      "title": "Siemens RUGGEDCOM APE1808",
-      "url": "https://www.cisa.gov/news-events/ics-advisories/icsa-26-316-05",
-      "published": "2026-11-12T12:00:00Z",
-      "summary": "View CSAF Summary Palo Alto Networks has published information on vulnerabilities in PAN-OS related to PHP2Shell vulnerabilities. This advisory lists the related Siemens Industrial products affected by these vulnerabilities. Customers are advised to consult and implement the work…",
-      "tags": [
-        "advisory",
-        "ics"
-      ]
-    },
-    {
       "id": "f929241d501729b0",
       "source": "sans-isc",
       "source_name": "SANS Internet Storm Center",
@@ -1504,21 +1635,6 @@
       ]
     },
     {
-      "id": "e1ee8cc687115799",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-111357 — Ivanti Connect Secure: Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111357",
-      "published": "2026-10-30T00:00:00Z",
-      "summary": "Ivanti Connect Secure contains a missing authentication for critical function vulnerability that could allow a local authenticated attacker to escalate their privileges. This vulnerability can be chained with CVE-2026-104935 and CVE-2026-118527.",
-      "tags": [
-        "KEV",
-        "CVE-2026-104935",
-        "CVE-2026-111357",
-        "CVE-2026-118527"
-      ]
-    },
-    {
       "id": "550e95ef6ab5f80b",
       "source": "cisa-ics",
       "source_name": "CISA ICS Advisories",
@@ -1566,58 +1682,6 @@
       ]
     },
     {
-      "id": "d258560330da941d",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-97229 — GitLab Community Edition and Enterprise Edition: GitLab Community Edition and Enterprise Edition Integer Overflow or Wraparound Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-97229",
-      "published": "2026-10-29T00:00:00Z",
-      "summary": "GitLab Community Edition and Enterprise Edition contain a integer overflow or wraparound vulnerability that could allow an unauthenticated user to execute arbitrary code on the GitLab server via a specially crafted regular expression in a CI/CD configuration, due to insufficient…",
-      "tags": [
-        "KEV",
-        "CVE-2026-97229"
-      ]
-    },
-    {
-      "id": "eb7c9c330a115867",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-76418 — Cisco Secure Firewall ASA Software and Cisco Secure FTD Software: Cisco Secure Firewall ASA Software and Cisco Secure FTD Software Unchecked Return Value to NULL Pointer Dereference V…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-76418",
-      "published": "2026-10-29T00:00:00Z",
-      "summary": "Cisco Secure Firewall ASA Software and Cisco Secure FTD Software contains an unchecked return value to NULL pointer dereference vulnerability that could allow an unauthenticated, remote attacker to cause the device to reload unexpectedly, resulting in a denial of service (DoS) co…",
-      "tags": [
-        "KEV",
-        "CVE-2026-76418"
-      ]
-    },
-    {
-      "id": "79814acf062d096b",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-41709 — Broadcom VMware ESX: Broadcom VMWare ESX Insufficient Logging Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-41709",
-      "published": "2026-10-28T00:00:00Z",
-      "summary": "Broadcom VMWare ESX contains an insufficient logging vulnerability that could allow a malicious actor with admin access to perform certain operations without being logged.",
-      "tags": [
-        "KEV",
-        "CVE-2026-41709"
-      ]
-    },
-    {
-      "id": "8e5ce52d365f4652",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-46300 — Linux Kernel: Linux Kernel Missing Initialization of a Variable Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-46300",
-      "published": "2026-10-28T00:00:00Z",
-      "summary": "Linux Kernel contains a missing initialization of a variable vulnerability that could allow for unintended modification of page-cache-backed data via failure to preserve the shared-fragment marker during socket buffer coalescing, causing ESP input processing to decrypt shared fra…",
-      "tags": [
-        "KEV",
-        "CVE-2026-46300"
-      ]
-    },
-    {
       "id": "b933b8867a0cffd5",
       "source": "cisa-ics",
       "source_name": "CISA ICS Advisories",
@@ -1655,71 +1719,6 @@
       "summary": "How industry, the NCSC and the FCA worked together to help organisations share information while protecting market integrity",
       "tags": [
         "guidance"
-      ]
-    },
-    {
-      "id": "42cb99426262f50e",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-111497 — Google Brotli: Google Brotli Unchecked Return Value Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-111497",
-      "published": "2026-10-27T00:00:00Z",
-      "summary": "Google Brotli contains an unchecked return value vulnerability that allows a remote unauthenticated attacker to corrupt adjacent decoder state memory, disclose sensitive memory contents, cause a denial of service, or potentially execute arbitrary code using a crafted Brotli-compr…",
-      "tags": [
-        "KEV",
-        "CVE-2026-111497"
-      ]
-    },
-    {
-      "id": "70b120f7f6d04898",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-48356 — Adobe Commerce and Magento: Adobe Commerce and Magento Unrestricted Upload of File with Dangerous Type Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-48356",
-      "published": "2026-10-27T00:00:00Z",
-      "summary": "Adobe Commerce and Magento contain an unrestricted upload of file with dangerous type vulnerability that could result in arbitrary code execution in the context of the current user, potentially gaining elevated access or control over the victim's account or session.",
-      "tags": [
-        "KEV",
-        "CVE-2026-48356"
-      ]
-    },
-    {
-      "id": "3e4dd48255f1a95f",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-109619 — PHP Group PHP: PHP Stale Internal Request-State Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109619",
-      "published": "2026-10-26T00:00:00Z",
-      "summary": "PHP contains a stale internal request-state vulnerability that allows for unauthenticated remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2026-109619"
-      ]
-    },
-    {
-      "id": "59f34b6f811267a0",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-109618 — PHP Group PHP: PHP Memory Corruption Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-109618",
-      "published": "2026-10-26T00:00:00Z",
-      "summary": "PHP contains an out-of-memory corruption vulnerability that allows for unauthenticated remote code execution.",
-      "tags": [
-        "KEV",
-        "CVE-2026-109618"
-      ]
-    },
-    {
-      "id": "489414d092e0607d",
-      "source": "cisa-kev",
-      "source_name": "CISA Known Exploited Vulnerabilities",
-      "title": "CVE-2026-110447 — Collabora Collabora Online – Built-in CODE Server: Collabora Online – Built-in CODE Server OS Command Injection Vulnerability",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-110447",
-      "published": "2026-10-23T00:00:00Z",
-      "summary": "Collabora Collabora Online – Built-in CODE Server when used within the NextCloud platform contains an OS command injection vulnerability that allows for remote code execution when the CODE server isn't running.",
-      "tags": [
-        "KEV",
-        "CVE-2026-110447"
       ]
     },
     {
@@ -2187,18 +2186,6 @@
         "CVE-2026-83548",
         "FR",
         "alert"
-      ]
-    },
-    {
-      "id": "fb56227792f4bc87",
-      "source": "ncsc-uk",
-      "source_name": "NCSC UK",
-      "title": "Disruptive cyber activity highlights risk from internet-exposed systems and edge devices",
-      "url": "https://www.ncsc.gov.uk/news/disruptive-cyber-activity-highlights-risk-from-internet-exposed-systems-and-edge-devices",
-      "published": "2026-08-27T12:00:00Z",
-      "summary": "Owners of operational technology encouraged to address avoidable vulnerabilities, and build long-term cyber resilience.",
-      "tags": [
-        "guidance"
       ]
     }
   ]
