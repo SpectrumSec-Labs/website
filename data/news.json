@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-11-25T21:50:48Z",
+  "generated": "2026-11-26T08:37:51Z",
   "items": [
+    {
+      "id": "6ab7b47ddaedc10f",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137043: A security vulnerability has been detected in TOTOLINK N350RT 9.3.5u.6468_B20250827/9.3.5u…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137043",
+      "published": "2026-11-26T03:16:39Z",
+      "summary": "A security vulnerability has been detected in TOTOLINK N350RT 9.3.5u.6468_B20250827/9.3.5u.6466_B20250825. The affected element is the function setLanguageCfg of the file /cgi-bin/cstecgi.cgi. Such manipulation of the argument lang leads to authorization bypass. The attack can be…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137043",
+        "critical"
+      ]
+    },
+    {
+      "id": "74862d4418ece281",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136823: A vulnerability was found in D-Link R32 1.10B02. This affects an unknown function of the f…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136823",
+      "published": "2026-11-25T22:17:20Z",
+      "summary": "A vulnerability was found in D-Link R32 1.10B02. This affects an unknown function of the file /usr/bin/httpd of the component flupl self Endpoint. Performing a manipulation of the argument fpath results in os command injection. The attack can be initiated remotely. The exploit ha…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136823",
+        "critical"
+      ]
+    },
     {
       "id": "43092dd2507997fc",
       "source": "nvd-recent",
@@ -535,34 +563,6 @@
       "tags": [
         "CVE",
         "CVE-2026-82316",
-        "critical"
-      ]
-    },
-    {
-      "id": "cebaddc60fe49d31",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82315: SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerabili…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82315",
-      "published": "2026-11-24T17:18:54Z",
-      "summary": "SolarWinds Serv-U is affected by another Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is l…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82315",
-        "critical"
-      ]
-    },
-    {
-      "id": "731177af93f77e91",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136184: compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136184",
-      "published": "2026-11-24T17:18:46Z",
-      "summary": "compose-farm 0.19.0 before 1.22.0 contains a cross-site WebSocket hijacking and cross-site request forgery vulnerability because its unauthenticated web UI performs no Origin validation. Malicious websites visited by users can open /ws/shell/{host} or /ws/exec sockets, or abuse u…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136184",
         "critical"
       ]
     },
