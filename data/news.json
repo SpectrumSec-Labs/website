@@ -1,7 +1,189 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T08:37:51Z",
+  "generated": "2026-11-26T21:44:19Z",
   "items": [
+    {
+      "id": "1b2b906deb50240b",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137550: Frappe Framework before 15.122.0 and 16.x before 16.50.0 contains a missing authorization…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137550",
+      "published": "2026-11-26T16:18:08Z",
+      "summary": "Frappe Framework before 15.122.0 and 16.x before 16.50.0 contains a missing authorization vulnerability in Document.update() that fails to validate whether the caller is permitted to submit or modify the target document. Attackers can invoke document update operations to submit o…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137550",
+        "critical"
+      ]
+    },
+    {
+      "id": "c8875cfe5034270a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137544: LaraDashboard before 1.5.0 contains a path traversal vulnerability in module.json provider…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137544",
+      "published": "2026-11-26T16:18:07Z",
+      "summary": "LaraDashboard before 1.5.0 contains a path traversal vulnerability in module.json providers and composer.json psr-4 namespace parsing that derives destination folder names without excluding traversal characters. Attackers with module.create permission can upload a crafted module…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137544",
+        "critical"
+      ]
+    },
+    {
+      "id": "2958ae6fd3f75f95",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137536: ToolJet before 3.21.94-beta contains an authentication bypass in its server OAuth SSO sign…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137536",
+      "published": "2026-11-26T16:18:06Z",
+      "summary": "ToolJet before 3.21.94-beta contains an authentication bypass in its server OAuth SSO sign-in module, which resolves Google and Git SSO logins solely by the provider-asserted email without checking email_verified or binding the SSO subject. Unauthenticated attackers can submit a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137536",
+        "critical"
+      ]
+    },
+    {
+      "id": "5df43d1d131cafc8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137499: Budibase from 3.41.0 before 4.0.0 contains an authentication bypass vulnerability that all…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137499",
+      "published": "2026-11-26T16:18:01Z",
+      "summary": "Budibase from 3.41.0 before 4.0.0 contains an authentication bypass vulnerability that allows unauthenticated attackers to take over password-less global Builder accounts via unverified-email OIDC/SSO account linking. Attackers can assert a victim's email with email_verified=fals…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137499",
+        "critical"
+      ]
+    },
+    {
+      "id": "6beb63e24cf7558d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137498: Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability tha…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137498",
+      "published": "2026-11-26T16:18:01Z",
+      "summary": "Budibase Server from 3.39.18 before 4.0.0 contains a prototype pollution vulnerability that allows unauthenticated attackers to erase MongoDB query filters by supplying __proto__ as a dynamic JSON key in PUBLIC queries. Attackers can send a single request to the query execution e…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137498",
+        "critical"
+      ]
+    },
+    {
+      "id": "4639c18449f18d8d",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137494: Budibase before 4.0.0 contains a broken object-level authorization vulnerability that allo…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137494",
+      "published": "2026-11-26T16:17:59Z",
+      "summary": "Budibase before 4.0.0 contains a broken object-level authorization vulnerability that allows authenticated users with table write access to reference other tenants' files by supplying arbitrary attachment keys on row save. Attackers can inject a victim app's attachment key into a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137494",
+        "critical"
+      ]
+    },
+    {
+      "id": "098b768c23796ec3",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137481: Traefik before 2.11.62, 3.x before 3.7.18, and 3.8.0-rc.1 contain an authorization bypass…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137481",
+      "published": "2026-11-26T16:17:57Z",
+      "summary": "Traefik before 2.11.62, 3.x before 3.7.18, and 3.8.0-rc.1 contain an authorization bypass because the sanitizePath entry point option leaves dot-segments carrying path parameters, such as /..;x/, unresolved when matching routers and applying middlewares. Unauthenticated attackers…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137481",
+        "critical"
+      ]
+    },
+    {
+      "id": "76986e88686ddd48",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-136240: The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is v…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
+      "published": "2026-11-26T15:17:26Z",
+      "summary": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.2.0 via deserialization of untrusted input . This makes it possible for unauthenticated attackers to inject a PHP Ob…",
+      "tags": [
+        "CVE",
+        "CVE-2026-136240",
+        "critical"
+      ]
+    },
+    {
+      "id": "31575939d22fc0f8",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-135641: The WP Job Portal – AI-Powered Recruitment System for Company or Job Board website plugin…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135641",
+      "published": "2026-11-26T15:17:26Z",
+      "summary": "The WP Job Portal – AI-Powered Recruitment System for Company or Job Board website plugin for WordPress is vulnerable to Authentication Bypass leading to Account Takeover in all versions up to, and including, 2.7.2 This is due to a flaw in `WPJOBPORTALuser::__construct()` where t…",
+      "tags": [
+        "CVE",
+        "CVE-2026-135641",
+        "critical"
+      ]
+    },
+    {
+      "id": "741e424fb58de254",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-134173: The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
+      "published": "2026-11-26T15:17:25Z",
+      "summary": "The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 5.3.1 via the 'wfu_ajax_action_handshake' and 'wfu_ajax_action_send_email_notification' AJAX Actions. This is due to the unauthenticated handshake accepting a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-134173",
+        "critical"
+      ]
+    },
+    {
+      "id": "31d88657b7055bc1",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-133951: The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in versio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-133951",
+      "published": "2026-11-26T15:17:25Z",
+      "summary": "The Simple Membership plugin for WordPress is vulnerable to Privilege Escalation in versions up to, and including, 4.8.9 This is due to the site-wide signing secret `swpm_private_key_one` being generated at install time with PHP's non-cryptographic `uniqid('', true)` function in…",
+      "tags": [
+        "CVE",
+        "CVE-2026-133951",
+        "critical"
+      ]
+    },
+    {
+      "id": "62fcc5c8c42d2401",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-104998: The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary F…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-104998",
+      "published": "2026-11-26T15:17:22Z",
+      "summary": "The Product Input Fields for WooCommerce plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 2.1.0 via the process_file_input_field function. This is due to missing file type validation in the process_file_input_field function, which…",
+      "tags": [
+        "CVE",
+        "CVE-2026-104998",
+        "critical"
+      ]
+    },
+    {
+      "id": "8bd7b50757291ceb",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137567: llama.cpp b11450 before b12658 contains an out-of-bounds write vulnerability in the ggml R…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137567",
+      "published": "2026-11-26T14:17:24Z",
+      "summary": "llama.cpp b11450 before b12658 contains an out-of-bounds write vulnerability in the ggml RPC server that allows unauthenticated attackers to write to arbitrary heap addresses via zero-element destination tensors. Attackers can learn buffer bases with BUFFER_GET_BASE, then send RP…",
+      "tags": [
+        "CVE",
+        "CVE-2026-137567",
+        "critical"
+      ]
+    },
     {
       "id": "6ab7b47ddaedc10f",
       "source": "nvd-recent",
@@ -381,188 +563,6 @@
       "tags": [
         "CVE",
         "CVE-2026-135796",
-        "critical"
-      ]
-    },
-    {
-      "id": "cda0e030cd033ebf",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135794: A vulnerability was determined in Panabit Smart Application Gateway TANGr7p10. The affecte…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135794",
-      "published": "2026-11-24T19:18:14Z",
-      "summary": "A vulnerability was determined in Panabit Smart Application Gateway TANGr7p10. The affected element is the function add_crontab of the file admin/cgi-bin/sac/ajax_sac_crontab of the component SAC. Executing a manipulation of the argument cmd can lead to code injection. The attack…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135794",
-        "critical"
-      ]
-    },
-    {
-      "id": "e707bdfaf09d73e9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135797: A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is t…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135797",
-      "published": "2026-11-24T19:18:14Z",
-      "summary": "A vulnerability was identified in Volans NGFW Next-Generation Firewall r5.1. Impacted is the function exec of the file sslvpn/sslvpn_client.php of the component SSLVPN Client. Such manipulation of the argument img leads to os command injection. The attack can be executed remotely…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135797",
-        "critical"
-      ]
-    },
-    {
-      "id": "ef199ee72e4d1e04",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-132877: Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code I…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-132877",
-      "published": "2026-11-24T19:18:09Z",
-      "summary": "Adobe Experience Manager is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary cod…",
-      "tags": [
-        "CVE",
-        "CVE-2026-132877",
-        "critical"
-      ]
-    },
-    {
-      "id": "40ff8cba72573441",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135792: A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135792",
-      "published": "2026-11-24T18:19:03Z",
-      "summary": "A vulnerability has been found in Panabit Smart Application Gateway TANGr7p10. This issue affects the function send_email_authcode of the file user.cgi of the component Email Auth Code Sender. Such manipulation of the argument Username leads to os command injection. The attack ma…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135792",
-        "critical"
-      ]
-    },
-    {
-      "id": "c93342fef753a51d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135791: A flaw has been found in Panabit Smart Application Gateway TANGr7p10. This vulnerability a…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135791",
-      "published": "2026-11-24T18:19:02Z",
-      "summary": "A flaw has been found in Panabit Smart Application Gateway TANGr7p10. This vulnerability affects the function edit_data_pie of the file /cgi-bin/flowcontrol/ajax_data_pie. This manipulation of the argument Name causes os command injection. The attack may be initiated remotely. Th…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135791",
-        "critical"
-      ]
-    },
-    {
-      "id": "2405f9641b39a981",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125717: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125717",
-      "published": "2026-11-24T18:18:54Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in privilege escalation. A low-privileged attacker could exploit this vulnerability to gain elevated access to sensi…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125717",
-        "critical"
-      ]
-    },
-    {
-      "id": "a447120ac6bd8844",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125718: Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125718",
-      "published": "2026-11-24T18:18:54Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Neutralization of Special Elements used in an SQL Command ('SQL Injection') vulnerability that could result in a Security feature bypass. A low-privileged attacker could leverage this vulnerability to bypass security measure…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125718",
-        "critical"
-      ]
-    },
-    {
-      "id": "e0d36c03c4093ee9",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-125716: Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnera…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-125716",
-      "published": "2026-11-24T18:18:54Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by a reflected Cross-Site Scripting (XSS) vulnerability. An attacker could exploit this vulnerability to inject malicious scripts into a web page, potentially gaining elevated access or control over the victim's account or session. Exploit…",
-      "tags": [
-        "CVE",
-        "CVE-2026-125716",
-        "critical"
-      ]
-    },
-    {
-      "id": "332435234b23707d",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123986: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123986",
-      "published": "2026-11-24T18:18:53Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123986",
-        "critical"
-      ]
-    },
-    {
-      "id": "4fdf93064b98c924",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123723: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123723",
-      "published": "2026-11-24T18:18:53Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123723",
-        "critical"
-      ]
-    },
-    {
-      "id": "67686e9b0ba109bb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123342: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123342",
-      "published": "2026-11-24T18:18:53Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123342",
-        "critical"
-      ]
-    },
-    {
-      "id": "81731388f1ff569a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-123987: Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Co…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-123987",
-      "published": "2026-11-24T18:18:53Z",
-      "summary": "Adobe Campaign Classic (ACC) is affected by an Improper Control of Generation of Code ('Code Injection') vulnerability that could result in arbitrary code execution in the context of the current user. A low-privileged attacker could exploit this vulnerability to execute arbitrary…",
-      "tags": [
-        "CVE",
-        "CVE-2026-123987",
-        "critical"
-      ]
-    },
-    {
-      "id": "cb6e46cf0880dfbb",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-82316: SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-82316",
-      "published": "2026-11-24T17:18:54Z",
-      "summary": "SolarWinds Serv-U is affected by a Time-of-Check to Time-of-Use (TOCTOU) vulnerability. A user with domain administrator or higher privileges may be able to access or modify protected files outside the intended directory, potentially leading to code execution. The risk is lower i…",
-      "tags": [
-        "CVE",
-        "CVE-2026-82316",
         "critical"
       ]
     },
