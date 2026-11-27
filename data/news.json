@@ -1,7 +1,49 @@
 {
   "schema": 1,
-  "generated": "2026-11-26T21:44:19Z",
+  "generated": "2026-11-27T08:48:55Z",
   "items": [
+    {
+      "id": "034fc1d7b5b7b152",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-137706: Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authentica…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-137706",
+      "published": "2026-11-27T03:17:04Z",
+      "summary": "Smart Portal developed by Direk Tech has a Missing Authorization vulnerability. Authenticated remote attackers can add a specified account to the Active Directory Domain Admins group, thereby obtaining domain administrator privileges.",
+      "tags": [
+        "CVE",
+        "CVE-2026-137706",
+        "critical"
+      ]
+    },
+    {
+      "id": "a711052233dfcc59",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-115867: The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerab…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-115867",
+      "published": "2026-11-27T02:16:43Z",
+      "summary": "The Database for Contact Form 7, WPforms, Elementor forms plugin for WordPress is vulnerable to Arbitrary File Upload in all versions up to, and including, 1.5.5 via the copy_files function. This is due to missing file extension validation in the copy_files function, which accept…",
+      "tags": [
+        "CVE",
+        "CVE-2026-115867",
+        "critical"
+      ]
+    },
+    {
+      "id": "174fac27df1dfd6e",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-106125: The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versio…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-106125",
+      "published": "2026-11-27T02:16:43Z",
+      "summary": "The Sneeit Framework plugin for WordPress is vulnerable to Remote Code Execution in versions up to, and including, 8.7 via the 'callback' parameter of the sneeit_compact_menu_mega_content AJAX action. The handler sneeit_compact_menu_mega_content_callback() is registered on the wp…",
+      "tags": [
+        "CVE",
+        "CVE-2026-106125",
+        "critical"
+      ]
+    },
     {
       "id": "1b2b906deb50240b",
       "source": "nvd-recent",
@@ -101,20 +143,6 @@
       ]
     },
     {
-      "id": "76986e88686ddd48",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136240: The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is v…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
-      "published": "2026-11-26T15:17:26Z",
-      "summary": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.2.0 via deserialization of untrusted input . This makes it possible for unauthenticated attackers to inject a PHP Ob…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136240",
-        "critical"
-      ]
-    },
-    {
       "id": "31575939d22fc0f8",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
@@ -129,16 +157,16 @@
       ]
     },
     {
-      "id": "741e424fb58de254",
+      "id": "76986e88686ddd48",
       "source": "nvd-recent",
       "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-134173: The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
-      "published": "2026-11-26T15:17:25Z",
-      "summary": "The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 5.3.1 via the 'wfu_ajax_action_handshake' and 'wfu_ajax_action_send_email_notification' AJAX Actions. This is due to the unauthenticated handshake accepting a…",
+      "title": "CVE-2026-136240: The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is v…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136240",
+      "published": "2026-11-26T15:17:26Z",
+      "summary": "The PDF Invoice for WooCommerce + Drag and Drop Template Builder plugin for WordPress is vulnerable to PHP Object Injection in all versions up to, and including, 7.2.0 via deserialization of untrusted input . This makes it possible for unauthenticated attackers to inject a PHP Ob…",
       "tags": [
         "CVE",
-        "CVE-2026-134173",
+        "CVE-2026-136240",
         "critical"
       ]
     },
@@ -153,6 +181,20 @@
       "tags": [
         "CVE",
         "CVE-2026-133951",
+        "critical"
+      ]
+    },
+    {
+      "id": "741e424fb58de254",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-134173: The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-134173",
+      "published": "2026-11-26T15:17:25Z",
+      "summary": "The WordPress File Upload plugin for WordPress is vulnerable to Arbitrary File Deletion in versions up to, and including, 5.3.1 via the 'wfu_ajax_action_handshake' and 'wfu_ajax_action_send_email_notification' AJAX Actions. This is due to the unauthenticated handshake accepting a…",
+      "tags": [
+        "CVE",
+        "CVE-2026-134173",
         "critical"
       ]
     },
@@ -521,48 +563,6 @@
       "tags": [
         "CVE",
         "CVE-2026-136522",
-        "critical"
-      ]
-    },
-    {
-      "id": "064d0ffec7dbc305",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136411: BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that all…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136411",
-      "published": "2026-11-24T19:18:17Z",
-      "summary": "BusyBox through 1.38.0 contains an absolute path traversal vulnerability in tftpd that allows unauthenticated remote attackers to access files outside any intended directory when started without a DIR argument. Attackers can send RRQ or WRQ packets with file names beginning with…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136411",
-        "critical"
-      ]
-    },
-    {
-      "id": "7b865cc89829c00f",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136404: ntop n2n supernode 3.0 through 3.1.1 contains a stack-based buffer overflow vulnerability…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136404",
-      "published": "2026-11-24T19:18:16Z",
-      "summary": "ntop n2n supernode 3.0 through 3.1.1 contains a stack-based buffer overflow vulnerability that allows remote unauthenticated attackers to leak memory and execute code by sending an untrusted 16-bit auth token_size in REGISTER_SUPER_NAK datagrams. Attackers can register an edge in…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136404",
-        "critical"
-      ]
-    },
-    {
-      "id": "9b71d993d54e87b2",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-135796: A vulnerability was determined in Volans NGFW Next-Generation Firewall r5.1. This issue af…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-135796",
-      "published": "2026-11-24T19:18:14Z",
-      "summary": "A vulnerability was determined in Volans NGFW Next-Generation Firewall r5.1. This issue affects the function exec/system of the file modules/assets/port_serve_scan.mds of the component Web Management UI. This manipulation of the argument task_name/where/path causes os command inj…",
-      "tags": [
-        "CVE",
-        "CVE-2026-135796",
         "critical"
       ]
     },
