@@ -1,7 +1,35 @@
 {
   "schema": 1,
-  "generated": "2026-11-27T21:28:08Z",
+  "generated": "2026-11-28T08:05:50Z",
   "items": [
+    {
+      "id": "aa04cae6d5bb19dc",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-138004: A security vulnerability has been detected in TRENDnet TEW-751DR and TEW-733GR 1.03B01. Af…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138004",
+      "published": "2026-11-27T23:16:36Z",
+      "summary": "A security vulnerability has been detected in TRENDnet TEW-751DR and TEW-733GR 1.03B01. Affected is the function soapcgi_main of the file /soap.cgi of the component UPnP Igd Control Endpoint. Such manipulation of the argument service leads to os command injection. The attack may…",
+      "tags": [
+        "CVE",
+        "CVE-2026-138004",
+        "critical"
+      ]
+    },
+    {
+      "id": "395aa0bb905b009a",
+      "source": "nvd-recent",
+      "source_name": "NVD Critical CVEs",
+      "title": "CVE-2026-138003: A weakness has been identified in TRENDnet TEW-751DR 1.03B01. This impacts the function FU…",
+      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-138003",
+      "published": "2026-11-27T22:17:54Z",
+      "summary": "A weakness has been identified in TRENDnet TEW-751DR 1.03B01. This impacts the function FUN_0040ed90 of the file wfadev.cgi of the component UPnP/WFA. This manipulation of the argument SOAPAction causes stack-based buffer overflow. The attack is possible to be carried out remotel…",
+      "tags": [
+        "CVE",
+        "CVE-2026-138003",
+        "critical"
+      ]
+    },
     {
       "id": "8e59e63a70470433",
       "source": "nvd-recent",
@@ -458,34 +486,6 @@
       "tags": [
         "CVE",
         "CVE-2026-136548",
-        "critical"
-      ]
-    },
-    {
-      "id": "e293a0c88a5ec17e",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136547: A vulnerability was determined in Tenda RX3 16.03.13.11_multi. Impacted is the function R7…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136547",
-      "published": "2026-11-25T05:18:35Z",
-      "summary": "A vulnerability was determined in Tenda RX3 16.03.13.11_multi. Impacted is the function R7WebsSecurityHandler of the component httpd. Executing a manipulation can lead to improper authentication. The attack may be launched remotely. The exploit has been publicly disclosed and may…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136547",
-        "critical"
-      ]
-    },
-    {
-      "id": "3f2141da5194be2a",
-      "source": "nvd-recent",
-      "source_name": "NVD Critical CVEs",
-      "title": "CVE-2026-136136: A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is…",
-      "url": "https://nvd.nist.gov/vuln/detail/CVE-2026-136136",
-      "published": "2026-11-25T00:17:10Z",
-      "summary": "A vulnerability was identified in Netis WF2409E up to 20261026. Affected by this issue is some unknown functionality of the file /cgi-bin/skk_set.cgi of the component CGI Interface. The manipulation of the argument app/password/new_pwd_confirm/passwd_set/mode_name/wl_link leads t…",
-      "tags": [
-        "CVE",
-        "CVE-2026-136136",
         "critical"
       ]
     },
